@@ -6,6 +6,8 @@ Le format suit [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/).
 
 ## [Non publié]
 
+## [0.6.0] - 2026-07-13
+
 ### Ajouté
 
 - Affichage dynamique du numéro de version sur la page d'accueil, lu
