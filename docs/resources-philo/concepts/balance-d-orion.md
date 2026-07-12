@@ -1,5 +1,7 @@
 # La Balance d'Orion
 
+![Icône du concept](../../assets/icons/3-utilitarisme.png){ width="80" }
+
 > [!REGLE] Concept abordé
 > Calcul moral des conséquences. Problématique centrale : une action
 > est-elle juste si elle maximise le bonheur, même au détriment de

@@ -1,5 +1,7 @@
 # Le Gouffre d'Absyr
 
+![Icône du concept](../../assets/icons/4-absurdite-existence.png){ width="80" }
+
 > [!REGLE] Concept abordé
 > Absurdité, quête de sens, confrontation à l'irrationnel.
 > Problématique centrale : comment continuer à vivre et à agir dans

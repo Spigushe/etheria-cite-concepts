@@ -1,5 +1,7 @@
 # Les Rails de la Décision
 
+![Icône du concept](../../assets/icons/5-dilemne-tramway.png){ width="80" }
+
 > [!REGLE] Concept abordé
 > Dilemme moral entre deux maux inévitables. Problématique centrale :
 > est-il légitime de sacrifier une vie pour en sauver plusieurs ?

@@ -1,5 +1,7 @@
 # La Concorde du Pacte
 
+![Icône du concept](../../assets/icons/2-contrat-social.png){ width="80" }
+
 > [!REGLE] Concept abordé
 > Légitimité du pouvoir et fondement de l'autorité politique.
 > Problématique centrale : pourquoi obéit-on aux lois ? Qu'est-ce qui

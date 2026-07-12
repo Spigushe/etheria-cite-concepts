@@ -1,5 +1,7 @@
 # La Citadelle de l'Arété
 
+![Icône du concept](../../assets/icons/7-ethique-vertu.png){ width="80" }
+
 > [!REGLE] Concept abordé
 > Développement moral par la culture des vertus. Problématique
 > centrale : comment devenir une bonne personne ? Raisonnement

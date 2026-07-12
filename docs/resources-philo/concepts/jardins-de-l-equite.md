@@ -1,5 +1,7 @@
 # Les Jardins de l'Équité
 
+![Icône du concept](../../assets/icons/6-theorie-justice.png){ width="80" }
+
 > [!REGLE] Concept abordé
 > Justice sociale, équité, droits fondamentaux. Problématique
 > centrale : comment organiser une société juste ? Raisonnement
