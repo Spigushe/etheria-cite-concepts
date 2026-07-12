@@ -30,8 +30,8 @@ extra_css:
   - stylesheets/callouts.css
 
 markdown_extensions:
-  - scripts.obsidian_callouts   # syntaxe > [!TYPE] Titre (fichier local du repo)
-  - admonition                  # garde !!! note / ??? tip disponibles en secours
+  - scripts.obsidian_callouts # syntaxe > [!TYPE] Titre (fichier local du repo)
+  - admonition # garde !!! note / ??? tip disponibles en secours
   - pymdownx.details
   - pymdownx.superfences
   - attr_list
@@ -47,6 +47,15 @@ nav:
       - Histoire: monde/histoire.md
       - Cartographie: monde/cartographie.md
       - Personnages: monde/personnages.md
+  - Quartiers:
+      - Vue d'ensemble: quartiers/index.md
+      - Le Labyrinthe des Identités: quartiers/labyrinthe-des-identites.md
+      - La Concorde du Pacte: quartiers/concorde-du-pacte.md
+      - La Balance d'Orion: quartiers/balance-d-orion.md
+      - Le Gouffre d'Absyr: quartiers/gouffre-d-absyr.md
+      - Les Rails de la Décision: quartiers/rails-de-la-decision.md
+      - Les Jardins de l'Équité: quartiers/jardins-de-l-equite.md
+      - La Citadelle de l'Arété: quartiers/citadelle-de-l-arete.md
   - Ressources Philo:
       - Accueil: resources-philo/index.md
       - Concepts par quartier:
