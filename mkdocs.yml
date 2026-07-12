@@ -58,8 +58,6 @@ nav:
       - Les Rails de la Décision: quartiers/rails-de-la-decision.md
       - Les Jardins de l'Équité: quartiers/jardins-de-l-equite.md
       - La Citadelle de l'Arété: quartiers/citadelle-de-l-arete.md
-  - Système: systeme/index.md
-  - Fiche de personnage: annexes/fiche-personnage.md
   - Ressources Philo:
       - Accueil: resources-philo/index.md
       - Concepts par quartier:
@@ -96,5 +94,5 @@ nav:
           - Thomas d'Aquin: resources-philo/sources/thomas-d-aquin.md
           - Thomson: resources-philo/sources/thomson.md
   - Espace MJ:
-      - Aides de jeu: mj/annexes/ressources-pour-jouer.md
+      - Accueil MJ: mj/index.md
       - Fiche de personnage: mj/annexes/fiche-personnage.md
