@@ -58,6 +58,17 @@
 }
 .admonition.faction .admonition-title::before { content: "⚔️"; }
 
+/* --- Hors-fiction : réservé au MJ --- */
+/* Différent de .secret (un secret DANS la fiction, ex. un PNJ qui ment) :
+   .mj signale une information hors-fiction que le MJ ne doit jamais
+   révéler ou lire à voix haute aux joueurs (un twist, une solution). */
+.admonition.mj {
+  --callout-color: #b71c1c;
+  --callout-bg: rgba(183, 28, 28, 0.1);
+  border-left-width: 6px;
+}
+.admonition.mj .admonition-title::before { content: "🎭"; }
+
 /* --- Suivi de campagne --- */
 .admonition.nouvelles {
   --callout-color: #d84315;
@@ -97,10 +108,10 @@
 .admonition.tresor .admonition-title::before { content: "💰"; }
 
 /* Fallback pour tout type non listé ci-dessus : gris neutre */
-.admonition:not(.ville):not(.region):not(.donjon):not(.pnj):not(.faction):not(.nouvelles):not(.intrigue):not(.secret):not(.regle):not(.danger):not(.tresor) {
+.admonition:not(.ville):not(.region):not(.donjon):not(.pnj):not(.faction):not(.nouvelles):not(.intrigue):not(.secret):not(.regle):not(.danger):not(.tresor):not(.mj) {
   --callout-color: #607d8b;
   --callout-bg: rgba(96, 125, 139, 0.08);
 }
-.admonition:not(.ville):not(.region):not(.donjon):not(.pnj):not(.faction):not(.nouvelles):not(.intrigue):not(.secret):not(.regle):not(.danger):not(.tresor) .admonition-title::before {
+.admonition:not(.ville):not(.region):not(.donjon):not(.pnj):not(.faction):not(.nouvelles):not(.intrigue):not(.secret):not(.regle):not(.danger):not(.tresor):not(.mj) .admonition-title::before {
   content: "ℹ️";
 }
