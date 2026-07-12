@@ -47,3 +47,38 @@ nav:
       - Histoire: monde/histoire.md
       - Cartographie: monde/cartographie.md
       - Personnages: monde/personnages.md
+  - Ressources Philo:
+      - Accueil: resources-philo/index.md
+      - Concepts par quartier:
+          - Vue d'ensemble: resources-philo/concepts/index.md
+          - Le Labyrinthe des Identités: resources-philo/concepts/labyrinthe-des-identites.md
+          - La Concorde du Pacte: resources-philo/concepts/concorde-du-pacte.md
+          - La Balance d'Orion: resources-philo/concepts/balance-d-orion.md
+          - Le Gouffre d'Absyr: resources-philo/concepts/gouffre-d-absyr.md
+          - Les Rails de la Décision: resources-philo/concepts/rails-de-la-decision.md
+          - Les Jardins de l'Équité: resources-philo/concepts/jardins-de-l-equite.md
+          - La Citadelle de l'Arété: resources-philo/concepts/citadelle-de-l-arete.md
+      - Sources et auteurs:
+          - Vue d'ensemble: resources-philo/sources/index.md
+          - Aristote: resources-philo/sources/aristote.md
+          - Bentham: resources-philo/sources/bentham.md
+          - Camus: resources-philo/sources/camus.md
+          - Confucius: resources-philo/sources/confucius.md
+          - Foot: resources-philo/sources/foot.md
+          - Hobbes: resources-philo/sources/hobbes.md
+          - Kant: resources-philo/sources/kant.md
+          - Locke: resources-philo/sources/locke.md
+          - MacIntyre: resources-philo/sources/macintyre.md
+          - Mill: resources-philo/sources/mill.md
+          - Nietzsche: resources-philo/sources/nietzsche.md
+          - Nozick: resources-philo/sources/nozick.md
+          - Parfit: resources-philo/sources/parfit.md
+          - Plutarque: resources-philo/sources/plutarque.md
+          - Rawls: resources-philo/sources/rawls.md
+          - Ricœur: resources-philo/sources/ricoeur.md
+          - Rousseau: resources-philo/sources/rousseau.md
+          - Sartre: resources-philo/sources/sartre.md
+          - Sen: resources-philo/sources/sen.md
+          - Singer: resources-philo/sources/singer.md
+          - Thomas d'Aquin: resources-philo/sources/thomas-d-aquin.md
+          - Thomson: resources-philo/sources/thomson.md
