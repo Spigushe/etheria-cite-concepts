@@ -14,6 +14,8 @@ l'explorant.
 
 ## Le Labyrinthe des Identités
 
+![Blason du quartier](../assets/blasons/1-bateau-de-thesee.png){ width="120" }
+
 Le quartier semble d'abord paisible : colonnades anciennes, fontaines
 qui chantent sans s'arrêter, fresques qui bougent si on ne les regarde
 pas trop longtemps. Puis le doute s'installe. Une ruelle apparaît là
@@ -33,6 +35,8 @@ carnets où ils consignent ce qu'ils croient être, au cas où.
 
 ## La Concorde du Pacte
 
+![Blason du quartier](../assets/blasons/2-contrat-social.png){ width="120" }
+
 L'air y est plus clair, les voix mesurées : on y parle avant d'agir.
 De vastes forums accueillent des débats permanents, jamais vraiment
 clos. Les Liants, qui habitent le quartier, appartiennent chacun à un
@@ -49,6 +53,8 @@ représentants tirés au sort pour un temps limité.
 > - Mythe exploitable : l'Accord Inattendu, pacte scellé spontanément entre deux factions ennemies ; rumeur d'une Loi Cachée oubliée dans la Constitution Collective.
 
 ## La Balance d'Orion
+
+![Blason du quartier](../assets/blasons/3-utilitarisme.png){ width="120" }
 
 Tout y semble pesé, optimisé. Le silence est ponctué de mécanismes
 invisibles ; des panneaux affichent en continu des courbes de bien
@@ -68,6 +74,8 @@ choix en assemblée.
 
 ## Le Gouffre d'Absyr
 
+![Blason du quartier](../assets/blasons/4-absurdite-existence.png){ width="120" }
+
 Un brouillard pâle ne se lève jamais tout à fait. Les rues ne mènent
 nulle part en particulier, les horloges tournent dans des sens
 contraires. On n'y crie pas : on observe, on s'interroge, on renonce,
@@ -84,6 +92,8 @@ abandonné quelque chose, un but, une foi, une illusion.
 > - Mythe exploitable : le Silence Originel (un instant où tout le quartier se serait figé), le Clignement de la Cité (des rues qui disparaissent et reviennent changées).
 
 ## Les Rails de la Décision
+
+![Blason du quartier](../assets/blasons/5-dilemne-tramway.png){ width="120" }
 
 Des rails sombres serpentent entre les bâtiments, parfois suspendus
 dans le vide. Chaque croisement porte une histoire non résolue ; la
@@ -103,6 +113,8 @@ passés.
 
 ## Les Jardins de l'Équité
 
+![Blason du quartier](../assets/blasons/6-theorie-justice.png){ width="120" }
+
 Un calme mesuré y règne : chemins symétriques, fontaines aux bassins
 jumeaux, lumière dosée avec soin. On ne s'y presse pas, mais on n'y
 stagne pas non plus. Sous cette perfection, une tension sommeille :
@@ -120,6 +132,8 @@ mesure plutôt qu'à l'égalité brute.
 > - Mythe exploitable : le Bambou fendu (réconciliation ancienne entre deux familles), le Jardin Inversé (lieu secret, délibérément injuste, réservé aux plus avancés).
 
 ## La Citadelle de l'Arété
+
+![Blason du quartier](../assets/blasons/7-ethique-vertu.png){ width="120" }
 
 Un calme profond s'installe à mesure qu'on approche. On n'y court
 pas : on y marche avec détermination, observé non pour être jugé,
