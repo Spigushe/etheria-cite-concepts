@@ -1,6 +1,4 @@
-# La Balance d'Orion
-
-![Icône du concept](../../assets/icons/3-utilitarisme.png){ width="80" }
+# ![Icône du concept](../../assets/icons/3-utilitarisme.png){ width="36" } La Balance d'Orion
 
 > [!REGLE] Concept abordé
 > Calcul moral des conséquences. Problématique centrale : une action

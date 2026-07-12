@@ -1,6 +1,4 @@
-# Les Jardins de l'Équité
-
-![Icône du concept](../../assets/icons/6-theorie-justice.png){ width="80" }
+# ![Icône du concept](../../assets/icons/6-theorie-justice.png){ width="36" } Les Jardins de l'Équité
 
 > [!REGLE] Concept abordé
 > Justice sociale, équité, droits fondamentaux. Problématique

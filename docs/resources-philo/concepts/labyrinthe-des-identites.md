@@ -1,6 +1,4 @@
-# Le Labyrinthe des Identités
-
-![Icône du concept](../../assets/icons/1-bateau-de-thesee.png){ width="80" }
+# ![Icône du concept](../../assets/icons/1-bateau-de-thesee.png){ width="36" } Le Labyrinthe des Identités
 
 > [!REGLE] Concept abordé
 > Identité et changement. Problématique centrale : une chose

@@ -1,6 +1,4 @@
-# Les Rails de la Décision
-
-![Icône du concept](../../assets/icons/5-dilemne-tramway.png){ width="80" }
+# ![Icône du concept](../../assets/icons/5-dilemne-tramway.png){ width="36" } Les Rails de la Décision
 
 > [!REGLE] Concept abordé
 > Dilemme moral entre deux maux inévitables. Problématique centrale :

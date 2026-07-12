@@ -1,6 +1,4 @@
-# Le Gouffre d'Absyr
-
-![Icône du concept](../../assets/icons/4-absurdite-existence.png){ width="80" }
+# ![Icône du concept](../../assets/icons/4-absurdite-existence.png){ width="36" } Le Gouffre d'Absyr
 
 > [!REGLE] Concept abordé
 > Absurdité, quête de sens, confrontation à l'irrationnel.

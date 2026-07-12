@@ -1,6 +1,4 @@
-# La Citadelle de l'Arété
-
-![Icône du concept](../../assets/icons/7-ethique-vertu.png){ width="80" }
+# ![Icône du concept](../../assets/icons/7-ethique-vertu.png){ width="36" } La Citadelle de l'Arété
 
 > [!REGLE] Concept abordé
 > Développement moral par la culture des vertus. Problématique
