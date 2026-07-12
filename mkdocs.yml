@@ -94,5 +94,16 @@ nav:
           - Thomas d'Aquin: resources-philo/sources/thomas-d-aquin.md
           - Thomson: resources-philo/sources/thomson.md
   - Espace MJ:
+      - Accueil MJ: mj/index.md
       - Fiche de personnage: mj/annexes/fiche-personnage.md
       - Ressources MJ: mj/annexes/ressources-mj.md
+      - Campagne:
+          - Vue d'ensemble: mj/campagne/index.md
+          - Le Labyrinthe des Identités: mj/campagne/labyrinthe-des-identites.md
+          - La Concorde du Pacte: mj/campagne/concorde-du-pacte.md
+          - La Balance d'Orion: mj/campagne/balance-d-orion.md
+          - Le Gouffre d'Absyr: mj/campagne/gouffre-d-absyr.md
+          - Les Rails de la Décision: mj/campagne/rails-de-la-decision.md
+          - Les Jardins de l'Équité: mj/campagne/jardins-de-l-equite.md
+          - La Citadelle de l'Arété: mj/campagne/citadelle-de-l-arete.md
+          - Quêtes transversales: mj/campagne/quetes-transversales.md
