@@ -1,4 +1,6 @@
-# Éthéria
+# Éthéria, la Cité des Concepts
+
+*Version {{ version }}*
 
 Bienvenue sur le wiki de la cité des concepts. Rien ici n'est figé :
 le contenu se réécrit à mesure que la campagne prend forme, depuis le

@@ -19,8 +19,6 @@ accents supprimés) pour permettre un style personnalisé dans le CSS.
 Le titre affiché reprend le texte tel quel (respecte les accents/majuscules).
 """
 
-from __future__ import annotations
-
 import re
 import unicodedata
 import xml.etree.ElementTree as etree
@@ -63,7 +61,7 @@ class _ObsidianCalloutsBlockProcessor(BlockQuoteProcessor):
         assert m
 
         before = block[: m.end(1)]
-        rest = block[m.end(4):]
+        rest = block[m.end(4) :]
         block_body = "\n".join(self.clean(line) for line in rest.split("\n"))
         self.parser.parseBlocks(parent, [before])
 

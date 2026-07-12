@@ -29,6 +29,9 @@ theme:
 extra_css:
   - stylesheets/callouts.css
 
+hooks:
+  - scripts/version.py # injecte {{ version }} depuis CHANGELOG.md
+
 markdown_extensions:
   - scripts.obsidian_callouts # syntaxe > [!TYPE] Titre (fichier local du repo)
   - admonition # garde !!! note / ??? tip disponibles en secours
