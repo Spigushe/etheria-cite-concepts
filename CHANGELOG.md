@@ -11,6 +11,12 @@ Le format suit [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/).
 - Affichage dynamique du numéro de version sur la page d'accueil, lu
   depuis ce changelog via un hook MkDocs (`scripts/version.py`).
 
+### Modifié
+
+- Ajout de détails pour les aventures de la campagne (`mj/campagne/*`)
+  et structure sous forme de tableaux (Accroche, Scènes clés, Bascule,
+  Dénouements possibles, Portée) pour une lecture plus rapide en session.
+
 ## [0.5.0] - 2026-07-12
 
 ### Ajouté
