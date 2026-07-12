@@ -10,12 +10,18 @@ Le format suit [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/).
 
 - Affichage dynamique du numéro de version sur la page d'accueil, lu
   depuis ce changelog via un hook MkDocs (`scripts/version.py`).
+- Fichier `cspell.json` à la racine du projet : langue `fr` et
+  dictionnaire `fr-fr`, pour partager la config de vérification
+  orthographique entre l'éditeur et un futur check en ligne de
+  commande/CI.
 
 ### Modifié
 
 - Ajout de détails pour les aventures de la campagne (`mj/campagne/*`)
   et structure sous forme de tableaux (Accroche, Scènes clés, Bascule,
   Dénouements possibles, Portée) pour une lecture plus rapide en session.
+- Déplacement de la configuration cSpell (`cSpell.language`,
+  `cSpell.words`) de `.vscode/settings.json` vers `cspell.json`.
 
 ## [0.5.0] - 2026-07-12
 

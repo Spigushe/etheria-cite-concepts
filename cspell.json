@@ -1,0 +1,16 @@
+{
+    "version": "0.2",
+    "language": "fr",
+    "ignorePaths": ["mkdocs.yml"],
+    "dictionaryDefinitions": [],
+    "dictionaries": ["fr-fr"],
+    "words": [
+        "mkdocs",
+        "Arété",
+        "Absyr",
+        "Ethéria",
+        "Éthéria",
+    ],
+    "ignoreWords": [],
+    "import": []
+}

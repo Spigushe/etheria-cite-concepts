@@ -19,6 +19,4 @@
   "search.exclude": {
     "site": true
   },
-  "cSpell.language": "fr",
-  "cSpell.words": ["mkdocs", "PNJ", "PNJs"]
 }
