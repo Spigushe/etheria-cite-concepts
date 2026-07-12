@@ -30,7 +30,7 @@ carnets où ils consignent ce qu'ils croient être, au cas où.
 > - PNJ clés : Théséis (archiviste qui cartographie les transformations du quartier), Naüm (affirme être plusieurs personnes à la fois), la Matrice Ciselée (propose de « refondre » un visiteur contre ses souvenirs).
 > - Sortir exige d'abandonner une certitude sur soi. Le Passage du Masque Fendu ne s'ouvre que si le visiteur avoue à voix haute une contradiction intime.
 > - Dilemmes types : être jugé pour un acte d'un ancien soi, contester la légitimité de quelqu'un à juger votre identité, la fiabilité douteuse d'un souvenir qu'on voudrait restaurer.
-> - Connexions : proche du Gouffre d'Absyr (trouble existentiel partagé, mais rejette son acceptation du non-sens) et de la Citadelle de l'Arété (admirée pour sa constance, jugée rigide).
+> - Connexions : proche du Gouffre d'Absyr (trouble existentiel partagé, mais rejette son acceptation du non-sens) et de la Citadelle de l'Arété (admirée pour sa constance, jugée rigide) ; tension avec la Concorde du Pacte (une identité instable peine à signer un pacte durable) et avec les Rails de la Décision (une décision reste-t-elle imputable à un soi qui a changé) ; curiosité méthodique de la part de la Balance d'Orion (peut-on calculer l'utilité d'une identité mouvante) ; circonstance atténuante aux yeux des Jardins de l'Équité (juger quelqu'un dont l'identité est instable).
 > - Mythe exploitable : le Premier Fragment, une quête pour reconstituer un « moi entier » à partir de fragments dispersés, ce qui est risqué : plusieurs s'y sont perdus.
 
 ## La Concorde du Pacte
@@ -49,7 +49,7 @@ représentants tirés au sort pour un temps limité.
 > - PNJ clés : Civira (milite pour l'adaptation constante des lois), Magister Halden (légiste obsédé par une « clause parfaite » jamais validée), le Porte-Parole Silencieux (ne fait que relayer les votes de sa communauté).
 > - Entrer exige un engagement volontaire à une règle qu'on n'a pas choisie ; les arches de serment ne s'ouvrent qu'après une formule d'adhésion, parfois devant témoin.
 > - Dilemmes types : maintenir un contrat injuste pour un tiers non représenté, la validité d'un serment ancien dont le contexte a changé, trancher un débat sans consensus possible.
-> - Connexions : tensions avec les Rails de la Décision (jugés trop lents à agir) et le Gouffre d'Absyr (perçu comme une menace à toute coopération) ; affinité avec les Jardins de l'Équité.
+> - Connexions : tensions avec les Rails de la Décision (jugés trop lents à agir) et le Gouffre d'Absyr (perçu comme une menace à toute coopération) ; affinité avec les Jardins de l'Équité et, prudemment, avec la Citadelle de l'Arété (la vertu individuelle suffit-elle à garantir un bon pacte collectif) ; tension avec le Labyrinthe des Identités (une identité instable peine à signer un pacte durable).
 > - Mythe exploitable : l'Accord Inattendu, pacte scellé spontanément entre deux factions ennemies ; rumeur d'une Loi Cachée oubliée dans la Constitution Collective.
 
 ## La Balance d'Orion
@@ -69,7 +69,7 @@ choix en assemblée.
 > - PNJ clés : Éléon Rive (a proposé un barème émotionnel standardisé), Zok (régulateur public, pratique une euthanasie rituelle sur demande), l'Oracle Paradoxal (prédit l'impact à long terme, contre un prix moral).
 > - Entrer par choix raisonné (Porte des Conséquences) ; un portail caché, la Passerelle Injuste, exige d'accepter d'infliger une injustice « nécessaire mais temporaire ».
 > - Dilemmes types : sacrifier une personne pour en sauver cinq sans détour possible, une minorité invisible lésée par un progrès majoritaire, éliminer par avance un enfant qui deviendrait un tyran.
-> - Connexions : tensions avec la Citadelle de l'Arété (jugée trop centrée sur l'intention) et le Gouffre d'Absyr (vu comme une menace irrationnelle à l'équilibre) ; alliance tactique avec la Concorde du Pacte.
+> - Connexions : tensions avec la Citadelle de l'Arété (jugée trop centrée sur l'intention) et le Gouffre d'Absyr (vu comme une menace irrationnelle à l'équilibre) ; alliance tactique avec la Concorde du Pacte ; curiosité méthodique envers le Labyrinthe des Identités (peut-on calculer l'utilité d'une identité mouvante).
 > - Mythe exploitable : la Décision de Luhen (sacrifice fondateur dont on ignore s'il fut juste ou simplement utile), le Calcul Ultime (manuscrit interdit, rendrait paralysé moralement).
 
 ## Le Gouffre d'Absyr
@@ -88,7 +88,7 @@ abandonné quelque chose, un but, une foi, une illusion.
 > - PNJ clés : Camüs (veilleur taciturne, collectionne des notes non envoyées), Sœn (poète muet, écrit à l'encre invisible), la Femme au Sable (propose d'oublier non ce qu'on a vécu, mais pourquoi).
 > - On n'y entre pas par un chemin : on y tombe, souvent après une rupture intérieure. La Brèche du Rire ne s'ouvre que si l'on rit face à l'absurdité de l'existence.
 > - Dilemmes types : continuer une mission qu'on sait sans le moindre sens, mentir à un enfant sur la raison de vivre, tout comprendre sans jamais pouvoir le partager.
-> - Connexions : en contradiction radicale avec la Concorde du Pacte et la Balance d'Orion ; affinité trouble avec le Labyrinthe des Identités (instabilité fondamentale partagée).
+> - Connexions : en contradiction radicale avec la Concorde du Pacte et la Balance d'Orion ; affinité trouble avec le Labyrinthe des Identités (instabilité fondamentale partagée) ; tension avec la Citadelle de l'Arété (la vertu a-t-elle un sens dans un monde sans signification donnée).
 > - Mythe exploitable : le Silence Originel (un instant où tout le quartier se serait figé), le Clignement de la Cité (des rues qui disparaissent et reviennent changées).
 
 ## Les Rails de la Décision
@@ -108,7 +108,7 @@ passés.
 > - PNJ clés : Argos l'Indécis (immobile au même carrefour depuis quarante ans), Juma-Kei (conduit un tramway qui n'emprunte que les rails nés de décisions non assumées), le Collecteur (archive tous les choix des visiteurs).
 > - Entrer exige une décision explicite ; la Rampe du Premier Choix est une descente irréversible, sans retour en arrière possible.
 > - Dilemmes types : un rail mène à la mort d'un proche, l'autre à la souffrance de dizaines d'inconnus, sans détour ; agir contre un mal certain ou s'abstenir face à un mal peut-être pire ; la responsabilité d'un enfant qui actionne un aiguillage par jeu.
-> - Connexions : conflit avec la Concorde du Pacte (jugée trop lente) et le Gouffre d'Absyr (nie la valeur même de la décision) ; s'articule avec la Balance d'Orion, dont elle partage le goût de l'action mesurée.
+> - Connexions : conflit avec la Concorde du Pacte (jugée trop lente) et le Gouffre d'Absyr (nie la valeur même de la décision) ; s'articule avec la Balance d'Orion, dont elle partage le goût de l'action mesurée ; tension avec le Labyrinthe des Identités (une décision reste-t-elle imputable à un soi qui a changé), avec les Jardins de l'Équité (l'urgence d'une décision contre la lenteur d'un jugement équitable) et avec la Citadelle de l'Arété (bien décider suppose d'être déjà vertueux, alors que la vertu se construit lentement).
 > - Mythe exploitable : le Tramway Immatériel, qui ne tue pas mais efface ceux qui diffèrent trop longtemps un choix fondamental.
 
 ## Les Jardins de l'Équité
@@ -128,7 +128,7 @@ mesure plutôt qu'à l'égalité brute.
 > - PNJ clés : Démis Tal (médiateur aveugle, perçoit les déséquilibres à la voix), Lara d'Alve (cartographe des inégalités persistantes), la Juge Silencieuse (ne rend jamais de verdict, mais fait jaillir les aveux par sa seule présence).
 > - Entrer exige d'avoir été témoin d'une injustice sans y participer, ou d'avoir plaidé sincèrement pour autrui ; la Grille de la Balance exige de se soumettre au jugement collectif.
 > - Dilemmes types : deux voyageurs réclament la même ressource, l'un par besoin, l'autre par mérite ; punir un crime commis pour réparer une injustice, ou en reconnaître la cause ; une réforme qui améliore le bien général mais lèse un petit groupe marginalisé.
-> - Connexions : affinité avec la Concorde du Pacte et la Citadelle de l'Arété ; méfiance envers la Balance d'Orion (jugée trop utilitariste) et le Gouffre d'Absyr (nie toute base stable de jugement).
+> - Connexions : affinité avec la Concorde du Pacte et la Citadelle de l'Arété ; méfiance envers la Balance d'Orion (jugée trop utilitariste) et le Gouffre d'Absyr (nie toute base stable de jugement) ; circonstance atténuante envers le Labyrinthe des Identités (juger quelqu'un dont l'identité est instable) ; tension avec les Rails de la Décision (l'urgence d'une décision contre la lenteur d'un jugement équitable).
 > - Mythe exploitable : le Bambou fendu (réconciliation ancienne entre deux familles), le Jardin Inversé (lieu secret, délibérément injuste, réservé aux plus avancés).
 
 ## La Citadelle de l'Arété
@@ -148,5 +148,5 @@ cohérence entre pensée, parole et action.
 > - PNJ clés : Eudémos (n'enseigne que par l'exemple), Alea d'Ilion (ancienne voyageuse des sept quartiers, revenue enseigner la constance), la Sentinelle Blanche (ne parle que lorsqu'une vertu est niée trois fois).
 > - Entrer exige de reconnaître une faiblesse morale en soi ; le Col de l'Incomplétude est un sentier raide où chaque pas demande une lucidité nouvelle.
 > - Dilemmes types : agir courageusement quand on sait l'action inutile, cacher une vérité pour préserver l'estime d'un proche, rester fidèle à ses principes dans un monde qui les bafoue.
-> - Connexions : affinité avec les Jardins de l'Équité et la Concorde du Pacte ; méfiance envers la Balance d'Orion (sacrifice de la vertu à l'efficacité) et le Labyrinthe des Identités (jugé trop instable pour un soi stable).
+> - Connexions : affinité avec les Jardins de l'Équité et la Concorde du Pacte ; méfiance envers la Balance d'Orion (sacrifice de la vertu à l'efficacité) et le Labyrinthe des Identités (jugé trop instable pour un soi stable) ; tension avec le Gouffre d'Absyr (la vertu a-t-elle un sens dans un monde sans signification donnée) et avec les Rails de la Décision (bien décider suppose d'être déjà vertueux, alors que la vertu se construit lentement).
 > - Mythe exploitable : la Pierre Non Jetée (colère enterrée, fendue en deux cent ans plus tard, symbole du pardon silencieux), le Chemin des Semblants (où l'on peut imiter toutes les vertus sans les vivre).

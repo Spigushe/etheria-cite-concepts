@@ -71,6 +71,36 @@ campagne.
 > Quand un doute surgit en cours de partie, demande-toi toujours :
 > quelle idée cela pourrait-il incarner ?
 
+## Sécurité de table
+
+> [!MJ] La Carte-X et les signaux de table
+> Cette section n'existe pas dans le document source. Éthéria manipule
+> régulièrement des thèmes lourds (deuil, sacrifice, perte
+> d'identité, suicide assisté à la Balance d'Orion) sans qu'aucun
+> outil de sécurité ne soit prévu. Voici une proposition minimale, à
+> ajuster selon la table.
+
+Avant la première séance, présente rapidement les thèmes récurrents du
+jeu (dilemmes moraux, absurde, deuil symbolique) et demande si
+certains sujets doivent être évités ou traités avec prudence.
+
+L'outil principal reste la Carte-X : un mot ou un geste convenu à
+l'avance, qui coupe immédiatement une scène sans qu'on ait à se
+justifier. Le MJ y répond sans poser de question et enchaîne ailleurs.
+Mais couper entièrement une scène est parfois plus radical que
+nécessaire, alors trois signaux plus légers permettent d'ajuster sans
+en arriver là. Un joueur peut demander de passer sur les détails,
+pour avancer sans s'attarder sur un élément précis plutôt que de tout
+interrompre. Il peut aussi demander de ralentir, quand un moment
+mérite d'être pris au sérieux plutôt qu'expédié. Ou simplement
+demander la parole hors personnage, ou à l'inverse un instant de
+silence avant de reprendre.
+
+Vérifie brièvement en fin de séance que tout le monde va bien,
+surtout après une scène impliquant une perte d'identité ou un
+sacrifice au sens propre. Un simple tour de table suffit la plupart
+du temps.
+
 ## Pour préparer une séance
 
 - [Campagne](campagne/index.md) : les aventures prêtes à jouer, une section par quartier.

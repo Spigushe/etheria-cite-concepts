@@ -14,6 +14,13 @@ Le format suit [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/).
   dictionnaire `fr-fr`, pour partager la config de vérification
   orthographique entre l'éditeur et un futur check en ligne de
   commande/CI.
+- Page « Transitions entre quartiers » (`mj/campagne/transitions-entre-quartiers.md`) :
+  trois événements courts par paire de quartiers, pensés pour
+  s'insérer entre deux aventures au moment où le groupe franchit un
+  seuil.
+- Section « Sécurité de table » sur la page d'accueil de l'Espace MJ
+  (`mj/index.md`) : présentation des thèmes sensibles, Carte-X et
+  signaux de table plus légers, tour de table de fin de séance.
 
 ### Modifié
 
@@ -22,6 +29,12 @@ Le format suit [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/).
   Dénouements possibles, Portée) pour une lecture plus rapide en session.
 - Déplacement de la configuration cSpell (`cSpell.language`,
   `cSpell.words`) de `.vscode/settings.json` vers `cspell.json`.
+- Enrichissement des connexions entre quartiers (`quartiers/index.md`)
+  avec des liens croisés supplémentaires (tensions, affinités,
+  curiosités) au-delà des paires déjà décrites.
+- Ajout d'une règle à tester sur la réputation philosophique comme
+  actionnable (aspects libres, adversité à contre-courant) dans
+  `mj/systeme.md`.
 
 ## [0.5.0] - 2026-07-12
 

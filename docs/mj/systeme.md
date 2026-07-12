@@ -20,6 +20,19 @@ volontairement son profil en jouant des paradoxes est possible, mais
 risqué, et attire parfois l'attention des Gardiens ou des factions
 les plus radicales.
 
+> [!MJ] Règle à tester : la réputation comme actionnable
+> En fin de séance, chaque joueur propose un déplacement d'un cran
+> sur l'axe de son choix, justifié par un acte précis de la séance,
+> et le MJ valide ou ajuste. Une fois trois crans franchis dans une
+> direction, le joueur peut inscrire la tendance comme un aspect
+> libre sur sa fiche (par exemple *"de plus en plus révisionniste"*),
+> invocable normalement. À l'inverse, agir à contre-courant de sa
+> tendance actuelle est une occasion naturelle d'adversité : le MJ
+> propose alors une complication cohérente avec le personnage,
+> réussie pour un point de Destin. Ça évite que la réputation reste
+> un simple curseur qu'on regarde sans jamais vraiment l'utiliser à
+> table.
+
 ## Les dilemmes
 
 Le cœur du jeu repose sur des situations sans solution idéale, qui
