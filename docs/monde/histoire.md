@@ -50,6 +50,11 @@ reformuler sans la déformer.
 statue colossale au visage voilé porte le nom de « la Vérité ». On
 raconte qu'elle versera une larme le jour où quelqu'un lui posera une
 question sans rien en attendre en retour. Personne n'a encore réussi.
+Ceux qui s'y risquent découvrent qu'aucune préparation, aucun
+raisonnement ne garantit la bonne question : il faut la poser en
+pariant, sans savoir si elle suffira. C'est peut-être la première
+trace du sphinx moral, ce type de dilemme où aucune donnée n'aide à
+décider (voir [Système de jeu](../systeme/index.md)).
 
 **Les Fragments du Miroir.** Un miroir immense aurait autrefois
 contenu la totalité des idées humaines. Un débat trop violent l'a
