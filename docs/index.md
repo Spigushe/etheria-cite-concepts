@@ -6,7 +6,7 @@ document de travail LaTeX qui a servi de matériau de départ.
 
 Pour commencer, deux entrées possibles selon ce que vous cherchez :
 
-- [Pitch](pitch/index.md) : le ton, les thèmes centraux, ce qui rend
+- [Pitch](monde/pitch.md) : le ton, les thèmes centraux, ce qui rend
   la cité différente d'un décor de fantasy classique.
 - [Le monde](monde/introduction.md) : pourquoi Éthéria n'apparaît sur
   aucune carte, et ce qu'on y vient vraiment chercher.

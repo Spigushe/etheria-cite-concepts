@@ -54,7 +54,7 @@ Ceux qui s'y risquent découvrent qu'aucune préparation, aucun
 raisonnement ne garantit la bonne question : il faut la poser en
 pariant, sans savoir si elle suffira. C'est peut-être la première
 trace du sphinx moral, ce type de dilemme où aucune donnée n'aide à
-décider (voir [Système de jeu](../systeme/index.md)).
+décider (voir [Système de jeu](../mj/systeme.md)).
 
 **Les Fragments du Miroir.** Un miroir immense aurait autrefois
 contenu la totalité des idées humaines. Un débat trop violent l'a

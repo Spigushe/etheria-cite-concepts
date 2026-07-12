@@ -15,8 +15,9 @@
 > vraiment (un Gardien qu'on cherche à convaincre, une épreuve du
 > Pont des Paradoxes). Le reste (la plupart des dilemmes, des
 > discussions, des choix de conscience) se joue à la table, sans jet,
-> exactement comme le prévoyait déjà [Système de jeu](../systeme/index.md). FATE ajoute une
-> mécanique là où il en manquait une, sans changer l'esprit du jeu.
+> exactement comme le prévoyait déjà [Système de jeu](../systeme.md).
+> FATE ajoute une mécanique là où il en manquait une, sans changer
+> l'esprit du jeu.
 
 ## Recto : identité et Aspects
 

@@ -1,6 +1,6 @@
 # Système de jeu
 
-Le moteur de jeu repose sur FATE (voir la [fiche de personnage](../annexes/fiche-personnage.md)
+Le moteur de jeu repose sur FATE (voir la [fiche de personnage](annexes/fiche-personnage.md)
 pour les Aspects, Approches, stress et conséquences). Ce qui suit
 couvre ce qui est propre à Éthéria : la réputation philosophique, les
 dilemmes, et la manière dont le monde encaisse les choix des joueurs.

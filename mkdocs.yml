@@ -41,7 +41,9 @@ markdown_extensions:
 
 nav:
   - Accueil: index.md
-  - Pitch: pitch/index.md
+  - Présentation:
+      - Pitch: monde/pitch.md
+      - Système: mj/systeme.md
   - Le monde:
       - Introduction: monde/introduction.md
       - Histoire: monde/histoire.md
@@ -93,3 +95,6 @@ nav:
           - Singer: resources-philo/sources/singer.md
           - Thomas d'Aquin: resources-philo/sources/thomas-d-aquin.md
           - Thomson: resources-philo/sources/thomson.md
+  - Espace MJ:
+      - Aides de jeu: mj/annexes/ressources-pour-jouer.md
+      - Fiche de personnage: mj/annexes/fiche-personnage.md
