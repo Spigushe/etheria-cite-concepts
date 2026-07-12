@@ -42,12 +42,8 @@ markdown_extensions:
 nav:
   - Accueil: index.md
   - Pitch: pitch/index.md
-  - Cosmologie: cosmologie/index.md
-  - Géographie:
-      - Vue d'ensemble: geographie/index.md
-      - "Exemple : Lyon-sur-Rhône": geographie/lyon-sur-rhone.md
-  - Factions & PNJ:
-      - Vue d'ensemble: factions-pnj/index.md
-      - "Exemple : Le Cercle du Fleuve": factions-pnj/cercle-du-fleuve.md
-  - Mécaniques: mecaniques/index.md
-  - Intrigues actives: intrigues/index.md
+  - Le monde:
+      - Introduction: monde/introduction.md
+      - Histoire: monde/histoire.md
+      - Cartographie: monde/cartographie.md
+      - Personnages: monde/personnages.md
