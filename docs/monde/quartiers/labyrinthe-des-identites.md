@@ -1,6 +1,6 @@
 # Le Labyrinthe des Identités
 
-![Blason du quartier](../assets/blasons/1-bateau-de-thesee.png){ width="120" }
+![Blason du quartier](../../assets/blasons/1-bateau-de-thesee.png){ width="120" }
 
 À première vue, le Labyrinthe évoque un quartier paisible. Ses allées
 sinueuses longent des colonnades antiques, des fontaines diffusent un
@@ -66,6 +66,21 @@ des plus connus, ne s'ouvre que lorsqu'un voyageur avoue à voix haute
 une contradiction intime. D'autres passages s'activent quand un
 souvenir est volontairement oublié, ou quand une action rompt
 franchement avec les habitudes de celui qui l'accomplit.
+
+## Menaces
+
+> [!DANGER] Rémanents Corrompus
+> Un Rémanent qui a changé trop vite, trop souvent, perd la capacité de se stabiliser sur une seule identité à la fois. Il en résulte une silhouette floue, changeant de visage à chaque regard posé sur elle, dangereuse non par la force mais par la contagion : quiconque la fixe trop longtemps risque de perdre, pour un temps, la certitude de sa propre continuité.
+
+<!-- -->
+
+> [!DANGER] Le Sosie Vide
+> Une copie parfaite d'un visiteur peut apparaître dans le Labyrinthe, reproduisant son apparence exacte mais sans aucun contenu intérieur. Elle imite à la perfection, jusqu'à ce qu'elle s'effondre en brume, souvent après avoir semé la confusion ou compromis quelqu'un à sa place.
+
+<!-- -->
+
+> [!DANGER] Les Chiens du Nom
+> Des créatures traquent quiconque revendique un nom qu'il ne peut pas prouver, flairant la moindre incohérence dans la façon dont une personne se décrit elle-même. Elles ne mordent jamais : elles se contentent de suivre, jusqu'à ce que leur cible avoue une contradiction.
 
 ## Ce qu'on raconte
 

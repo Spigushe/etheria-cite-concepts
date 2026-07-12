@@ -7,7 +7,7 @@ caractère.
 
 ## Le Jardin des Épreuves
 
-| |  |
+| | |
 | - | - |
 | Accroche | Pour intégrer la Citadelle, les Aventuriers doivent traverser un jardin rempli d'épreuves symboliques, chacune conçue pour éprouver une vertu précise : courage, tempérance, justice, prudence. |
 | Scènes clés | Chaque épreuve met en scène une situation concrète où tricher serait facile et probablement indétectable, un adversaire truqué à affronter, une tentation de raccourci, un besoin réel de patience face à une attente sans fin apparente. |
@@ -17,7 +17,7 @@ caractère.
 
 ## L'Ombre du Sage
 
-| |  |
+| | |
 | - | - |
 | Accroche | Le maître d'arétê a disparu sans laisser d'explication, et ses disciples se sont divisés en factions rivales, chacune revendiquant une vertu comme supérieure aux autres : la force, la justice, la sagesse. |
 | Scènes clés | Les Aventuriers rencontrent chaque faction, écoutent leurs arguments, souvent cohérents pris isolément, et découvrent que leurs conflits paralysent désormais l'enseignement même de la Citadelle. |
@@ -27,7 +27,7 @@ caractère.
 
 ## Le Miroir d'Éleusis
 
-| |  |
+| | |
 | - | - |
 | Accroche | Un artefact légendaire, le Miroir d'Éleusis, révèle la véritable nature morale de quiconque s'y regarde. La Citadelle demande aux Aventuriers de l'utiliser pour identifier un traître infiltré parmi ses rangs. |
 | Scènes clés | Le miroir livre des verdicts troublants : certains membres réputés vertueux y apparaissent ambigus, tandis qu'un personnage au comportement irréprochable depuis des années y est jugé indigne de confiance. |
@@ -37,7 +37,7 @@ caractère.
 
 ## Le Feu de la Sophrosynê
 
-| |  |
+| | |
 | - | - |
 | Accroche | Un feu mystique, réputé ne consumer que les excès, se propage lentement dans la Citadelle. Les Aventuriers doivent choisir quelles zones sacrifier pour sauver l'ensemble de l'édifice. |
 | Scènes clés | Le feu épargne les lieux de mesure et de tempérance, mais menace directement la bibliothèque des vertus héroïques, dédiée au courage extrême, et le sanctuaire de la compassion, dédié au don de soi sans limite. |
@@ -47,10 +47,10 @@ caractère.
 
 ## Le Parchemin Inachevé
 
-| |  |
+| | |
 | - | - |
 | Accroche | Un ancien élève prodige, parti vivre dans le monde sans jamais valider formellement son parcours à la Citadelle, a transformé des régions entières par ses actions, sans jamais revendiquer le titre de Sage. |
 | Scènes clés | Les Aventuriers recueillent des témoignages sur ses actes, souvent discrets, jamais spectaculaires, mais dont l'effet cumulé sur les communautés visitées est indéniable et durable. |
-| Bascule | Reconnaître cet élève comme Sage sans parcours formel validé remettrait en question tout le système d'accréditation de la Citadelle, fondé sur des rites et des épreuves precises. |
+| Bascule | Reconnaître cet élève comme Sage sans parcours formel validé remettrait en question tout le système d'accréditation de la Citadelle, fondé sur des rites et des épreuves précises. |
 | Dénouements possibles | Accorder le titre malgré l'absence de parcours formel, le refuser au nom de la cohérence institutionnelle, ou proposer une nouvelle catégorie de reconnaissance, fondée uniquement sur les effets constatés. |
 | Portée | La vertu est-elle un état intérieur, une reconnaissance sociale ritualisée, ou simplement l'effet durable produit sur le monde et sur autrui. |

@@ -1,6 +1,6 @@
 # Les Jardins de l'Équité
 
-![Blason du quartier](../assets/blasons/6-theorie-justice.png){ width="120" }
+![Blason du quartier](../../assets/blasons/6-theorie-justice.png){ width="120" }
 
 Les Jardins de l'Équité inspirent d'emblée un sentiment de calme et
 d'équilibre. L'air y est tempéré, le silence respectueux, ponctué
@@ -66,6 +66,21 @@ confrontation directe avec un tort passé.
 On ne quitte pas les Jardins sans avoir compris qu'agir avec justice
 ne signifie pas toujours agir avec égalité, et que la réparation est
 parfois plus importante que la punition.
+
+## Menaces
+
+> [!DANGER] Arbitres Sourds
+> D'anciens juges, usés par trop de décisions rendues, cessent d'écouter les parties et tranchent selon des règles figées, quel que soit le cas réel présenté devant eux. Dangereux surtout pour la crédibilité de la justice du quartier, ils peuvent être ramenés à la raison par un cas suffisamment déroutant pour briser leur automatisme.
+
+<!-- -->
+
+> [!DANGER] Le Voleur de Mérite
+> Une présence discrète détourne la reconnaissance due à un acte de justice accompli par quelqu'un d'autre, redistribuant un mérite qui n'est pas le sien et semant la discorde entre ceux qui devraient normalement s'en féliciter ensemble.
+
+<!-- -->
+
+> [!DANGER] La Balance Fêlée
+> Un instrument de mesure corrompu penche toujours légèrement en faveur de la dernière personne qui l'a touché, minant discrètement toute prétention à un jugement réellement neutre rendu en sa présence.
 
 ## Ce qu'on raconte
 

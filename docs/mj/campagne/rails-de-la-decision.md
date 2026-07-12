@@ -6,7 +6,7 @@ qu'on le veuille ou non.
 
 ## La Manette d'Orion
 
-| |  |
+| | |
 | - | - |
 | Accroche | Un tramway fou dévale les rails vers cinq chercheurs bloqués, incapables de se dégager. Une manette, à portée de main des Aventuriers, permettrait de le dévier vers une autre voie, où se trouve un unique enfant, seul. |
 | Scènes clés | Le temps presse : quelques secondes à peine avant l'impact. Un cri échappe à l'enfant, visible au loin. Aucun des cinq chercheurs ne remarque le danger, absorbés par leur travail. |
@@ -16,7 +16,7 @@ qu'on le veuille ou non.
 
 ## Le Juge aux Sept Rails
 
-| |  |
+| | |
 | - | - |
 | Accroche | Un système judiciaire automatisé assigne les condamnés à des voies destinées à être sacrifiées en cas de crise, selon un algorithme prédictif. Une menace approche, et plusieurs rails vont être touchés simultanément. |
 | Scènes clés | Les Aventuriers découvrent que le rail le plus « sacrifiable » selon l'algorithme contient des enfants accusés sans procès équitable, sur la base de simples corrélations statistiques. |
@@ -26,7 +26,7 @@ qu'on le veuille ou non.
 
 ## La Voie Invisible
 
-| |  |
+| | |
 | - | - |
 | Accroche | Les Aventuriers découvrent qu'un système d'aiguillage éthique influence en coulisses les décisions politiques d'Éthéria : chaque choix majeur active une ligne abstraite du tramway, invisible mais bien réelle dans ses conséquences. |
 | Scènes clés | En remontant le réseau, ils identifient une décision budgétaire récente, en apparence indolore, qui condamne lentement des populations éloignées à travers des effets différés et peu visibles. |
@@ -36,7 +36,7 @@ qu'on le veuille ou non.
 
 ## Le Tramway Inversé
 
-| |  |
+| | |
 | - | - |
 | Accroche | Une prophétie circule dans le quartier : le prochain aiguillage déclenchera l'inverse exact de ce qu'on en attend. Sauver cinq personnes en sacrifiant une pourrait, selon elle, en réalité tuer les cinq et épargner l'unique. |
 | Scènes clés | Les Aventuriers consultent plusieurs sources, dont Argos l'Indécis, bloqué depuis quarante ans par une incertitude similaire. Aucune preuve fiable ne permet de trancher la validité de la prophétie. |
@@ -46,7 +46,7 @@ qu'on le veuille ou non.
 
 ## Le Choix du Témoin
 
-| |  |
+| | |
 | - | - |
 | Accroche | Un passager assiste à toute la scène d'un dilemme en cours mais ne peut agir directement sur les rails. Il peut crier pour avertir les autres, au risque de provoquer une panique qui aggraverait la situation. |
 | Scènes clés | Les Aventuriers, dans des rôles secondaires mais influents, tiennent l'information cruciale. Diffuser l'alerte immédiatement, la retenir pour choisir le bon moment, ou la transmettre à une seule personne de confiance sont autant d'options qui s'offrent à eux. |

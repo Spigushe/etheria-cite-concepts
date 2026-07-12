@@ -71,7 +71,7 @@ risque de ne pas savoir dans quel quartier ils émergeront.
 > toujours liée à un mouvement intérieur (une certitude abandonnée,
 > un aveu, une décision sans retour) plutôt qu'à un simple
 > déplacement. Le détail est déjà en clair dans la fiche de chaque
-> quartier, sous [Quartiers](../quartiers/index.md) ; seul le concept
+> quartier, sous [Quartiers](quartiers/index.md) ; seul le concept
 > philosophique qui sous-tend chaque quartier reste réservé au MJ,
 > dans les callouts de la page de vue d'ensemble.
 

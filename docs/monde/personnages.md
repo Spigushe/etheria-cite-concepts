@@ -1,6 +1,3 @@
-<!-- markdownlint-disable MD060 -->
-<!-- MD060 desactive : bug connu de compact+aligned_delimiter avec cellules accentuees -->
-
 # Personnages emblématiques
 
 Certaines figures ont traversé les âges d'Éthéria comme des repères

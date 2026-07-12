@@ -7,7 +7,7 @@ récit, jamais au centre.
 
 ## Le Festin du Néant
 
-| |  |
+| | |
 | - | - |
 | Accroche | Les Aventuriers sont conviés à un banquet organisé par la Confrérie du Vide, dans une salle sans fenêtre où les convives semblent se connaître sans jamais se nommer. |
 | Scènes clés | À chaque plat servi, un convive disparaît sans bruit, sans qu'aucun autre ne s'en émeuve. Les règles du repas se dérèglent progressivement : les couverts changent de forme, les conversations se répètent presque à l'identique. |
@@ -17,7 +17,7 @@ récit, jamais au centre.
 
 ## Sisyphe Corporation
 
-| |  |
+| | |
 | - | - |
 | Accroche | Une entreprise sans fin recrute les Aventuriers pour une tâche unique : déplacer une pierre d'un point à un autre, chaque nuit, indéfiniment. Chaque matin, la pierre est revenue à son point de départ. |
 | Scènes clés | D'autres employés, certains depuis des décennies, donnent chacun un sens différent à leur tâche : discipline, méditation, défi personnel, simple habitude. Un contremaître refuse d'expliquer pourquoi la tâche existe. |
@@ -27,7 +27,7 @@ récit, jamais au centre.
 
 ## La Cité des Rêves Inversés
 
-| |  |
+| | |
 | - | - |
 | Accroche | Dans cette cité, chaque désir exprimé se réalise à l'envers : demander de l'aide provoque l'abandon, exprimer de la joie attire la tristesse. Les Aventuriers doivent y accomplir une mission simple, transmettre un message à un habitant précis. |
 | Scènes clés | Communiquer devient un exercice périlleux : dire la vérité produit son contraire, mentir peut parfois approcher de l'intention réelle. Les habitants ont développé un langage entier fait de négations et de détours. |
@@ -37,7 +37,7 @@ récit, jamais au centre.
 
 ## Le Théâtre du Réel
 
-| |  |
+| | |
 | - | - |
 | Accroche | Les Aventuriers se réveillent sur une scène de théâtre, observés par des spectateurs invisibles qui applaudissent ou huent chacune de leurs actions, sans qu'aucun scénario ne leur soit fourni. |
 | Scènes clés | Certaines actions provoquent des ovations inexplicables, d'autres un silence glacial. Aucune logique évidente ne semble régir les réactions du public. Un accessoiriste fantomatique change parfois le décor sans explication. |
@@ -47,7 +47,7 @@ récit, jamais au centre.
 
 ## L'Homme de Nulle Part
 
-| |  |
+| | |
 | - | - |
 | Accroche | Un inconnu sans nom, sans passé et sans mémoire, implore les Aventuriers de lui inventer une histoire : il affirme ne pouvoir survivre que s'ils parviennent à lui donner un sens convaincant. |
 | Scènes clés | Chaque détail biographique inventé par le groupe semble prendre corps chez l'inconnu, modifiant sa posture, sa voix, ses souvenirs apparents. Mais les contradictions entre les versions proposées par différents joueurs commencent à le fragiliser. |

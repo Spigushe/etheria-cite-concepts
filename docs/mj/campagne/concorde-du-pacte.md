@@ -7,7 +7,7 @@ pôles du débat.
 
 ## Le Pacte d'Unité
 
-| |  |
+| | |
 | - | - |
 | Accroche | Plusieurs communautés autonomes du quartier refusent d'adhérer au Pacte Fédérateur que l'Érudit-Régent souhaite imposer avant la prochaine saison des récoltes symboliques. Les Aventuriers sont chargés d'arbitrer les négociations. |
 | Scènes clés | Chaque communauté a ses raisons : l'une craint de perdre son autonomie judiciaire, l'autre exige une clause d'exception pour ses rites propres. Magister Halden propose sa « clause parfaite », que personne n'a jamais acceptée telle quelle. |
@@ -17,7 +17,7 @@ pôles du débat.
 
 ## L'Émeute des Non-Signataires
 
-| |  |
+| | |
 | - | - |
 | Accroche | Une série d'attentats secoue les marchés du quartier. Le suspect appartient aux Non-Signataires, un groupe qui refuse le contrat social au nom d'un consentement jamais librement donné. |
 | Scènes clés | L'enquête mène les joueurs à travers les cercles de délibération, jusqu'au meneur du groupe, un ancien Liant respecté avant sa rupture publique. Un procès s'organise, retransmis sur la Grande Halle. |
@@ -27,7 +27,7 @@ pôles du débat.
 
 ## Le Sceau Brisé
 
-| |  |
+| | |
 | - | - |
 | Accroche | Le contrat fondateur liant les habitants aux entités qui ont fondé Éthéria se dissout sans explication, ouvrant des failles juridiques dans tout le quartier. Le Porte-Parole Silencieux convoque les Aventuriers pour en retrouver l'original. |
 | Scènes clés | La quête mène à des archives scellées, gardées par des rituels administratifs oubliés. Le texte original, une fois retrouvé, révèle une clause oubliée : elle légitimait autrefois des sacrifices aujourd'hui considérés comme des crimes. |
@@ -37,7 +37,7 @@ pôles du débat.
 
 ## L'Héritage du Législateur
 
-| |  |
+| | |
 | - | - |
 | Accroche | Le testament d'un ancien philosophe-législateur, ouvert un siècle après sa mort comme il l'avait prévu, révèle un projet de société inachevé : plus égalitaire, mais nettement plus contraignant que l'ordre actuel. |
 | Scènes clés | Les Aventuriers héritent du droit d'initier la transition. Ils consultent les habitants, testent certaines mesures à petite échelle, et observent les résistances des classes qui profitent de l'ordre actuel. |
@@ -47,7 +47,7 @@ pôles du débat.
 
 ## Le Serment d'Éthéria
 
-| |  |
+| | |
 | - | - |
 | Accroche | Lors de la cérémonie annuelle où tous les citoyens renouvellent leur serment au contrat social, un attentat interrompt le rite et projette les Aventuriers dans une version alternative d'Éthéria, sans aucune règle collective. |
 | Scènes clés | Cette Éthéria anarchique fonctionne malgré tout, selon une logique différente : des alliances spontanées, des rapports de force locaux, une absence totale d'arbitrage centralisé. Les joueurs y observent les conséquences concrètes de l'absence de pacte. |

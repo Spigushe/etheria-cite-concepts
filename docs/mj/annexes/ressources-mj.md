@@ -6,7 +6,7 @@ pourquoi des concepts, voir l'[Espace Pédagogie](../../resources-philo/index.md
 Pour la fiche de personnage, voir la [fiche FATE](fiche-personnage.md).
 Pour le rôle des factions et les connexions entre quartiers, voir
 [Personnages emblématiques](../../monde/personnages.md) et
-[Quartiers](../../quartiers/index.md), déjà à jour sur ces points.
+[Quartiers](../../monde/quartiers/index.md), déjà à jour sur ces points.
 
 ## Cartes imprimables - WIP
 

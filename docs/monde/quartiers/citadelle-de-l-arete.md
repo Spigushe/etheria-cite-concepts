@@ -1,6 +1,6 @@
 # La Citadelle de l'Arété
 
-![Blason du quartier](../assets/blasons/7-ethique-vertu.png){ width="120" }
+![Blason du quartier](../../assets/blasons/7-ethique-vertu.png){ width="120" }
 
 En s'approchant de la Citadelle de l'Arété, un calme profond
 s'installe. Le vent y est clair, les sons nets, et chaque élément du
@@ -63,6 +63,21 @@ D'autres entrées existent, notamment la Porte des Témoignages, qui ne
 s'ouvre que si quelqu'un d'autre parle de la vertu du visiteur, ou la
 Fissure du Remords, qu'on ne franchit qu'en portant le poids d'un
 échec assumé.
+
+## Menaces
+
+> [!DANGER] Sentinelles Rigides
+> Des gardiens d'épreuves anciennes, qui ont fini par confondre la règle avec la vertu elle-même, imposent leurs épreuves à quiconque passe, sans plus se soucier du sens qu'elles étaient censées tester. On les désarme en leur montrant qu'une vertu peut s'exprimer autrement que par la procédure qu'elles répètent.
+
+<!-- -->
+
+> [!DANGER] Le Miroir Flatteur
+> Un miroir ancien renvoie une image exagérément vertueuse de quiconque s'y regarde, flattant la vanité plutôt que la vertu réelle, jusqu'à convaincre certains visiteurs qu'ils n'ont plus rien à travailler sur eux-mêmes.
+
+<!-- -->
+
+> [!DANGER] Les Faux Vertueux
+> Des imitateurs creux reproduisent à la perfection les gestes de la vertu, par pure habitude mécanique, sans aucune disposition intérieure réelle, semant la confusion sur ce qui distingue une vertu authentique d'une simple performance.
 
 ## Ce qu'on raconte
 

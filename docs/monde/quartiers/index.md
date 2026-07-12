@@ -14,7 +14,7 @@ l'explorant.
 
 ## Le Labyrinthe des Identités
 
-![Blason du quartier](../assets/blasons/1-bateau-de-thesee.png){ width="120" }
+![Blason du quartier](../../assets/blasons/1-bateau-de-thesee.png){ width="120" }
 
 Le quartier semble d'abord paisible : colonnades anciennes, fontaines
 qui chantent sans s'arrêter, fresques qui bougent si on ne les regarde
@@ -26,7 +26,7 @@ carnets où ils consignent ce qu'ils croient être, au cas où.
 
 > [!MJ] Éléments de jeu
 >
-> - Concept sous-jacent : le paradoxe identitaire (le bateau de Thésée), déjà traité dans [Plutarque](../resources-philo/sources/plutarque.md).
+> - Concept sous-jacent : le paradoxe identitaire (le bateau de Thésée), déjà traité dans [Plutarque](../../resources-philo/sources/plutarque.md).
 > - PNJ clés : Théséis (archiviste qui cartographie les transformations du quartier), Naüm (affirme être plusieurs personnes à la fois), la Matrice Ciselée (propose de « refondre » un visiteur contre ses souvenirs).
 > - Sortir exige d'abandonner une certitude sur soi. Le Passage du Masque Fendu ne s'ouvre que si le visiteur avoue à voix haute une contradiction intime.
 > - Dilemmes types : être jugé pour un acte d'un ancien soi, contester la légitimité de quelqu'un à juger votre identité, la fiabilité douteuse d'un souvenir qu'on voudrait restaurer.
@@ -35,7 +35,7 @@ carnets où ils consignent ce qu'ils croient être, au cas où.
 
 ## La Concorde du Pacte
 
-![Blason du quartier](../assets/blasons/2-contrat-social.png){ width="120" }
+![Blason du quartier](../../assets/blasons/2-contrat-social.png){ width="120" }
 
 L'air y est plus clair, les voix mesurées : on y parle avant d'agir.
 De vastes forums accueillent des débats permanents, jamais vraiment
@@ -45,7 +45,7 @@ représentants tirés au sort pour un temps limité.
 
 > [!MJ] Éléments de jeu
 >
-> - Concept sous-jacent : la légitimité du pacte politique (contrat social), déjà traité dans [Rousseau](../resources-philo/sources/rousseau.md).
+> - Concept sous-jacent : la légitimité du pacte politique (contrat social), déjà traité dans [Rousseau](../../resources-philo/sources/rousseau.md).
 > - PNJ clés : Civira (milite pour l'adaptation constante des lois), Magister Halden (légiste obsédé par une « clause parfaite » jamais validée), le Porte-Parole Silencieux (ne fait que relayer les votes de sa communauté).
 > - Entrer exige un engagement volontaire à une règle qu'on n'a pas choisie ; les arches de serment ne s'ouvrent qu'après une formule d'adhésion, parfois devant témoin.
 > - Dilemmes types : maintenir un contrat injuste pour un tiers non représenté, la validité d'un serment ancien dont le contexte a changé, trancher un débat sans consensus possible.
@@ -54,7 +54,7 @@ représentants tirés au sort pour un temps limité.
 
 ## La Balance d'Orion
 
-![Blason du quartier](../assets/blasons/3-utilitarisme.png){ width="120" }
+![Blason du quartier](../../assets/blasons/3-utilitarisme.png){ width="120" }
 
 Tout y semble pesé, optimisé. Le silence est ponctué de mécanismes
 invisibles ; des panneaux affichent en continu des courbes de bien
@@ -65,7 +65,7 @@ choix en assemblée.
 
 > [!MJ] Éléments de jeu
 >
-> - Concept sous-jacent : le calcul utilitariste des conséquences (Bentham, Mill), voir [Sources & auteurs](../resources-philo/sources/index.md).
+> - Concept sous-jacent : le calcul utilitariste des conséquences (Bentham, Mill), voir [Sources & auteurs](../../resources-philo/sources/index.md).
 > - PNJ clés : Éléon Rive (a proposé un barème émotionnel standardisé), Zok (régulateur public, pratique une euthanasie rituelle sur demande), l'Oracle Paradoxal (prédit l'impact à long terme, contre un prix moral).
 > - Entrer par choix raisonné (Porte des Conséquences) ; un portail caché, la Passerelle Injuste, exige d'accepter d'infliger une injustice « nécessaire mais temporaire ».
 > - Dilemmes types : sacrifier une personne pour en sauver cinq sans détour possible, une minorité invisible lésée par un progrès majoritaire, éliminer par avance un enfant qui deviendrait un tyran.
@@ -74,7 +74,7 @@ choix en assemblée.
 
 ## Le Gouffre d'Absyr
 
-![Blason du quartier](../assets/blasons/4-absurdite-existence.png){ width="120" }
+![Blason du quartier](../../assets/blasons/4-absurdite-existence.png){ width="120" }
 
 Un brouillard pâle ne se lève jamais tout à fait. Les rues ne mènent
 nulle part en particulier, les horloges tournent dans des sens
@@ -84,7 +84,7 @@ abandonné quelque chose, un but, une foi, une illusion.
 
 > [!MJ] Éléments de jeu
 >
-> - Concept sous-jacent : l'absurdité de l'existence (Camus, Nietzsche, Kierkegaard), voir [Sources & auteurs](../resources-philo/sources/index.md).
+> - Concept sous-jacent : l'absurdité de l'existence (Camus, Nietzsche, Kierkegaard), voir [Sources & auteurs](../../resources-philo/sources/index.md).
 > - PNJ clés : Camüs (veilleur taciturne, collectionne des notes non envoyées), Sœn (poète muet, écrit à l'encre invisible), la Femme au Sable (propose d'oublier non ce qu'on a vécu, mais pourquoi).
 > - On n'y entre pas par un chemin : on y tombe, souvent après une rupture intérieure. La Brèche du Rire ne s'ouvre que si l'on rit face à l'absurdité de l'existence.
 > - Dilemmes types : continuer une mission qu'on sait sans le moindre sens, mentir à un enfant sur la raison de vivre, tout comprendre sans jamais pouvoir le partager.
@@ -93,7 +93,7 @@ abandonné quelque chose, un but, une foi, une illusion.
 
 ## Les Rails de la Décision
 
-![Blason du quartier](../assets/blasons/5-dilemne-tramway.png){ width="120" }
+![Blason du quartier](../../assets/blasons/5-dilemne-tramway.png){ width="120" }
 
 Des rails sombres serpentent entre les bâtiments, parfois suspendus
 dans le vide. Chaque croisement porte une histoire non résolue ; la
@@ -104,7 +104,7 @@ passés.
 
 > [!MJ] Éléments de jeu
 >
-> - Concept sous-jacent : le dilemme du tramway, décision et responsabilité (Thomson, Foot), voir [Sources & auteurs](../resources-philo/sources/index.md).
+> - Concept sous-jacent : le dilemme du tramway, décision et responsabilité (Thomson, Foot), voir [Sources & auteurs](../../resources-philo/sources/index.md).
 > - PNJ clés : Argos l'Indécis (immobile au même carrefour depuis quarante ans), Juma-Kei (conduit un tramway qui n'emprunte que les rails nés de décisions non assumées), le Collecteur (archive tous les choix des visiteurs).
 > - Entrer exige une décision explicite ; la Rampe du Premier Choix est une descente irréversible, sans retour en arrière possible.
 > - Dilemmes types : un rail mène à la mort d'un proche, l'autre à la souffrance de dizaines d'inconnus, sans détour ; agir contre un mal certain ou s'abstenir face à un mal peut-être pire ; la responsabilité d'un enfant qui actionne un aiguillage par jeu.
@@ -113,7 +113,7 @@ passés.
 
 ## Les Jardins de l'Équité
 
-![Blason du quartier](../assets/blasons/6-theorie-justice.png){ width="120" }
+![Blason du quartier](../../assets/blasons/6-theorie-justice.png){ width="120" }
 
 Un calme mesuré y règne : chemins symétriques, fontaines aux bassins
 jumeaux, lumière dosée avec soin. On ne s'y presse pas, mais on n'y
@@ -124,7 +124,7 @@ mesure plutôt qu'à l'égalité brute.
 
 > [!MJ] Éléments de jeu
 >
-> - Concept sous-jacent : la justice distributive et corrective, dans une synthèse entre Aristote, Rawls, Nozick et Sen, voir [Sources & auteurs](../resources-philo/sources/index.md).
+> - Concept sous-jacent : la justice distributive et corrective, dans une synthèse entre Aristote, Rawls, Nozick et Sen, voir [Sources & auteurs](../../resources-philo/sources/index.md).
 > - PNJ clés : Démis Tal (médiateur aveugle, perçoit les déséquilibres à la voix), Lara d'Alve (cartographe des inégalités persistantes), la Juge Silencieuse (ne rend jamais de verdict, mais fait jaillir les aveux par sa seule présence).
 > - Entrer exige d'avoir été témoin d'une injustice sans y participer, ou d'avoir plaidé sincèrement pour autrui ; la Grille de la Balance exige de se soumettre au jugement collectif.
 > - Dilemmes types : deux voyageurs réclament la même ressource, l'un par besoin, l'autre par mérite ; punir un crime commis pour réparer une injustice, ou en reconnaître la cause ; une réforme qui améliore le bien général mais lèse un petit groupe marginalisé.
@@ -133,7 +133,7 @@ mesure plutôt qu'à l'égalité brute.
 
 ## La Citadelle de l'Arété
 
-![Blason du quartier](../assets/blasons/7-ethique-vertu.png){ width="120" }
+![Blason du quartier](../../assets/blasons/7-ethique-vertu.png){ width="120" }
 
 Un calme profond s'installe à mesure qu'on approche. On n'y court
 pas : on y marche avec détermination, observé non pour être jugé,
@@ -144,7 +144,7 @@ cohérence entre pensée, parole et action.
 
 > [!MJ] Éléments de jeu
 >
-> - Concept sous-jacent : l'éthique de la vertu comme disposition acquise par l'habitude, chez Aristote, prolongée par Thomas d'Aquin et MacIntyre, déjà traité dans [Aristote](../resources-philo/sources/aristote.md).
+> - Concept sous-jacent : l'éthique de la vertu comme disposition acquise par l'habitude, chez Aristote, prolongée par Thomas d'Aquin et MacIntyre, déjà traité dans [Aristote](../../resources-philo/sources/aristote.md).
 > - PNJ clés : Eudémos (n'enseigne que par l'exemple), Alea d'Ilion (ancienne voyageuse des sept quartiers, revenue enseigner la constance), la Sentinelle Blanche (ne parle que lorsqu'une vertu est niée trois fois).
 > - Entrer exige de reconnaître une faiblesse morale en soi ; le Col de l'Incomplétude est un sentier raide où chaque pas demande une lucidité nouvelle.
 > - Dilemmes types : agir courageusement quand on sait l'action inutile, cacher une vérité pour préserver l'estime d'un proche, rester fidèle à ses principes dans un monde qui les bafoue.

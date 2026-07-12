@@ -1,6 +1,6 @@
 # Le Gouffre d'Absyr
 
-![Blason du quartier](../assets/blasons/4-absurdite-existence.png){ width="120" }
+![Blason du quartier](../../assets/blasons/4-absurdite-existence.png){ width="120" }
 
 Le Gouffre d'Absyr est un quartier silencieux, enveloppé d'un
 brouillard pâle et persistant. L'air y est humide, chargé d'un
@@ -67,6 +67,21 @@ Le principal passage est la Brèche du Rire, une faille qui ne
 s'ouvre que lorsqu'on rit franchement face à l'absurde. Il existe
 aussi la Porte du Néant Délibéré, qui exige qu'un visiteur renonce
 volontairement à toute quête de justification morale ou narrative.
+
+## Menaces
+
+> [!DANGER] Déliés Absorbants
+> Certains habitants du Gouffre, ayant renoncé à tout, deviennent des présences presque invisibles qui aspirent le sens des mots prononcés autour d'elles. Une conversation entière peut s'y dissoudre en non-sens avant que quiconque ne s'en aperçoive. Le danger n'est pas physique, mais narratif : perdre le fil de sa propre intention.
+
+<!-- -->
+
+> [!DANGER] Le Rire Sans Fond
+> Un rire contagieux et vide de toute joie se propage parfois dans le brouillard, tournant en dérision jusqu'à la tentative la plus sincère de donner un sens à quoi que ce soit, jusqu'à ce que ceux qui l'entendent renoncent eux aussi à essayer.
+
+<!-- -->
+
+> [!DANGER] Les Ombres Répétées
+> Des doubles spectraux rejouent sans fin un même instant, piégeant quiconque tente d'intervenir dans une scène qui se réinitialise systématiquement, sans jamais laisser deviner si elle a un début ou une fin.
 
 ## Ce qu'on raconte
 

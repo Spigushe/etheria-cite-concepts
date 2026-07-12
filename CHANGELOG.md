@@ -6,6 +6,34 @@ Le format suit [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/).
 
 ## [Non publié]
 
+## [0.7.0] - 2026-07-13
+
+### Ajouté
+
+- Bestiaire de menaces conceptuelles (trois par quartier, dont deux
+  inédites), intégré directement dans chaque fiche de quartier en
+  callouts `[!DANGER]` plutôt qu'en page séparée.
+- Dictionnaire `cspell.json` complété avec l'ensemble des noms propres
+  et du vocabulaire du projet (philosophes, factions, PNJ, jargon FATE).
+
+### Modifié
+
+- Fusion de la section « Le monde » et de « Quartiers » en une seule
+  section « Univers d'Éthéria », `docs/quartiers/` déplacé sous
+  `docs/monde/quartiers/`.
+- Correction du dictionnaire `cspell.json` : le champ `import` était
+  vide, empêchant le dictionnaire français `fr-fr` de charger
+  réellement (des milliers de faux positifs sur des mots français
+  ordinaires).
+- Deux fautes corrigées (`precises` → `précises`, `reconcevoir` →
+  `repenser`) trouvées en passant le wiki au crible de `cspell`.
+- README entièrement réécrit pour refléter la structure réelle du
+  projet (l'ancienne version décrivait encore `pitch/`, `cosmologie/`,
+  `geographie/`, des dossiers qui n'existent plus).
+- Le workflow de déploiement (`.github/workflows/deploy.yml`) se
+  déclenche désormais sur un push de tag (`v*`) plutôt qu'à chaque
+  push sur `main`.
+
 ## [0.6.0] - 2026-07-13
 
 ### Ajouté

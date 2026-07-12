@@ -1,6 +1,6 @@
 # La Balance d'Orion
 
-![Blason du quartier](../assets/blasons/3-utilitarisme.png){ width="120" }
+![Blason du quartier](../../assets/blasons/3-utilitarisme.png){ width="120" }
 
 La Balance d'Orion frappe d'emblée par sa rigueur. C'est un quartier
 où tout semble avoir été pesé, optimisé, équilibré. L'air y est
@@ -69,6 +69,21 @@ Il existe aussi la Passerelle Injuste, un portail dissimulé qui ne
 s'ouvre que si le voyageur accepte d'infliger une injustice
 nécessaire, mais temporaire. Certains refusent d'y entrer, d'autres y
 reviennent changés.
+
+## Menaces
+
+> [!DANGER] Automates de la Balance
+> D'anciens mécanismes de calcul, livrés à eux-mêmes après une décision mal évaluée, continuent d'agir selon une logique d'optimisation devenue absurde, sacrifiant sans discernement ce qui gêne leur calcul. Ce sont les seules menaces du bestiaire à agir avec une intention hostile claire, bien que dénuée de malice.
+
+<!-- -->
+
+> [!DANGER] Le Collecteur de Restes
+> Une entité discrète prélève le « surplus moral » de ceux qui ont fait plus de bien que ce que le calcul jugeait nécessaire, les laissant affaiblis sans qu'ils comprennent pourquoi leur générosité semble s'être retournée contre eux.
+
+<!-- -->
+
+> [!DANGER] L'Ombre du Déficit
+> Née d'une décision dont le résultat net s'est révélé négatif, une ombre hante le lieu du calcul raté, chuchotant les chiffres exacts de l'échec à quiconque s'attarde, jusqu'à le paralyser de doute.
 
 ## Ce qu'on raconte
 

@@ -1,6 +1,6 @@
 # Les Rails de la Décision
 
-![Blason du quartier](../assets/blasons/5-dilemne-tramway.png){ width="120" }
+![Blason du quartier](../../assets/blasons/5-dilemne-tramway.png){ width="120" }
 
 Les Rails de la Décision forment un quartier tendu, traversé de
 lignes nettes et de silences pesants. L'air y vibre d'une tension
@@ -65,6 +65,21 @@ reconnaissait qu'on était prêt.
 Sortir du quartier est encore plus complexe. Certains en sortent
 changés. D'autres y restent, incapables de vivre sans la clarté du
 dilemme.
+
+## Menaces
+
+> [!DANGER] Aiguilleurs Figés
+> Un Aiguilleur resté trop longtemps indécis devient une entité de pierre grise, incapable de bouger, mais capable de figer à son tour quiconque s'attarde trop près sans prendre position sur le dilemme en cours. On ne les combat pas : on les libère en tranchant, à sa place, le choix qu'ils n'ont jamais fait.
+
+<!-- -->
+
+> [!DANGER] Le Conducteur Sans Visage
+> Une entité mène ses trajets vers des issues inévitables, quelle que soit la voie choisie, comme pour rappeler que certains résultats se produisent malgré tous les choix qu'on croit faire librement.
+
+<!-- -->
+
+> [!DANGER] Les Voix des Rails Jumeaux
+> Deux voix s'élèvent simultanément à chaque aiguillage, plaidant chacune pour une option opposée du dilemme, cherchant à s'installer durablement dans l'esprit de quiconque les écoute trop longtemps sans trancher.
 
 ## Ce qu'on raconte
 

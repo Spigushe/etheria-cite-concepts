@@ -7,7 +7,7 @@ question, reformulée : *qui es-tu, maintenant ?*
 
 ## Les Éclats du Navire Originel
 
-| |  |
+| | |
 | - | - |
 | Accroche | Le Musée d'Identité Maritime convoque les Aventuriers : un fragment du navire mythique de Thésée vient d'être repêché dans le Lac des Réfractions, et Théséis lui-même refuse de l'authentifier sans un second avis extérieur, plus neutre que le sien. |
 | Scènes clés | Le musée conserve déjà sept fragments antérieurs, chacun authentifié en son temps, chacun contesté depuis. Interroger les archivistes révèle des rapports contradictoires. Une visite au Lac des Réfractions, où l'eau reflète l'intention plutôt que l'image, peut révéler que le fragment a été sculpté récemment, par quelqu'un qui croyait sincèrement reproduire l'original. |
@@ -17,7 +17,7 @@ question, reformulée : *qui es-tu, maintenant ?*
 
 ## Les Miroirs du Labyrinthe
 
-| |  |
+| | |
 | - | - |
 | Accroche | Une porte ordinaire, franchie par erreur ou par curiosité, se referme derrière les Aventuriers. Ils sont désormais prisonniers d'un tronçon du Labyrinthe où chaque porte franchie modifie imperceptiblement leur corps, leur voix, ou un souvenir précis. |
 | Scènes clés | Trois portes, trois choix. La première efface un souvenir d'enfance en échange d'un indice sur la sortie. La seconde échange un trait de caractère contre un raccourci. La troisième propose à un seul membre du groupe de sauver tous les autres, au prix de l'intégralité de sa mémoire. |
@@ -27,7 +27,7 @@ question, reformulée : *qui es-tu, maintenant ?*
 
 ## Le Chant des Copies
 
-| |  |
+| | |
 | - | - |
 | Accroche | Une intelligence conceptuelle, logée dans les souterrains du quartier, a produit plusieurs répliques vocales et mémorielles de Thésée à partir de fragments d'âme collectés depuis des siècles. La dernière réplique s'apprête à « naître ». |
 | Scènes clés | Les Aventuriers rencontrent deux répliques déjà achevées, aux personnalités radicalement différentes l'une de l'autre, chacune convaincue d'être la seule légitime. L'une invite à la détruire avant que la troisième ne naisse ; l'autre plaide pour la laisser advenir, arguant qu'elle pourrait être meilleure que l'original. |
@@ -37,7 +37,7 @@ question, reformulée : *qui es-tu, maintenant ?*
 
 ## Le Marché des Pièces d'Origine
 
-| |  |
+| | |
 | - | - |
 | Accroche | Dans un bazar clandestin tenu par un marchand sans nom, des fragments d'âme, des souvenirs et des traits de caractère s'échangent contre des services ou de l'efficacité immédiate. Un Aventurier du groupe a justement besoin d'un avantage rapide. |
 | Scènes clés | Le marché fonctionne par troc symbolique : céder un souvenir d'échec contre une longueur d'avance, ou une peur ancienne contre du courage temporaire. Un client régulier, visiblement diminué, avoue avoir déjà tout vendu de ce qui le rendait reconnaissable. |
@@ -47,7 +47,7 @@ question, reformulée : *qui es-tu, maintenant ?*
 
 ## Le Jugement de Thésée
 
-| |  |
+| | |
 | - | - |
 | Accroche | Deux entités se présentent devant un tribunal symbolique, chacune revendiquant être le vrai Thésée : l'une par la continuité de la mémoire, l'autre par la continuité physique. Les Aventuriers sont désignés jurés. |
 | Scènes clés | L'instruction convoque des témoins contradictoires, d'anciens compagnons de route, des archivistes, et Théséis lui-même, qui refuse de trancher et invite plutôt le jury à formuler ses propres critères avant de juger. |

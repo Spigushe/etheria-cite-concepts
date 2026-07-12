@@ -1,6 +1,6 @@
 # La Concorde du Pacte
 
-![Blason du quartier](../assets/blasons/2-contrat-social.png){ width="120" }
+![Blason du quartier](../../assets/blasons/2-contrat-social.png){ width="120" }
 
 En entrant dans la Concorde, on est d'abord frappé par l'ordre
 tranquille qui y règne. L'air y est clair, les voix mesurées. C'est
@@ -69,6 +69,21 @@ Les portails prennent la forme d'arches de serment. Les franchir
 suppose de prononcer une formule d'adhésion à un principe de justice
 ou de réciprocité. Certaines arches ne s'ouvrent que si une promesse
 est tenue devant témoin.
+
+## Menaces
+
+> [!DANGER] Voix Sans Pacte
+> Des fragments de vieux contrats abandonnés, jamais formellement annulés, continuent d'exiger leur exécution auprès de quiconque passe à proximité, réclamant des dettes ou des devoirs que plus personne ne reconnaît. On les apaise en leur opposant un nouvel accord, ou en prouvant que les termes originaux n'ont plus de sens.
+
+<!-- -->
+
+> [!DANGER] Les Huissiers Spectraux
+> D'anciens exécuteurs de clauses oubliées continuent d'arpenter le quartier, cherchant à faire respecter des obligations que plus aucun texte en vigueur ne mentionne. Ils ne cèdent que devant la preuve formelle qu'une clause a été abrogée.
+
+<!-- -->
+
+> [!DANGER] La Foule Sans Représentant
+> Un attroupement agit parfois d'un seul mouvement, sans qu'aucun porte-parole ne puisse être identifié ni négocié avec. Sa dangerosité tient précisément à l'absence de toute voix responsable à qui s'adresser.
 
 ## Ce qu'on raconte
 

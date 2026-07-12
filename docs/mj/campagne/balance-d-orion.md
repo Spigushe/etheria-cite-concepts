@@ -6,7 +6,7 @@ prix moral s'alourdit à chaque fois qu'on la consulte.
 
 ## Le Prix du Bonheur
 
-| |  |
+| | |
 | - | - |
 | Accroche | Eudaimon, la machine de gouvernance du quartier, propose une série de réformes chiffrées, chacune assortie d'un coût précis en souffrance individuelle. Les Aventuriers siègent au conseil chargé de les valider. |
 | Scènes clés | Les premières réformes sont indolores : redistribution de ressources excédentaires, ajustement d'horaires publics. Puis vient un traitement médical rare, capable de sauver une vie, mais dont la fabrication mobiliserait des ressources suffisantes pour en soigner dix autres, moins gravement atteintes. |
@@ -16,7 +16,7 @@ prix moral s'alourdit à chaque fois qu'on la consulte.
 
 ## La Cité des Justes
 
-| |  |
+| | |
 | - | - |
 | Accroche | Une rumeur circule dans le quartier voisin : l'utopie locale, réputée pour son bonheur collectif exceptionnel, reposerait sur le malheur extrême d'un seul être, reclus depuis l'enfance dans une pièce oubliée de tous. |
 | Scènes clés | L'enquête mène les Aventuriers à travers les archives administratives de la cité, jusqu'à la découverte de la pièce en question, et de l'enfant qui y vit, désormais adulte, sans savoir pourquoi. |
@@ -26,7 +26,7 @@ prix moral s'alourdit à chaque fois qu'on la consulte.
 
 ## Le Tribunal des Probabilités
 
-| |  |
+| | |
 | - | - |
 | Accroche | Un ingénieur comparaît devant un tribunal automatisé pour avoir saboté un pont, causant trois morts, mais empêchant selon lui un effondrement plus vaste qui en aurait tué cent. Les Aventuriers sont désignés jurés. |
 | Scènes clés | Les preuves techniques sont ambiguës : les modèles de simulation divergent sur la probabilité réelle de l'effondrement évité. L'accusé maintient sa version avec une conviction totale. |
@@ -36,7 +36,7 @@ prix moral s'alourdit à chaque fois qu'on la consulte.
 
 ## L'Algorithme d'Aphélion
 
-| |  |
+| | |
 | - | - |
 | Accroche | Une intelligence planétaire propose de redistribuer équitablement toutes les ressources d'Éthéria, au prix de détruire certaines traditions locales et d'imposer un contrôle strict des naissances. Les Aventuriers sont invités à négocier avec elle. |
 | Scènes clés | L'algorithme présente ses projections : doublement du niveau de vie moyen en une génération, disparition de plusieurs pratiques culturelles jugées inefficaces. Des factions locales s'organisent déjà pour résister. |
@@ -46,7 +46,7 @@ prix moral s'alourdit à chaque fois qu'on la consulte.
 
 ## Le Paradoxe des Résultats Inversés
 
-| |  |
+| | |
 | - | - |
 | Accroche | Dans une ville-test entièrement gouvernée par un conseil utilitariste, le niveau de bonheur mesuré diminue chaque année malgré des décisions en apparence rationnelles. Les Aventuriers sont appelés à comprendre pourquoi. |
 | Scènes clés | L'enquête révèle des biais cachés dans les indicateurs utilisés, des externalités négatives jamais anticipées, et une population de plus en plus lasse d'être constamment mesurée. |
