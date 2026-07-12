@@ -1,0 +1,106 @@
+/*
+  Styles pour les callouts personnalisés générés par scripts/obsidian_callouts.py
+  Syntaxe dans les fichiers .md : > [!TYPE] Titre
+
+  Chaque bloc ci-dessous correspond à un type. Pour en ajouter un nouveau,
+  copie un bloc et adapte : couleur (--callout-color), icône (content emoji ou SVG).
+*/
+
+.admonition {
+  border-radius: 0.4rem;
+  border-left: 4px solid var(--callout-color, #448aff);
+  padding: 0.6rem 1rem;
+  margin: 1rem 0;
+  background-color: var(--callout-bg, rgba(68, 138, 255, 0.08));
+}
+
+.admonition-title {
+  font-weight: 700;
+  margin: 0 0 0.4rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.admonition-title::before {
+  font-size: 1.1em;
+}
+
+/* --- Lieux --- */
+.admonition.ville {
+  --callout-color: #2e7d32;
+  --callout-bg: rgba(46, 125, 50, 0.08);
+}
+.admonition.ville .admonition-title::before { content: "🏙️"; }
+
+.admonition.region {
+  --callout-color: #00695c;
+  --callout-bg: rgba(0, 105, 92, 0.08);
+}
+.admonition.region .admonition-title::before { content: "🗺️"; }
+
+.admonition.donjon {
+  --callout-color: #4527a0;
+  --callout-bg: rgba(69, 39, 160, 0.08);
+}
+.admonition.donjon .admonition-title::before { content: "🕯️"; }
+
+/* --- Personnages / Factions --- */
+.admonition.pnj {
+  --callout-color: #1565c0;
+  --callout-bg: rgba(21, 101, 192, 0.08);
+}
+.admonition.pnj .admonition-title::before { content: "🧑"; }
+
+.admonition.faction {
+  --callout-color: #6a1b9a;
+  --callout-bg: rgba(106, 27, 154, 0.08);
+}
+.admonition.faction .admonition-title::before { content: "⚔️"; }
+
+/* --- Suivi de campagne --- */
+.admonition.nouvelles {
+  --callout-color: #d84315;
+  --callout-bg: rgba(216, 67, 21, 0.08);
+}
+.admonition.nouvelles .admonition-title::before { content: "📰"; }
+
+.admonition.intrigue {
+  --callout-color: #ad1457;
+  --callout-bg: rgba(173, 20, 87, 0.08);
+}
+.admonition.intrigue .admonition-title::before { content: "🧵"; }
+
+.admonition.secret {
+  --callout-color: #263238;
+  --callout-bg: rgba(38, 50, 56, 0.08);
+}
+.admonition.secret .admonition-title::before { content: "🔒"; }
+
+/* --- Règles / mécaniques --- */
+.admonition.regle {
+  --callout-color: #f9a825;
+  --callout-bg: rgba(249, 168, 37, 0.1);
+}
+.admonition.regle .admonition-title::before { content: "🎲"; }
+
+.admonition.danger {
+  --callout-color: #c62828;
+  --callout-bg: rgba(198, 40, 40, 0.08);
+}
+.admonition.danger .admonition-title::before { content: "⚠️"; }
+
+.admonition.tresor {
+  --callout-color: #f57f17;
+  --callout-bg: rgba(245, 127, 23, 0.1);
+}
+.admonition.tresor .admonition-title::before { content: "💰"; }
+
+/* Fallback pour tout type non listé ci-dessus : gris neutre */
+.admonition:not(.ville):not(.region):not(.donjon):not(.pnj):not(.faction):not(.nouvelles):not(.intrigue):not(.secret):not(.regle):not(.danger):not(.tresor) {
+  --callout-color: #607d8b;
+  --callout-bg: rgba(96, 125, 139, 0.08);
+}
+.admonition:not(.ville):not(.region):not(.donjon):not(.pnj):not(.faction):not(.nouvelles):not(.intrigue):not(.secret):not(.regle):not(.danger):not(.tresor) .admonition-title::before {
+  content: "ℹ️";
+}

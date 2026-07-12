@@ -1,0 +1,24 @@
+{
+  "files.associations": {
+    "mkdocs.yml": "yaml"
+  },
+  "[markdown]": {
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": false,
+    "editor.formatOnSave": false
+  },
+  "[yaml]": {
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
+  },
+  "python.analysis.extraPaths": ["./scripts"],
+  "files.exclude": {
+    "**/__pycache__": true,
+    "site": true
+  },
+  "search.exclude": {
+    "site": true
+  },
+  "cSpell.language": "fr",
+  "cSpell.words": ["mkdocs", "PNJ", "PNJs"]
+}

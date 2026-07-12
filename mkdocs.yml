@@ -1,0 +1,53 @@
+site_name: "Ethéria, Cité des Concepts"
+site_description: "Wiki de jeu de rôle personnel"
+# IMPORTANT : remplace <utilisateur> et <repo> ci-dessous avant de publier,
+# sinon les liens internes et assets seront mal résolus sur GitHub Pages.
+site_url: "https://spigushe.github.io/etheria-cite-concepts/"
+
+theme:
+  name: material
+  language: fr
+  palette:
+    - scheme: default
+      primary: indigo
+      toggle:
+        icon: material/brightness-7
+        name: "Passer en mode sombre"
+    - scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/brightness-4
+        name: "Passer en mode clair"
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - content.code.copy
+    - toc.follow
+
+extra_css:
+  - stylesheets/callouts.css
+
+markdown_extensions:
+  - scripts.obsidian_callouts   # syntaxe > [!TYPE] Titre (fichier local du repo)
+  - admonition                  # garde !!! note / ??? tip disponibles en secours
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+nav:
+  - Accueil: index.md
+  - Pitch: pitch/index.md
+  - Cosmologie: cosmologie/index.md
+  - Géographie:
+      - Vue d'ensemble: geographie/index.md
+      - "Exemple : Lyon-sur-Rhône": geographie/lyon-sur-rhone.md
+  - Factions & PNJ:
+      - Vue d'ensemble: factions-pnj/index.md
+      - "Exemple : Le Cercle du Fleuve": factions-pnj/cercle-du-fleuve.md
+  - Mécaniques: mecaniques/index.md
+  - Intrigues actives: intrigues/index.md

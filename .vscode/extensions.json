@@ -1,0 +1,18 @@
+{
+  // Recommandations d'extensions pour éditer ce wiki MkDocs.
+  // VS Code proposera leur installation à l'ouverture du dossier.
+  "recommendations": [
+    // Markdown : aperçu enrichi, tables de matières, raccourcis de mise en forme
+    "yzhang.markdown-all-in-one",
+    // Vérifie l'orthographe/typos en markdown (utile sur un gros wiki)
+    "streetsidesoftware.code-spell-checker",
+    "streetsidesoftware.code-spell-checker-french",
+    // Coloration/validation de mkdocs.yml (YAML)
+    "redhat.vscode-yaml",
+    // Lint markdown (structure des titres, listes, etc.)
+    "davidanson.vscode-markdownlint",
+    // Aperçu Mermaid si des diagrammes sont ajoutés plus tard
+    "bierner.markdown-mermaid",
+    "streetsidesoftware.code-spell-checker-british-english"
+  ]
+}
