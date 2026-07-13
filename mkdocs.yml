@@ -26,6 +26,12 @@ theme:
     - content.code.copy
     - toc.follow
 
+plugins:
+  - search
+  - to-pdf:
+      enabled_if_env: ENABLE_PDF_EXPORT
+      output_path: pdf/documentation.pdf
+
 extra_css:
   - stylesheets/callouts.css
 

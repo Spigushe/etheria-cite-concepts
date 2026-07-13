@@ -6,6 +6,21 @@ Le format suit [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/).
 
 ## [Non publié]
 
+### Ajouté
+
+- Export PDF de la documentation (plugin `mkdocs-to-pdf`), généré au
+  build et publié sur la Release GitHub associée au tag, aux côtés
+  d'une archive `.zip` du site complet.
+
+### Modifié
+
+- Workflow de déploiement (`.github/workflows/deploy.yml`) : mise à
+  jour des actions (`checkout@v6`, `upload-pages-artifact@v4`), ajout
+  de `configure-pages`, permission `contents: write` pour créer/
+  compléter la Release et y attacher le PDF et l'archive du site.
+- Exclusion de `.venv`, `.mypy_cache` et `.ruff_cache` des vues
+  fichiers/recherche de VS Code.
+
 ## [0.7.0] - 2026-07-13
 
 ### Ajouté

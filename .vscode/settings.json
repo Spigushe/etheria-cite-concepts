@@ -18,9 +18,15 @@
   "python.analysis.extraPaths": ["./scripts"],
   "files.exclude": {
     "**/__pycache__": true,
+    "**/.venv": true,
+    "**/.mypy_cache": true,
+    "**/.ruff_cache": true,
     "site": true
   },
   "search.exclude": {
+    "**/.venv": true,
+    "**/.mypy_cache": true,
+    "**/.ruff_cache": true,
     "site": true
   },
 }
