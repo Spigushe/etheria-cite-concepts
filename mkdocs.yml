@@ -9,6 +9,8 @@ site_url: "https://spigushe.github.io/etheria-cite-concepts/"
 theme:
   name: material
   language: fr
+  logo: assets/logo.png
+  favicon: assets/logo.png
   palette:
     - scheme: epure
       primary: white

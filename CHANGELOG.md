@@ -30,6 +30,9 @@ Le format suit [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/).
   (`mkdocs.yml`, section Espace MJ).
 - `cspell.json` : `ignorePaths` généralisé à `*.css`, `*.py`, `*.yml`
   et `requirements.txt` (plutôt que lister les fichiers un par un).
+- Logo d'Éthéria (`docs/assets/logo.png`) ajouté en en-tête du README
+  et de la page d'accueil du wiki, et utilisé comme `logo`/`favicon`
+  du thème Material (`mkdocs.yml`).
 
 ## [0.8.0] - 2026-07-13
 

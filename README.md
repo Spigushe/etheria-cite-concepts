@@ -1,5 +1,9 @@
 # Ethéria, Cité des Concepts
 
+<p align="center">
+  <img src="docs/assets/logo.png" alt="Blason d'Éthéria" width="220">
+</p>
+
 C'est mon wiki de campagne perso. Je l'écris en Markdown avec
 [MkDocs](https://www.mkdocs.org/) + le thème
 [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/), et il se

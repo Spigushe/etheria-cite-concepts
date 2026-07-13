@@ -1,5 +1,9 @@
 # Éthéria, la Cité des Concepts
 
+<p align="center">
+  <img src="assets/logo.png" alt="Blason d'Éthéria" width="220">
+</p>
+
 <!-- markdownlint-disable-next-line MD036 -->
 *Version {{ version }}*
 
