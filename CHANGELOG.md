@@ -1,10 +1,14 @@
 # Changelog
 
-Toutes les évolutions notables de ce wiki sont documentées ici.
+Ce wiki évolue au fil de l'écriture, et ce journal garde une trace de
+ce qui change à chaque étape : ce qui s'ajoute, ce qui se corrige, ce
+qui se réécrit.
 
-Le format suit [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/).
+Le format suit [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/),
+et les numéros de version suivent la logique du
+[Semantic Versioning](https://semver.org/lang/fr/).
 
-## [Non publié]
+## [0.10.0] - 2026-07-14
 
 ### Ajouté
 
