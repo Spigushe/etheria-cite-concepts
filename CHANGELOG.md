@@ -27,6 +27,14 @@ un événement historique d'Éthéria pour une évolution majeure, et
 - PDF de documentation attaché à la Release GitHub renommé
   `etheria-jdr-<tag>.pdf` (au lieu de `documentation-<tag>.pdf`),
   dans `.github/workflows/deploy.yml`.
+- Templates PDF personnalisés (`back_cover.html.j2`, `styles.scss`)
+  replacés dans `templates/` à la racine du projet plutôt que
+  `docs/assets/templates/` ; `custom_template_path` retiré de la
+  config du plugin `to-pdf` (`mkdocs.yml`), qui retrouve son
+  emplacement par défaut.
+- Logo de la page de dos (`templates/styles.scss`) : largeur fixée à
+  `120mm` (max `80%`) plutôt qu'en pourcentage plein cadre — réglage
+  encore en cours pour corriger son rendu dans le PDF exporté.
 
 ### Retiré
 
