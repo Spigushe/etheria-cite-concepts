@@ -4,20 +4,32 @@ site_description: "Wiki de jeu de rôle personnel"
 # sinon les liens internes et assets seront mal résolus sur GitHub Pages.
 site_url: "https://spigushe.github.io/etheria-cite-concepts/"
 
+# Thème Material pour MkDocs : https://squidfunk.github.io/mkdocs-material/
+# Personnalisation en trois palettes de couleurs, avec un toggle pour passer de l'une à l'autre.
 theme:
   name: material
   language: fr
   palette:
-    - scheme: default
-      primary: indigo
+    - scheme: epure
+      primary: white
+      accent: amber
       toggle:
         icon: material/brightness-7
-        name: "Passer en mode sombre"
-    - scheme: slate
-      primary: indigo
+        name: "Passer au style parchemin"
+    - scheme: default
+      primary: black
+      accent: amber
+      toggle:
+        icon: material/brightness-5
+        name: "Passer au style nocturne"
+    - scheme: mystere
+      primary: black
+      accent: amber
       toggle:
         icon: material/brightness-4
-        name: "Passer en mode clair"
+        name: "Passer au style épuré"
+  font:
+    text: "EB Garamond"
   features:
     - navigation.instant
     - navigation.tabs
@@ -34,6 +46,7 @@ plugins:
 
 extra_css:
   - stylesheets/callouts.css
+  - stylesheets/extra.css
 
 hooks:
   - scripts/version.py # injecte {{ version }} depuis CHANGELOG.md

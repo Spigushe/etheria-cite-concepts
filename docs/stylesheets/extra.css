@@ -1,0 +1,197 @@
+/*
+  Éthéria — 3 styles pilotés par le toggle de palette Material :
+  léger (1c "épuré") → moyen (1a "parchemin", scheme "default") → sombre
+  (1b "mystérieux"). L'ordre du cycle est défini par l'ordre des entrées
+  dans theme.palette (mkdocs.yml), pas ici.
+
+  Générique : aucune règle ne dépend du contenu d'une page précise.
+  À copier dans docs/stylesheets/extra.css puis référencer dans mkdocs.yml :
+
+    extra_css:
+      - stylesheets/callouts.css
+      - stylesheets/extra.css
+
+  Titres en Cormorant Garamond (chargée ci-dessous), corps en EB Garamond
+  (chargée via theme.font dans mkdocs.yml — Material gère le repli hors-ligne).
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&display=swap");
+
+/* ============================================================
+   1. VARIABLES PAR SCHÉMA
+   ============================================================ */
+
+/* ---- 1c "épuré" : clair, neutre, sans bordures marquées ---- */
+[data-md-color-scheme="epure"] {
+  --md-default-bg-color:            #fdfbf6;
+  --md-default-fg-color:            #1c1a16;
+  --md-default-fg-color--light:     #5a5442;
+  --md-default-fg-color--lighter:   #928a72;
+  --md-default-fg-color--lightest:  #e4ddc9;
+
+  --md-primary-fg-color:            #fdfbf6; /* fond du header */
+  --md-primary-fg-color--light:     #fdfbf6;
+  --md-primary-fg-color--dark:      #fdfbf6;
+  --md-primary-bg-color:            #1c1a16; /* texte/icônes du header */
+  --md-primary-bg-color--light:     #1c1a16;
+
+  --md-accent-fg-color:             #8a6a2e;
+  --md-accent-fg-color--transparent: rgba(138, 106, 46, 0.1);
+  --md-accent-bg-color:             #fdfbf6;
+
+  --md-typeset-a-color:             #8a6a2e;
+  --etheria-callout-surface:        #fdfbf6;
+  --etheria-header-border:          1px solid #e4ddc9;
+  --etheria-h1-border:              none;
+}
+
+/* ---- 1a "parchemin" (scheme "default") : référence intermédiaire ---- */
+[data-md-color-scheme="default"] {
+  --md-default-bg-color:            oklch(0.94 0.01 80);
+  --md-default-fg-color:            #241f16;
+  --md-default-fg-color--light:     #4a4438;
+  --md-default-fg-color--lighter:   #6b6250;
+  --md-default-fg-color--lightest:  rgba(36, 31, 22, 0.12);
+
+  --md-primary-fg-color:            #1c1a16;
+  --md-primary-fg-color--light:     #3a3428;
+  --md-primary-fg-color--dark:      #17140f;
+  --md-primary-bg-color:            #f3ead9;
+  --md-primary-bg-color--light:     #f3ead9;
+
+  --md-accent-fg-color:             #8a6a2e;
+  --md-accent-fg-color--transparent: rgba(138, 106, 46, 0.1);
+  --md-accent-bg-color:             #f3ead9;
+
+  --md-typeset-a-color:             #8a6a2e;
+  --etheria-callout-surface:        #f3ead9;
+  --etheria-header-border:          none;
+  --etheria-h1-border:              2px solid #2a2620;
+}
+
+/* ---- 1b "mystère" : sombre, accent or clair ---- */
+[data-md-color-scheme="mystere"] {
+  --md-default-bg-color:            #17140f;
+  --md-default-fg-color:            #f1e6c8;
+  --md-default-fg-color--light:     #c9bfa4;
+  --md-default-fg-color--lighter:   #a79c80;
+  --md-default-fg-color--lightest:  rgba(241, 230, 200, 0.12);
+
+  --md-primary-fg-color:            #0f0d09;
+  --md-primary-fg-color--light:     #17140f;
+  --md-primary-fg-color--dark:      #0f0d09;
+  --md-primary-bg-color:            #f1e6c8;
+  --md-primary-bg-color--light:     #f1e6c8;
+
+  --md-accent-fg-color:             #d9c48f;
+  --md-accent-fg-color--transparent: rgba(217, 196, 143, 0.12);
+  --md-accent-bg-color:             #17140f;
+
+  --md-typeset-a-color:             #d9c48f;
+  --etheria-callout-surface:        #201c14;
+  --etheria-header-border:          1px solid #3a3222;
+  --etheria-h1-border:              2px solid #3a3222;
+}
+
+/* ============================================================
+   2. RÈGLES PARTAGÉES (utilisent les variables ci-dessus)
+   ============================================================ */
+
+/* Material ne recalcule --md-typeset-color que pour son propre scheme
+   "slate" ; pour nos schémas custom on le force explicitement, sinon le
+   texte de corps reste sombre même sur fond sombre (illisible). */
+.md-typeset,
+.md-typeset p,
+.md-typeset li,
+.md-typeset blockquote {
+  color: var(--md-default-fg-color);
+}
+
+.md-typeset a,
+.md-typeset a:visited {
+  color: var(--md-typeset-a-color);
+}
+.md-typeset a:hover,
+.md-typeset a:focus {
+  filter: brightness(0.85);
+  text-decoration: underline;
+}
+
+body {
+  background-color: var(--md-default-bg-color);
+  background-image: repeating-linear-gradient(
+    0deg,
+    transparent 0 2px,
+    rgba(60, 50, 30, 0.015) 2px 3px
+  );
+}
+
+.md-header,
+.md-tabs {
+  border-bottom: var(--etheria-header-border);
+  box-shadow: none;
+}
+.md-header__title,
+.md-tabs__link {
+  font-family: "Cormorant Garamond", Georgia, serif;
+}
+.md-tabs__link--active {
+  color: var(--md-accent-fg-color);
+}
+
+.md-nav__link {
+  color: var(--md-default-fg-color--light);
+}
+.md-nav__title,
+.md-nav__link[for] {
+  color: var(--md-default-fg-color);
+}
+.md-nav__link--active,
+.md-nav__link:focus,
+.md-nav__link:hover {
+  color: var(--md-accent-fg-color);
+}
+.md-nav__item .md-nav__link--active {
+  font-weight: 700;
+}
+.md-nav__title {
+  font-weight: 700;
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6 {
+  font-family: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: var(--md-default-fg-color);
+}
+.md-typeset h1 {
+  border-bottom: var(--etheria-h1-border);
+  padding-bottom: 0.4rem;
+}
+.md-typeset h2 {
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  padding-bottom: 0.3rem;
+}
+
+.md-typeset table:not([class]) {
+  border: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.md-typeset pre > code,
+.md-typeset code {
+  background-color: var(--md-default-fg-color--lightest);
+}
+
+.md-search__form {
+  background-color: rgba(128, 128, 128, 0.15);
+}
+
+.md-top {
+  background-color: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+}

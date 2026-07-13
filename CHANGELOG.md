@@ -11,6 +11,10 @@ Le format suit [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/).
 - Export PDF de la documentation (plugin `mkdocs-to-pdf`), généré au
   build et publié sur la Release GitHub associée au tag, aux côtés
   d'une archive `.zip` du site complet.
+- Nouvelle identité visuelle « parchemin » : trois palettes (épuré,
+  parchemin, mystère) pilotées par le toggle de thème Material,
+  polices Cormorant Garamond (titres) et EB Garamond (corps),
+  nouvelle feuille `docs/stylesheets/extra.css`.
 
 ### Modifié
 
@@ -20,6 +24,10 @@ Le format suit [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/).
   compléter la Release et y attacher le PDF et l'archive du site.
 - Exclusion de `.venv`, `.mypy_cache` et `.ruff_cache` des vues
   fichiers/recherche de VS Code.
+- Callouts (`docs/stylesheets/callouts.css`) adaptés aux trois
+  nouvelles palettes : fond dérivé de `--callout-color` via
+  `color-mix`, bordures anguleuses, texte forcé sur
+  `--md-default-fg-color` pour rester lisible dans chaque style.
 
 ### Corrigé
 
