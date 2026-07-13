@@ -6,6 +6,8 @@ Le format suit [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/).
 
 ## [Non publié]
 
+## [0.8.0] - 2026-07-13
+
 ### Ajouté
 
 - Export PDF de la documentation (plugin `mkdocs-to-pdf`), généré au
