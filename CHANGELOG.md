@@ -26,7 +26,10 @@ un événement historique d'Éthéria pour une évolution majeure, et
 
 - PDF de documentation attaché à la Release GitHub renommé
   `etheria-jdr-<tag>.pdf` (au lieu de `documentation-<tag>.pdf`),
-  dans `.github/workflows/deploy.yml`.
+  dans `.github/workflows/deploy.yml`. Le fichier généré au build
+  suit désormais le même nom (`output_path: pdf/etheria-jdr.pdf`,
+  `mkdocs.yml`), pour que la copie dans le workflow n'ait plus besoin
+  de renommer un fichier `documentation.pdf`.
 - Templates PDF personnalisés (`back_cover.html.j2`, `styles.scss`)
   replacés dans `templates/` à la racine du projet plutôt que
   `docs/assets/templates/` ; `custom_template_path` retiré de la

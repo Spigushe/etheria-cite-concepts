@@ -46,7 +46,7 @@ plugins:
   - search
   - to-pdf:
       enabled_if_env: ENABLE_PDF_EXPORT
-      output_path: pdf/documentation.pdf
+      output_path: pdf/etheria-jdr.pdf
       back_cover: true
 
 extra_css:

@@ -55,7 +55,7 @@ jobs:
 
           TAG="${GITHUB_REF#refs/tags/}"
 
-          cp site/pdf/documentation.pdf \
+          cp site/pdf/etheria-jdr.pdf \
              "dist/etheria-jdr-${TAG}.pdf"
 
           cp site/assets/cartes/toutes-les-cartes.pdf \
