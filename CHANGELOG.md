@@ -24,6 +24,8 @@ numéro incrémental (`v0.10.1-eudemos-1`, `v0.10.2-eudemos-2`, ...).
   « Présentation » pointe directement dessus au lieu d'un sous-menu ;
   la page Système, qui s'y trouvait à côté du Pitch, rejoint
   l'Espace MJ (`mj/systeme.md`).
+- Logo de la page de dos (`templates/styles.scss`) : largeur portée
+  à `170mm` (au lieu de `120mm`), toujours dans le max `80%`.
 
 ## [0.10.1] - 2026-07-14 — Eudémos, correctif 1
 
