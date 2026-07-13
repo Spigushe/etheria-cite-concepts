@@ -11,11 +11,99 @@
       - stylesheets/callouts.css
       - stylesheets/extra.css
 
-  Titres en Cormorant Garamond (chargée ci-dessous), corps en EB Garamond
-  (chargée via theme.font dans mkdocs.yml — Material gère le repli hors-ligne).
+  Titres en Cormorant Garamond, corps en EB Garamond, code en Roboto
+  Mono. Les trois sont auto-hébergées dans docs/assets/fonts/ (fichiers
+  .woff2, sous-ensemble latin, licence SIL OFL 1.1 : voir le fichier
+  LICENSE.txt du dossier) : plus aucun appel à Google Fonts, ni au
+  build (mkdocs-to-pdf/WeasyPrint) ni au chargement de la page.
+  theme.font est mis à false dans mkdocs.yml pour désactiver le
+  chargement automatique de Material.
 */
 
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&display=swap");
+@font-face {
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/eb-garamond-400-normal.woff2") format("woff2");
+}
+@font-face {
+  font-family: "EB Garamond";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/eb-garamond-400-italic.woff2") format("woff2");
+}
+@font-face {
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/eb-garamond-700-normal.woff2") format("woff2");
+}
+@font-face {
+  font-family: "EB Garamond";
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/eb-garamond-700-italic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Cormorant Garamond";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/cormorant-garamond-500-normal.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Cormorant Garamond";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../fonts/cormorant-garamond-600-normal.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Cormorant Garamond";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/cormorant-garamond-700-normal.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/roboto-mono-400-normal.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Roboto Mono";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/roboto-mono-400-italic.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/roboto-mono-700-normal.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Roboto Mono";
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/roboto-mono-700-italic.woff2") format("woff2");
+}
+
+:root {
+  --md-text-font: "EB Garamond";
+  --md-code-font: "Roboto Mono";
+}
 
 /* ============================================================
    1. VARIABLES PAR SCHÉMA

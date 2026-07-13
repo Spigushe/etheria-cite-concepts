@@ -28,8 +28,10 @@ theme:
       toggle:
         icon: material/brightness-4
         name: "Passer au style épuré"
-  font:
-    text: "EB Garamond"
+  # Polices auto-hébergées (voir docs/stylesheets/extra.css et
+  # docs/assets/fonts/) : plus d'appel à Google Fonts au build ni au
+  # chargement de la page.
+  font: false
   features:
     - navigation.instant
     - navigation.tabs
@@ -45,8 +47,8 @@ plugins:
       output_path: pdf/documentation.pdf
 
 extra_css:
-  - stylesheets/callouts.css
-  - stylesheets/extra.css
+  - assets/stylesheets/callouts.css
+  - assets/stylesheets/extra.css
 
 hooks:
   - scripts/version.py # injecte {{ version }} depuis CHANGELOG.md

@@ -1,0 +1,12 @@
+Polices auto-hébergées dans ce dossier, toutes sous SIL Open Font License 1.1
+(texte complet : https://scripts.sil.org/OFL) :
+
+- EB Garamond      Copyright 2017 The EB Garamond Project Authors
+                    (https://github.com/octaviopardo/EBGaramond12)
+- Cormorant Garamond Copyright 2015 The Cormorant Project Authors
+                    (https://github.com/CatharsisFonts/Cormorant)
+- Roboto Mono      Copyright 2015 The Roboto Mono Project Authors
+                    (https://github.com/googlefonts/robotomono)
+
+Fichiers .woff2, sous-ensemble "latin" (couvre les caractères accentués
+français), récupérés via les paquets npm @fontsource officiels.

@@ -13,8 +13,8 @@ Le format suit [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/).
   d'une archive `.zip` du site complet.
 - Nouvelle identité visuelle « parchemin » : trois palettes (épuré,
   parchemin, mystère) pilotées par le toggle de thème Material,
-  polices Cormorant Garamond (titres) et EB Garamond (corps),
-  nouvelle feuille `docs/stylesheets/extra.css`.
+  polices Cormorant Garamond (titres), EB Garamond (corps) et Roboto
+  Mono (code), nouvelle feuille `docs/assets/stylesheets/extra.css`.
 
 ### Modifié
 
@@ -24,7 +24,7 @@ Le format suit [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/).
   compléter la Release et y attacher le PDF et l'archive du site.
 - Exclusion de `.venv`, `.mypy_cache` et `.ruff_cache` des vues
   fichiers/recherche de VS Code.
-- Callouts (`docs/stylesheets/callouts.css`) adaptés aux trois
+- Callouts (`docs/assets/stylesheets/callouts.css`) adaptés aux trois
   nouvelles palettes : fond dérivé de `--callout-color` via
   `color-mix`, bordures anguleuses, texte forcé sur
   `--md-default-fg-color` pour rester lisible dans chaque style.
@@ -42,6 +42,14 @@ Le format suit [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/).
   `mkdocs.yml` sans `to-pdf`) à utiliser en local via
   `python -m mkdocs serve -f mkdocs.dev.yml` ; `mkdocs.yml` reste
   utilisé tel quel par le CI. README mis à jour en conséquence.
+- Export PDF en échec (403) : l'appel à Google Fonts dans
+  `extra.css` (`@import`) était bloqué quand WeasyPrint le
+  rejouait pendant le rendu du PDF. Polices Cormorant Garamond, EB
+  Garamond et Roboto Mono auto-hébergées en `.woff2` dans
+  `docs/assets/fonts/` (licence SIL OFL 1.1) et déclarées via
+  `@font-face` dans `extra.css` ; `theme.font: false` dans
+  `mkdocs.yml` pour désactiver le chargement automatique par
+  Material — plus aucun appel réseau externe au build.
 
 ## [0.7.0] - 2026-07-13
 
