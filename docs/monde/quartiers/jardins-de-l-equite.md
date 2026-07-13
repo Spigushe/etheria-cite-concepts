@@ -37,12 +37,26 @@ vie à l'art difficile de la justice. Ils étudient les précédents, les
 systèmes de répartition, les méthodes de compensation, marqués par la
 recherche de justesse plutôt que d'égalité brute.
 
-Démis Tal, médiateur aveugle, est connu pour ses jugements
-exemplaires : on dit qu'il perçoit les déséquilibres dans la voix de
-ceux qui plaident. Lara d'Alve, cartographe sociale, trace les zones
-d'inégalité persistante pour guider les réformes. La Juge Silencieuse,
-entité muette, ne rend jamais de verdict, mais sa simple présence
-fait jaillir les aveux.
+Démis Tal est aveugle depuis toujours, ce qui ne l'a jamais empêché
+de rendre des jugements que les Arbitres citent encore des années
+après. Il affirme percevoir les déséquilibres directement dans la
+voix de ceux qui plaident devant lui, un léger tremblement, une
+hésitation de trop, et il n'a jamais eu besoin de voir un visage pour
+savoir qui, des deux parties, retenait une partie de la vérité.
+
+Lara d'Alve parcourt les Jardins un bâton de mesure à la main,
+notant patiemment les zones d'inégalité persistante pour guider les
+réformes à venir. Elle travaille lentement, presque à contre-courant
+de l'urgence que réclament souvent ceux qui viennent la voir, et elle
+répond à qui s'impatiente que la justice se trace comme un jardin, par
+la patience et la taille, jamais par un coup de hache.
+
+La Juge Silencieuse ne rend jamais de verdict. Elle se contente de se
+tenir face à qui vient plaider, et sa seule présence suffit,
+étrangement, à faire remonter des aveux que personne n'était venu
+formuler. Les Arbitres racontent qu'elle n'a jamais prononcé un mot
+depuis qu'on la connaît, et qu'ils préfèrent ne pas savoir ce qui
+arriverait le jour où elle le ferait.
 
 ## Dilemmes qu'on y affronte
 

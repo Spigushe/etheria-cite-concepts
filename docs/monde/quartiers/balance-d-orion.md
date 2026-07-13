@@ -42,12 +42,29 @@ conséquences, évaluent leurs choix quotidiennement et participent à
 des assemblées d'arbitrage en cas de désaccord sur la meilleure
 action à adopter.
 
-Éléon Rive, statisticienne morale, est connue pour avoir proposé un
-barème émotionnel standardisé pour les décisions difficiles. Zok,
-ancien médecin devenu régulateur public, pratique une euthanasie
-rituelle sur demande pour libérer des ressources. L'Oracle Paradoxal,
-intelligence conceptuelle, prédit l'impact à long terme des décisions
-majeures, mais exige un prix moral pour chaque consultation.
+Éléon Rive a passé une dizaine d'années à mettre au point un barème
+émotionnel standardisé, censé permettre de comparer objectivement la
+souffrance d'un inconnu à celle d'un proche. Son barème est
+aujourd'hui utilisé dans la moitié des assemblées d'arbitrage du
+quartier, ce dont elle tire une fierté discrète, même si elle admet,
+dans les rares moments où on la pousse à sortir de son objectivité,
+qu'elle n'a jamais réussi à l'appliquer sereinement à son propre cas.
+
+Zok a exercé la médecine avant de devenir régulateur public, et il
+pratique aujourd'hui une forme d'euthanasie rituelle sur demande,
+présentée officiellement comme un moyen de libérer des ressources
+pour ceux qui peuvent encore en bénéficier. Il ne force jamais
+personne, mais il ne dissuade jamais non plus, ce qui lui vaut d'être
+autant respecté que redouté selon le quartier d'où vient son
+interlocuteur.
+
+L'Oracle Paradoxal ne tient pas boutique au sens propre : on le
+trouve, ou plutôt il se laisse trouver, près du Point d'Inférence,
+quand une décision majeure approche. Il prédit l'impact à long terme
+des choix qu'on lui soumet, mais chaque consultation coûte à celui
+qui la demande une possibilité qu'il n'aura désormais plus jamais
+l'occasion de choisir lui-même. Peu de Maximisants le consultent deux
+fois.
 
 ## Dilemmes qu'on y affronte
 

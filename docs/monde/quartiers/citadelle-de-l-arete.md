@@ -38,12 +38,27 @@ un processus continu d'amélioration. Ils refusent les masques, les
 excuses, la perfection factice, cherchant avant tout la cohérence
 entre pensée, parole et action.
 
-Eudémos, pédagogue de terrain, ne corrige jamais ses élèves autrement
-que par l'exemple. Alea d'Ilion, ancienne voyageuse des sept
-quartiers, est revenue enseigner la vertu de la constance face à la
-diversité. La Sentinelle Blanche, silhouette silencieuse, veille aux
-frontières du quartier et ne parle que lorsqu'une vertu est niée
-trois fois.
+Eudémos ne corrige jamais ses élèves par la parole. Il agit devant
+eux, dans les situations les plus banales comme dans les plus
+difficiles, et laisse ce qu'il fait produire son propre effet. Des
+Pratiquants le suivent depuis des années sans qu'il leur ait jamais
+adressé un ordre ni un reproche direct, ce qui déroute toujours les
+nouveaux venus habitués à d'autres formes d'enseignement.
+
+Alea d'Ilion a parcouru les sept quartiers avant de revenir enseigner
+à la Citadelle la vertu de la constance. Elle en a rapporté une
+tolérance rare pour la diversité des façons de bien agir, elle qui a
+vu la justice se pratiquer autrement aux Jardins de l'Équité et
+l'engagement se vivre autrement à la Concorde du Pacte, et elle
+répète volontiers que la vertu qu'on n'a jamais mise à l'épreuve
+ailleurs reste une vertu de façade.
+
+La Sentinelle Blanche veille aux frontières du quartier sans jamais
+prendre la parole, sauf lorsqu'une vertu est niée trois fois devant
+elle. Les Pratiquants savent compter, et ceux qui s'aventurent à
+mentir ou à tricher devant elle surveillent nerveusement combien de
+fois ils l'ont déjà fait, sans jamais être certains du chiffre exact
+qu'elle retient de son côté.
 
 ## Dilemmes qu'on y affronte
 

@@ -6,6 +6,12 @@ Le format suit [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/).
 
 ## [Non publié]
 
+### Modifié
+
+- Portraits de PNJ des sept fiches de quartier (`docs/monde/quartiers/`)
+  étoffés : d'un résumé d'une phrase à un paragraphe par personnage,
+  avec anecdotes, lieux précis et tics de comportement.
+
 ## [0.9.0] - 2026-07-13
 
 ### Ajouté

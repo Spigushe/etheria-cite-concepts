@@ -40,12 +40,29 @@ Délibération, dont les décisions sont respectées tant qu'elles ont
 fixe, seulement des représentants tirés au sort pour des durées
 limitées.
 
-Civira, fondatrice du Pacte Vivant, milite pour l'adaptation
-constante des lois aux réalités sociales changeantes. Magister
-Halden, légiste obsessionnel, rédige inlassablement une « clause
-parfaite » que ses pairs n'ont encore jamais validée. Le Porte-Parole
-Silencieux, représentant élu, ne s'exprime jamais en son nom propre :
-il ne fait que relayer fidèlement les votes de sa communauté.
+Civira a fondé le Pacte Vivant après avoir vu un accord vieux de trois
+générations provoquer une famine que plus personne, à sa signature,
+n'aurait pu prévoir. Elle milite depuis pour que chaque loi porte en
+elle une date de révision, ce que les Sentinelles du Pacte Originel
+lui reprochent comme une trahison de l'idée même d'engagement
+durable. Elle répond toujours la même chose : un pacte qui ne peut
+plus être révisé n'est plus un pacte, c'est une prison qu'on a signée
+soi-même.
+
+Magister Halden occupe depuis des années le même pupitre de la Grande
+Halle, où il rédige une « clause parfaite » censée clore tous les
+débats à venir. Ses pairs ne l'ont jamais validée, et il ne semble pas
+franchement pressé qu'ils le fassent : on le soupçonne, sans oser le
+lui dire en face, de préférer la rédaction sans fin à la clôture
+définitive de son grand œuvre.
+
+Le Porte-Parole Silencieux change de visage chaque saison, puisque la
+charge tourne entre les Cercles de Délibération, mais la fonction
+reste identique d'une incarnation à l'autre : ne jamais parler en son
+nom propre, seulement relayer fidèlement les votes de sa communauté.
+Certains visiteurs, déstabilisés de ne recevoir en retour que la voix
+des autres, finissent par lui poser des questions personnelles rien
+que pour voir s'il cédera. Aucun n'a encore réussi.
 
 ## Dilemmes qu'on y affronte
 

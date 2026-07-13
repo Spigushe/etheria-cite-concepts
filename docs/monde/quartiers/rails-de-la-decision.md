@@ -38,11 +38,28 @@ dilemmes et à peser les pertes, ils portent souvent des marqueurs
 visibles de leurs décisions passées, des fragments d'objets, des
 symboles, des cicatrices.
 
-Argos l'Indécis vit depuis quarante ans au même carrefour, refusant
-de faire le choix qu'on attend de lui. Juma-Kei conduit le Tramway
-Fantôme, qui n'emprunte que les rails nés de décisions non assumées.
-Le Collecteur, entité masquée, note tous les choix des visiteurs et
-les archive dans la Bibliothèque des Conséquences.
+Argos l'Indécis vit depuis quarante ans au même carrefour, un vieil
+homme qui refuse toujours de faire le choix qu'on attend de lui. Les
+visiteurs lui demandent parfois pourquoi il ne bouge pas, et il
+répond invariablement qu'il attend une meilleure raison de partir
+qu'une raison de rester, ce qui, quarante ans plus tard, en dit sans
+doute plus long sur lui que n'importe quel aiguillage qu'il aurait pu
+actionner.
+
+Juma-Kei conduit le Tramway Fantôme, qui n'emprunte que les rails nés
+de décisions non assumées. Elle ne parle jamais avant d'apparaître,
+seulement au moment où elle se présente, et sa phrase est toujours la
+même : tant qu'on refuse de choisir, c'est elle qui choisit à la
+place. Les Aiguilleurs racontent qu'elle n'a jamais fait dérailler un
+tramway sur un rail qui n'existait pas encore la veille, ce qui
+suffit à la plupart pour ne jamais tester la limite.
+
+Le Collecteur, entité masquée dont personne n'a jamais vu le visage,
+note tous les choix des visiteurs et les archive dans la Bibliothèque
+des Conséquences. On raconte qu'il n'efface jamais rien, pas même les
+choix qu'on regrette d'avoir faits sous son regard, et que consulter
+sa propre fiche demande un courage que peu d'Aiguilleurs, pourtant
+formés dès l'enfance à décider vite, sont prêts à rassembler.
 
 ## Dilemmes qu'on y affronte
 

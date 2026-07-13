@@ -37,14 +37,34 @@ Les habitants, appelés les Rémanents, changent régulièrement de nom,
 de vêtements, parfois même de souvenir. Certains tiennent des
 « archives d'eux-mêmes », des carnets où ils consignent ce qu'ils
 croient être, au cas où ils changeraient trop. D'autres vivent sans
-souci de continuité, préférant la fluidité.
+souci de continuité, préférant la fluidité, et il n'est pas rare
+qu'un Rémanent croise son propre carnet des années plus tard sans en
+reconnaître une seule ligne.
 
-Théséis, archiviste obsessionnel, tente de tracer une cartographie
-précise des transformations du quartier, sans jamais y parvenir tout
-à fait. Naüm, un vieillard, affirme être plusieurs personnes
-simultanément, chacune parlant à travers lui selon les moments. La
-Matrice Ciselée, entité mi-humaine mi-conceptuelle, propose aux
-voyageurs de « refondre leur être » en échange de leurs souvenirs.
+Théséis vit dans une aile de la Chambre des Répliques qu'il a
+transformée en atelier de cartographie. On raconte partout la même
+histoire à son sujet, celle d'un homme qui a disparu dans un portail
+et n'est jamais tout à fait revenu, mais celui qui le visite trouve
+un archiviste bien réel, penché sur des cartes qui se corrigent
+toutes seules pendant la nuit. Il refuse d'authentifier quoi que ce
+soit sans un second avis, y compris sur sa propre identité, et
+répond à qui s'étonne de son grand âge apparent qu'il n'a jamais
+prétendu être un seul homme depuis le début.
+
+Naüm tient boutique près de la Place du Premier Nom, un vieillard qui
+affirme être plusieurs personnes à la fois, chacune parlant à travers
+lui selon l'heure ou l'humeur du moment. On le consulte volontiers
+pour un second avis contradictoire, puisqu'il en fournit rarement
+moins de deux, et les habitués savent qu'il vaut mieux ne jamais lui
+demander lequel de ses « lui » on a en face en ce moment précis,
+sous peine d'une réponse qui change en cours de phrase.
+
+La Matrice Ciselée n'a pas de maison fixe. Elle apparaît dans les
+ruelles à ceux qui doutent trop fort d'eux-mêmes et propose de
+« refondre leur être » contre leurs souvenirs, une offre que la
+plupart refusent après réflexion, mais que certains Rémanents fatigués
+d'eux-mêmes ont fini par accepter, sans qu'on sache toujours ce
+qu'ils sont devenus ensuite.
 
 ## Dilemmes qu'on y affronte
 

@@ -41,11 +41,26 @@ Leur manière d'être est détachée mais compatissante : ils n'essaient
 pas de convaincre, seulement de comprendre ceux qui n'en peuvent plus
 de chercher.
 
-Camüs, veilleur taciturne, collectionne des notes de suicide non
-envoyées. Sœn, poète muet, écrit à l'encre transparente sur des murs
-qu'on ne voit que lorsqu'on détourne le regard. La Femme au Sable,
-guide énigmatique, propose aux visiteurs d'oublier non ce qu'ils ont
-vécu, mais pourquoi ils l'ont vécu.
+Camüs a enseigné l'éthique pendant des années avant qu'une série de
+drames personnels ne lui arrache, un à un, chacun de ses dogmes. Il
+se tient depuis au bord du Puits de l'Écho Muet et collectionne des
+notes non envoyées, les siennes et celles que d'autres lui confient
+en passant. Il ne les lit jamais à voix haute. Il dit seulement que
+rien n'est absurde quand on l'assume, et qu'il a mis longtemps à s'y
+résoudre lui-même.
+
+Sœn n'a jamais parlé, ou plus personne ne se souvient de l'avoir
+entendu le faire. Il écrit à l'encre transparente sur les murs du
+quartier, des vers qu'on ne peut lire qu'en détournant le regard,
+comme si la vérité qu'ils contenaient refusait d'être regardée en
+face. Certains Déliés en font une lecture rituelle, chacun y trouvant
+des mots différents.
+
+La Femme au Sable guide les visiteurs qui viennent lui demander
+d'oublier. Elle ne propose jamais d'effacer ce qu'ils ont vécu, mais
+seulement pourquoi ils l'ont vécu, une nuance qu'elle tient à
+répéter avant chaque échange, parce qu'elle a vu trop de gens
+confondre les deux et le regretter ensuite.
 
 ## Dilemmes qu'on y affronte
 
