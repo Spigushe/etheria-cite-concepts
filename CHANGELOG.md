@@ -6,6 +6,14 @@ Le format suit [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/).
 
 ## [Non publié]
 
+### Ajouté
+
+- Page « Changelog » (`docs/changelog.md`) en toute dernière entrée de
+  la nav (`mkdocs.yml`) : ce fichier y est injecté tel quel via un
+  marqueur `{{ changelog }}` (`scripts/version.py`), pour rester
+  consultable comme annexe à la fois sur le site et en tout dernier
+  élément du PDF combiné généré par `mkdocs-to-pdf`.
+
 ### Modifié
 
 - Fiches des dix-neuf sources (`docs/resources-philo/sources/`) : paragraphe

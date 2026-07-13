@@ -138,3 +138,4 @@ nav:
           - Quêtes transversales: mj/campagne/quetes-transversales.md
           - Transitions entre quartiers: mj/campagne/transitions-entre-quartiers.md
       - Ressources MJ: mj/annexes/ressources-mj.md
+  - Changelog: changelog.md
