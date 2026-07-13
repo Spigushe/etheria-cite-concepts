@@ -1,7 +1,7 @@
 {
     "version": "0.2",
     "language": "fr",
-    "ignorePaths": ["*.css", "*.py", "*.yml", "requirements.txt"],
+    "ignorePaths": ["*.css", "*.scss", "*.py", "*.yml", "requirements.txt"],
     "dictionaries": ["fr-fr"],
     "import": ["@cspell/dict-fr-fr/cspell-ext.json"],
     "dictionaryDefinitions": [],

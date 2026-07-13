@@ -47,6 +47,8 @@ plugins:
   - to-pdf:
       enabled_if_env: ENABLE_PDF_EXPORT
       output_path: pdf/documentation.pdf
+      back_cover: true
+      custom_template_path: docs/assets/templates
 
 extra_css:
   - assets/stylesheets/callouts.css

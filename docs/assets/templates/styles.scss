@@ -1,0 +1,43 @@
+// Surcharge de la page de dos (back cover) générée par mkdocs-to-pdf.
+// Objectif : une page blanche, sans texte ni pied de page, avec le logo
+// affiché en grand format.
+
+@page back_cover {
+  background-color: #ffffff;
+
+  @top-right {
+    content: normal;
+  }
+
+  @bottom-left {
+    content: normal;
+  }
+
+  @bottom-center {
+    content: normal;
+  }
+
+  @bottom-right {
+    content: normal;
+  }
+}
+
+article#doc-back_cover {
+  background-color: #ffffff;
+
+  .wrapper {
+    background: #ffffff;
+  }
+
+  .logo-back-cover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 75%;
+      max-width: 75%;
+      height: auto;
+    }
+  }
+}

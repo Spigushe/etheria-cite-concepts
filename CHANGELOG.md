@@ -13,6 +13,13 @@ Le format suit [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/).
   marqueur `{{ changelog }}` (`scripts/version.py`), pour rester
   consultable comme annexe à la fois sur le site et en tout dernier
   élément du PDF combiné généré par `mkdocs-to-pdf`.
+- Page de dos (`back_cover: true`, `mkdocs.yml`) pour l'export PDF :
+  logo affiché en grand format sur fond blanc, sans pied de page, via
+  un template personnalisé (`docs/assets/templates/back_cover.html.j2`)
+  et une feuille de style dédiée
+  (`docs/assets/templates/styles.scss`, référencée par `cspell.json`),
+  rangés aux côtés des autres assets plutôt qu'à la racine du projet
+  (`custom_template_path` dans la config du plugin `to-pdf`).
 
 ### Modifié
 
