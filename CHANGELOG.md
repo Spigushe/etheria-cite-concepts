@@ -8,7 +8,21 @@ Le format suit [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/),
 et les numéros de version suivent la logique du
 [Semantic Versioning](https://semver.org/lang/fr/).
 
-## [0.10.0] - 2026-07-14
+Chaque tag Git associé à une version porte aussi un nom, à la manière
+d'une sortie de jeu : un PNJ pour une évolution mineure (`v0.10.0-eudemos`),
+un événement historique d'Éthéria pour une évolution majeure, et
+`-fix-<description>` pour un correctif.
+
+## [Non publié]
+
+### Ajouté
+
+- Règle de nommage des tags de version (voir en tête de ce fichier) :
+  un nom de PNJ pour une évolution mineure, un événement historique
+  d'Éthéria pour une évolution majeure, `-fix-<description>` pour un
+  correctif.
+
+## [0.10.0] - 2026-07-14 — Eudémos
 
 ### Ajouté
 
