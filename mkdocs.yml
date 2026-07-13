@@ -58,7 +58,7 @@ extra_javascript:
   - assets/javascripts/carrousel.js
 
 hooks:
-  - scripts/version.py # injecte {{ version }} depuis CHANGELOG.md
+  - scripts/changelog.py # injecte {{ changelog }} depuis CHANGELOG.md
   - scripts/cards.py # génère les cartes (PNG recto + PDF recto-verso)
 
 markdown_extensions:

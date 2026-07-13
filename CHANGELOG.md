@@ -22,6 +22,14 @@ un événement historique d'Éthéria pour une évolution majeure, et
   d'Éthéria pour une évolution majeure, `-fix-<description>` pour un
   correctif.
 
+### Retiré
+
+- Affichage de la version sur la page d'accueil (`docs/index.md`),
+  devenu redondant avec la page Changelog en annexe. Le hook qui le
+  générait (`scripts/version.py`) disparaît avec lui ; l'injection de
+  `{{ changelog }}` qu'il portait aussi est reprise par un nouveau
+  hook dédié, `scripts/changelog.py`.
+
 ## [0.10.0] - 2026-07-14 — Eudémos
 
 ### Ajouté

@@ -4,9 +4,6 @@
   <img src="assets/logo.png" alt="Blason d'Éthéria" width="220">
 </p>
 
-<!-- markdownlint-disable-next-line MD036 -->
-*Version {{ version }}*
-
 Bienvenue. Ce wiki suit la création et l'évolution d'un univers-campagne
 en cours, alors ne soyez pas surpris si une page change de forme d'une
 semaine à l'autre : tout part d'un document de travail qui se réécrit
