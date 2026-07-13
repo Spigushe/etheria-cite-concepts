@@ -3,25 +3,27 @@
 <!-- markdownlint-disable-next-line MD036 -->
 *Version {{ version }}*
 
-Bienvenue sur le wiki de la cité des concepts. Rien ici n'est figé :
-le contenu se réécrit à mesure que la campagne prend forme, depuis le
-document de travail LaTeX qui a servi de matériau de départ.
+Bienvenue. Ce wiki suit la création et l'évolution d'un univers-campagne
+en cours, alors ne soyez pas surpris si une page change de forme d'une
+semaine à l'autre : tout part d'un document de travail qui se réécrit
+ici au fur et à mesure que la cité prend corps.
 
-Pour commencer, deux entrées possibles selon ce que vous cherchez :
+Deux portes d'entrée selon ce qui vous attire :
 
-- [Pitch](monde/pitch.md) : le ton, les thèmes centraux, ce qui rend
-  la cité différente d'un décor de fantasy classique.
-- [Le monde](monde/introduction.md) : pourquoi Éthéria n'apparaît sur
-  aucune carte, et ce qu'on y vient vraiment chercher.
+- [Pitch](monde/pitch.md), pour le ton et les thèmes qui distinguent
+  Éthéria d'un décor de fantasy classique.
+- [Le monde](monde/introduction.md), pour comprendre pourquoi la
+  cité n'apparaît sur aucune carte, et ce qu'on y vient vraiment
+  chercher.
 
-Depuis là, [Quartiers](monde/quartiers/index.md) donne un aperçu des sept
-zones de la cité, chacune avec son ambiance propre. Les ressources
-pour approfondir un concept (Pédagogie), le système de jeu, et les
-sources philosophiques qui nourrissent chaque quartier ont chacune
-leur propre section dans le menu.
+Une fois posé, direction les [Quartiers](monde/quartiers/index.md) :
+sept zones, sept ambiances, un aperçu de chacune avant d'aller plus
+loin. Le menu garde aussi une section Ressources Philo pour creuser
+un concept ou un philosophe précis, et une section dédiée au système
+de jeu.
 
 > [!MJ] Vous menez la partie ?
-> L'onglet « Espace MJ » regroupe les aventures prêtes à jouer et les
-> conseils de mise en scène. Son contenu suppose d'avoir déjà lu les
-> pages ouvertes aux joueurs : mieux vaut ne pas commencer par là si
-> vous comptez aussi jouer une partie.
+> L'Espace MJ regroupe les aventures prêtes à jouer, les conseils de
+> mise en scène et les outils de sécurité de table. Il suppose d'avoir
+> déjà lu les pages ouvertes aux joueurs, donc mieux vaut garder cette
+> porte pour plus tard si vous comptez aussi jouer.

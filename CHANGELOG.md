@@ -28,6 +28,9 @@ Le format suit [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/).
   nouvelles palettes : fond dérivé de `--callout-color` via
   `color-mix`, bordures anguleuses, texte forcé sur
   `--md-default-fg-color` pour rester lisible dans chaque style.
+- Page d'accueil (`docs/index.md`) réécrite : ton plus direct pour
+  l'intro et les deux portes d'entrée (Pitch / Le monde), mention des
+  outils de sécurité de table dans l'encart Espace MJ.
 
 ### Corrigé
 
