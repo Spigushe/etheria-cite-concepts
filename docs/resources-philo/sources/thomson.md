@@ -21,4 +21,9 @@ la manière dont le mal se produit compte autant que son résultat.
 Aux Rails de la Décision, Thomson multiplie les situations limites
 qui empêchent de se contenter d'une règle simple. C'est elle qui
 transforme l'exemple isolé de Foot en un vrai laboratoire à dilemmes,
-que le quartier reprend directement dans ses épreuves.
+que le quartier reprend directement dans ses épreuves. Le Collecteur,
+qui archive dans la Bibliothèque des Conséquences tous les choix des
+visiteurs sans jamais en effacer aucun, conserve justement ce que les
+variantes de Thomson mettent en évidence : deux choix au résultat
+chiffré identique peuvent peser très différemment sur celui qui les a
+faits, selon la manière dont le mal s'est produit.

@@ -19,4 +19,9 @@ grecs (le courage, la justice, la tempérance et la prudence).
 À la Citadelle de l'Arété, Thomas d'Aquin prolonge la pensée
 d'Aristote sur l'habitude, tout en élargissant la liste des vertus à
 cultiver. C'est un bon exemple de la façon dont une même idée
-philosophique traverse les siècles en se transformant.
+philosophique traverse les siècles en se transformant. La Sentinelle
+Blanche, qui ne rompt son silence que lorsqu'une vertu est niée trois
+fois, veille sur un ensemble de qualités qui doit autant aux vertus
+cardinales des Grecs qu'aux vertus théologales que Thomas d'Aquin y a
+ajoutées, sans que le quartier ait jamais choisi entre les deux
+héritages.

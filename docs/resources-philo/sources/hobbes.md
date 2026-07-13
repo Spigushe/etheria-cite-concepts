@@ -20,7 +20,12 @@ craindre pour ne plus avoir peur de tout le reste.
 À la Concorde du Pacte, Hobbes pose la question de fond : pourquoi
 accepter d'obéir à quelqu'un d'autre plutôt que de faire chacun ce
 qu'on veut ? Sa réponse, un peu pessimiste, sert de point de départ à
-Locke et Rousseau, qui répondront chacun différemment.
+Locke et Rousseau, qui répondront chacun différemment. Magister
+Halden, qui rédige depuis des années une « clause parfaite » censée
+clore tous les débats, poursuit à sa manière le même projet que
+Hobbes : trouver la formule qui rendrait l'obéissance collective enfin
+incontestable, quitte à ce que ses pairs continuent de refuser de la
+valider.
 
 Au Labyrinthe des Identités, Hobbes ajoute une variante amusante au
 paradoxe du bateau de Thésée : si on reconstruit un second bateau

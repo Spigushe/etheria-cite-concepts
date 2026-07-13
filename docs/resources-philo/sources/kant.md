@@ -20,4 +20,9 @@ Aux Rails de la Décision, Kant fournit le contrepoids exact de la
 logique utilitariste de la Balance d'Orion : là où Bentham et Mill
 jugent une action à ses conséquences, Kant refuse de sacrifier une
 personne, même pour en sauver plusieurs, si l'acte lui-même est
-injustifiable en soi.
+injustifiable en soi. Argos l'Indécis, qui refuse depuis quarante ans
+de faire le choix qu'on attend de lui à son carrefour, peut se lire
+comme un Aiguilleur qui a pris Kant trop au sérieux : incapable de
+trouver une règle qu'il accepterait de voir appliquée en toute
+circonstance, il préfère ne rien trancher du tout plutôt que de
+transiger sur un principe.

@@ -21,3 +21,9 @@ un nombre infini de fois ? Pourrais-tu la vouloir quand même ?
 Au Gouffre d'Absyr, Nietzsche pousse le vertige un cran plus loin que
 Camus : ce n'est pas seulement le monde qui manque de sens tout fait,
 c'est nous qui devons désormais en inventer un, sans aide extérieure.
+Sœn, qui écrit à l'encre transparente des vers qu'on ne peut lire
+qu'en détournant le regard, illustre à sa manière cette création de
+valeurs sans garantie extérieure : personne ne lui a demandé d'écrire,
+personne ne peut authentifier ce que ses mots veulent dire, et c'est
+précisément pour cela que chaque lecteur y trouve quelque chose de
+différent.

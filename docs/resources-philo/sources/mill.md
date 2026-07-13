@@ -21,4 +21,8 @@ frustrante, vaut mieux qu'une vie confortable mais superficielle.
 À la Balance d'Orion, Mill complique utilement le calcul de Bentham :
 compter le bonheur ne suffit pas, il faut aussi se demander quel type
 de bonheur on compte. Ça ouvre la porte à des débats concrets dans le
-quartier, sur ce qui mérite vraiment d'être maximisé.
+quartier, sur ce qui mérite vraiment d'être maximisé, et ça met en
+tension directe le barème émotionnel standardisé d'Éléon Rive :
+un barème qui traite un plaisir simple comme équivalent à un plaisir
+complexe reproduit exactement le défaut que Mill reprochait à
+Bentham.

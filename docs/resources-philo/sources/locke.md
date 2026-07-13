@@ -21,7 +21,11 @@ qui fait qu'on reste soi-même.
 
 À la Concorde du Pacte, Locke apporte une réponse plus optimiste que
 Hobbes : on peut faire confiance à un gouvernement, mais seulement
-tant qu'il respecte ce pour quoi il a été choisi.
+tant qu'il respecte ce pour quoi il a été choisi. C'est cette
+condition de confiance révocable que Civira défend en militant pour
+des lois qui prévoient elles-mêmes leur propre révision : un pacte
+qui ne peut plus être remis en cause cesse, selon la même logique que
+celle de Locke, d'être un pacte légitime.
 
 Au Labyrinthe des Identités, son idée que la conscience fait
 l'identité personnelle prépare le terrain pour des penseurs plus

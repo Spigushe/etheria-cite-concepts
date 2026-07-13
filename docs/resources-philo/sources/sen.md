@@ -20,4 +20,9 @@ plus visibles et les plus urgentes.
 
 Aux Jardins de l'Équité, Sen apporte un correctif utile à Rawls et
 Nozick : au-delà des règles et des droits, il faut aussi regarder ce
-que les gens peuvent vraiment faire de leur vie, concrètement.
+que les gens peuvent vraiment faire de leur vie, concrètement. Démis
+Tal, le médiateur aveugle qui perçoit les déséquilibres à la voix de
+ceux qui plaident devant lui, applique sans le savoir cette exigence
+de Sen : il ne se contente jamais de vérifier qu'un droit existe sur
+le papier, il cherche ce que ce droit permet, ou empêche, réellement
+dans la vie de qui l'invoque.

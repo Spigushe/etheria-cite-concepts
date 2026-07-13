@@ -24,3 +24,9 @@ résultat final (une personne meurt) est le même.
 Aux Rails de la Décision, Foot pose la question fondatrice du
 quartier : est-ce vraiment la même chose de laisser un mal se
 produire et de le provoquer soi-même, même pour une bonne raison ?
+Le Tramway Fantôme que conduit Juma-Kei n'est pas un simple décor
+emprunté à l'exemple de Foot : il en reprend directement la logique,
+puisqu'il n'emprunte que les rails nés de décisions que quelqu'un a
+refusé de prendre, comme si le quartier tout entier avait retenu la
+leçon que Foot tirait de son levier, agir a un poids que s'abstenir
+n'a pas.

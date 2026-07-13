@@ -20,4 +20,10 @@ pourrait pas obtenir autrement.
 À la Citadelle de l'Arété, MacIntyre ancre la vertu dans du concret :
 pas une règle universelle valable partout et pour tous, mais quelque
 chose qui se construit et se transmet à l'intérieur d'une communauté
-et d'une pratique précises.
+et d'une pratique précises. Alea d'Ilion, qui a parcouru les sept
+quartiers avant de revenir enseigner la constance à la Citadelle,
+illustre malgré elle une objection que MacIntyre adresserait
+volontiers à une vertu trop abstraite : ce qu'elle a appris ailleurs
+ne vaut que rapporté à une pratique et une communauté données, jamais
+comme une règle qu'on transporterait telle quelle d'un quartier à
+l'autre.

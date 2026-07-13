@@ -21,4 +21,8 @@ surface.
 Au Labyrinthe des Identités, Ricœur donne un outil précis pour
 distinguer deux questions qu'on confond souvent : est-ce que je reste
 matériellement le même, et est-ce que je reste fidèle à moi-même ? Ce
-ne sont pas la même question.
+ne sont pas la même question. C'est exactement ce que les Rémanents
+tentent de faire en tenant leurs « archives d'eux-mêmes » : consigner
+non pas ce qui reste identique en eux, puisque presque rien ne l'est,
+mais ce à quoi ils restent fidèles malgré le changement, ce que
+Ricœur appellerait leur ipséité plutôt que leur mêmeté.

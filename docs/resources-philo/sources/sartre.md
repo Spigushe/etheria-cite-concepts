@@ -19,4 +19,9 @@ qu'on devient, sans excuse possible.
 Au Gouffre d'Absyr, Sartre ajoute une nuance à la pensée de Camus et
 Nietzsche : le monde est absurde au départ, oui, mais c'est justement
 cette absence de sens donné qui rend possible le projet humain, la
-liberté de se construire soi-même à travers ses actes.
+liberté de se construire soi-même à travers ses actes. Camüs, qui
+enseignait autrefois l'éthique avant qu'une série de drames
+personnels ne lui arrache ses certitudes une à une, incarne assez
+bien ce passage sartrien du désespoir à l'action : il ne prétend plus
+détenir de réponse, mais il continue, chaque jour, à se tenir au bord
+du Puits de l'Écho Muet plutôt que de renoncer tout à fait.

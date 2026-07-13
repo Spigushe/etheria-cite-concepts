@@ -22,7 +22,11 @@ que si elles profitent aussi aux plus défavorisés.
 
 Aux Jardins de l'Équité, Rawls fournit l'outil de pensée central du
 quartier : comment décider ce qui est juste sans se laisser guider
-par son propre intérêt ?
+par son propre intérêt ? La Grille de la Balance, ce passage qui
+exige de se soumettre au jugement collectif pour entrer dans le
+quartier, reprend à sa manière l'esprit du voile d'ignorance : se
+présenter devant elle, c'est accepter d'être jugé sans savoir à
+l'avance de quel côté du verdict on va se trouver.
 
 À la Concorde du Pacte, son idée d'un contrat imaginé derrière un
 voile d'ignorance renouvelle la question posée avant lui par Hobbes,

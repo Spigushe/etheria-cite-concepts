@@ -1,7 +1,10 @@
 # Singer
 
 Peter Singer est un philosophe australien contemporain. Il applique
-l'utilitarisme à des questions très concrètes de notre époque.
+l'utilitarisme à des questions très concrètes de notre époque. Son
+exemple le plus connu vient d'un article publié en 1972, « Famine,
+Affluence, and Morality », écrit en réaction à la crise humanitaire
+qui suivait la guerre de libération du Bangladesh.
 
 ## L'idée centrale
 
@@ -19,4 +22,9 @@ responsabilité morale face à une souffrance qu'on pourrait empêcher.
 À la Balance d'Orion, Singer pousse le raisonnement utilitariste de
 Bentham et Mill jusqu'à ses conséquences les plus dérangeantes : si
 on doit vraiment maximiser le bien, jusqu'où va notre responsabilité
-envers des inconnus qu'on ne verra jamais ?
+envers des inconnus qu'on ne verra jamais ? Zok, le régulateur public
+qui pratique une euthanasie rituelle pour libérer des ressources,
+applique cette même logique sans le confort de la distance : il ne
+s'agit plus d'un inconnu lointain qu'on pourrait facilement oublier,
+mais de quelqu'un présent devant lui, ce qui rend le calcul autrement
+plus difficile à assumer.

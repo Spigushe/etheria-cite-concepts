@@ -8,6 +8,12 @@ Le format suit [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/).
 
 ### Modifié
 
+- Fiches des dix-neuf sources (`docs/resources-philo/sources/`) : paragraphe
+  ajouté à chacune, reliant le philosophe à un PNJ, un lieu ou un dispositif
+  précis de son quartier (l'auto-icône de Bentham, le veilleur Camüs pour
+  Camus, l'Aiguilleur Argos pour Kant, la Grille de la Balance pour Rawls,
+  entre autres), en écho aux paragraphes symétriques ajoutés côté fiches de
+  concepts.
 - Fiches des sept concepts philosophiques (`docs/resources-philo/concepts/`) :
   paragraphe ajouté après la présentation du dilemme, reliant explicitement
   chaque PNJ du quartier au philosophe ou à la source qu'il incarne sans le

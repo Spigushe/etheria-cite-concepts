@@ -20,4 +20,9 @@ plan général, plutôt que comme des individus libres.
 Aux Jardins de l'Équité, Nozick incarne l'objection la plus radicale
 à Rawls : et si la justice n'était pas une question de répartition,
 mais uniquement de respect des droits acquis, peu importe le résultat
-final ?
+final ? Lara d'Alve, qui note patiemment les écarts et les
+inégalités persistantes pour guider les réformes, travaille dans une
+tension permanente avec cette objection : chaque ajustement qu'elle
+propose peut se lire, du point de vue de Nozick, comme une atteinte à
+ce que quelqu'un a honnêtement acquis, aussi injuste que le résultat
+final puisse par ailleurs sembler.

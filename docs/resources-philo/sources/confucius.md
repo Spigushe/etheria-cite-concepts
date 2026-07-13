@@ -20,4 +20,9 @@ répétés, qui façonnent peu à peu le caractère.
 À la Citadelle de l'Arété, Confucius élargit le regard au-delà de la
 tradition grecque : la vertu comme habitude se retrouve aussi, avec
 d'autres accents, dans une pensée née à l'autre bout du monde, sans
-lien direct avec Aristote.
+lien direct avec Aristote. La méthode d'Eudémos, qui n'enseigne
+jamais autrement que par l'exemple et ne corrige jamais ses élèves
+par la parole, doit moins à un raisonnement grec qu'à cette
+conviction confucéenne que le caractère se transmet par imitation des
+anciens et par la répétition des bons gestes, pas par un système de
+règles qu'on réciterait.

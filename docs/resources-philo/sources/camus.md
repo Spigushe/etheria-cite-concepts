@@ -21,4 +21,10 @@ Au Gouffre d'Absyr, Camus donne au quartier son ton exact : ni
 désespoir total, ni fausse consolation, mais une lucidité qui n'exclut
 pas d'agir quand même. C'est aussi lui qui rejette explicitement la
 solution de Kierkegaard (le saut dans la foi), qu'il considère comme
-une manière d'échapper à l'absurde plutôt que de l'affronter.
+une manière d'échapper à l'absurde plutôt que de l'affronter. Le
+veilleur du quartier, Camüs, porte son nom presque à dessein : ancien
+professeur d'éthique qui a renoncé à ses certitudes après une série
+de drames personnels, il a fini par choisir de rester au bord du
+Puits de l'Écho Muet plutôt que de partir, ce qui est à peu près la
+seule forme de révolte que le philosophe aurait reconnue comme
+honnête.

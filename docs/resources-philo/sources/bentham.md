@@ -1,7 +1,11 @@
 # Bentham
 
 Jeremy Bentham est un philosophe anglais du XVIIIe siècle. Il est
-considéré comme le fondateur de l'utilitarisme.
+considéré comme le fondateur de l'utilitarisme. Il a aussi laissé une
+excentricité qui continue d'amuser les visiteurs de l'University
+College de Londres : il avait demandé que son corps soit conservé et
+exposé après sa mort, sous forme d'« auto-icône » assise dans une
+vitrine, ce qu'on peut encore voir aujourd'hui.
 
 ## L'idée centrale
 
@@ -25,4 +29,10 @@ celui qui agit.
 
 À la Balance d'Orion, Bentham fournit le principe fondateur du
 quartier : peser les conséquences plutôt que les intentions. Mill et
-Singer, plus tard, viendront nuancer et prolonger son idée.
+Singer, plus tard, viendront nuancer et prolonger son idée. Le
+barème émotionnel standardisé qu'Éléon Rive propose aux Maximisants
+est une tentative directe de rendre opérationnel le calcul des
+plaisirs et des peines que Bentham avait esquissé : chiffrer une
+douleur pour pouvoir la comparer à une autre, quitte à se heurter à
+tout ce que ce genre de calcul laisse forcément de côté.
+

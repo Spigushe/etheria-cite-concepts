@@ -21,4 +21,9 @@ c'est cette continuité psychologique, pas le fait de rester
 Au Labyrinthe des Identités, Parfit pousse le paradoxe du bateau de
 Thésée jusqu'à son terme : et si la question « suis-je toujours moi »
 n'avait pas de réponse unique, parce que l'identité elle-même n'est
-pas la chose la plus importante à préserver ?
+pas la chose la plus importante à préserver ? Naüm, ce vieillard qui
+affirme être plusieurs personnes à la fois selon l'heure ou l'humeur
+du moment, vit presque littéralement l'hypothèse de Parfit : ce qui
+compte pour lui n'est jamais de rester rigoureusement le même, mais
+la continuité, aussi fragile soit-elle, qui relie chacune de ses
+voix aux autres.
