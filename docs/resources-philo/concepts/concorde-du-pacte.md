@@ -31,6 +31,15 @@ question, avec la possibilité d'y participer directement. Et parfois,
 un serment engage moralement tout en risquant de trahir une
 conviction profonde.
 
+À table, Civira et Magister Halden incarnent deux réponses opposées à
+la même inquiétude : elle défend des lois qui prévoient leur propre
+révision, lui rédige depuis des années une clause qui prétend clore
+le débat une fois pour toutes. Faire trancher les joueurs entre les
+deux, ou les mêler à un vote où le Porte-Parole Silencieux ne relaie
+que la voix de sa communauté sans jamais donner son avis personnel,
+met en scène très concrètement la question du consentement sans
+jamais avoir à citer Hobbes, Locke ou Rousseau à voix haute.
+
 ## Questions à poser à la table
 
 Peut-on être libre en obéissant à des règles ? Un accord tacite

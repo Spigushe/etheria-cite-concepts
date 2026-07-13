@@ -38,6 +38,18 @@ lui donner une justification de plus, un PNJ peut perdre tout espoir
 et forcer les autres à réagir face au vide. Ce qui compte alors,
 c'est d'agir non par croyance, mais par décision libre.
 
+Camüs, au bord du Puits de l'Écho Muet, est la voie d'entrée la plus
+directe vers Camus lui-même : il ne console jamais, mais il reste,
+ce qui suffit souvent à faire comprendre aux joueurs la différence
+entre le désespoir et la révolte lucide. Sœn permet d'aborder
+Nietzsche sans discours : ses vers à l'encre invisible n'ont pas de
+sens fixé d'avance, chaque joueur qui les lit y trouve autre chose,
+une façon très concrète de vivre l'idée qu'il faut créer son sens
+plutôt que le recevoir. La Femme au Sable, elle, met Sartre en
+pratique en creux : elle ne propose jamais d'effacer ce qu'on a
+vécu, seulement pourquoi, laissant intacte la liberté d'agir malgré
+tout.
+
 ## Questions à poser à la table
 
 Peut-on créer du sens dans un monde qui n'en offre pas ? La

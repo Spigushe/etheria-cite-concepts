@@ -33,6 +33,17 @@ peut opposer un groupe nombreux à un individu irremplaçable. Le même
 dilemme, légèrement modifié, peut revenir plus tard pour interroger
 la cohérence morale du joueur qui l'a déjà tranché une fois.
 
+Argos l'Indécis, immobile à son carrefour depuis quarante ans, montre
+aux joueurs ce que devient un Kantien qui ne trouve jamais de règle
+assez universelle pour agir : refuser de choisir devient lui-même un
+choix, et pas le plus confortable. Juma-Kei transforme directement le
+levier de Foot en scène jouable : elle n'apparaît que si un dilemme a
+été évité trop longtemps, ce qui punit à table l'indécision autant
+que le mauvais choix. Le Collecteur, enfin, permet de rejouer les
+variantes de Thomson dans la durée : sa Bibliothèque des Conséquences
+n'efface jamais rien, ce qui donne au MJ un moyen concret de faire
+revenir un choix ancien sous une forme légèrement différente.
+
 ## Questions à poser à la table
 
 Est-il pire d'agir ou de ne rien faire ? Peut-on porter la

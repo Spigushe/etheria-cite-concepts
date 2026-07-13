@@ -8,6 +8,14 @@ Le format suit [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/).
 
 ### Modifié
 
+- Fiches des sept concepts philosophiques (`docs/resources-philo/concepts/`) :
+  paragraphe ajouté après la présentation du dilemme, reliant explicitement
+  chaque PNJ du quartier au philosophe ou à la source qu'il incarne sans le
+  nommer (Singer et Mill dans la Balance d'Orion, Aristote, Confucius et
+  MacIntyre dans la Citadelle de l'Arêtê, Hobbes/Locke/Rousseau dans la
+  Concorde du Pacte, Camus, Nietzsche et Sartre dans le Gouffre d'Absyr, Sen
+  et Rawls dans les Jardins de l'Équité, Ricœur et Parfit dans le Labyrinthe
+  des Identités, Kant, Foot et Thomson dans les Rails de la Décision).
 - Portraits de PNJ des sept fiches de quartier (`docs/monde/quartiers/`)
   étoffés : d'un résumé d'une phrase à un paragraphe par personnage,
   avec anecdotes, lieux précis et tics de comportement.

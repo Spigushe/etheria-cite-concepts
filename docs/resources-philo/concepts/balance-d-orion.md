@@ -33,6 +33,18 @@ une personne-clé, abandonner une ressource ou un allié pour améliorer
 la situation globale, ou constater qu'une solution parfaitement
 efficace entraîne malgré tout une perte humaine ou éthique.
 
+Éléon Rive peut mettre ce calcul entre les mains des joueurs
+directement, en leur demandant d'évaluer une souffrance à l'aide de
+son barème standardisé, un exercice qui tourne vite au malaise dès
+qu'il faut chiffrer la douleur d'un proche. Zok illustre la version la
+plus radicale de la logique utilitariste, celle de Singer poussée à
+son terme : consulté, il ne dissuade jamais, ce qui met les joueurs
+face à une responsabilité qu'ils ne peuvent pas déléguer entièrement
+au calcul. Quant à l'Oracle Paradoxal, il matérialise le prix que
+Mill refusait de payer : chaque prédiction obtenue efface une
+possibilité, ce qui rend chaque consultation coûteuse même quand elle
+est juste.
+
 ## Questions à poser à la table
 
 Le bonheur des uns peut-il justifier la souffrance des autres ?

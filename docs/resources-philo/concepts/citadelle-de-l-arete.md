@@ -36,6 +36,17 @@ parfois, deux vertus s'opposent frontalement, honnêteté contre
 loyauté par exemple, ce qui force un choix qui ne satisfera jamais
 tout le monde.
 
+Eudémos est le moyen le plus direct de faire vivre Aristote et
+Confucius à la fois sans jamais les citer : il ne corrige jamais par
+la parole, seulement par l'exemple, ce qui oblige les joueurs à
+observer plutôt qu'à écouter. Alea d'Ilion permet d'introduire
+MacIntyre en mettant en scène le relativisme des pratiques : ce
+qu'elle a appris ailleurs ne s'applique jamais tel quel à la
+Citadelle, elle doit sans cesse le retraduire. La Sentinelle Blanche,
+enfin, offre un mécanisme de jeu très concret pour Thomas d'Aquin :
+elle ne parle qu'après trois manquements à une vertu, ce qui donne au
+MJ un compteur discret plutôt qu'un jugement immédiat.
+
 ## Questions à poser à la table
 
 Peut-on être bon sans le vouloir consciemment ? Une action vertueuse

@@ -30,6 +30,18 @@ changement radical de corps, de rôle ou de souvenir, ce qui ouvre sur
 un dilemme classique du quartier : sauver une personne altérée mais
 fidèle à ses idées, ou une autre inchangée mais devenue hostile.
 
+Concrètement, à table, Naüm peut servir de miroir grossissant à ce
+dilemme : consulté sur une question d'identité, il répond souvent par
+deux avis contradictoires, sans jamais préciser lequel de ses « lui »
+vient de parler. Théséis, de son côté, permet d'incarner Ricœur sans
+le nommer : demandez-lui d'authentifier un objet ou une personne, et
+il refusera tant qu'un second avis n'aura pas confirmé le sien, une
+manière très concrète de distinguer ce qui reste identique de ce qui
+reste fidèle. La Matrice Ciselée, enfin, offre un choix cornélien
+tout fait : refonder son être contre ses souvenirs, l'occasion
+parfaite de faire vivre Parfit à la table sans jamais prononcer son
+nom.
+
 ## Questions à poser à la table
 
 Qu'est-ce qui fait que tu es encore toi ? Si l'on remplace

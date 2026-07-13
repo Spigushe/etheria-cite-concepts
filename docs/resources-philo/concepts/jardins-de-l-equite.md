@@ -30,6 +30,17 @@ qu'il a gagné et un autre qui réclame ce qu'il mérite moralement.
 Parfois, un jugement juste viole la loi, et un verdict légal choque
 la morale.
 
+Démis Tal peut incarner Sen à la table sans jamais prononcer le mot
+« capabilité » : aveugle, il juge à la voix, ce qui pousse les
+joueurs à décrire concrètement ce que chaque partie peut, ou ne peut
+pas, réellement faire de ses droits. Lara d'Alve met Rawls en
+mouvement plutôt qu'en principe abstrait : ses relevés de terrain
+transforment le voile d'ignorance en question pratique, quelle
+réforme corriger en premier, avec quelles ressources limitées. La
+Grille de la Balance, enfin, est un excellent dispositif de jeu pour
+faire vivre littéralement l'expérience du voile : personne n'y entre
+en sachant d'avance de quel côté du jugement il se trouvera.
+
 ## Questions à poser à la table
 
 Une société juste doit-elle garantir l'égalité ou la liberté ? Le
