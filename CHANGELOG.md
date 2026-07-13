@@ -11,6 +11,10 @@ Le format suit [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/).
 - Portraits de PNJ des sept fiches de quartier (`docs/monde/quartiers/`)
   étoffés : d'un résumé d'une phrase à un paragraphe par personnage,
   avec anecdotes, lieux précis et tics de comportement.
+- `docs/monde/histoire.md` et `docs/monde/personnages.md` réécrits en
+  prose continue : les listes à puces et citations isolées laissent
+  place à des paragraphes liés entre eux, avec davantage de renvois
+  croisés entre cycles, figures, factions et quartiers.
 
 ## [0.9.0] - 2026-07-13
 
