@@ -18,6 +18,10 @@ Le format suit [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/).
 - Carrousel JS (`docs/assets/javascripts/carrousel.js`) et styles
   associés (`docs/assets/stylesheets/extra.css`) pour parcourir les
   rectos de cartes directement dans la page.
+- PDF combiné `toutes-les-cartes.pdf` (les sept jeux de quartier à la
+  suite, dans l'ordre canonique de la page Quartiers), généré par
+  `scripts/cards.py` et publié comme asset de Release aux côtés du
+  PDF de documentation (`.github/workflows/deploy.yml`).
 - Nouvelles dépendances `pypdfium2` et `reportlab` (génération des
   PNG/PDF), stubs `types-PyYAML`, `types-pytz`, `types-reportlab`
   pour `ty`.
@@ -33,6 +37,13 @@ Le format suit [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/).
 - Logo d'Éthéria (`docs/assets/logo.png`) ajouté en en-tête du README
   et de la page d'accueil du wiki, et utilisé comme `logo`/`favicon`
   du thème Material (`mkdocs.yml`).
+- Liens de téléchargement des PDF de cartes remplacés par des
+  marqueurs `{{ cartes_pdf: <quartier> }}` / `{{ cartes_pdf_global }}`
+  (`scripts/cards.py`) : générés en URL absolue pour rester
+  compatibles avec la résolution de liens de `mkdocs-to-pdf`, et
+  masqués dans `documentation.pdf` via une règle `@media print`
+  (`extra.css`, classe `masque-en-pdf`) puisqu'un lien de
+  téléchargement n'a pas de sens dans un PDF déjà imprimé.
 
 ## [0.8.0] - 2026-07-13
 

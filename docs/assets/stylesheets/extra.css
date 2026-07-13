@@ -452,3 +452,13 @@ body.carte-lightbox-ouverte {
     position: absolute;
   }
 }
+
+/* Liens de téléchargement des PDF de cartes (voir scripts/cards.py) :
+   utiles sur le site, dénués de sens à l'intérieur d'un PDF déjà
+   imprimé (documentation.pdf, généré via mkdocs-to-pdf/WeasyPrint,
+   qui rend par défaut avec le média CSS "print"). */
+@media print {
+  .masque-en-pdf {
+    display: none;
+  }
+}

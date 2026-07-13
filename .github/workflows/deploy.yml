@@ -58,6 +58,9 @@ jobs:
           cp site/pdf/documentation.pdf \
              "dist/documentation-${TAG}.pdf"
 
+          cp site/assets/cartes/toutes-les-cartes.pdf \
+             "dist/cartes-a-imprimer-${TAG}.pdf"
+
           (
             cd site
             zip -r "../dist/site-${TAG}.zip" .
@@ -79,6 +82,7 @@ jobs:
 
           gh release upload "$TAG" \
             dist/documentation-${TAG}.pdf \
+            dist/cartes-a-imprimer-${TAG}.pdf \
             dist/site-${TAG}.zip \
             --clobber
 

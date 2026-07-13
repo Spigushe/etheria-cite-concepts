@@ -22,7 +22,7 @@ import re
 from pathlib import Path
 from typing import TypedDict
 
-import pypdfium2 as pdfium
+import pypdfium2 as pdfium  # type: ignore[import-untyped]
 from mkdocs.structure.files import File
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.units import mm
@@ -255,11 +255,37 @@ def _cell_origin(index, mirrored):
     return x, y
 
 
-def render_deck_pdf(deck):
-    """Jeu complet recto-verso (grille A4), retourné en bytes."""
+# Ordre canonique des quartiers (celui de monde/quartiers/index.md,
+# repris dans ressources-mj.md) : utilisé pour le PDF combiné, pour
+# que son sommaire ne dépende pas de l'ordre d'insertion dans le JSON.
+QUARTIER_ORDER = [
+    "labyrinthe-des-identites",
+    "concorde-du-pacte",
+    "balance-d-orion",
+    "gouffre-d-absyr",
+    "rails-de-la-decision",
+    "jardins-de-l-equite",
+    "citadelle-de-l-arete",
+]
+
+
+def _ordered_slugs():
+    connus = list(DECKS)
+    manquants = [s for s in connus if s not in QUARTIER_ORDER]
+    if manquants:
+        raise RuntimeError(
+            "QUARTIER_ORDER (scripts/cards.py) ne connaît pas le(s) "
+            f"quartier(s) suivant(s), présents dans decks-cartes.json : "
+            f"{', '.join(manquants)}. Ajoutez-les à QUARTIER_ORDER."
+        )
+    return [s for s in QUARTIER_ORDER if s in connus]
+
+
+def _write_deck_pages(c, deck):
+    """Dessine les pages recto puis verso d'un deck sur un canvas déjà
+    ouvert, sans le sauvegarder (pour pouvoir enchaîner plusieurs
+    decks sur un même document, voir render_all_decks_pdf)."""
     blason = ImageReader(str(deck["blason"]))
-    buf = io.BytesIO()
-    c = canvas.Canvas(buf, pagesize=A4)
 
     per_page = COLS * ROWS
     cards = deck["cards"]
@@ -276,6 +302,23 @@ def render_deck_pdf(deck):
             _draw_back(c, x, y, family, title, text, deck["quartier"])
         c.showPage()
 
+
+def render_deck_pdf(deck):
+    """Jeu complet recto-verso d'un seul quartier (grille A4), en bytes."""
+    buf = io.BytesIO()
+    c = canvas.Canvas(buf, pagesize=A4)
+    _write_deck_pages(c, deck)
+    c.save()
+    return buf.getvalue()
+
+
+def render_all_decks_pdf():
+    """Jeu complet recto-verso de tous les quartiers, à la suite les
+    uns des autres dans l'ordre canonique, en un seul PDF."""
+    buf = io.BytesIO()
+    c = canvas.Canvas(buf, pagesize=A4)
+    for slug in _ordered_slugs():
+        _write_deck_pages(c, DECKS[slug])
     c.save()
     return buf.getvalue()
 
@@ -304,6 +347,10 @@ def render_card_back_png(deck, family, title, text, dpi=150):
 
 
 def on_files(files, config):
+    all_bytes = render_all_decks_pdf()
+    all_uri = "assets/cartes/toutes-les-cartes.pdf"
+    files.append(File.generated(config, all_uri, content=all_bytes))
+
     for slug, deck in DECKS.items():
         pdf_bytes = render_deck_pdf(deck)
         files.append(
@@ -338,9 +385,37 @@ def on_files(files, config):
 
 _CARTES_MARKER_RE = re.compile(r"\{\{\s*cartes:\s*([a-z0-9-]+)\s*/\s*([a-z]+)\s*\}\}")
 
+# {{ cartes_pdf: <slug> }} et {{ cartes_pdf_global }} : liens de
+# téléchargement des PDF imprimables. Deux particularités :
+#
+# 1. Générés en URL absolue (via site_url) plutôt qu'en lien relatif,
+#    parce que mkdocs-to-pdf tente de résoudre tout lien relatif qui
+#    ne pointe pas vers une page ou une image comme une ancre interne
+#    au document fusionné, et échoue sur les liens vers de vrais
+#    fichiers à télécharger (voir
+#    mkdocs_to_pdf.preprocessor.links.transform.transform_href, qui
+#    ne laisse passer que les URL absolues ou les .png).
+#
+# 2. Générés en HTML brut avec la classe masque-en-pdf (voir
+#    extra.css, règle @media print), pour ne pas apparaître dans
+#    documentation.pdf : un lien de téléchargement n'a aucun sens à
+#    l'intérieur d'un PDF déjà imprimé. WeasyPrint (utilisé par
+#    mkdocs-to-pdf) rend avec le média CSS "print" par défaut, donc
+#    @media print masque ces liens à l'export sans les cacher sur le
+#    site web (média "screen"/"all").
+_CARTES_PDF_MARKER_RE = re.compile(r"\{\{\s*cartes_pdf:\s*([a-z0-9-]+)\s*\}\}")
+_CARTES_PDF_GLOBAL_MARKER = "{{ cartes_pdf_global }}"
+
 
 def _escape_cell(text):
     return text.replace("|", "\\|")
+
+
+def _absolute_url(config, path):
+    base = config["site_url"] or "/"
+    if not base.endswith("/"):
+        base += "/"
+    return base + path
 
 
 def _render_family_section(slug, family):
@@ -373,7 +448,7 @@ def _render_family_section(slug, family):
 
 
 def on_page_markdown(markdown, page, config, files):
-    def _replace(match):
+    def _replace_famille(match):
         slug, family = match.group(1), match.group(2)
         if slug not in DECKS:
             connus = ", ".join(sorted(DECKS))
@@ -391,4 +466,30 @@ def on_page_markdown(markdown, page, config, files):
             )
         return _render_family_section(slug, family)
 
-    return _CARTES_MARKER_RE.sub(_replace, markdown)
+    def _replace_pdf(match):
+        slug = match.group(1)
+        if slug not in DECKS:
+            connus = ", ".join(sorted(DECKS))
+            raise RuntimeError(
+                f"{page.file.src_uri} : quartier inconnu « {slug} » dans "
+                f"{{{{ cartes_pdf: {slug} }}}} (quartiers connus : {connus})."
+            )
+        url = _absolute_url(config, f"assets/cartes/{slug}.pdf")
+        texte = "Télécharger le jeu complet en PDF, prêt à imprimer recto-verso"
+        return f'<p class="masque-en-pdf"><a href="{url}">{texte}</a></p>'
+
+    markdown = _CARTES_MARKER_RE.sub(_replace_famille, markdown)
+    markdown = _CARTES_PDF_MARKER_RE.sub(_replace_pdf, markdown)
+
+    if _CARTES_PDF_GLOBAL_MARKER in markdown:
+        url = _absolute_url(config, "assets/cartes/toutes-les-cartes.pdf")
+        texte = (
+            "Télécharger les sept jeux de cartes en un seul PDF, prêt à "
+            "imprimer recto-verso"
+        )
+        markdown = markdown.replace(
+            _CARTES_PDF_GLOBAL_MARKER,
+            f'<p class="masque-en-pdf"><a href="{url}">{texte}</a></p>',
+        )
+
+    return markdown

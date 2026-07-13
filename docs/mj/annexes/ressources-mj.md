@@ -41,9 +41,11 @@ Chaque quartier a son propre jeu de dix-huit cartes (cinq événements,
 cinq idées, quatre pactes, quatre lieux), dans l'ordre de la page
 [Quartiers](../../monde/quartiers/index.md).
 
+{{ cartes_pdf_global }}
+
 ### Le Labyrinthe des Identités
 
-[Télécharger le jeu complet en PDF, prêt à imprimer recto-verso](../../assets/cartes/labyrinthe-des-identites.pdf)
+{{ cartes_pdf: labyrinthe-des-identites }}
 
 #### Cartes d'événements
 
@@ -63,7 +65,7 @@ cinq idées, quatre pactes, quatre lieux), dans l'ordre de la page
 
 ### La Concorde du Pacte
 
-[Télécharger le jeu complet en PDF, prêt à imprimer recto-verso](../../assets/cartes/concorde-du-pacte.pdf)
+{{ cartes_pdf: concorde-du-pacte }}
 
 #### Cartes d'événements
 
@@ -83,7 +85,7 @@ cinq idées, quatre pactes, quatre lieux), dans l'ordre de la page
 
 ### La Balance d'Orion
 
-[Télécharger le jeu complet en PDF, prêt à imprimer recto-verso](../../assets/cartes/balance-d-orion.pdf)
+{{ cartes_pdf: balance-d-orion }}
 
 #### Cartes d'événements
 
@@ -103,7 +105,7 @@ cinq idées, quatre pactes, quatre lieux), dans l'ordre de la page
 
 ### Le Gouffre d'Absyr
 
-[Télécharger le jeu complet en PDF, prêt à imprimer recto-verso](../../assets/cartes/gouffre-d-absyr.pdf)
+{{ cartes_pdf: gouffre-d-absyr }}
 
 #### Cartes d'événements
 
@@ -123,7 +125,7 @@ cinq idées, quatre pactes, quatre lieux), dans l'ordre de la page
 
 ### Les Rails de la Décision
 
-[Télécharger le jeu complet en PDF, prêt à imprimer recto-verso](../../assets/cartes/rails-de-la-decision.pdf)
+{{ cartes_pdf: rails-de-la-decision }}
 
 #### Cartes d'événements
 
@@ -143,7 +145,7 @@ cinq idées, quatre pactes, quatre lieux), dans l'ordre de la page
 
 ### Les Jardins de l'Équité
 
-[Télécharger le jeu complet en PDF, prêt à imprimer recto-verso](../../assets/cartes/jardins-de-l-equite.pdf)
+{{ cartes_pdf: jardins-de-l-equite }}
 
 #### Cartes d'événements
 
@@ -163,7 +165,7 @@ cinq idées, quatre pactes, quatre lieux), dans l'ordre de la page
 
 ### La Citadelle de l'Arété
 
-[Télécharger le jeu complet en PDF, prêt à imprimer recto-verso](../../assets/cartes/citadelle-de-l-arete.pdf)
+{{ cartes_pdf: citadelle-de-l-arete }}
 
 #### Cartes d'événements
 
