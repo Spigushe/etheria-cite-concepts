@@ -22,6 +22,12 @@ un événement historique d'Éthéria pour une évolution majeure, et
   d'Éthéria pour une évolution majeure, `-fix-<description>` pour un
   correctif.
 
+### Modifié
+
+- PDF de documentation attaché à la Release GitHub renommé
+  `etheria-jdr-<tag>.pdf` (au lieu de `documentation-<tag>.pdf`),
+  dans `.github/workflows/deploy.yml`.
+
 ### Retiré
 
 - Affichage de la version sur la page d'accueil (`docs/index.md`),
