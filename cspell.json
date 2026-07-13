@@ -1,7 +1,7 @@
 {
     "version": "0.2",
     "language": "fr",
-    "ignorePaths": ["mkdocs.yml", "mkdocs.dev.yml"],
+    "ignorePaths": ["*.css", "*.py", "*.yml", "requirements.txt"],
     "dictionaries": ["fr-fr"],
     "import": ["@cspell/dict-fr-fr/cspell-ext.json"],
     "dictionaryDefinitions": [],
@@ -93,9 +93,12 @@
         "Équitania",
         "Sophon",
         "Éthérialistes",
-        "ruff",
-        "precises",
-        "reconcevoir"
+        "cards",
+        "evenement",
+        "idee",
+        "identites",
+        "thesee",
+        "align"
     ],
     "ignoreWords": []
 }

@@ -50,8 +50,12 @@ extra_css:
   - assets/stylesheets/callouts.css
   - assets/stylesheets/extra.css
 
+extra_javascript:
+  - assets/javascripts/carrousel.js
+
 hooks:
   - scripts/version.py # injecte {{ version }} depuis CHANGELOG.md
+  - scripts/cards.py # génère les cartes (PNG recto + PDF recto-verso)
 
 markdown_extensions:
   - scripts.obsidian_callouts # syntaxe > [!TYPE] Titre (fichier local du repo)
@@ -120,7 +124,6 @@ nav:
   - Espace MJ:
       - Accueil MJ: mj/index.md
       - Fiche de personnage: mj/annexes/fiche-personnage.md
-      - Ressources MJ: mj/annexes/ressources-mj.md
       - Campagne:
           - Vue d'ensemble: mj/campagne/index.md
           - Le Labyrinthe des Identités: mj/campagne/labyrinthe-des-identites.md
@@ -132,3 +135,4 @@ nav:
           - La Citadelle de l'Arété: mj/campagne/citadelle-de-l-arete.md
           - Quêtes transversales: mj/campagne/quetes-transversales.md
           - Transitions entre quartiers: mj/campagne/transitions-entre-quartiers.md
+      - Ressources MJ: mj/annexes/ressources-mj.md

@@ -1,0 +1,674 @@
+{
+  "labyrinthe-des-identites": {
+    "quartier": "Le Labyrinthe des Identités",
+    "blason": "1-bateau-de-thesee.png",
+    "cartes": [
+      {
+        "famille": "evenement",
+        "titre": "Le Nom Contesté",
+        "texte": "Un Chien du Nom s'arrête net devant vous et penche la tête. Quelqu'un dans le groupe doit prouver, séance tenante, qu'il porte bien le nom qu'il revendique."
+      },
+      {
+        "famille": "evenement",
+        "titre": "Le Double à la Porte",
+        "texte": "Un Sosie Vide franchit le seuil sous les traits exacts d'un des Aventuriers et s'installe parmi vous sans un mot. Personne d'autre ne semble le remarquer."
+      },
+      {
+        "famille": "evenement",
+        "titre": "La Question d'Ariadnos",
+        "texte": "Le Gardien apparaît et pose sa question habituelle à un seul membre du groupe, à voix basse : « qui es-tu, maintenant ? ». Une réponse honnête coûte cher, une réponse évasive aussi."
+      },
+      {
+        "famille": "evenement",
+        "titre": "Le Carnet Retrouvé",
+        "texte": "Un carnet d'archive tombé d'un Rémanent décrit un des Aventuriers en des termes qu'il ne reconnaît pas, datés d'avant son arrivée à Éthéria."
+      },
+      {
+        "famille": "evenement",
+        "titre": "L'Offre de la Matrice Ciselée",
+        "texte": "L'entité propose de refondre un souvenir douloureux contre un fragment de mémoire qu'elle garde pour elle. Elle ne dit jamais ce qu'elle en fait ensuite."
+      },
+      {
+        "famille": "idee",
+        "titre": "Le Récit qui Tient Lieu de Bateau",
+        "texte": "« Le bateau reste le même tant qu'on continue de l'appeler ainsi. »"
+      },
+      {
+        "famille": "idee",
+        "titre": "Le Vécu contre le Reconstruit",
+        "texte": "« Ce qui est vécu compte plus que ce qui est reconstruit. »"
+      },
+      {
+        "famille": "idee",
+        "titre": "Un Voyage, pas une Planche",
+        "texte": "« Je ne suis pas une planche. Je suis un voyage. »"
+      },
+      {
+        "famille": "idee",
+        "titre": "Deux Navires, Aucun Mensonge",
+        "texte": "« Deux navires peuvent naître d'un seul, et aucun des deux ne ment. »"
+      },
+      {
+        "famille": "idee",
+        "titre": "La Mémoire Suffit",
+        "texte": "« La mémoire suffit à faire un moi. La matière n'y suffit jamais. »"
+      },
+      {
+        "famille": "pacte",
+        "titre": "Le Pacte du Nom Gardé",
+        "texte": "Le signataire s'engage à ne jamais renier le nom qu'il porte devant les autres, même sous la contrainte."
+      },
+      {
+        "famille": "pacte",
+        "titre": "Le Serment de Théséis",
+        "texte": "Le signataire aide l'archiviste à cataloguer une transformation qu'il a observée, en échange d'un accès à ses archives privées."
+      },
+      {
+        "famille": "pacte",
+        "titre": "Le Contrat de la Matrice Ciselée",
+        "texte": "Le signataire cède un souvenir précis contre un trait nouveau. Le souvenir est écrit à voix haute puis effacé du carnet devant témoin."
+      },
+      {
+        "famille": "pacte",
+        "titre": "Le Vœu du Masque Fendu",
+        "texte": "Le signataire jure de révéler publiquement, un jour, une contradiction intime qu'il tait encore."
+      },
+      {
+        "famille": "lieu",
+        "titre": "La Place du Premier Nom",
+        "texte": "Chaque jour, une nouvelle statue y remplace la précédente. Personne ne se souvient d'avoir vu la précédente disparaître."
+      },
+      {
+        "famille": "lieu",
+        "titre": "La Chambre des Répliques",
+        "texte": "Un musée de copies dont les originaux restent introuvables. Certaines copies affirment être l'original."
+      },
+      {
+        "famille": "lieu",
+        "titre": "Le Lac des Réfractions",
+        "texte": "Sa surface ne reflète pas l'image, mais l'intention profonde de celui qui s'y penche."
+      },
+      {
+        "famille": "lieu",
+        "titre": "Le Passage du Masque Fendu",
+        "texte": "Ne s'ouvre que lorsqu'un voyageur avoue à voix haute une contradiction intime."
+      }
+    ]
+  },
+  "balance-d-orion": {
+    "quartier": "La Balance d'Orion",
+    "blason": "3-utilitarisme.png",
+    "cartes": [
+      {
+        "famille": "evenement",
+        "titre": "Le Verdict du Point d'Inférence",
+        "texte": "Les balances monumentales s'arrêtent net sur votre groupe et affichent un chiffre. Personne ne sait ce qu'il mesure, mais les passants reculent."
+      },
+      {
+        "famille": "evenement",
+        "titre": "L'Offre de Zok",
+        "texte": "Zok propose de « libérer des ressources » pour l'un des vôtres en échange d'un service discret. Il ne précise jamais ce que « libérer » signifie vraiment."
+      },
+      {
+        "famille": "evenement",
+        "titre": "La Consultation de l'Oracle Paradoxal",
+        "texte": "L'Oracle accepte de prédire l'issue d'une décision du groupe, mais exige un prix moral immédiat, avant même de répondre."
+      },
+      {
+        "famille": "evenement",
+        "titre": "Le Passage de la Passerelle Injuste",
+        "texte": "Le portail dissimulé s'ouvre sous vos pieds. Il exige qu'un membre du groupe inflige une injustice nécessaire, mais temporaire, pour continuer."
+      },
+      {
+        "famille": "evenement",
+        "titre": "L'Automate Dérouté",
+        "texte": "Un Automate de la Balance s'approche et commence un calcul à voix haute, désignant lequel d'entre vous « gêne » le moins l'équation."
+      },
+      {
+        "famille": "idee",
+        "titre": "L'Addition Morale",
+        "texte": "« Le bien n'est pas dans le cœur, il est dans l'addition. »"
+      },
+      {
+        "famille": "idee",
+        "titre": "La Souffrance Évitée",
+        "texte": "« Une souffrance qui en évite mille reste une souffrance. »"
+      },
+      {
+        "famille": "idee",
+        "titre": "Le Mérite Non Compté",
+        "texte": "« Compter les bonheurs ne dit rien de qui les mérite. »"
+      },
+      {
+        "famille": "idee",
+        "titre": "Le Calcul Juste",
+        "texte": "« Le calcul juste n'a pas besoin d'être senti pour être vrai. »"
+      },
+      {
+        "famille": "idee",
+        "titre": "L'Innocent Sacrifié",
+        "texte": "« Sacrifier un innocent au nom du plus grand nombre reste sacrifier un innocent. »"
+      },
+      {
+        "famille": "pacte",
+        "titre": "Le Pacte du Barème Partagé",
+        "texte": "Le signataire accepte que ses choix soient désormais évalués publiquement par le barème émotionnel d'Éléon Rive."
+      },
+      {
+        "famille": "pacte",
+        "titre": "Le Serment du Point d'Inférence",
+        "texte": "Le signataire s'engage à justifier rationnellement chacune de ses décisions majeures devant les Maximisants."
+      },
+      {
+        "famille": "pacte",
+        "titre": "Le Contrat de Zok",
+        "texte": "Le signataire autorise Zok à « libérer des ressources » en son nom, une fois, sans droit de regard sur la méthode."
+      },
+      {
+        "famille": "pacte",
+        "titre": "Le Vœu de la Passerelle",
+        "texte": "Le signataire jure d'accepter une injustice nécessaire si la Passerelle le lui demande à nouveau."
+      },
+      {
+        "famille": "lieu",
+        "titre": "Le Point d'Inférence",
+        "texte": "Des balances monumentales y enregistrent en temps réel le poids moral de chaque décision prise dans le quartier."
+      },
+      {
+        "famille": "lieu",
+        "titre": "La Porte des Conséquences",
+        "texte": "Ne s'ouvre que si le visiteur justifie rationnellement son objectif."
+      },
+      {
+        "famille": "lieu",
+        "titre": "La Passerelle Injuste",
+        "texte": "Portail dissimulé qui exige une injustice nécessaire et temporaire pour être franchi."
+      },
+      {
+        "famille": "lieu",
+        "titre": "La Statue de Luhen",
+        "texte": "La citation gravée à ses pieds reste incomplète : nul ne sait si son sacrifice fut juste, ou simplement utile."
+      }
+    ]
+  },
+  "citadelle-de-l-arete": {
+    "quartier": "La Citadelle de l'Arété",
+    "blason": "7-ethique-vertu.png",
+    "cartes": [
+      {
+        "famille": "evenement",
+        "titre": "Le Miroir Flatteur",
+        "texte": "Un vieux miroir vous montre un reflet exagérément vertueux. Quelqu'un dans le groupe doit décider s'il accepte cette image de lui-même ou la refuse."
+      },
+      {
+        "famille": "evenement",
+        "titre": "La Sentinelle Blanche Intervient",
+        "texte": "La silhouette silencieuse s'arrête devant vous : une vertu vient d'être niée trois fois dans votre discussion. Elle attend une réponse."
+      },
+      {
+        "famille": "evenement",
+        "titre": "Un Faux Vertueux",
+        "texte": "Un imitateur reproduit à la perfection les gestes de la générosité envers vous, sans qu'aucune disposition réelle ne semble l'animer. Quelque chose sonne faux."
+      },
+      {
+        "famille": "evenement",
+        "titre": "La Fissure du Remords",
+        "texte": "Le sol s'entrouvre sous les pas de celui qui porte un échec assumé. Il faut nommer cet échec à voix haute pour continuer."
+      },
+      {
+        "famille": "evenement",
+        "titre": "L'Épreuve d'une Sentinelle Rigide",
+        "texte": "Un gardien impose une épreuve ancienne, sans se soucier de son sens original. La règle prime sur tout le reste, à moins qu'on ne lui montre le contraire."
+      },
+      {
+        "famille": "idee",
+        "titre": "Devenir Exemplaire",
+        "texte": "« Nul ne naît exemplaire, mais chacun peut le devenir. »"
+      },
+      {
+        "famille": "idee",
+        "titre": "Le Geste Vide",
+        "texte": "« Une vertu répétée sans intention n'est qu'un geste vide. »"
+      },
+      {
+        "famille": "idee",
+        "titre": "Le Courage Inutile",
+        "texte": "« Le courage inutile reste du courage. »"
+      },
+      {
+        "famille": "idee",
+        "titre": "La Tendresse et le Mensonge",
+        "texte": "« Cacher une vérité par tendresse n'est pas encore mentir. »"
+      },
+      {
+        "famille": "idee",
+        "titre": "La Constance",
+        "texte": "« La constance vaut mieux que l'éclat d'un seul instant. »"
+      },
+      {
+        "famille": "pacte",
+        "titre": "Le Pacte du Col de l'Incomplétude",
+        "texte": "Le signataire reconnaît publiquement une faiblesse morale précise et s'engage à y travailler."
+      },
+      {
+        "famille": "pacte",
+        "titre": "Le Serment de la Porte des Témoignages",
+        "texte": "Le signataire accepte de ne franchir ce passage que porté par la parole d'un autre sur sa vertu."
+      },
+      {
+        "famille": "pacte",
+        "titre": "Le Vœu du Jardin des Retours",
+        "texte": "Le signataire enterre symboliquement une colère ou un échec, et s'engage à ne pas la déterrer par vengeance."
+      },
+      {
+        "famille": "pacte",
+        "titre": "Le Contrat d'Eudémos",
+        "texte": "Le signataire accepte d'être corrigé uniquement par l'exemple, jamais par la remontrance."
+      },
+      {
+        "famille": "lieu",
+        "titre": "La Salle de l'Exemplarité",
+        "texte": "Rotonde sans toit où seule la constance, jamais la proclamation, ouvre les portes."
+      },
+      {
+        "famille": "lieu",
+        "titre": "Le Jardin des Retours",
+        "texte": "Espace de méditation pour ceux qui ont failli et cherchent à recommencer."
+      },
+      {
+        "famille": "lieu",
+        "titre": "L'Agora des Témoins",
+        "texte": "On y apprend à voir la vertu chez autrui sans l'envier."
+      },
+      {
+        "famille": "lieu",
+        "titre": "Le Chemin des Semblants",
+        "texte": "Sentier interdit où l'on peut adopter toutes les vertus en apparence, au risque de ne plus distinguer vertu et imitation."
+      }
+    ]
+  },
+  "concorde-du-pacte": {
+    "quartier": "La Concorde du Pacte",
+    "blason": "2-contrat-social.png",
+    "cartes": [
+      {
+        "famille": "evenement",
+        "titre": "La Voix Sans Pacte",
+        "texte": "Un vieux contrat abandonné vous réclame l'exécution d'une dette que personne ne reconnaît plus. Il faut lui répondre, ou l'ignorer à ses risques."
+      },
+      {
+        "famille": "evenement",
+        "titre": "Les Huissiers Spectraux",
+        "texte": "D'anciens exécuteurs vous somment de respecter une clause dont plus aucun texte en vigueur ne parle."
+      },
+      {
+        "famille": "evenement",
+        "titre": "La Clause Parfaite de Halden",
+        "texte": "Magister Halden vous soumet sa dernière version de la clause parfaite et exige votre avis, séance tenante, devant l'assemblée."
+      },
+      {
+        "famille": "evenement",
+        "titre": "Le Serment Devant Témoin",
+        "texte": "Une arche de serment ne s'ouvre que si l'un de vous prononce une promesse à voix haute, devant les autres comme témoins."
+      },
+      {
+        "famille": "evenement",
+        "titre": "La Foule Sans Représentant",
+        "texte": "Un attroupement agit d'un seul mouvement, sans porte-parole identifiable. Impossible de négocier avec lui."
+      },
+      {
+        "famille": "idee",
+        "titre": "Le Mauvais Accord Consenti",
+        "texte": "« Mieux vaut un mauvais accord librement consenti qu'une vérité imposée. »"
+      },
+      {
+        "famille": "idee",
+        "titre": "Le Consentement Réel",
+        "texte": "« Un pacte n'engage que ceux qui l'ont vraiment consenti. »"
+      },
+      {
+        "famille": "idee",
+        "titre": "La Règle Renégociable",
+        "texte": "« La règle qu'on n'a pas choisie reste une règle qu'on peut renégocier. »"
+      },
+      {
+        "famille": "idee",
+        "titre": "Le Serment Dépassé",
+        "texte": "« Un serment ancien ne survit pas toujours aux circonstances qui l'ont vu naître. »"
+      },
+      {
+        "famille": "idee",
+        "titre": "Le Tiers Absent",
+        "texte": "« Le silence d'un tiers absent ne vaut pas son accord. »"
+      },
+      {
+        "famille": "pacte",
+        "titre": "Le Pacte du Cercle de Délibération",
+        "texte": "Le signataire s'engage à respecter les décisions de son cercle tant qu'elles ont été prises de façon transparente."
+      },
+      {
+        "famille": "pacte",
+        "titre": "Le Serment de l'Arche",
+        "texte": "Le signataire prononce une formule d'adhésion à un principe de justice ou de réciprocité pour franchir un portail."
+      },
+      {
+        "famille": "pacte",
+        "titre": "Le Contrat de Civira",
+        "texte": "Le signataire accepte que ses engagements passés puissent être renégociés si les réalités sociales changent."
+      },
+      {
+        "famille": "pacte",
+        "titre": "Le Vœu du Parvis des Solitaires",
+        "texte": "Le signataire refuse de déléguer son autonomie, et accepte de rester à la frontière du quartier pour cette raison."
+      },
+      {
+        "famille": "lieu",
+        "titre": "La Grande Halle de la Convention",
+        "texte": "Ses murs sont tapissés de parchemins scellés, traités, constitutions, pactes."
+      },
+      {
+        "famille": "lieu",
+        "titre": "La Cour des Serments",
+        "texte": "Accueille ceux qui souhaitent inscrire un engagement dans la mémoire collective du quartier."
+      },
+      {
+        "famille": "lieu",
+        "titre": "Le Carré du Tiers Invisible",
+        "texte": "Né d'un pacte spontané entre deux factions ennemies, réconciliées malgré elles."
+      },
+      {
+        "famille": "lieu",
+        "titre": "Le Parvis des Solitaires",
+        "texte": "Zone de transition pour ceux qui refusent de déléguer une part de leur autonomie."
+      }
+    ]
+  },
+  "gouffre-d-absyr": {
+    "quartier": "Le Gouffre d'Absyr",
+    "blason": "4-absurdite-existence.png",
+    "cartes": [
+      {
+        "famille": "evenement",
+        "titre": "La Question au Puits",
+        "texte": "Vous posez une question sans réponse au Puits de l'Écho Muet. Il répond, cette fois, par un son ou une idée que personne n'attendait."
+      },
+      {
+        "famille": "evenement",
+        "titre": "Le Palier des Répétitions",
+        "texte": "Vous vous retrouvez à revivre une scène déjà vécue quelques minutes plus tôt, identique en tout point, sauf un détail."
+      },
+      {
+        "famille": "evenement",
+        "titre": "L'Offre de la Femme au Sable",
+        "texte": "Elle propose d'oublier non ce que vous avez vécu, mais pourquoi vous l'avez vécu. Un membre du groupe doit décider s'il accepte."
+      },
+      {
+        "famille": "evenement",
+        "titre": "Le Rire Sans Fond",
+        "texte": "Un rire vide de toute joie se propage dans le brouillard, tournant en dérision la tentative la plus sincère du groupe de donner un sens à la situation."
+      },
+      {
+        "famille": "evenement",
+        "titre": "Un Délié Absorbant s'Approche",
+        "texte": "Une présence presque invisible aspire le sens des mots prononcés. La conversation du groupe menace de se dissoudre en non-sens."
+      },
+      {
+        "famille": "idee",
+        "titre": "La Question Posée",
+        "texte": "« Le monde ne demande rien, c'est nous qui avons posé la question. »"
+      },
+      {
+        "famille": "idee",
+        "titre": "Chercher sans Trouver",
+        "texte": "« Chercher un sens ne garantit pas d'en trouver un. »"
+      },
+      {
+        "famille": "idee",
+        "titre": "Renoncer à Comprendre",
+        "texte": "« Renoncer à comprendre n'est pas renoncer à vivre. »"
+      },
+      {
+        "famille": "idee",
+        "titre": "Rire de l'Absurde",
+        "texte": "« Rire de l'absurde ne le rend pas moins absurde. »"
+      },
+      {
+        "famille": "idee",
+        "titre": "La Réponse Rassurante",
+        "texte": "« Une réponse qui rassure n'est pas forcément une réponse vraie. »"
+      },
+      {
+        "famille": "pacte",
+        "titre": "Le Pacte du Vestiaire de la Destinée",
+        "texte": "Le signataire dépose symboliquement une part de son passé avant de continuer, sans garantie de jamais la récupérer."
+      },
+      {
+        "famille": "pacte",
+        "titre": "Le Serment de la Brèche du Rire",
+        "texte": "Le signataire s'engage à rire franchement face à l'absurde, même quand rien ne prête vraiment à rire."
+      },
+      {
+        "famille": "pacte",
+        "titre": "Le Vœu du Néant Délibéré",
+        "texte": "Le signataire renonce volontairement à toute quête de justification morale ou narrative pour un temps donné."
+      },
+      {
+        "famille": "pacte",
+        "titre": "Le Contrat de Camüs",
+        "texte": "Le signataire confie une note jamais envoyée à Camüs, qui promet de ne jamais la lire à voix haute."
+      },
+      {
+        "famille": "lieu",
+        "titre": "Le Puits de l'Écho Muet",
+        "texte": "Un gouffre insondable où l'on vient poser des questions qu'on sait sans réponse."
+      },
+      {
+        "famille": "lieu",
+        "titre": "Le Palier des Répétitions",
+        "texte": "Une rue circulaire où des scènes identiques se reproduisent sans fin."
+      },
+      {
+        "famille": "lieu",
+        "titre": "Le Vestiaire de la Destinée",
+        "texte": "On y dépose son passé avant de continuer."
+      },
+      {
+        "famille": "lieu",
+        "titre": "La Brèche du Rire",
+        "texte": "Une faille qui ne s'ouvre que lorsqu'on rit franchement face à l'absurde."
+      }
+    ]
+  },
+  "jardins-de-l-equite": {
+    "quartier": "Les Jardins de l'Équité",
+    "blason": "6-theorie-justice.png",
+    "cartes": [
+      {
+        "famille": "evenement",
+        "titre": "La Fontaine des Mérites Juge",
+        "texte": "Le débit de la fontaine ralentit pendant votre dialogue. Quelqu'un dans le groupe argumente de manière inéquitable, sans qu'on sache lequel."
+      },
+      {
+        "famille": "evenement",
+        "titre": "Le Passage de la Juge Silencieuse",
+        "texte": "Elle s'arrête près de vous. Sa seule présence fait remonter un aveu chez l'un des vôtres."
+      },
+      {
+        "famille": "evenement",
+        "titre": "Le Voleur de Mérite Frappe",
+        "texte": "La reconnaissance d'un acte de justice que vous venez d'accomplir est attribuée à quelqu'un d'autre. Personne ne comprend pourquoi."
+      },
+      {
+        "famille": "evenement",
+        "titre": "Le Jugement de Démis Tal",
+        "texte": "Le médiateur aveugle entend un déséquilibre dans la voix de l'un de vous et exige qu'il plaide sa cause devant les autres."
+      },
+      {
+        "famille": "evenement",
+        "titre": "Le Pont du Déni",
+        "texte": "Pour le franchir, un membre du groupe doit affronter directement un tort qu'il a laissé impuni par le passé."
+      },
+      {
+        "famille": "idee",
+        "titre": "La Prudence des Décisions",
+        "texte": "« Il n'y a pas de justice naturelle, seulement des décisions humaines rendues avec prudence. »"
+      },
+      {
+        "famille": "idee",
+        "titre": "Justice sans Égalité",
+        "texte": "« Agir avec justice ne signifie pas toujours agir avec égalité. »"
+      },
+      {
+        "famille": "idee",
+        "titre": "La Réparation",
+        "texte": "« La réparation compte parfois plus que la punition. »"
+      },
+      {
+        "famille": "idee",
+        "titre": "La Règle et ses Exclus",
+        "texte": "« Une règle juste produit quand même des exclus. »"
+      },
+      {
+        "famille": "idee",
+        "titre": "Besoin et Mérite",
+        "texte": "« Le besoin et le mérite ne réclament pas toujours la même chose. »"
+      },
+      {
+        "famille": "pacte",
+        "titre": "Le Pacte de la Grille de la Balance",
+        "texte": "Le signataire accepte de se soumettre au jugement collectif pour entrer dans les Jardins."
+      },
+      {
+        "famille": "pacte",
+        "titre": "Le Serment du Grand Forum",
+        "texte": "Le signataire s'engage à respecter le vote à main levée, même s'il se trouve du côté minoritaire."
+      },
+      {
+        "famille": "pacte",
+        "titre": "Le Contrat de Lara d'Alve",
+        "texte": "Le signataire accepte de cartographier une injustice qu'il a lui-même observée, pour guider une future réforme."
+      },
+      {
+        "famille": "pacte",
+        "titre": "Le Vœu du Bambou Fendu",
+        "texte": "Le signataire s'engage à rechercher une réconciliation exacte plutôt qu'un partage approximatif."
+      },
+      {
+        "famille": "lieu",
+        "titre": "Le Grand Forum de Justice",
+        "texte": "Une agora silencieuse où les décisions se prennent à main levée, dans le respect absolu des voix minoritaires."
+      },
+      {
+        "famille": "lieu",
+        "titre": "La Fontaine des Mérites",
+        "texte": "Ajuste le débit de son eau selon l'équité du dialogue tenu devant elle."
+      },
+      {
+        "famille": "lieu",
+        "titre": "Le Pont du Déni",
+        "texte": "Exige une confrontation directe avec un tort passé pour être franchi."
+      },
+      {
+        "famille": "lieu",
+        "titre": "Le Jardin Inversé",
+        "texte": "Un espace secret où tout est délibérément injuste, réservé aux sages les plus avancés."
+      }
+    ]
+  },
+  "rails-de-la-decision": {
+    "quartier": "Les Rails de la Décision",
+    "blason": "5-dilemne-tramway.png",
+    "cartes": [
+      {
+        "famille": "evenement",
+        "titre": "L'Aiguillage Immédiat",
+        "texte": "Un aiguillage bascule sous vos pieds. Il faut choisir une direction avant que le Terminal de la Divergence ne referme le passage."
+      },
+      {
+        "famille": "evenement",
+        "titre": "Le Collecteur Archive Votre Choix",
+        "texte": "Une entité masquée note silencieusement une décision que vous venez de prendre, sans dire ce qu'elle en fera."
+      },
+      {
+        "famille": "evenement",
+        "titre": "Les Voix des Rails Jumeaux",
+        "texte": "Deux voix plaident en même temps pour deux options opposées d'un même dilemme, et cherchent à s'installer durablement dans votre esprit."
+      },
+      {
+        "famille": "evenement",
+        "titre": "Le Tramway Fantôme Passe",
+        "texte": "Juma-Kei conduit le tramway sur un rail né d'une décision que personne n'a jamais assumée. Il s'arrête, une fois, devant vous."
+      },
+      {
+        "famille": "evenement",
+        "titre": "Un Aiguilleur Figé",
+        "texte": "Resté trop longtemps indécis, il vous fige à votre tour tant que vous n'avez pas tranché, à sa place, le choix qu'il n'a jamais fait."
+      },
+      {
+        "famille": "idee",
+        "titre": "L'Aiguillage du Rien",
+        "texte": "« Ne rien faire est aussi un aiguillage. »"
+      },
+      {
+        "famille": "idee",
+        "titre": "S'Abstenir",
+        "texte": "« S'abstenir reste un choix, même quand on refuse de l'admettre. »"
+      },
+      {
+        "famille": "idee",
+        "titre": "Le Dilemme Réel",
+        "texte": "« Un dilemme sans détour n'a pas besoin d'être juste pour être réel. »"
+      },
+      {
+        "famille": "idee",
+        "titre": "La Responsabilité du Choix Rapide",
+        "texte": "« La responsabilité ne disparaît pas parce que le choix fut rapide. »"
+      },
+      {
+        "famille": "idee",
+        "titre": "L'Issue Inévitable",
+        "texte": "« Certains résultats arrivent malgré tous les choix qu'on croit faire librement. »"
+      },
+      {
+        "famille": "pacte",
+        "titre": "Le Pacte de la Rampe du Premier Choix",
+        "texte": "Le signataire s'engage à ne jamais revenir sur la décision prise une fois la rampe descendue."
+      },
+      {
+        "famille": "pacte",
+        "titre": "Le Serment d'Argos l'Indécis",
+        "texte": "Le signataire accepte de porter, à sa place, un choix qu'Argos refuse de faire depuis quarante ans."
+      },
+      {
+        "famille": "pacte",
+        "titre": "Le Contrat du Collecteur",
+        "texte": "Le signataire autorise ses décisions à être archivées dans la Bibliothèque des Conséquences, sans droit de regard."
+      },
+      {
+        "famille": "pacte",
+        "titre": "Le Vœu du Conducteur Sans Visage",
+        "texte": "Le signataire reconnaît qu'une issue restera inévitable, quelle que soit la voie choisie, et s'engage à agir quand même."
+      },
+      {
+        "famille": "lieu",
+        "titre": "Le Terminal de la Divergence",
+        "texte": "Une gare où l'on ne peut s'arrêter, seulement bifurquer."
+      },
+      {
+        "famille": "lieu",
+        "titre": "Le Musée des Décisions Injustes",
+        "texte": "Expose les conséquences de choix passés."
+      },
+      {
+        "famille": "lieu",
+        "titre": "La Salle des Possibles",
+        "texte": "Une rotonde qui laisse défiler les vies qu'on n'a pas choisies."
+      },
+      {
+        "famille": "lieu",
+        "titre": "La Bibliothèque des Conséquences",
+        "texte": "Le Collecteur y archive tous les choix des visiteurs."
+      }
+    ]
+  }
+}

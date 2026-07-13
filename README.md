@@ -101,6 +101,16 @@ republie le site.
 2. Pour lui donner une couleur/icône dédiée, j'ajoute un bloc dans
    `docs/stylesheets/callouts.css` en suivant les exemples existants.
 
+## Cartes imprimables
+
+Chaque `{{ cartes: <quartier> / <famille> }}` dans
+`docs/mj/annexes/ressources-mj.md` est remplacé au build par le carrousel
+(recto) et le tableau (titre/détails) correspondants, lus depuis
+`docs/mj/annexes/decks-cartes.json`. Les images et le PDF à imprimer ne sont
+pas stockés dans le dépôt : ils sont régénérés à chaque build par
+`scripts/cards.py`. Pour changer une carte, il suffit de modifier le JSON ;
+`ressources-mj.md` n'a jamais besoin d'être touché pour ça.
+
 ## Structure du repo
 
 ```text

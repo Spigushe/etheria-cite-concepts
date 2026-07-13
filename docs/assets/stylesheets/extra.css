@@ -283,3 +283,172 @@ body {
   background-color: var(--md-primary-fg-color);
   color: var(--md-primary-bg-color);
 }
+
+/* ============================================================
+   3. CARROUSEL DE CARTES (recto uniquement, générées au build
+   par scripts/cards.py — voir docs/mj/annexes/ressources-mj.md)
+   ============================================================ */
+
+.carte-carrousel {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 1.2rem 0;
+}
+
+/* md_in_html enveloppe le contenu de chaque bloc markdown="1" dans
+   un <p> ; on le rend transparent pour que boutons et images restent
+   des enfants directs du flex container. */
+.carte-carrousel > p,
+.carte-carrousel__piste > p {
+  display: contents;
+  margin: 0;
+}
+
+.carte-carrousel__piste {
+  display: flex;
+  gap: 0.75rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  padding: 0.25rem;
+  flex: 1;
+}
+
+.carte-carrousel__piste img {
+  height: 220px;
+  width: auto;
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+  border-radius: 4px;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+  cursor: zoom-in;
+}
+.carte-carrousel__piste img:focus-visible {
+  outline: 2px solid var(--md-accent-fg-color);
+  outline-offset: 2px;
+}
+
+.carte-carrousel__prec,
+.carte-carrousel__suivant {
+  flex: 0 0 auto;
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 50%;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  background-color: var(--etheria-callout-surface);
+  color: var(--md-default-fg-color);
+  font-size: 1.3rem;
+  line-height: 1;
+  cursor: pointer;
+}
+.carte-carrousel__prec:hover,
+.carte-carrousel__suivant:hover {
+  color: var(--md-accent-fg-color);
+}
+
+/* Vignettes un peu plus petites sur mobile pour que 2-3 cartes
+   restent visibles à la fois sans que la piste ne devienne trop
+   large à faire défiler d'un doigt. */
+@media (max-width: 44.9375em) {
+  .carte-carrousel__piste img {
+    height: 160px;
+  }
+}
+
+/* ============================================================
+   4. LIGHTBOX DE CARTE (zoom plein écran au clic/toucher)
+   ============================================================ */
+
+body.carte-lightbox-ouverte {
+  overflow: hidden;
+}
+
+.carte-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: env(safe-area-inset-top) env(safe-area-inset-right)
+    env(safe-area-inset-bottom) env(safe-area-inset-left);
+}
+.carte-lightbox[hidden] {
+  display: none;
+}
+
+.carte-lightbox__image {
+  max-width: 90vw;
+  max-height: 85vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 6px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.5);
+}
+
+.carte-lightbox__fermer,
+.carte-lightbox__prec,
+.carte-lightbox__suivant {
+  position: absolute;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  cursor: pointer;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* 44px minimum recommandé pour une cible tactile confortable. */
+  width: 44px;
+  height: 44px;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+.carte-lightbox__fermer:hover,
+.carte-lightbox__prec:hover,
+.carte-lightbox__suivant:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.carte-lightbox__fermer {
+  top: max(0.75rem, env(safe-area-inset-top));
+  right: max(0.75rem, env(safe-area-inset-right));
+  font-size: 1.75rem;
+}
+
+.carte-lightbox__prec {
+  left: max(0.5rem, env(safe-area-inset-left));
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carte-lightbox__suivant {
+  right: max(0.5rem, env(safe-area-inset-right));
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Sur mobile, prec/suivant descendent sous l'image plutôt que de la
+   chevaucher : plus facile à atteindre au pouce, et ça ne cache pas
+   le contenu de la carte sur les petits écrans. */
+@media (max-width: 44.9375em) {
+  .carte-lightbox {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .carte-lightbox__image {
+    max-height: 70vh;
+  }
+  .carte-lightbox__prec,
+  .carte-lightbox__suivant {
+    position: static;
+    transform: none;
+  }
+  .carte-lightbox__fermer {
+    position: absolute;
+  }
+}

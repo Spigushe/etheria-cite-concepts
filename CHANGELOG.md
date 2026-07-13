@@ -6,6 +6,31 @@ Le format suit [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/).
 
 ## [Non publié]
 
+### Ajouté
+
+- Cartes imprimables (`docs/mj/annexes/ressources-mj.md`) : quatre
+  familles par quartier (événement, idée, pacte, lieu), générées au
+  build par un nouveau hook MkDocs (`scripts/cards.py`) à partir de
+  `docs/mj/annexes/decks-cartes.json` — recto en PNG pour les
+  carrousels de la page, jeu complet en PDF recto-verso prêt à
+  imprimer (traits de coupe, 63×88 mm). Rien de généré n'est stocké
+  dans le dépôt.
+- Carrousel JS (`docs/assets/javascripts/carrousel.js`) et styles
+  associés (`docs/assets/stylesheets/extra.css`) pour parcourir les
+  rectos de cartes directement dans la page.
+- Nouvelles dépendances `pypdfium2` et `reportlab` (génération des
+  PNG/PDF), stubs `types-PyYAML`, `types-pytz`, `types-reportlab`
+  pour `ty`.
+
+### Modifié
+
+- `docs/mj/annexes/ressources-mj.md` : la section « Cartes
+  imprimables » sort du statut WIP, les exemples codés en dur sont
+  remplacés par les decks générés ; la page réapparaît dans la nav
+  (`mkdocs.yml`, section Espace MJ).
+- `cspell.json` : `ignorePaths` généralisé à `*.css`, `*.py`, `*.yml`
+  et `requirements.txt` (plutôt que lister les fichiers un par un).
+
 ## [0.8.0] - 2026-07-13
 
 ### Ajouté
