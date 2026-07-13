@@ -14,6 +14,17 @@ un événement historique d'Éthéria pour une évolution majeure. Un
 correctif reprend le nom de la version qu'il corrige, suivi d'un
 numéro incrémental (`v0.10.1-eudemos-1`, `v0.10.2-eudemos-2`, ...).
 
+## [Non publié]
+
+### Modifié
+
+- Page « Pitch » (`docs/monde/pitch.md`) renommée en « Présentation »
+  (`docs/monde/presentation.md`), titre changé en « Présentation de
+  l'univers-campagne ». Dans la nav (`mkdocs.yml`), l'onglet
+  « Présentation » pointe directement dessus au lieu d'un sous-menu ;
+  la page Système, qui s'y trouvait à côté du Pitch, rejoint
+  l'Espace MJ (`mj/systeme.md`).
+
 ## [0.10.1] - 2026-07-14 — Eudémos, correctif 1
 
 ### Ajouté

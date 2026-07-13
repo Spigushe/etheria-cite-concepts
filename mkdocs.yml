@@ -72,9 +72,7 @@ markdown_extensions:
 
 nav:
   - Accueil: index.md
-  - Présentation:
-      - Pitch: monde/pitch.md
-      - Système: mj/systeme.md
+  - Présentation: monde/presentation.md
   - Univers d'Éthéria:
       - Introduction: monde/introduction.md
       - Histoire: monde/histoire.md
@@ -126,6 +124,7 @@ nav:
           - Thomson: resources-philo/sources/thomson.md
   - Espace MJ:
       - Accueil MJ: mj/index.md
+      - Système: mj/systeme.md
       - Fiche de personnage: mj/annexes/fiche-personnage.md
       - Campagne:
           - Vue d'ensemble: mj/campagne/index.md
