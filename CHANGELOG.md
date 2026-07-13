@@ -6,6 +6,8 @@ Le format suit [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/).
 
 ## [Non publié]
 
+## [0.9.0] - 2026-07-13
+
 ### Ajouté
 
 - Cartes imprimables (`docs/mj/annexes/ressources-mj.md`) : quatre
