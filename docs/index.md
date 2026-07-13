@@ -11,7 +11,7 @@ ici au fur et à mesure que la cité prend corps.
 
 Deux portes d'entrée selon ce qui vous attire :
 
-- [Pitch](monde/pitch.md), pour le ton et les thèmes qui distinguent
+- [Pitch](monde/presentation.md), pour le ton et les thèmes qui distinguent
   Éthéria d'un décor de fantasy classique.
 - [Le monde](monde/introduction.md), pour comprendre pourquoi la
   cité n'apparaît sur aucune carte, et ce qu'on y vient vraiment

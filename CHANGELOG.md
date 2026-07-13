@@ -16,7 +16,19 @@ numéro incrémental (`v0.10.1-eudemos-1`, `v0.10.2-eudemos-2`, ...).
 
 ## [Non publié]
 
-## [0.10.2] - 2026-07-14 — Eudémos, correctif 2
+## [0.10.3] - 2026-07-14 — Eudémos, hotfix 3
+
+### Corrigé
+
+- Build en échec (`mkdocs build --strict`) : la page d'accueil
+  (`docs/index.md`) pointait encore vers `monde/pitch.md`, supprimé
+  lors du renommage de la page Pitch en Présentation (0.10.2). Lien
+  corrigé vers `monde/presentation.md`.
+
+## [0.10.2] - 2026-07-14 — Eudémos, correctif 2 [CASSÉE]
+
+> Build cassé (`mkdocs build --strict` en échec, lien mort vers
+> `monde/pitch.md`) : voir le hotfix 0.10.3 ci-dessus.
 
 ### Modifié
 
