@@ -1,0 +1,11 @@
+INHERIT: mkdocs.yml
+
+# Config de dev local : identique à mkdocs.yml, sauf le plugin `to-pdf`.
+# Il dépend de WeasyPrint, qui a besoin de bibliothèques natives GTK
+# (gobject, pango...) absentes par défaut sous Windows. Comme l'export
+# PDF n'est de toute façon utile qu'au build de la Release (CI Linux,
+# via ENABLE_PDF_EXPORT), on ne le charge pas du tout ici : mkdocs
+# importe chaque plugin listé dès le chargement de la config, même
+# désactivé par `enabled_if_env`.
+plugins:
+  - search

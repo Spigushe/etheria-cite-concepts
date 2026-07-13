@@ -34,12 +34,20 @@ python3 -m venv .venv
 source .venv/bin/activate      # sous Windows : .venv\Scripts\activate
 pip install -r requirements.txt
 
-python -m mkdocs serve
+python -m mkdocs serve -f mkdocs.dev.yml
 ```
 
 > J'utilise bien `python -m mkdocs` (et non `mkdocs` seul) : ça ajoute la
 > racine du repo au PYTHONPATH, ce qui est nécessaire pour que mon extension
 > locale `scripts/obsidian_callouts.py` soit importable.
+
+<!-- -->
+
+> `-f mkdocs.dev.yml` charge la config de dev (hérite de `mkdocs.yml` sans le
+> plugin `to-pdf`) : l'export PDF dépend de WeasyPrint, qui a besoin de
+> bibliothèques natives GTK absentes par défaut sous Windows. Cet export
+> n'est utile qu'au build de Release (CI Linux, tag `v*`), donc `mkdocs.yml`
+> reste la config de référence utilisée par le CI, sans `-f`.
 
 Le site est alors visible sur `http://127.0.0.1:8000`, avec rechargement
 automatique à chaque modification d'un fichier `.md`.
@@ -53,14 +61,15 @@ avant de commiter :
 ruff check scripts/ --fix
 ruff format scripts/
 ty check
-python -m mkdocs build --strict
+python -m mkdocs build --strict -f mkdocs.dev.yml
 npx --yes --package cspell --package @cspell/dict-fr-fr -- cspell --config cspell.json --no-progress
 ```
 
 - `ruff` : lint et style Python sur `scripts/`.
 - `ty` : typage Python sur `scripts/`.
 - `mkdocs build --strict` : le site compile sans avertissement (liens
-  internes et nav inclus).
+  internes et nav inclus). En local je passe par `mkdocs.dev.yml` (voir
+  plus haut) ; le CI, lui, build avec `mkdocs.yml` (export PDF inclus).
 - `cspell` : orthographe française sur tous les fichiers Markdown, avec
   le dictionnaire `cspell.json`, complété au fil du temps avec les noms
   propres et le vocabulaire spécifiques au projet.
@@ -119,7 +128,9 @@ docs/
 scripts/
 ├── obsidian_callouts.py        # extension Markdown : syntaxe > [!TYPE]
 └── version.py                  # hook MkDocs : injecte {{ version }}
-mkdocs.yml                      # configuration du site
+mkdocs.yml                      # configuration du site (utilisée par le CI)
+mkdocs.dev.yml                  # config de dev local (hérite de mkdocs.yml,
+                                 # sans le plugin to-pdf)
 requirements.txt
 cspell.json                     # config orthographe (dictionnaire fr-fr)
 .github/workflows/deploy.yml    # build + déploiement automatique

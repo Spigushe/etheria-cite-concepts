@@ -21,6 +21,17 @@ Le format suit [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/).
 - Exclusion de `.venv`, `.mypy_cache` et `.ruff_cache` des vues
   fichiers/recherche de VS Code.
 
+### Corrigé
+
+- `mkdocs serve`/`build` en local plantait sous Windows : le plugin
+  `to-pdf` est importé dès le chargement de la config (même désactivé
+  par `enabled_if_env`), et son dépendant WeasyPrint requiert des
+  bibliothèques natives GTK (`gobject`, `pango`...) absentes par
+  défaut sur Windows. Nouvelle config `mkdocs.dev.yml` (hérite de
+  `mkdocs.yml` sans `to-pdf`) à utiliser en local via
+  `python -m mkdocs serve -f mkdocs.dev.yml` ; `mkdocs.yml` reste
+  utilisé tel quel par le CI. README mis à jour en conséquence.
+
 ## [0.7.0] - 2026-07-13
 
 ### Ajouté

@@ -1,7 +1,7 @@
 {
     "version": "0.2",
     "language": "fr",
-    "ignorePaths": ["mkdocs.yml"],
+    "ignorePaths": ["mkdocs.yml", "mkdocs.dev.yml"],
     "dictionaries": ["fr-fr"],
     "import": ["@cspell/dict-fr-fr/cspell-ext.json"],
     "dictionaryDefinitions": [],
