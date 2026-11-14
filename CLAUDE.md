@@ -45,17 +45,18 @@ docs/
 │   ├── concepts/             ← index (+ lexique philosophique) + 7 fiches quartier
 │   │                            (callout REGLE "Concept abordé", Philosophes associés,
 │   │                            Ce que ça donne en jeu, Questions à poser à la table)
-│   └── sources/              ← index + 22 fiches auteurs (~30 lignes :
+│   └── sources/              ← index + 23 fiches auteurs (~30 lignes :
 │                                "Ce qu'il apporte à Ethéria" / "À retenir pour la table")
 ├── mj/                       ← ESPACE MENEUR
 │   ├── index.md              ← mise en scène, impro, sécurité de table, prépa séance
-│   ├── systeme.md            ← FATE : Réputation philosophique, dilemmes, conséquences
+│   ├── systeme.md            ← FATE : règles de base, réputation, Gardiens, évolution, dilemmes, conséquences
 │   ├── campagne/             ← index + 7 fichiers quartier (~55 lignes, 5 aventures
 │   │                            chacun) + quetes-transversales.md
 │   │                            + transitions-entre-quartiers.md (473 lignes, le plus
 │   │                            gros fichier : 3 scènes par paire de quartiers)
 │   └── annexes/
-│       ├── fiche-personnage.md   ← fiche FATE (Aspects, Approches, Stunts, Réputation)
+│       ├── fiche-personnage.md   ← fiche FATE (création, Aspects, Approches, Stunts, Réputation)
+│       ├── pretires.md           ← 4 personnages prêts à jouer
 │       ├── ressources-mj.md      ← carrousels de cartes par quartier + typologie dilemmes
 │       └── decks-cartes.json     ← données des cartes, 1 clé par slug de quartier
 │                                    (consommé par scripts/cards.py)
@@ -72,15 +73,15 @@ Chaque quartier existe en **4 exemplaires** : lore (`monde/quartiers/`), fiche c
 
 | N° asset | Quartier (slug) | Concept | Philosophes associés (vérifiés dans les fiches) |
 | --- | --- | --- | --- |
-| 1 | Labyrinthe des Identités `labyrinthe-des-identites` | Identité personnelle (bateau de Thésée) | Hobbes, Parfit, Plutarque, Ricœur |
+| 1 | Labyrinthe des Identités `labyrinthe-des-identites` | Identité personnelle (bateau de Thésée) | Hobbes, Locke, Parfit, Plutarque, Ricœur |
 | 2 | Concorde du Pacte `concorde-du-pacte` | Contrat social | Hobbes, Locke, Rousseau, Rawls |
 | 3 | Balance d'Orion `balance-d-orion` | Utilitarisme | Bentham, Mill, Singer |
-| 4 | Gouffre d'Absyr `gouffre-d-absyr` | Absurdité de l'existence | Camus, Nietzsche, Sartre |
+| 4 | Gouffre d'Absyr `gouffre-d-absyr` | Absurdité de l'existence | Camus, Nietzsche, Sartre (+ Kierkegaard en contrepoint) |
 | 5 | Rails de la Décision `rails-de-la-decision` | Dilemme du tramway | Foot, Thomson, Kant |
 | 6 | Jardins de l'Équité `jardins-de-l-equite` | Théorie de la justice | Rawls, Nozick, Sen, Aristote |
 | 7 | Citadelle de l'Arété `citadelle-de-l-arete` | Éthique de la vertu | Aristote, Confucius, MacIntyre, Thomas d'Aquin |
 
-Auteurs restants dans `sources/` sans quartier attitré dans les fiches concepts : aucun — les 22 fiches couvrent les noms ci-dessus (Rawls et Aristote apparaissent dans 2 quartiers ; Hobbes aussi).
+Auteurs restants dans `sources/` sans quartier attitré dans les fiches concepts : Kierkegaard (contrepoint au Gouffre, cité dans la nuance de la fiche concept). Rawls, Aristote, Hobbes et Locke apparaissent dans 2 quartiers.
 
 ## Où aller selon la demande
 

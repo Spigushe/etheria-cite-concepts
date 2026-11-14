@@ -9,7 +9,8 @@ Pour Locke, un gouvernement n'est légitime que s'il repose sur le
 consentement de ceux qu'il gouverne. Si ce gouvernement trahit sa
 mission (protéger la vie, la liberté et les biens des gens), le
 peuple a le droit de se révolter. Locke écrit d'ailleurs : « là où il
-n'y a pas de loi, il n'y a pas de liberté. » Pour lui, la loi n'existe
+n'y a pas de loi, il n'y a pas de liberté » (*Second traité du
+gouvernement civil*, chapitre VI, § 57). Pour lui, la loi n'existe
 pas pour nous enfermer, mais pour nous protéger les uns des autres.
 
 Locke s'intéresse aussi à un tout autre problème : qu'est-ce qui fait

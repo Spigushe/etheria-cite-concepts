@@ -18,6 +18,7 @@ Par ordre alphabétique :
 - [Foot](foot.md) : *The Problem of Abortion and the Doctrine of the Double Effect*
 - [Hobbes](hobbes.md) : *Le Léviathan*
 - [Kant](kant.md) : *Fondements de la métaphysique des mœurs*
+- [Kierkegaard](kierkegaard.md) : *Crainte et Tremblement*
 - [Locke](locke.md) : *Deux traités du gouvernement*
 - [MacIntyre](macintyre.md) : *Après la vertu*
 - [Mill](mill.md) : *L'Utilitarisme*
@@ -28,9 +29,9 @@ Par ordre alphabétique :
 - [Rawls](rawls.md) : *Théorie de la justice*
 - [Ricœur](ricoeur.md) : *Soi-même comme un autre*
 - [Rousseau](rousseau.md) : *Du contrat social*
-- [Sartre](sartre.md) : *L'Être et le Néant*
+- [Sartre](sartre.md) : *L'existentialisme est un humanisme*
 - [Sen](sen.md) : *L'Idée de justice*
-- [Singer](singer.md) : *La Libération animale*
+- [Singer](singer.md) : *Famine, Affluence, and Morality*
 - [Thomas d'Aquin](thomas-d-aquin.md) : *Somme théologique*
 - [Thomson](thomson.md) : *The Trolley Problem*
 
@@ -40,18 +41,20 @@ D'autres viendront s'ajouter au fil de l'écriture de la campagne.
 
 Le détail complet vit sur la page de chaque auteur plutôt qu'ici, pour
 éviter de répéter deux fois la même information. Un aperçu rapide :
-cinq auteurs traversent plusieurs quartiers à la fois. Plutarque,
+six auteurs traversent plusieurs quartiers à la fois. Plutarque,
 Aristote et Rousseau restent les plus transversaux : les trois
 couvrent les sept quartiers chacun. Hobbes touche à la fois le
 Labyrinthe des Identités (sa variante du bateau reconstruit) et la
 Concorde du Pacte (le Léviathan). Rawls touche à la fois la Concorde
 du Pacte (le contrat hypothétique) et les Jardins de l'Équité (la
-justice comme équité).
+justice comme équité). Locke touche à la fois le Labyrinthe des
+Identités (la conscience comme critère de l'identité personnelle) et
+la Concorde du Pacte (le gouvernement par consentement).
 
 Tous les autres auteurs sont plus spécialisés, chacun rattaché à un
 seul quartier : Ricœur et Parfit pour le Labyrinthe des Identités ;
-Locke pour la Concorde du Pacte ; Bentham, Mill et Singer pour la
-Balance d'Orion ; Camus, Nietzsche et Sartre pour le Gouffre d'Absyr ;
+Bentham, Mill et Singer pour la Balance d'Orion ; Camus, Nietzsche,
+Sartre et Kierkegaard (en contrepoint) pour le Gouffre d'Absyr ;
 Foot, Thomson et Kant pour les Rails de la Décision ; Nozick et Sen
 pour les Jardins de l'Équité ; Thomas d'Aquin, MacIntyre et Confucius
 pour la Citadelle de l'Arété.

@@ -1,4 +1,4 @@
-# ![Icône du concept](../../assets/icons/5-dilemne-tramway.png){ width="36" } Les Rails de la Décision
+# ![Icône du concept](../../assets/icons/5-dilemme-tramway.png){ width="36" } Les Rails de la Décision
 
 > [!REGLE] Concept abordé
 > Dilemme moral entre deux maux inévitables. Problématique centrale :
@@ -10,7 +10,7 @@
 ## Philosophes associés
 
 Philippa Foot fonde le dilemme du tramway en 1967. Judith Jarvis
-Thomson en développe les variantes en 1985 et met à l'épreuve nos
+Thomson en développe les variantes en 1976 et 1985 et met à l'épreuve nos
 intuitions morales. Kant, de son côté, place l'intention morale
 au-dessus des conséquences, à l'opposé de l'utilitarisme classique,
 qui ne regarde que les pertes et les bénéfices.
@@ -37,7 +37,7 @@ Argos l'Indécis, immobile à son carrefour depuis quarante ans, montre
 aux joueurs ce que devient un Kantien qui ne trouve jamais de règle
 assez universelle pour agir : refuser de choisir devient lui-même un
 choix, et pas le plus confortable. Juma-Kei transforme directement le
-levier de Foot en scène jouable : elle n'apparaît que si un dilemme a
+tramway de Foot en scène jouable : elle n'apparaît que si un dilemme a
 été évité trop longtemps, ce qui punit à table l'indécision autant
 que le mauvais choix. Le Collecteur, enfin, permet de rejouer les
 variantes de Thomson dans la durée : sa Bibliothèque des Conséquences

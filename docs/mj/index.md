@@ -74,11 +74,10 @@ campagne.
 ## Sécurité de table
 
 > [!MJ] La Carte-X et les signaux de table
-> Cette section n'existe pas dans le document source. Éthéria manipule
-> régulièrement des thèmes lourds (deuil, sacrifice, perte
-> d'identité, suicide assisté à la Balance d'Orion) sans qu'aucun
-> outil de sécurité ne soit prévu. Voici une proposition minimale, à
-> ajuster selon la table.
+> Éthéria manipule des thèmes lourds : deuil, sacrifice, perte
+> d'identité, suicide assisté à la Balance d'Orion, enfants en danger
+> aux Rails de la Décision. Chaque trame d'aventure indique ses thèmes
+> sensibles. Voici un outillage minimal, à ajuster selon la table.
 
 Avant la première séance, présente rapidement les thèmes récurrents du
 jeu (dilemmes moraux, absurde, deuil symbolique) et demande si
@@ -103,7 +102,8 @@ du temps.
 
 ## Pour préparer une séance
 
-- [Campagne](campagne/index.md) : les aventures prêtes à jouer, une section par quartier.
-- [Système de jeu](systeme.md) : réputation philosophique, dilemmes, conséquences.
-- [Fiche de personnage](annexes/fiche-personnage.md) : le gabarit FATE complet.
+- [Campagne](campagne/index.md) : les trames d'aventure, une section par quartier.
+- [Système de jeu](systeme.md) : règles de base, réputation philosophique, dilemmes, conséquences.
+- [Fiche de personnage](annexes/fiche-personnage.md) : le gabarit FATE complet et la création de personnage.
+- [Prétirés](annexes/pretires.md) : quatre Aventuriers prêts à jouer.
 - [Aides de jeu](annexes/ressources-mj.md) : cartes imprimables et typologie des dilemmes.

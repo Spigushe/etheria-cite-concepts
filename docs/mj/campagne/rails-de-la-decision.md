@@ -4,7 +4,7 @@ Cinq aventures construites sur l'urgence : ici, différer un choix en
 est déjà un. Le Collecteur observe chaque dénouement et l'archive,
 qu'on le veuille ou non.
 
-## La Manette d'Orion
+## La Manette
 
 | | |
 | - | - |
@@ -13,6 +13,8 @@ qu'on le veuille ou non.
 | Bascule | Actionner la manette revient à choisir activement qui meurt, plutôt que de laisser un mal déjà en cours suivre son cours. |
 | Dénouements possibles | Actionner la manette et vivre avec ce choix, s'abstenir et laisser les cinq mourir sans intervention directe, ou tenter dans l'urgence une troisième option, physique, risquée, non garantie. |
 | Portée | La forme la plus pure du dilemme du tramway : peut-on sacrifier un innocent pour en sauver plusieurs, et le fait de choisir activement change-t-il la nature morale de l'acte. |
+| Type de dilemme | Tramway moral |
+| Thèmes sensibles | Mort d'un enfant |
 
 ## Le Juge aux Sept Rails
 
@@ -23,6 +25,8 @@ qu'on le veuille ou non.
 | Bascule | Reprogrammer le système à temps sauverait certains groupes au détriment d'autres, tout aussi arbitrairement désignés par la nouvelle configuration. |
 | Dénouements possibles | Laisser l'algorithme opérer tel quel, intervenir pour sauver spécifiquement les enfants au prix d'un autre groupe, ou désactiver entièrement le système, assumant le chaos que cela produirait à court terme. |
 | Portée | Peut-on confier une décision morale aussi lourde à une machine, même optimisée, et que perd-on en déléguant le jugement. |
+| Type de dilemme | Tramway moral |
+| Thèmes sensibles | Enfants condamnés |
 
 ## La Voie Invisible
 
@@ -33,6 +37,8 @@ qu'on le veuille ou non.
 | Bascule | Changer de cap maintenant provoquerait une opposition immédiate et visible, alors que ne rien faire ne provoque qu'un mal lent, diffus, et largement ignoré. |
 | Dénouements possibles | Révéler publiquement le mécanisme caché au risque d'une crise politique immédiate, agir discrètement pour infléchir la trajectoire sans tout dévoiler, ou choisir de ne rien faire, jugeant le trouble immédiat pire que le mal différé. |
 | Portée | L'invisibilité d'un mal le rend-elle moralement plus tolérable qu'un mal immédiat et visible. |
+| Type de dilemme | Choix différé |
+| Thèmes sensibles | Aucun |
 
 ## Le Tramway Inversé
 
@@ -43,6 +49,8 @@ qu'on le veuille ou non.
 | Bascule | Agir selon la logique habituelle du dilemme pourrait, si la prophétie se vérifie, produire exactement l'inverse du résultat recherché. |
 | Dénouements possibles | Suivre la logique habituelle malgré le doute, agir à l'inverse de ce qu'on ferait normalement en pariant sur la prophétie, ou refuser d'actionner quoi que ce soit, laissant le hasard décider. |
 | Portée | Un dilemme apparenté au sphinx moral : l'incertitude radicale rend-elle l'action éthique impossible, ou faut-il agir malgré tout, sans garantie. |
+| Type de dilemme | Sphinx moral |
+| Thèmes sensibles | Morts possibles |
 
 ## Le Choix du Témoin
 
@@ -53,3 +61,5 @@ qu'on le veuille ou non.
 | Bascule | Le simple fait de savoir crée un devoir d'agir, même sans aucune garantie que l'intervention améliore la situation plutôt qu'elle ne l'aggrave. |
 | Dénouements possibles | Alerter tout le monde immédiatement au risque du chaos, transmettre l'information de façon ciblée et maîtrisée, ou choisir de ne rien dire, en laissant à chacun sa propre liberté de percevoir la situation. |
 | Portée | Le devoir d'agir dépend-il de la certitude du résultat, ou suffit-il de savoir pour être tenu responsable. |
+| Type de dilemme | Sphinx moral |
+| Thèmes sensibles | Panique collective |

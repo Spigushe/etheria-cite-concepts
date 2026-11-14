@@ -65,7 +65,7 @@ choix en assemblée.
 
 > [!MJ] Éléments de jeu
 >
-> - Concept sous-jacent : le calcul utilitariste des conséquences (Bentham, Mill), voir [Sources & auteurs](../../resources-philo/sources/index.md).
+> - Concept sous-jacent : le calcul utilitariste des conséquences (Bentham, Mill, Singer), voir [Sources & auteurs](../../resources-philo/sources/index.md).
 > - PNJ clés : Éléon Rive (a proposé un barème émotionnel standardisé), Zok (régulateur public, pratique une euthanasie rituelle sur demande), l'Oracle Paradoxal (prédit l'impact à long terme, contre un prix moral).
 > - Entrer par choix raisonné (Porte des Conséquences) ; un portail caché, la Passerelle Injuste, exige d'accepter d'infliger une injustice « nécessaire mais temporaire ».
 > - Dilemmes types : sacrifier une personne pour en sauver cinq sans détour possible, une minorité invisible lésée par un progrès majoritaire, éliminer par avance un enfant qui deviendrait un tyran.
@@ -84,7 +84,7 @@ abandonné quelque chose, un but, une foi, une illusion.
 
 > [!MJ] Éléments de jeu
 >
-> - Concept sous-jacent : l'absurdité de l'existence (Camus, Nietzsche, Kierkegaard), voir [Sources & auteurs](../../resources-philo/sources/index.md).
+> - Concept sous-jacent : l'absurdité de l'existence (Camus, Nietzsche, Sartre, avec Kierkegaard en contrepoint), voir [Sources & auteurs](../../resources-philo/sources/index.md).
 > - PNJ clés : Camüs (veilleur taciturne, collectionne des notes non envoyées), Sœn (poète muet, écrit à l'encre invisible), la Femme au Sable (propose d'oublier non ce qu'on a vécu, mais pourquoi).
 > - On n'y entre pas par un chemin : on y tombe, souvent après une rupture intérieure. La Brèche du Rire ne s'ouvre que si l'on rit face à l'absurdité de l'existence.
 > - Dilemmes types : continuer une mission qu'on sait sans le moindre sens, mentir à un enfant sur la raison de vivre, tout comprendre sans jamais pouvoir le partager.
@@ -93,7 +93,7 @@ abandonné quelque chose, un but, une foi, une illusion.
 
 ## Les Rails de la Décision
 
-![Blason du quartier](../../assets/blasons/5-dilemne-tramway.png){ width="120" }
+![Blason du quartier](../../assets/blasons/5-dilemme-tramway.png){ width="120" }
 
 Des rails sombres serpentent entre les bâtiments, parfois suspendus
 dans le vide. Chaque croisement porte une histoire non résolue ; la
@@ -104,12 +104,12 @@ passés.
 
 > [!MJ] Éléments de jeu
 >
-> - Concept sous-jacent : le dilemme du tramway, décision et responsabilité (Thomson, Foot), voir [Sources & auteurs](../../resources-philo/sources/index.md).
+> - Concept sous-jacent : le dilemme du tramway, décision et responsabilité (Foot, Thomson, Kant), voir [Sources & auteurs](../../resources-philo/sources/index.md).
 > - PNJ clés : Argos l'Indécis (immobile au même carrefour depuis quarante ans), Juma-Kei (conduit un tramway qui n'emprunte que les rails nés de décisions non assumées), le Collecteur (archive tous les choix des visiteurs).
 > - Entrer exige une décision explicite ; la Rampe du Premier Choix est une descente irréversible, sans retour en arrière possible.
 > - Dilemmes types : un rail mène à la mort d'un proche, l'autre à la souffrance de dizaines d'inconnus, sans détour ; agir contre un mal certain ou s'abstenir face à un mal peut-être pire ; la responsabilité d'un enfant qui actionne un aiguillage par jeu.
 > - Connexions : conflit avec la Concorde du Pacte (jugée trop lente) et le Gouffre d'Absyr (nie la valeur même de la décision) ; s'articule avec la Balance d'Orion, dont elle partage le goût de l'action mesurée ; tension avec le Labyrinthe des Identités (une décision reste-t-elle imputable à un soi qui a changé), avec les Jardins de l'Équité (l'urgence d'une décision contre la lenteur d'un jugement équitable) et avec la Citadelle de l'Arété (bien décider suppose d'être déjà vertueux, alors que la vertu se construit lentement).
-> - Mythe exploitable : le Tramway Immatériel, qui ne tue pas mais efface ceux qui diffèrent trop longtemps un choix fondamental.
+> - Mythe exploitable : le Tramway Fantôme de Juma-Kei, qui, dit-on, ne roule sur aucun rail visible et ne tue pas mais efface ceux qui diffèrent trop longtemps un choix fondamental.
 
 ## Les Jardins de l'Équité
 
@@ -129,7 +129,7 @@ mesure plutôt qu'à l'égalité brute.
 > - Entrer exige d'avoir été témoin d'une injustice sans y participer, ou d'avoir plaidé sincèrement pour autrui ; la Grille de la Balance exige de se soumettre au jugement collectif.
 > - Dilemmes types : deux voyageurs réclament la même ressource, l'un par besoin, l'autre par mérite ; punir un crime commis pour réparer une injustice, ou en reconnaître la cause ; une réforme qui améliore le bien général mais lèse un petit groupe marginalisé.
 > - Connexions : affinité avec la Concorde du Pacte et la Citadelle de l'Arété ; méfiance envers la Balance d'Orion (jugée trop utilitariste) et le Gouffre d'Absyr (nie toute base stable de jugement) ; circonstance atténuante envers le Labyrinthe des Identités (juger quelqu'un dont l'identité est instable) ; tension avec les Rails de la Décision (l'urgence d'une décision contre la lenteur d'un jugement équitable).
-> - Mythe exploitable : le Bambou fendu (réconciliation ancienne entre deux familles), le Jardin Inversé (lieu secret, délibérément injuste, réservé aux plus avancés).
+> - Mythe exploitable : le Bambou Fendu (réconciliation ancienne entre deux familles), le Jardin Inversé (lieu secret, délibérément injuste, réservé aux plus avancés).
 
 ## La Citadelle de l'Arété
 
@@ -144,7 +144,7 @@ cohérence entre pensée, parole et action.
 
 > [!MJ] Éléments de jeu
 >
-> - Concept sous-jacent : l'éthique de la vertu comme disposition acquise par l'habitude, chez Aristote, prolongée par Thomas d'Aquin et MacIntyre, déjà traité dans [Aristote](../../resources-philo/sources/aristote.md).
+> - Concept sous-jacent : l'éthique de la vertu comme disposition acquise par l'habitude, chez Aristote, prolongée par Thomas d'Aquin et MacIntyre, déjà traité dans [Aristote](../../resources-philo/sources/aristote.md), avec en écho la tradition confucéenne (voir [Confucius](../../resources-philo/sources/confucius.md)).
 > - PNJ clés : Eudémos (n'enseigne que par l'exemple), Alea d'Ilion (ancienne voyageuse des sept quartiers, revenue enseigner la constance), la Sentinelle Blanche (ne parle que lorsqu'une vertu est niée trois fois).
 > - Entrer exige de reconnaître une faiblesse morale en soi ; le Col de l'Incomplétude est un sentier raide où chaque pas demande une lucidité nouvelle.
 > - Dilemmes types : agir courageusement quand on sait l'action inutile, cacher une vérité pour préserver l'estime d'un proche, rester fidèle à ses principes dans un monde qui les bafoue.

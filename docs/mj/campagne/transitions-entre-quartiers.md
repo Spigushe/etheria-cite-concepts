@@ -4,6 +4,7 @@ Passer d'un quartier à l'autre n'est jamais neutre à Éthéria. Ces
 événements se déclenchent au moment où le groupe franchit
 effectivement un seuil entre deux quartiers. Trois par paire, courts,
 pensés pour s'insérer entre deux aventures sans les remplacer.
+Tires-en une au hasard à chaque passage, et joue-la en dix minutes.
 
 ## Labyrinthe des Identités ↔ Gouffre d'Absyr
 
@@ -273,7 +274,7 @@ des Jardins.
 ## Labyrinthe des Identités ↔ Concorde du Pacte
 
 > [!MJ] Relation
-> Non documentée ailleurs dans le wiki : une identité instable
+> Une identité instable
 > peut-elle signer un pacte durable ? Tension raisonnable plutôt
 > qu'affinité ou conflit franc.
 
@@ -298,7 +299,7 @@ pris à la Concorde.
 ## Labyrinthe des Identités ↔ Balance d'Orion
 
 > [!MJ] Relation
-> Non documentée ailleurs : peut-on calculer l'utilité d'une
+> Peut-on calculer l'utilité d'une
 > personne dont l'identité change sans cesse ? Curiosité méthodique
 > plutôt que franche tension.
 
@@ -323,7 +324,7 @@ des Rémanents présents.
 ## Labyrinthe des Identités ↔ Rails de la Décision
 
 > [!MJ] Relation
-> Non documentée ailleurs : une décision reste-t-elle imputable à
+> Une décision reste-t-elle imputable à
 > quelqu'un dont l'identité a changé depuis ? Tension conceptuelle
 > plutôt qu'hostilité.
 
@@ -348,7 +349,7 @@ conscience de se contredire.
 ## Labyrinthe des Identités ↔ Jardins de l'Équité
 
 > [!MJ] Relation
-> Non documentée ailleurs : peut-on juger équitablement une personne
+> Peut-on juger équitablement une personne
 > dont l'identité est instable ? Terrain de circonstance atténuante
 > plutôt que conflit.
 
@@ -373,7 +374,7 @@ personne condamnée.
 ## Concorde du Pacte ↔ Citadelle de l'Arété
 
 > [!MJ] Relation
-> Non documentée ailleurs, mais cohérente avec l'affinité déjà
+> Cohérente avec l'affinité déjà
 > établie de chacune avec les Jardins : la vertu individuelle
 > suffit-elle à garantir un bon pacte collectif, ou faut-il aussi des
 > règles ? Affinité prudente.
@@ -399,7 +400,7 @@ certains Liants qui y voient une autorité morale non élue.
 ## Gouffre d'Absyr ↔ Citadelle de l'Arété
 
 > [!MJ] Relation
-> Non documentée ailleurs : la vertu a-t-elle un sens dans un monde
+> La vertu a-t-elle un sens dans un monde
 > sans signification donnée ? Tension de fond, comparable à celle
 > déjà établie entre la Citadelle et la Balance ou le Labyrinthe.
 
@@ -424,7 +425,7 @@ prouve rien.
 ## Rails de la Décision ↔ Jardins de l'Équité
 
 > [!MJ] Relation
-> Non documentée ailleurs : l'urgence d'une décision et la lenteur
+> L'urgence d'une décision et la lenteur
 > d'un jugement équitable entrent régulièrement en collision. Tension
 > raisonnable.
 
@@ -450,7 +451,7 @@ réflexion atténue ou non sa responsabilité.
 ## Rails de la Décision ↔ Citadelle de l'Arété
 
 > [!MJ] Relation
-> Non documentée ailleurs : bien décider suppose-t-il d'être déjà
+> Bien décider suppose-t-il d'être déjà
 > vertueux, alors que la vertu, elle, se construit lentement par
 > l'habitude ? Tension féconde plutôt qu'hostilité.
 

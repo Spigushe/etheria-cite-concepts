@@ -71,11 +71,7 @@ des idées humaines avant qu'un débat trop violent ne le brise en sept
 éclats, un par quartier. Chacun garderait une part du pouvoir
 d'origine, mais aucun ne suffirait seul à restaurer ce qui a été
 perdu, ce qui n'empêche pas certains Éthérialistes de croire qu'un
-jour, les sept fragments pourraient être réunis. C'est à peu près à
-cette époque que Maître Kharôn, refusant toute cohérence totale qu'il
-tenait pour une forme de tyrannie déguisée, a fondé ce qui n'était
-encore qu'un simple carrefour désordonné et qui allait devenir le
-Quartier de l'Abîme.
+jour, les sept fragments pourraient être réunis.
 
 ## La Grande Suspension
 
@@ -99,6 +95,15 @@ question : il faut la poser en pariant, sans savoir si elle
 suffira. C'est peut-être la première trace de ce que le système de
 jeu appelle un sphinx moral, ce type de dilemme où aucune donnée
 n'aide à décider (voir [Système de jeu](../mj/systeme.md)).
+
+> [!SECRET] Le huitième quartier
+> Avant la Grande Suspension, Éthéria comptait huit quartiers. Le
+> nombre sept, que les cartes présentent comme la seule constante
+> (voir [Cartographie](cartographie.md)), date de cette disparition.
+> C'est ce qui donne son poids à la quête
+> [Le Pacte du Paradoxe](../mj/campagne/quetes-transversales.md#le-pacte-du-paradoxe) :
+> fonder un huitième quartier, c'est rouvrir une place qui a déjà
+> existé.
 
 La Suspension a aussi vu naître, ou peut-être mourir, deux figures
 que la cité n'a jamais vraiment su comment ranger. Éleuthéra la

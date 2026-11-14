@@ -64,6 +64,11 @@ Certains visiteurs, déstabilisés de ne recevoir en retour que la voix
 des autres, finissent par lui poser des questions personnelles rien
 que pour voir s'il cédera. Aucun n'a encore réussi.
 
+Tous ne se reconnaissent pas dans le pacte. Les Non-Signataires le
+refusent au nom d'un consentement qu'ils n'ont jamais librement
+donné ; leur meneur est un ancien Liant, respecté avant sa rupture
+publique.
+
 ## Dilemmes qu'on y affronte
 
 Un contrat passé entre deux groupes peut se révéler injuste pour un
@@ -124,6 +129,12 @@ toute forme de coopération stable. Elle se montre en revanche en
 affinité avec les Jardins de l'Équité, dont elle partage la vision
 d'une structure morale commune, même si elle en conteste parfois les
 fondements théoriques.
+
+Avec la Citadelle de l'Arété, l'affinité reste prudente : la vertu
+individuelle suffit-elle à garantir un bon pacte collectif, ou
+faut-il aussi des règles ? Le Labyrinthe des Identités, enfin,
+inquiète la Concorde, parce qu'une identité instable peine à signer
+un pacte durable.
 
 Une inscription, gravée au-dessus de la Halle de la Convention,
 résume l'esprit du lieu : *mieux vaut un mauvais accord librement

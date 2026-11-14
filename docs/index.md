@@ -11,7 +11,7 @@ ici au fur et à mesure que la cité prend corps.
 
 Deux portes d'entrée selon ce qui vous attire :
 
-- [Pitch](monde/presentation.md), pour le ton et les thèmes qui distinguent
+- [Présentation](monde/presentation.md), pour le ton et les thèmes qui distinguent
   Éthéria d'un décor de fantasy classique.
 - [Le monde](monde/introduction.md), pour comprendre pourquoi la
   cité n'apparaît sur aucune carte, et ce qu'on y vient vraiment
@@ -20,11 +20,11 @@ Deux portes d'entrée selon ce qui vous attire :
 Une fois posé, direction les [Quartiers](monde/quartiers/index.md) :
 sept zones, sept ambiances, un aperçu de chacune avant d'aller plus
 loin. Le menu garde aussi une section Ressources Philo pour creuser
-un concept ou un philosophe précis, et une section dédiée au système
-de jeu.
+un concept ou un philosophe précis, et un Espace MJ qui contient le
+système de jeu.
 
 > [!MJ] Vous menez la partie ?
-> L'Espace MJ regroupe les aventures prêtes à jouer, les conseils de
+> L'Espace MJ regroupe les règles, les trames d'aventure, les conseils de
 > mise en scène et les outils de sécurité de table. Il suppose d'avoir
 > déjà lu les pages ouvertes aux joueurs, donc mieux vaut garder cette
 > porte pour plus tard si vous comptez aussi jouer.

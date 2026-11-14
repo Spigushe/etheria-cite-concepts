@@ -1,4 +1,4 @@
-# Ethéria, Cité des Concepts
+# Éthéria, Cité des Concepts
 
 <p align="center">
   <img src="docs/assets/logo.png" alt="Blason d'Éthéria" width="220">
@@ -22,9 +22,9 @@ machine.
   `> [!FACTION]`, `> [!REGLE]`, `> [!NOUVELLES]`, `> [!DANGER]`,
   `> [!SECRET]`, `> [!INTRIGUE]`, `> [!TRESOR]`, `> [!MJ]` (informations
   hors-fiction réservées au meneur) — voir `docs/index.md` pour la liste et
-  `docs/stylesheets/callouts.css` pour en ajouter.
-- Numéro de version affiché dynamiquement sur la page d'accueil, lu depuis
-  `CHANGELOG.md` par un hook MkDocs (`scripts/version.py`).
+  `docs/assets/stylesheets/callouts.css` pour en ajouter.
+- Page Changelog générée depuis `CHANGELOG.md` par un hook MkDocs
+  (`scripts/changelog.py`, qui remplace `{{ changelog }}`).
 - Déploiement automatique via GitHub Actions à chaque push d'un tag
   (`v*`).
 
@@ -67,10 +67,10 @@ Pas d'automatisation à l'heure actuelle, je lance ces commandes à la main
 avant de commiter :
 
 ```bash
-ruff check scripts/ --fix
-ruff format scripts/
-ty check
-python -m mkdocs build --strict -f mkdocs.dev.yml
+uv run ruff check scripts/ --fix
+uv run ruff format scripts/
+uv run ty check
+uv run python -m mkdocs build --strict -f mkdocs.dev.yml
 npx --yes --package cspell --package @cspell/dict-fr-fr -- cspell --config cspell.json --no-progress
 ```
 
@@ -108,7 +108,7 @@ republie le site.
    Aucune déclaration préalable n'est nécessaire, le rendu fonctionne
    par défaut (style neutre gris).
 2. Pour lui donner une couleur/icône dédiée, j'ajoute un bloc dans
-   `docs/stylesheets/callouts.css` en suivant les exemples existants.
+   `docs/assets/stylesheets/callouts.css` en suivant les exemples existants.
 
 ## Cartes imprimables
 
@@ -124,29 +124,38 @@ pas stockés dans le dépôt : ils sont régénérés à chaque build par
 
 ```text
 docs/
-├── index.md                    # accueil, numéro de version dynamique
+├── index.md                    # accueil, liste des callouts
+├── changelog.md                # 1 ligne : {{ changelog }}, ne pas éditer
 ├── monde/                      # univers d'Éthéria
+│   ├── presentation.md           # ton, thèmes, ce que les joueurs incarnent
 │   ├── introduction.md
 │   ├── histoire.md
 │   ├── cartographie.md
 │   ├── personnages.md
-│   ├── pitch.md
-│   └── quartiers/               # les sept quartiers (ambiance, PNJ,
+│   └── quartiers/                # les sept quartiers (ambiance, PNJ,
 │                                 # dilemmes, menaces, mythes, connexions)
 ├── resources-philo/            # espace pédagogique
 │   ├── concepts/                 # une fiche concept par quartier
 │   └── sources/                  # une fiche par philosophe/auteur
 ├── mj/                         # espace MJ
 │   ├── index.md                  # conseils de mise en scène, sécurité de table
-│   ├── systeme.md                # réputation philosophique, dilemmes
-│   ├── annexes/                  # fiche de personnage FATE, aides de jeu
-│   └── campagne/                 # aventures prêtes à jouer, une par
+│   ├── systeme.md                # FATE (Fate Accelerated) : règles de base,
+│   │                             # réputation, évolution, dilemmes
+│   ├── annexes/                  # fiche de personnage, prétirés, cartes
+│   │                             # (decks-cartes.json)
+│   └── campagne/                 # trames d'aventure, une page par
 │                                 # quartier, quêtes transversales,
 │                                 # transitions entre quartiers
-└── stylesheets/callouts.css    # styles des callouts personnalisés
+└── assets/
+    ├── blasons/ et icons/        # 7 PNG numérotés 1..7
+    ├── fonts/                    # polices auto-hébergées (woff2)
+    ├── javascripts/carrousel.js
+    └── stylesheets/              # callouts.css + extra.css
 scripts/
 ├── obsidian_callouts.py        # extension Markdown : syntaxe > [!TYPE]
-└── version.py                  # hook MkDocs : injecte {{ version }}
+├── changelog.py                # hook MkDocs : injecte {{ changelog }}
+└── cards.py                    # hook MkDocs : génère les cartes (PNG + PDF)
+templates/                      # gabarits de l'export PDF
 mkdocs.yml                      # configuration du site (utilisée par le CI)
 mkdocs.dev.yml                  # config de dev local (hérite de mkdocs.yml,
                                  # sans le plugin to-pdf)

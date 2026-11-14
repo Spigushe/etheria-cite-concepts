@@ -17,7 +17,23 @@
 > discussions, des choix de conscience) se joue à la table, sans jet,
 > exactement comme le prévoyait déjà [Système de jeu](../systeme.md).
 > FATE ajoute une mécanique là où il en manquait une, sans changer
-> l'esprit du jeu.
+> l'esprit du jeu. Les règles de base (dés, difficultés, points de
+> Destin, stress) sont dans [Système de jeu](../systeme.md#regles-de-base).
+
+## Créer un Aventurier
+
+1. Choisis une Origine et une Discipline. Elles n'ont pas d'effet
+   chiffré : elles servent à écrire les Aspects.
+2. Écris le Concept central et la Faille.
+3. Écris un Serment et un Lien, chacun envers une faction, un Gardien
+   ou un autre Aventurier.
+4. Laisse l'Aspect libre en blanc. Tu le rempliras en jeu, en
+   répondant à la question : qu'est-ce qui t'a fait entrer à Éthéria ?
+5. Répartis +3, +2, +2, +1, +1 et +0 entre les six Approches.
+6. Choisis un stunt. Tu pourras en ajouter deux en cours de jeu.
+7. Place ta réputation : deux axes à un cran du centre.
+
+Pour jouer tout de suite, quatre [prétirés](pretires.md) sont prêts.
 
 ## Recto : identité et Aspects
 
@@ -35,7 +51,7 @@ de Destin).
 | **Concept central** | Qui est le personnage en une phrase (ex : _stoïcien errant, empiriste éclairé_)   |
 | **Faille** | Une contradiction ou une faiblesse récurrente qui _sera_ exploitée |
 | **Serment ou pacte** | Un engagement pris envers une faction, un Gardien, ou un autre joueur |
-| **Lien** | Une relation marquante (alliance, dette, rivalité) avec une faction ou un Gardien |
+| **Lien** | Une relation marquante (alliance, dette, rivalité) avec une faction, un Gardien, ou un autre Aventurier |
 | **Aspect libre** | Évolue en jeu ; se réécrit à mesure que le personnage change |
 
 **Points de Destin :** ⬜⬜⬜ (rafraîchis à 3 en début de séance)
@@ -61,7 +77,7 @@ symbolique). Répartition de départ : +3, +2, +2, +1, +1, +0.
 > _Défendre_. En dehors de ces cas à enjeu réel, on ne lance rien :
 > on décrit, et ça se passe.
 
-## Stunts (1 à 3 au départ)
+## Stunts (1 au départ, jusqu'à 3)
 
 Un stunt donne un bonus (+2 en général) dans une circonstance précise,
 ou une capacité spéciale. Exemples adaptés à l'univers :
@@ -82,21 +98,24 @@ Deux pistes de stress plutôt qu'une santé unique, pour distinguer
 l'épreuve physique de l'épreuve intellectuelle/existentielle propre à
 Éthéria :
 
-**Résolution** (physique, pratique) : ⬜ ⬜ ⬜
-**Conviction** (mentale, philosophique) : ⬜ ⬜ ⬜
+**Résolution** (physique, pratique) : ⬜ 1 ⬜ 2 ⬜ 3
+**Conviction** (mentale, philosophique) : ⬜ 1 ⬜ 2 ⬜ 3
+
+Une case absorbe autant de crans que le chiffre qu'elle porte. Le
+stress s'efface en fin de scène.
 
 Les conséquences absorbent plus de stress mais laissent une trace
 durable, qui devient elle-même un aspect exploitable jusqu'à guérison :
 
-| Conséquence | Case | Devient l'aspect |
-| ----------------------------- | ---- | ------------------------------------------ |
-| Doute passager (léger) | ⬜ | _ex : "Ébranlé par l'argument du Gardien"_ |
-| Conviction ébranlée (modérée) | ⬜ | _ex : "Ne croit plus à sa propre cause"_ |
-| Crise existentielle (grave) | ⬜ | _ex : "A perdu le sens de qui il est"_ |
+| Conséquence | Case | Absorbe | Dure jusqu'à | Devient l'aspect |
+| ----------------------------- | ---- | ------- | ------------------------------- | ------------------------------------------ |
+| Doute passager (léger) | ⬜ | 2 crans | la fin de la scène suivante | _ex : "Ébranlé par l'argument du Gardien"_ |
+| Conviction ébranlée (modérée) | ⬜ | 4 crans | la fin de la séance suivante | _ex : "Ne croit plus à sa propre cause"_ |
+| Crise existentielle (grave) | ⬜ | 6 crans | la fin de l'aventure suivante | _ex : "A perdu le sens de qui il est"_ |
 
 > [!REGLE] Lien avec la réputation philosophique
-> La réputation philosophique (voir plus bas) n'est pas notée par un
-> chiffre, mais elle a maintenant une vraie prise mécanique : agir à
+> La réputation philosophique (voir plus bas) se compte en crans,
+> trois de chaque côté du centre, et elle a une vraie prise mécanique : agir à
 > rebours de sa tendance actuelle est une occasion de _compel_ (un
 > point de Destin contre une complication cohérente avec le
 > personnage), et agir en accord profond avec elle peut justifier
@@ -104,15 +123,17 @@ durable, qui devient elle-même un aspect exploitable jusqu'à guérison :
 
 ## Réputation philosophique
 
-Cinq axes, positionnés librement, réévalués en fin de séance à la
-lumière des actes (pas des intentions) :
+Cinq axes de sept positions chacun (le centre, et trois crans de
+chaque côté), réévalués en fin de séance à la lumière des actes (pas
+des intentions). Voir [Système de jeu](../systeme.md#reputation-philosophique)
+pour le placement de départ et les déplacements.
 
 ```text
-Idéaliste     ─────●───── Pragmatique
-Cohérent      ───────●─── Inconstant
-Solidaire     ──●───────── Individualiste
-Révisionniste ────●─────── Conservateur
-Rationaliste  ──────●───── Intuitif
+Idéaliste     ○ ○ ○ ● ○ ○ ○ Pragmatique
+Cohérent      ○ ○ ○ ● ○ ○ ○ Inconstant
+Solidaire     ○ ○ ○ ● ○ ○ ○ Individualiste
+Révisionniste ○ ○ ○ ● ○ ○ ○ Conservateur
+Rationaliste  ○ ○ ○ ● ○ ○ ○ Intuitif
 ```
 
 ## Pages centrales : carnet de route

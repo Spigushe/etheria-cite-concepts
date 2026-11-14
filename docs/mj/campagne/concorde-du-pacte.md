@@ -9,11 +9,13 @@ pôles du débat.
 
 | | |
 | - | - |
-| Accroche | Plusieurs communautés autonomes du quartier refusent d'adhérer au Pacte Fédérateur que l'Érudit-Régent souhaite imposer avant la prochaine saison des récoltes symboliques. Les Aventuriers sont chargés d'arbitrer les négociations. |
+| Accroche | Plusieurs communautés autonomes du quartier refusent d'adhérer au Pacte Fédérateur que le représentant tiré au sort cette saison, qu'on surnomme l'Érudit-Régent, voudrait faire adopter avant la fin de son mandat. Les Aventuriers sont chargés d'arbitrer les négociations. |
 | Scènes clés | Chaque communauté a ses raisons : l'une craint de perdre son autonomie judiciaire, l'autre exige une clause d'exception pour ses rites propres. Magister Halden propose sa « clause parfaite », que personne n'a jamais acceptée telle quelle. |
 | Bascule | Une faction puissante, dont le soutien est indispensable à l'adoption du pacte, exige une exception qui romprait le principe d'égalité entre signataires. |
 | Dénouements possibles | Accorder l'exception et risquer de vider le pacte de son sens, la refuser et perdre l'adhésion de la faction, ou négocier une clause de révision automatique dans quelques années. |
 | Portée | Cas collectif : le groupe doit trancher ensemble, sans qu'aucune option ne satisfasse tout le monde. Bon terrain pour confronter les Aspects « Serment » de plusieurs personnages. |
+| Type de dilemme | Cas collectif |
+| Thèmes sensibles | Aucun |
 
 ## L'Émeute des Non-Signataires
 
@@ -24,16 +26,20 @@ pôles du débat.
 | Bascule | Le meneur est sincère et pacifiste dans ses intentions, mais ses idées ont inspiré des actes violents qu'il n'a ni ordonnés ni cautionnés. |
 | Dénouements possibles | Le condamner en exemple, malgré son innocence directe, l'acquitter au risque d'affaiblir la confiance publique dans la justice du quartier, ou proposer une peine symbolique assortie d'un débat public sur le consentement au pacte. |
 | Portée | Interroge si l'on peut être tenu responsable des conséquences d'idées qu'on a exprimées sans jamais appeler à la violence. |
+| Type de dilemme | Cas collectif |
+| Thèmes sensibles | Attentats, procès |
 
 ## Le Sceau Brisé
 
 | | |
 | - | - |
-| Accroche | Le contrat fondateur liant les habitants aux entités qui ont fondé Éthéria se dissout sans explication, ouvrant des failles juridiques dans tout le quartier. Le Porte-Parole Silencieux convoque les Aventuriers pour en retrouver l'original. |
+| Accroche | Le texte que les Sentinelles du Pacte Originel tiennent pour le contrat fondateur d'Éthéria se dissout sans explication, ouvrant des failles juridiques dans tout le quartier. Le Porte-Parole Silencieux convoque les Aventuriers pour en retrouver l'original. |
 | Scènes clés | La quête mène à des archives scellées, gardées par des rituels administratifs oubliés. Le texte original, une fois retrouvé, révèle une clause oubliée : elle légitimait autrefois des sacrifices aujourd'hui considérés comme des crimes. |
 | Bascule | Restaurer le pacte dans son intégralité relégitimerait cette clause, même si personne n'a l'intention de l'appliquer à nouveau. |
 | Dénouements possibles | Restaurer le texte tel quel, au nom de la fidélité historique, le réviser en supprimant la clause, au risque de fragiliser sa légitimité ancienne, ou révéler publiquement la clause et laisser le quartier décider collectivement. |
 | Portée | Le contrat social repose-t-il sur un texte immuable, ou sur une foi commune capable de se corriger elle-même. |
+| Type de dilemme | Choix différé |
+| Thèmes sensibles | Sacrifices rituels évoqués |
 
 ## L'Héritage du Législateur
 
@@ -44,6 +50,8 @@ pôles du débat.
 | Bascule | Le nouveau modèle profite manifestement aux plus faibles, mais restreint des libertés que la population actuelle tient pour acquises et chérit sincèrement. |
 | Dénouements possibles | Faire adopter la réforme malgré la résistance, l'abandonner par respect de la volonté populaire actuelle, ou proposer un compromis progressif étalé sur plusieurs générations. |
 | Portée | Le contrat social est-il figé une fois signé, ou en renégociation permanente à mesure que la société change. |
+| Type de dilemme | Choix différé |
+| Thèmes sensibles | Aucun |
 
 ## Le Serment d'Éthéria
 
@@ -54,3 +62,5 @@ pôles du débat.
 | Bascule | Un nouvel ordre émerge spontanément dans cette version alternative, mais repose entièrement sur la domination d'une minorité charismatique, sans qu'aucun contrat ne l'ait légitimée. |
 | Dénouements possibles | Accepter cet ordre spontané pour rétablir une paix rapide, tenter d'y réintroduire un pacte fondé sur le consentement, au prix d'un chaos temporaire plus grand, ou chercher le chemin de retour vers l'Éthéria d'origine sans intervenir. |
 | Portée | Le contrat social est-il une protection contre l'arbitraire, ou une prison qui masque un arbitraire plus discret. |
+| Type de dilemme | Cas collectif |
+| Thèmes sensibles | Attentat, domination |

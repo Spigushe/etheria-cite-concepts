@@ -62,6 +62,15 @@ irréversibles, en particulier lorsqu'un dilemme a été évité trop
 longtemps, et elle prévient toujours de la même phrase : tant qu'on
 refuse de choisir, c'est elle qui choisit à la place du voyageur.
 
+La Matriarche Élégéia organisait des dialogues entre écoles ennemies
+sans jamais proposer de réponse. Elle est morte au milieu d'un débat
+qu'elle a refusé d'interrompre (voir [Histoire et mythologie](histoire.md)).
+
+Silys, l'Enfant Muet, n'a jamais parlé, mais sa seule présence
+faisait naître des dilemmes chez ceux qui le croisaient. Sa
+disparition, pendant la Grande Suspension ou juste après, a été vécue
+comme un deuil par toute la cité.
+
 L'Oracle Paradoxal, enfin, est consulté pour prédire les conséquences
 de décisions majeures, à la Balance d'Orion comme ailleurs. Il peut
 tout prévoir, dit-on, sauf la question qu'on osera vraiment lui

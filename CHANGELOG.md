@@ -26,6 +26,59 @@ numéro incrémental (`v0.10.1-eudemos-1`, `v0.10.2-eudemos-2`, ...).
 ### Ajouté
 
 - Document de navigation du dépôt `CLAUDE.md` ajouté, incluant la structure du projet, la stack technique et les points d’entrée pour les contributions.
+- Règles de base de Fate Accelerated dans `mj/systeme.md` (dés,
+  difficultés, issues, actions, points de Destin, stress), avec la
+  mention de licence d'Evil Hat.
+- Échelle de réputation (trois crans de chaque côté du centre),
+  jugement des Gardiens par axe, évolution des personnages par
+  jalons, journal des altérations outillé.
+- Création de personnage, valeurs des cases de stress et des
+  conséquences dans la fiche de personnage.
+- Page `mj/annexes/pretires.md` : quatre Aventuriers prêts à jouer.
+- Effet de chaque famille de cartes dans `mj/annexes/ressources-mj.md`.
+- Section « La Société des Explorateurs » dans `monde/presentation.md`.
+- Type de dilemme et thèmes sensibles sur les 39 trames d'aventure.
+- Fiche `resources-philo/sources/kierkegaard.md`.
+- Secret de campagne sur le huitième quartier dans `monde/histoire.md`.
+- Élégéia, Silys et les Non-Signataires dans les personnages et la
+  fiche de la Concorde ; regards entre quartiers complétés dans les
+  sept fiches de quartier.
+
+### Modifié
+
+- « Aventures prêtes à jouer » remplacé par « trames d'aventure ».
+- Thésée devient Théséis dans les aventures du Labyrinthe (« Le
+  Jugement de Théséis »), avec une note MJ.
+- « La Manette d'Orion » devient « La Manette » ; Eudaimon devient
+  l'Algorithme d'Orion ; l'Érudit-Régent et le contrat fondateur
+  accordés à la fiche de la Concorde ; titres de la Citadelle
+  accordés à la Salle de l'Exemplarité.
+- Typologie des dilemmes de `ressources-mj.md` remplacée par un lien
+  vers `systeme.md`.
+- Assets `5-dilemne-tramway.png` renommés `5-dilemme-tramway.png`.
+- README et commentaires de `mkdocs.yml` remis à jour ; graphie
+  « Éthéria » dans `site_name` et le titre du README.
+
+### Corrigé
+
+- Quartier de l'Abîme et Maître Kharôn retirés de `monde/histoire.md`.
+- Foot : le cas de 1967 est celui du conducteur, comparé au juge ; le
+  témoin à l'aiguillage et le pont viennent de Thomson (1976 et 1985).
+- Doublons et lieux flous : le Collecteur de Restes devient le
+  Préleveur de Surplus ; le Tramway Immatériel devient la légende du
+  Tramway Fantôme ; les « villes » des trames deviennent des secteurs
+  nommés (secteur des Justes, Secteur d'Essai, Enclos des Mérites,
+  Faubourg des Rêves Inversés) ; Miroir Flatteur distingué du Miroir
+  d'Éleusis ; « épreuve de justice » au Jardin des Épreuves ; Lac des
+  Réfractions et Confrérie du Vide ajoutés aux fiches de quartier.
+- Œuvres de référence de Sartre et Singer dans l'index des sources ;
+  Locke ajouté au Labyrinthe ; Zok n'est plus présenté comme
+  l'aboutissement de Singer.
+- Citations sourcées (Locke, Hobbes, Hutcheson, Bentham), citation d'Aristote
+  passée en paraphrase.
+- Notes « Non documentée ailleurs » retirées des transitions ; note de
+  travail retirée de `mj/index.md` ; libellés périmés de l'accueil ;
+  « Le Manuscrit Délié », « Bambou Fendu », « Arété ».
 
 ## [0.10.3] - 2026-07-14 — Eudémos, hotfix 3
 

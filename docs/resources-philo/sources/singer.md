@@ -23,8 +23,8 @@ responsabilité morale face à une souffrance qu'on pourrait empêcher.
 Bentham et Mill jusqu'à ses conséquences les plus dérangeantes : si
 on doit vraiment maximiser le bien, jusqu'où va notre responsabilité
 envers des inconnus qu'on ne verra jamais ? Zok, le régulateur public
-qui pratique une euthanasie rituelle pour libérer des ressources,
-applique cette même logique sans le confort de la distance : il ne
-s'agit plus d'un inconnu lointain qu'on pourrait facilement oublier,
-mais de quelqu'un présent devant lui, ce qui rend le calcul autrement
-plus difficile à assumer.
+qui pratique une euthanasie rituelle pour libérer des ressources, n'est
+pas l'aboutissement de Singer : c'est la caricature que le quartier
+fait de l'utilitarisme. Zok montre ce que devient ce raisonnement
+quand on en retire tout ce que Singer y met de consentement et de
+prudence.

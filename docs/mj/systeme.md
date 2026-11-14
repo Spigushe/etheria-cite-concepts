@@ -1,9 +1,65 @@
 # Système de jeu
 
-Le moteur de jeu repose sur FATE (voir la [fiche de personnage](annexes/fiche-personnage.md)
-pour les Aspects, Approches, stress et conséquences). Ce qui suit
-couvre ce qui est propre à Éthéria : la réputation philosophique, les
-dilemmes, et la manière dont le monde encaisse les choix des joueurs.
+Le moteur de jeu repose sur Fate Accelerated (voir la
+[fiche de personnage](annexes/fiche-personnage.md) pour les Aspects,
+Approches, stress et conséquences, et pour la création d'un
+Aventurier). Cette page donne d'abord les règles de base, puis ce qui
+est propre à Éthéria : la réputation philosophique, l'évolution des
+personnages, les dilemmes, et la manière dont le monde encaisse les
+choix des joueurs.
+
+## Règles de base
+
+Éthéria utilise Fate Accelerated. Ce qui suit suffit pour jouer ; le
+texte complet est dans le [SRD de Fate Accelerated](https://fate-srd.com/fate-accelerated).
+
+On ne lance les dés que si l'issue est incertaine et que l'enjeu
+compte. On jette quatre dés Fate (chacun donne +1, 0 ou -1), on ajoute
+l'Approche choisie, et on compare le total à une difficulté fixée par
+le MJ ou au jet d'un adversaire.
+
+| Difficulté | Valeur |
+| -------------- | ------ |
+| Simple | +1 |
+| Courante | +2 |
+| Ardue | +3 |
+| Exceptionnelle | +4 |
+
+| Résultat | Effet |
+| ---------------------- | -------------------------------------------- |
+| En dessous | Échec, ou réussite avec un coût sérieux |
+| Égalité | Réussite avec un coût mineur |
+| Au-dessus de 1 ou 2 | Réussite |
+| Au-dessus de 3 ou plus | Réussite avec style : un petit bonus en plus |
+
+Quatre actions existent. Surmonter un obstacle. Créer un avantage :
+on pose un aspect sur la scène, avec une invocation gratuite.
+Attaquer. Défendre.
+
+Chaque joueur commence la séance avec trois points de Destin.
+Dépenser un point pour invoquer un aspect pertinent donne +2 ou une
+relance. Quand le MJ propose une complication liée à un aspect,
+l'accepter rapporte un point ; la refuser en coûte un.
+
+Une attaque réussie inflige autant de crans que l'écart entre les
+deux jets. On les absorbe en cochant une case de stress ou en prenant
+une conséquence. Les trois cases de stress de chaque piste valent 1,
+2 et 3 crans ; les conséquences absorbent 2, 4 et 6 crans (voir la
+[fiche de personnage](annexes/fiche-personnage.md)). Un personnage
+qui ne peut plus absorber est mis hors jeu : c'est l'attaquant qui
+décide de ce qui lui arrive. On peut aussi concéder avant le jet, et
+garder la main sur sa sortie de scène.
+
+<!-- cspell:disable -->
+> [!REGLE] Licence
+> This work is based on Fate Core System and Fate Accelerated Edition
+> (found at <http://www.faterpg.com/>), products of Evil Hat
+> Productions, LLC, developed, authored, and edited by Leonard
+> Balsera, Brian Engard, Jeremy Keller, Ryan Macklin, Mike Olson,
+> Clark Valentine, Amanda Valentine, Fred Hicks, and Rob Donoghue, and
+> licensed for our use under the Creative Commons Attribution 3.0
+> Unported license (<http://creativecommons.org/licenses/by/3.0/>).
+<!-- cspell:enable -->
 
 ## Réputation philosophique
 
@@ -20,18 +76,52 @@ volontairement son profil en jouant des paradoxes est possible, mais
 risqué, et attire parfois l'attention des Gardiens ou des factions
 les plus radicales.
 
-> [!MJ] Règle à tester : la réputation comme actionnable
-> En fin de séance, chaque joueur propose un déplacement d'un cran
-> sur l'axe de son choix, justifié par un acte précis de la séance,
-> et le MJ valide ou ajuste. Une fois trois crans franchis dans une
-> direction, le joueur peut inscrire la tendance comme un aspect
-> libre sur sa fiche (par exemple *"de plus en plus révisionniste"*),
-> invocable normalement. À l'inverse, agir à contre-courant de sa
-> tendance actuelle est une occasion naturelle d'adversité : le MJ
-> propose alors une complication cohérente avec le personnage,
-> réussie pour un point de Destin. Ça évite que la réputation reste
-> un simple curseur qu'on regarde sans jamais vraiment l'utiliser à
-> table.
+> [!REGLE] L'échelle de réputation
+> Chaque axe compte sept positions : le centre, et trois crans de
+> chaque côté. Un personnage neuf place deux axes à un cran du centre,
+> du côté de son choix, et laisse les trois autres au centre.
+>
+> En fin de séance, chaque joueur propose de déplacer un axe d'un
+> cran, en citant un acte précis de la séance. Le MJ valide ou ajuste.
+>
+> Au troisième cran d'un côté, le joueur inscrit la tendance comme
+> aspect (par exemple *« De plus en plus révisionniste »*). Il le perd
+> s'il revient à deux crans.
+>
+> Passer d'un côté à l'autre d'un axe en une seule séance est un
+> retournement : le MJ note une altération dans la cité.
+>
+> Agir à contre-courant de sa tendance actuelle reste une occasion
+> naturelle d'adversité : le MJ propose alors une complication
+> cohérente avec le personnage, qui rapporte un point de Destin si
+> le joueur l'accepte.
+
+### Le jugement des Gardiens
+
+Chaque Gardien regarde un axe en particulier. Si le personnage se
+trouve à deux crans ou plus du mauvais côté, le passage se ferme. Il
+peut le rouvrir par un acte qui dément sa réputation, ou par un jet
+de Surmonter de difficulté Ardue (+3) pour convaincre le Gardien.
+
+| Gardien | Quartier | Se méfie de |
+| -------------- | ---------- | --------------------------- |
+| Ariadnos | Labyrinthe | (aucun : il accueille tout) |
+| Seraphia | Concorde | Individualiste |
+| Orion Obliquus | Balance | Intuitif |
+| Absyr | Gouffre | Idéaliste |
+| Clavéria | Rails | Inconstant |
+| Équitania | Jardins | Pragmatique |
+| Sophon | Citadelle | Inconstant |
+
+## Évolution des personnages
+
+À la fin de chaque aventure, chaque joueur peut faire une chose :
+réécrire un aspect (sauf le Concept central), échanger les valeurs de
+deux Approches, ou remplacer un stunt.
+
+Quand le groupe quitte un quartier après y avoir affronté au moins
+trois dilemmes, chaque joueur ajoute +1 à une Approche (maximum +4)
+et peut réécrire son Concept central.
 
 ## Les dilemmes
 
@@ -67,6 +157,12 @@ enjeu réel plutôt qu'un simple problème à calculer. C'est le seul des
 cinq types où l'absence totale d'information constitue elle-même la
 nature de l'épreuve.
 
+Chaque trame de la [campagne](campagne/index.md) indique son type de
+dilemme. Le choix différé n'apparaît naturellement que si une
+campagne est en cours : aucune trame ne dit explicitement de reprendre
+un choix antérieur des joueurs. C'est au MJ de le faire, à partir du
+journal des altérations (voir plus bas).
+
 > [!MJ] Mise en scène du sphinx moral
 > Contrairement aux autres dilemmes, il ne sert à rien de donner plus
 > d'indices : le manque d'information est la contrainte elle-même. Le
@@ -97,3 +193,16 @@ retrouver scellé jusqu'à ce qu'un dilemme précis soit rouvert. Il
 revient au MJ de tenir un journal des altérations, pour que ces
 transformations restent cohérentes d'une séance à l'autre plutôt que
 de se perdre.
+
+Pour chaque dilemme tranché, note une ligne : le quartier, le choix,
+et une trace visible. Pioche dans cette liste si rien ne vient.
+
+| Portée | Exemples de trace |
+| -------- | ------------------------------------------------------------ |
+| Locale | Un PNJ change d'attitude, un lieu se ferme, un objet se tait |
+| Quartier | Un portail change de condition, une faction gagne ou perd |
+| Cité | Un Gardien se tait, un quartier se scelle |
+
+Fais revenir une trace locale dès la séance suivante, une trace de
+quartier dans les trois séances, une trace de cité une fois par
+campagne.

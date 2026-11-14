@@ -25,8 +25,8 @@ témérité.
 Aux Rails de la Décision, Aristote distingue le volontaire de
 l'involontaire (Livre III) et décrit la faiblesse de la volonté
 (*akrasia*, Livre VII). La phronèsis, cette prudence pratique, y
-délibère sur le particulier là où « il n'y a pas de règle pour les
-choses contingentes ».
+délibère sur le particulier, là où aucune règle générale ne suffit à
+trancher d'avance.
 
 Aux Jardins de l'Équité, la justice distributive (proportion aux
 mérites) et corrective (rétablir l'égalité) se complètent d'une

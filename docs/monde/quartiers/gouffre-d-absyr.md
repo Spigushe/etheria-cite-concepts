@@ -41,6 +41,10 @@ Leur manière d'être est détachée mais compatissante : ils n'essaient
 pas de convaincre, seulement de comprendre ceux qui n'en peuvent plus
 de chercher.
 
+Certains Déliés se réunissent en Confrérie du Vide, autour de
+banquets où l'on ne se nomme jamais. Personne ne sait ce qu'ils y
+attendent, eux compris.
+
 Camüs a enseigné l'éthique pendant des années avant qu'une série de
 drames personnels ne lui arrache, un à un, chacun de ses dogmes. Il
 se tient depuis au bord du Puits de l'Écho Muet et collectionne des
@@ -119,6 +123,9 @@ Balance d'Orion, qu'il juge coupable de nier l'absurde au nom de
 l'efficacité. Il entretient néanmoins une étrange affinité avec le
 Labyrinthe des Identités, dans la reconnaissance partagée d'une
 instabilité fondamentale de l'être.
+
+Avec la Citadelle de l'Arété, la tension est de fond : la vertu
+a-t-elle un sens dans un monde sans signification donnée ?
 
 Une phrase, écrite à l'encre invisible sur le mur du Puits, résume
 l'esprit du lieu : *le monde ne demande rien, c'est nous qui avons

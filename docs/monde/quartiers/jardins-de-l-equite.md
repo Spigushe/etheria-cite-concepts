@@ -118,6 +118,12 @@ méfient en revanche de la Balance d'Orion, perçue comme trop
 utilitariste au détriment de l'équité individuelle, et du Gouffre
 d'Absyr, qui nie selon eux toute base stable pour juger.
 
+Face au Labyrinthe des Identités, les Jardins penchent vers la
+circonstance atténuante : comment juger équitablement quelqu'un dont
+l'identité est instable ? Avec les Rails de la Décision, la tension
+est de rythme, l'urgence d'une décision contre la lenteur d'un
+jugement équitable.
+
 Une inscription gravée sur le Forum de Justice résume la philosophie
 du lieu : *il n'y a pas de justice naturelle, seulement des décisions
 humaines rendues avec prudence.*

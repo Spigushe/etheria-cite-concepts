@@ -6,16 +6,18 @@ dilemme du tramway.
 
 ## L'idée centrale
 
-Foot imagine la situation suivante : un tramway fou fonce vers cinq
-personnes attachées sur la voie. Tu peux actionner un levier pour le
-dévier sur une autre voie, où une seule personne est attachée. Dois-tu
-actionner le levier ? La plupart des gens répondent oui. Mais Foot
+Foot imagine la situation suivante : le conducteur d'un tramway fou
+ne peut plus que le diriger d'une voie vers une autre. Cinq hommes
+travaillent sur la première, un seul sur la seconde. Doit-il
+bifurquer ? La plupart des gens répondent oui. Mais Foot
 utilise cet exemple pour interroger une règle morale plus profonde,
 la doctrine du double effet : il y a une différence entre causer un
 mal directement comme moyen d'atteindre un but, et causer un mal comme
-simple effet secondaire d'une action par ailleurs bonne. Dévier le
-tramway tue quelqu'un comme effet secondaire ; pousser quelqu'un sur
-les rails pour arrêter le tramway tuerait quelqu'un comme moyen. Pour
+simple effet secondaire d'une action par ailleurs bonne. Foot met le
+tramway en regard d'un autre cas : un juge qui, pour empêcher une
+émeute meurtrière, ferait condamner et exécuter un innocent. Le
+conducteur n'a pas besoin de la mort de l'homme seul pour sauver les
+cinq ; le juge, lui, a besoin de la mort de l'innocent. Pour
 Foot, ces deux actes ne sont pas moralement équivalents, même si le
 résultat final (une personne meurt) est le même.
 
@@ -28,5 +30,5 @@ Le Tramway Fantôme que conduit Juma-Kei n'est pas un simple décor
 emprunté à l'exemple de Foot : il en reprend directement la logique,
 puisqu'il n'emprunte que les rails nés de décisions que quelqu'un a
 refusé de prendre, comme si le quartier tout entier avait retenu la
-leçon que Foot tirait de son levier, agir a un poids que s'abstenir
+leçon que Foot tirait de son tramway, agir a un poids que s'abstenir
 n'a pas.

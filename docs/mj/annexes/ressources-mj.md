@@ -32,6 +32,27 @@ Les cartes de lieu représentent physiquement un portail, une anomalie
 conceptuelle ou un espace symbolique, utiles comme repères sur une
 carte ou pour marquer l'ouverture ou la fermeture d'un lieu.
 
+### Ce que fait chaque famille
+
+**Événement.** Le MJ en tire un quand une scène s'essouffle ou à un
+changement de lieu. C'est une complication proposée au groupe : celui
+qui l'assume gagne un point de Destin.
+
+**Idée.** Celui qui la reçoit la garde devant lui. C'est un aspect
+qu'il peut invoquer une fois gratuitement, dans un débat ou face à un
+Gardien. Il la défausse ensuite, ou la donne à quelqu'un.
+
+**Pacte.** Signer un pacte ajoute son titre aux aspects du
+personnage. Le tenir quand il coûte rapporte un point de Destin. Le
+rompre déplace la réputation d'un cran vers Inconstant et rend la
+carte au MJ.
+
+**Lieu.** Posée sur la table, elle signale un lieu ouvert. Son texte
+est un aspect de situation que chacun peut invoquer. Retournée, elle
+signale un lieu fermé ou transformé.
+
+### Présentation des cartes
+
 Convention de couleur au verso : rouge pour les événements, bleu pour
 les idées, noir pour les pactes, vert pour les lieux. Le recto ne
 porte que le blason du quartier et le type de carte : il reste
@@ -185,14 +206,7 @@ cinq idées, quatre pactes, quatre lieux), dans l'ordre de la page
 
 ## Typologie des dilemmes
 
-Cinq formes de dilemmes reviennent régulièrement, chacune mobilisant
-une tension différente. Le tramway moral est le classique choix entre
-deux maux, une situation urgente et irréversible où chaque option
-entraîne une perte. La contradiction interne oppose deux valeurs
-personnelles du même personnage. Le choix différé fait ressurgir une
-ancienne décision sous un jour nouveau, avec des conséquences
-inattendues. Le cas collectif force le groupe à trancher ensemble
-malgré des visions opposées, quitte à déboucher sur un vote ou une
-séparation temporaire. Le sphinx moral, enfin, prive le personnage de
-toute donnée suffisante : aucun calcul n'est possible, seul un pari
-éthique permet d'avancer.
+Les cinq formes de dilemmes (tramway moral, contradiction interne,
+choix différé, cas collectif, sphinx moral) sont décrites dans
+[Système de jeu](../systeme.md#les-dilemmes). Chaque trame de la
+[campagne](../campagne/index.md) indique celle qu'elle met en jeu.

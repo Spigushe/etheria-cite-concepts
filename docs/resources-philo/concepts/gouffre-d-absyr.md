@@ -23,7 +23,7 @@ le projet humain vient s'inscrire.
 > Mythe de Sisyphe*, et le rejette comme une forme de suicide
 > philosophique. Kierkegaard éclaire donc ce quartier par le débat
 > que Camus a lui-même engagé avec lui, pas parce qu'il serait
-> absurdiste.
+> absurdiste (voir [Kierkegaard](../sources/kierkegaard.md)).
 
 ## Ce que ça donne en jeu
 

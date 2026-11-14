@@ -17,8 +17,8 @@ elle vient d'un choix qu'on ne peut pas faire proprement.
 ## Thèmes centraux
 
 La ville entière repose sur sept questions, une par quartier, tirées
-de sources philosophiques réelles (pour l'instant Plutarque, Aristote,
-Rousseau, d'autres à venir) :
+de sources philosophiques réelles, détaillées dans les
+[Ressources Philo](../resources-philo/index.md) :
 
 - Reste-t-on soi-même à travers le changement (le bateau de Thésée,
   au Labyrinthe des Identités).
@@ -49,8 +49,9 @@ qui cite ses sources : chaque quartier est adossé à de vrais textes,
 pas à une morale inventée pour l'occasion.
 
 Le système de jeu prolonge cette logique jusque dans la fiche de
-personnage. Pas de points d'expérience ni de niveaux : un Aventurier
-développe une réputation philosophique, cartographiée sur cinq axes
+personnage. Pas de points d'expérience ni de niveaux (le personnage
+évolue par jalons, voir [Système de jeu](../mj/systeme.md#evolution-des-personnages)) :
+un Aventurier développe une réputation philosophique, cartographiée sur cinq axes
 de tension (idéaliste contre pragmatique, cohérent contre inconstant,
 solidaire contre individualiste, révisionniste contre conservateur,
 rationaliste contre intuitif). Cette position influence concrètement
@@ -70,3 +71,17 @@ en chemin des figures emblématiques qui incarnent elles-mêmes les
 tensions du lieu, comme Théséis, le cartographe qui a renoncé à
 achever la carte d'Éthéria parce qu'il refusait de figer les concepts
 qu'il observait.
+
+## La Société des Explorateurs
+
+La Société n'a ni chef ni siège. Elle tient en trois choses : un
+registre, que chaque Aventurier signe à son entrée dans la cité ; les
+cartes, que les membres se transmettent et corrigent ; et un usage,
+celui d'appeler un Explorateur quand un quartier ne parvient plus à
+trancher seul.
+
+C'est cet usage qui met les personnages en mouvement. Les habitants
+font appel à eux parce qu'ils viennent d'ailleurs et repartiront :
+leur avis ne sert aucun camp. En échange, la Société leur demande une
+seule chose, consigner ce qu'ils ont décidé et ce que la cité est
+devenue ensuite.

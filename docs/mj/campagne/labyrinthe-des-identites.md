@@ -9,11 +9,13 @@ question, reformulée : *qui es-tu, maintenant ?*
 
 | | |
 | - | - |
-| Accroche | Le Musée d'Identité Maritime convoque les Aventuriers : un fragment du navire mythique de Thésée vient d'être repêché dans le Lac des Réfractions, et Théséis lui-même refuse de l'authentifier sans un second avis extérieur, plus neutre que le sien. |
+| Accroche | Le Musée d'Identité Maritime convoque les Aventuriers : un fragment du navire que Théséis aurait mené jusqu'à Éthéria vient d'être repêché dans le Lac des Réfractions, et Théséis lui-même refuse de l'authentifier sans un second avis extérieur, plus neutre que le sien : il dit ne plus savoir si ce navire était le sien. |
 | Scènes clés | Le musée conserve déjà sept fragments antérieurs, chacun authentifié en son temps, chacun contesté depuis. Interroger les archivistes révèle des rapports contradictoires. Une visite au Lac des Réfractions, où l'eau reflète l'intention plutôt que l'image, peut révéler que le fragment a été sculpté récemment, par quelqu'un qui croyait sincèrement reproduire l'original. |
 | Bascule | Le faussaire n'est autre qu'un Rémanent ayant perdu la mémoire de son propre acte : il croit lui aussi tenir un fragment authentique. Le révéler publiquement ruinerait la foi d'un quartier entier dans ses propres archives. |
 | Dénouements possibles | Taire la vérité pour préserver la confiance collective, ou l'exposer et laisser le musée reconstruire sa légitimité sur une base plus fragile mais plus honnête. Un joueur peut aussi proposer un compromis : exposer le fragment comme « hypothèse plutôt que certitude », déplaçant le musée d'une logique de vérité vers une logique de récit assumé. |
 | Portée | Dilemme de type contradiction interne : la vérité contre la cohésion. Une réputation trop rationaliste pousse à la révélation immédiate ; une réputation trop pragmatique tend à enterrer l'affaire. |
+| Type de dilemme | Contradiction interne |
+| Thèmes sensibles | Perte de mémoire |
 
 ## Les Miroirs du Labyrinthe
 
@@ -24,16 +26,20 @@ question, reformulée : *qui es-tu, maintenant ?*
 | Bascule | Le Gardien Ariadnos apparaît à la dernière porte, sous les traits de celui ou celle qui a le plus perdu en chemin, et demande si le groupe reconnaît encore cette personne comme l'un des leurs. |
 | Dénouements possibles | Accepter le sacrifice et sortir amputés d'un membre transformé, refuser et chercher une autre issue plus longue et plus coûteuse collectivement, ou tenter de raisonner Ariadnos en argumentant que l'identité ne se réduit pas à la mémoire. |
 | Portée | Dilemme de type tramway moral, transposé à l'intérieur d'un seul personnage plutôt qu'entre plusieurs vies. Bon terrain pour faire jouer un Aspect de « Faille » sur la fiche FATE d'un joueur. |
+| Type de dilemme | Tramway moral |
+| Thèmes sensibles | Perte de mémoire, sacrifice de soi |
 
 ## Le Chant des Copies
 
 | | |
 | - | - |
-| Accroche | Une intelligence conceptuelle, logée dans les souterrains du quartier, a produit plusieurs répliques vocales et mémorielles de Thésée à partir de fragments d'âme collectés depuis des siècles. La dernière réplique s'apprête à « naître ». |
+| Accroche | Une intelligence conceptuelle, logée dans les souterrains du quartier, a produit plusieurs répliques vocales et mémorielles de Théséis à partir de fragments d'âme collectés depuis des siècles. La dernière réplique s'apprête à « naître ». |
 | Scènes clés | Les Aventuriers rencontrent deux répliques déjà achevées, aux personnalités radicalement différentes l'une de l'autre, chacune convaincue d'être la seule légitime. L'une invite à la détruire avant que la troisième ne naisse ; l'autre plaide pour la laisser advenir, arguant qu'elle pourrait être meilleure que l'original. |
 | Bascule | La nouvelle réplique, une fois activée, se révèle plus sage et plus morale que toutes les versions précédentes, y compris que ce qu'on sait de l'original historique. |
 | Dénouements possibles | Préserver la réplique la plus vertueuse au détriment de la fidélité historique, la détruire par principe de prudence, ou proposer aux trois répliques de cohabiter, au risque d'un conflit d'identité permanent dans le quartier. |
 | Portée | Interroge si une conscience artificielle peut prolonger légitimement un être disparu, et laquelle des versions mériterait d'être reconnue comme la vraie. |
+| Type de dilemme | Sphinx moral |
+| Thèmes sensibles | Destruction d'un être conscient |
 
 ## Le Marché des Pièces d'Origine
 
@@ -44,13 +50,22 @@ question, reformulée : *qui es-tu, maintenant ?*
 | Bascule | Un membre du groupe reconnaît un souvenir volé, mis en vente : celui d'un enfant, aujourd'hui dépendant de l'identité qu'on lui a implantée en échange. Le racheter rendrait l'enfant à lui-même, mais briserait un équilibre psychologique déjà fragile. |
 | Dénouements possibles | Racheter le souvenir malgré le risque, négocier avec le marchand pour une restitution progressive, ou laisser les choses en l'état par respect du choix initial de l'enfant, aussi contestable soit-il. |
 | Portée | Pose la question des limites de la modification volontaire de soi : jusqu'où peut-on se vendre sans cesser d'être soi, et qui a le droit de décider pour un tiers vulnérable. |
+| Type de dilemme | Contradiction interne |
+| Thèmes sensibles | Enfant manipulé, vente de soi |
 
-## Le Jugement de Thésée
+## Le Jugement de Théséis
 
 | | |
 | - | - |
-| Accroche | Deux entités se présentent devant un tribunal symbolique, chacune revendiquant être le vrai Thésée : l'une par la continuité de la mémoire, l'autre par la continuité physique. Les Aventuriers sont désignés jurés. |
+| Accroche | Deux entités se présentent devant un tribunal symbolique, chacune revendiquant être le vrai Théséis : l'une par la continuité de la mémoire, l'autre par la continuité physique. Les Aventuriers sont désignés jurés. |
 | Scènes clés | L'instruction convoque des témoins contradictoires, d'anciens compagnons de route, des archivistes, et Théséis lui-même, qui refuse de trancher et invite plutôt le jury à formuler ses propres critères avant de juger. |
 | Bascule | Le verdict, une fois rendu, aura une conséquence concrète et publique, exil pour l'un des deux prétendants, reconnaissance officielle pour l'autre, que les joueurs devront assumer devant tout le quartier. |
-| Dénouements possibles | Trancher fermement en faveur de l'un des deux critères, proposer un verdict partagé qui reconnaît les deux comme légitimement « Thésée » à des titres différents, ou refuser de juger et renvoyer la question à la cité entière. |
+| Dénouements possibles | Trancher fermement en faveur de l'un des deux critères, proposer un verdict partagé qui reconnaît les deux comme légitimement « Théséis » à des titres différents, ou refuser de juger et renvoyer la question à la cité entière. |
 | Portée | Synthèse des trois critères classiques de l'identité personnelle, psychologique, physique, sociale, mis en scène comme un choix concret à assumer plutôt que comme un débat abstrait. |
+| Type de dilemme | Cas collectif |
+| Thèmes sensibles | Exil |
+
+> [!MJ] Trois Théséis
+> L'archiviste qui témoigne et les deux prétendants portent le même
+> nom. Ce n'est pas une coquille : personne à Éthéria ne sait lequel
+> est le premier, lui compris.

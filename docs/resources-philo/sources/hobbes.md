@@ -9,7 +9,8 @@ toute sa pensée politique.
 Pour Hobbes, sans pouvoir fort pour les retenir, les humains
 finiraient par se faire la guerre les uns aux autres. Dans son livre
 *Le Léviathan*, il décrit cet état de nature comme une vie
-« solitaire, pauvre, méchante, brutale et courte ». Sa solution :
+« solitaire, pauvre, méchante, brutale et courte » (*Léviathan*,
+chapitre XIII). Sa solution :
 chacun accepte de céder une partie de sa liberté à une autorité
 unique, en échange de la sécurité. Cette autorité, il l'appelle le
 Léviathan, un peu comme un monstre protecteur qu'on accepte de

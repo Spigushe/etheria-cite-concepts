@@ -1,7 +1,9 @@
 # Campagne
 
-Chaque quartier propose cinq aventures prêtes à jouer, en résonance
-avec son thème philosophique. Les joueurs peuvent résoudre l'ensemble
+Chaque quartier propose cinq trames d'aventure, en résonance avec
+son thème philosophique. Chaque trame donne l'accroche, les scènes
+clés, la bascule et les dénouements possibles : au MJ de découper les
+scènes et de fixer les oppositions. Les joueurs peuvent résoudre l'ensemble
 des aventures d'un quartier avant de passer au suivant, ou progresser
 librement, en entrecroisant les fils. L'ordre et le rythme dépendent
 entièrement du groupe.
@@ -14,6 +16,7 @@ entièrement du groupe.
 - [Les Jardins de l'Équité](jardins-de-l-equite.md)
 - [La Citadelle de l'Arété](citadelle-de-l-arete.md)
 - [Quêtes transversales](quetes-transversales.md), qui traversent plusieurs quartiers à la fois.
+- [Transitions entre quartiers](transitions-entre-quartiers.md), de courtes scènes à jouer au passage d'un quartier à l'autre.
 
 > [!MJ] Sur la mise en scène
 > Ces aventures ne se résolvent ni par la force brute, ni par

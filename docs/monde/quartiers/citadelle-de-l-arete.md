@@ -87,7 +87,7 @@ Fissure du Remords, qu'on ne franchit qu'en portant le poids d'un
 <!-- -->
 
 > [!DANGER] Le Miroir Flatteur
-> Un miroir ancien renvoie une image exagérément vertueuse de quiconque s'y regarde, flattant la vanité plutôt que la vertu réelle, jusqu'à convaincre certains visiteurs qu'ils n'ont plus rien à travailler sur eux-mêmes.
+> Un miroir ancien renvoie une image exagérément vertueuse de quiconque s'y regarde, flattant la vanité plutôt que la vertu réelle, jusqu'à convaincre certains visiteurs qu'ils n'ont plus rien à travailler sur eux-mêmes. Ne pas le confondre avec le Miroir d'Éleusis, qui juge sans complaisance : le Miroir Flatteur ne juge pas, il rassure.
 
 <!-- -->
 
@@ -117,6 +117,12 @@ responsabilité partagée. Elle se méfie en revanche de la Balance
 d'Orion, dont elle dénonce le sacrifice de la vertu à l'efficacité,
 et du Labyrinthe des Identités, qu'elle considère comme trop fluide
 pour permettre l'émergence d'un soi stable.
+
+Avec le Gouffre d'Absyr, la tension est de fond : la vertu a-t-elle
+un sens dans un monde sans signification donnée ? Avec les Rails de
+la Décision, la Citadelle se demande si l'on peut bien décider dans
+l'urgence, alors que la vertu ne se construit que lentement, par
+l'habitude.
 
 Une inscription au sommet de la Salle de l'Exemplarité résume
 l'esprit du lieu : *nul ne naît exemplaire, mais chacun peut le

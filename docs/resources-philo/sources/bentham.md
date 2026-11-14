@@ -21,8 +21,12 @@ celui qui agit.
 > [!MJ] Nuance historique
 > La formule « le plus grand bonheur du plus grand nombre » est
 > associée à Bentham par habitude, mais elle circulait déjà avant
-> lui, notamment chez Hutcheson, et Bentham s'en est lui-même
-> distancié plus tard dans ses écrits. L'attribution reste l'usage
+> lui, notamment chez Hutcheson (*Recherche sur l'origine de nos
+> idées de la beauté et de la vertu*, 1725, second traité, section
+> III), et Bentham s'en est lui-même
+> distancié plus tard : dans son « Article on Utilitarianism » (1829),
+> il propose de parler simplement du « principe du plus grand
+> bonheur ». L'attribution reste l'usage
 > courant, mais simplifie une histoire plus compliquée.
 
 ## Ce qu'il apporte à Éthéria
@@ -35,4 +39,3 @@ est une tentative directe de rendre opérationnel le calcul des
 plaisirs et des peines que Bentham avait esquissé : chiffrer une
 douleur pour pouvoir la comparer à une autre, quitte à se heurter à
 tout ce que ce genre de calcul laisse forcément de côté.
-

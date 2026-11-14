@@ -14,6 +14,8 @@ récit, jamais au centre.
 | Bascule | Aucun signe n'indique le but réel du banquet, s'il en a un. Rester pourrait permettre de comprendre, ou simplement prolonger l'attente d'une révélation qui ne viendra jamais. |
 | Dénouements possibles | Rester jusqu'au dernier plat, au risque de disparaître à son tour, partir en pleine incertitude, ou provoquer volontairement la fin du rituel pour voir ce qu'il en reste. |
 | Portée | Met en tension Camus et Kierkegaard : accepter l'absurde sans y chercher de sens caché, ou cherche-t-on malgré tout un signe. |
+| Type de dilemme | Sphinx moral |
+| Thèmes sensibles | Disparitions |
 
 ## Sisyphe Corporation
 
@@ -24,16 +26,20 @@ récit, jamais au centre.
 | Bascule | Un Aventurier découvre qu'en détruisant la pierre, il libérerait tout le monde de la tâche, mais supprimerait aussi la seule structure quotidienne qui donne un rythme à la vie des employés. |
 | Dénouements possibles | Détruire la pierre et affronter le vide qui suit, continuer la tâche en lui donnant un sens personnel assumé, ou proposer aux employés de décider eux-mêmes, collectivement, de l'avenir de la pierre. |
 | Portée | Il faut imaginer Sisyphe heureux : la question n'est pas de savoir si la tâche a un sens, mais si l'on peut vivre pleinement malgré son absence. |
+| Type de dilemme | Cas collectif |
+| Thèmes sensibles | Perte de sens |
 
-## La Cité des Rêves Inversés
+## Le Faubourg des Rêves Inversés
 
 | | |
 | - | - |
-| Accroche | Dans cette cité, chaque désir exprimé se réalise à l'envers : demander de l'aide provoque l'abandon, exprimer de la joie attire la tristesse. Les Aventuriers doivent y accomplir une mission simple, transmettre un message à un habitant précis. |
+| Accroche | Dans ce faubourg du Gouffre, chaque désir exprimé se réalise à l'envers : demander de l'aide provoque l'abandon, exprimer de la joie attire la tristesse. Les Aventuriers doivent y accomplir une mission simple, transmettre un message à un habitant précis. |
 | Scènes clés | Communiquer devient un exercice périlleux : dire la vérité produit son contraire, mentir peut parfois approcher de l'intention réelle. Les habitants ont développé un langage entier fait de négations et de détours. |
 | Bascule | Pour réussir leur mission, les Aventuriers doivent soit apprendre à parler comme les habitants, au risque de perdre leurs propres repères logiques, soit accepter d'échouer en restant fidèles à leur propre cohérence. |
 | Dénouements possibles | Adopter le langage inversé et réussir la mission au prix d'une désorientation durable, refuser et échouer en préservant leur intégrité, ou trouver un tiers habitant capable de traduire fidèlement entre les deux logiques. |
 | Portée | La société impose-t-elle, elle aussi, des rôles et des langages aussi arbitraires que ceux de cette cité inversée. |
+| Type de dilemme | Contradiction interne |
+| Thèmes sensibles | Désorientation |
 
 ## Le Théâtre du Réel
 
@@ -44,6 +50,8 @@ récit, jamais au centre.
 | Bascule | Rien n'indique s'il existe réellement un scénario à suivre, si le public juge selon une morale cachée, ou si tout n'est qu'un spectacle sans fin ni sens. |
 | Dénouements possibles | Jouer un rôle inventé pour plaire au public, improviser sans se soucier de son jugement, ou refuser d'agir du tout, au risque de disparaître purement et simplement du plateau. |
 | Portée | La liberté suppose-t-elle d'ignorer le regard d'autrui, ou de composer avec lui sans jamais s'y soumettre entièrement. |
+| Type de dilemme | Sphinx moral |
+| Thèmes sensibles | Aucun |
 
 ## L'Homme de Nulle Part
 
@@ -54,3 +62,5 @@ récit, jamais au centre.
 | Bascule | Les Aventuriers doivent choisir entre lui dire la vérité, qu'il n'est peut-être personne, ou continuer à lui offrir une histoire fausse mais qui le maintient en vie. |
 | Dénouements possibles | Assumer le mensonge jusqu'au bout et lui offrir une identité complète, lui révéler l'absence de fondement de son existence, ou lui laisser le choix, une fois conscient, de poursuivre ou non avec l'histoire qu'on lui a donnée. |
 | Portée | L'identité peut-elle être une pure construction, et la fiction permet-elle réellement d'échapper à l'absurde, ou n'en est-elle qu'un masque de plus. |
+| Type de dilemme | Contradiction interne |
+| Thèmes sensibles | Mensonge vital, perte d'identité |

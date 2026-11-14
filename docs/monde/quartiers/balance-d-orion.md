@@ -94,7 +94,7 @@ reviennent changés.
 
 <!-- -->
 
-> [!DANGER] Le Collecteur de Restes
+> [!DANGER] Le Préleveur de Surplus
 > Une entité discrète prélève le « surplus moral » de ceux qui ont fait plus de bien que ce que le calcul jugeait nécessaire, les laissant affaiblis sans qu'ils comprennent pourquoi leur générosité semble s'être retournée contre eux.
 
 <!-- -->
@@ -124,6 +124,10 @@ menace irrationnelle à l'équilibre général. Elle entretient
 cependant des alliances tactiques avec la Concorde du Pacte, avec
 laquelle elle partage le souci du bien commun, même si leurs
 fondements divergent, le consentement contre l'optimisation.
+
+Le Labyrinthe des Identités suscite à la Balance une curiosité
+méthodique plutôt qu'une franche tension : peut-on calculer l'utilité
+d'une personne dont l'identité change sans cesse ?
 
 Une inscription du Point d'Inférence résume la philosophie du lieu :
 *le bien n'est pas dans le cœur, il est dans l'addition.*

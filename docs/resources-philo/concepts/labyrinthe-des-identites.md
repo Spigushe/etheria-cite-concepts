@@ -12,7 +12,10 @@ Plutarque mentionne le premier ce paradoxe, dans la *Vie de Thésée*.
 Thomas Hobbes en ajoute une variante : si l'on reconstruit un bateau
 avec les anciennes planches qu'on avait jetées, lequel des deux
 navires est le vrai ? Paul Ricœur distingue plus tard l'*ipséité* de
-la *mêmeté*, le soi vécu du soi reconstruit. Derek Parfit, enfin,
+la *mêmeté*, le soi vécu du soi reconstruit. John Locke fait de la
+conscience, et du souvenir qu'on garde de ses actes, le critère de
+l'identité personnelle (voir [Locke](../sources/locke.md)). Derek
+Parfit, enfin,
 pense l'identité personnelle comme une continuité psychologique, non
 comme une continuité matérielle.
 

@@ -27,9 +27,9 @@ ne soit jamais visible.
 Certains lieux sont réputés instables. La Place du Premier Nom voit
 chaque jour une nouvelle statue remplacer la précédente. La Chambre
 des Répliques abrite un musée de copies dont les originaux restent
-introuvables. Le quartier est cerné de miroirs d'eau dont la surface
-ne reflète pas l'image, mais l'intention profonde de celui qui s'y
-penche.
+introuvables. Le quartier est cerné de miroirs d'eau, dont le plus
+grand est le Lac des Réfractions : leur surface ne reflète pas
+l'image, mais l'intention profonde de celui qui s'y penche.
 
 ## Habitants
 
@@ -122,6 +122,15 @@ dont il reconnaît le trouble existentiel sans en accepter le
 renoncement au sens. Il regarde la Citadelle de l'Arété avec un
 mélange d'admiration pour sa constance morale et de méfiance devant
 ce qu'il juge trop rigide.
+
+Avec la Concorde du Pacte, la tension est de principe : une identité
+instable peut-elle signer un pacte durable ? Les Rails de la Décision
+posent une question voisine, celle de savoir si une décision reste
+imputable à un soi qui a changé depuis. La Balance d'Orion observe le
+quartier avec une curiosité méthodique, en se demandant comment
+calculer l'utilité d'une identité mouvante, et les Jardins de l'Équité
+y voient surtout une circonstance atténuante : comment juger
+équitablement quelqu'un dont l'identité est instable ?
 
 Un graffiti, sur l'un des murs du quartier, résume l'inquiétude qui
 s'y respire : *suis-je toujours celui qui a commencé cette phrase ?*

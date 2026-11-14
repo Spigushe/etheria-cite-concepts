@@ -13,6 +13,8 @@ façon différente d'écouter avant de trancher.
 | Bascule | Deux options s'affrontent : favoriser fortement les plus démunis, au risque de décourager l'effort et l'excellence, ou parier sur une égalité stricte, au risque d'une injustice perçue par ceux qui ont contribué davantage. |
 | Dénouements possibles | Adopter une charte fortement redistributive, en choisir une plus égalitaire mais plus rigide, ou tenter un compromis instable entre les deux, à réviser une fois le Voile levé. |
 | Portée | Transposition directe du principe de justice de Rawls : concevoir l'équité sans connaître sa propre position future. |
+| Type de dilemme | Cas collectif |
+| Thèmes sensibles | Aucun |
 
 ## Les Héritiers de l'Injustice
 
@@ -23,16 +25,20 @@ façon différente d'écouter avant de trancher.
 | Bascule | Confisquer des biens acquis légalement, même historiquement injustes, remettrait en cause la sécurité de toute propriété dans le quartier. |
 | Dénouements possibles | Ordonner une restitution complète, maintenir le statu quo au nom de la sécurité juridique, ou proposer une compensation partielle et progressive, financée collectivement. |
 | Portée | Met en tension directe les libertés individuelles défendues par Nozick et l'équité redistributive de Rawls. |
+| Type de dilemme | Choix différé |
+| Thèmes sensibles | Spoliation |
 
 ## Le Calcul des Mérites
 
 | | |
 | - | - |
-| Accroche | Une épidémie éclate dans une ville qui organise l'accès aux soins, à l'éducation et à la protection selon un système de points de mérite. Les Aventuriers sont appelés à réviser en urgence les priorités de soin. |
+| Accroche | Une épidémie éclate dans l'Enclos des Mérites, un secteur des Jardins qui organise l'accès aux soins, à l'éducation et à la protection selon un système de points de mérite. Les Aventuriers sont appelés à réviser en urgence les priorités de soin. |
 | Scènes clés | Le système favorise ceux qui ont accumulé des points par le travail ou le service civique, mais l'épidémie touche prioritairement les plus pauvres, historiquement écartés de ces opportunités. |
 | Bascule | Un des Aventuriers découvre qu'il peut, en utilisant ses propres points, sauver sa famille directement, au prix de laisser d'autres inconnus, moins bien classés, sans soin. |
 | Dénouements possibles | Suivre strictement le système de mérite, le suspendre temporairement au profit d'un tri médical classique, ou créer une exception ponctuelle justifiée par l'urgence sanitaire. |
 | Portée | La méritocratie est-elle une base juste pour organiser une société, et que faire des inégalités de départ que personne n'a choisies. |
+| Type de dilemme | Contradiction interne |
+| Thèmes sensibles | Épidémie, tri médical |
 
 ## Le Justomètre
 
@@ -43,6 +49,8 @@ façon différente d'écouter avant de trancher.
 | Bascule | Un conseiller propose de falsifier légèrement les mesures affichées pour éviter qu'une guerre civile n'éclate sur la base d'une perception erronée. |
 | Dénouements possibles | Refuser toute manipulation et corriger l'information à la source, accepter une falsification ponctuelle pour préserver la paix immédiate, ou repenser entièrement l'appareil pour le rendre moins sensible à la manipulation émotionnelle. |
 | Portée | La justice est-elle une réalité objective mesurable, ou une construction sociale qui fluctue selon la perception collective. |
+| Type de dilemme | Tramway moral |
+| Thèmes sensibles | Menace de guerre civile |
 
 ## Le Jeu de la Redistribution
 
@@ -53,3 +61,5 @@ façon différente d'écouter avant de trancher.
 | Bascule | Un joueur particulièrement chanceux se retrouve en position de proposer une redistribution générale, mais devrait pour cela renoncer à son propre avantage acquis par le hasard. |
 | Dénouements possibles | Imposer une redistribution malgré la perte personnelle, conserver son avantage et laisser les inégalités se creuser, ou proposer un mécanisme intermédiaire, une redistribution partielle acceptée par consensus. |
 | Portée | Le hasard comme point de départ oblige à se demander à quel moment il devient légitime d'intervenir pour corriger l'arbitraire du sort. |
+| Type de dilemme | Cas collectif |
+| Thèmes sensibles | Aucun |

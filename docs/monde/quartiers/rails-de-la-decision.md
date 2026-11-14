@@ -1,6 +1,6 @@
 # Les Rails de la Décision
 
-![Blason du quartier](../../assets/blasons/5-dilemne-tramway.png){ width="120" }
+![Blason du quartier](../../assets/blasons/5-dilemme-tramway.png){ width="120" }
 
 Les Rails de la Décision forment un quartier tendu, traversé de
 lignes nettes et de silences pesants. L'air y vibre d'une tension
@@ -100,10 +100,9 @@ dilemme.
 
 ## Ce qu'on raconte
 
-La plus célèbre légende du quartier est celle du Tramway Immatériel :
-il ne roule sur aucun rail visible, mais se manifeste dès qu'un choix
-fondamental est différé trop longtemps. On dit qu'il ne tue pas, il
-efface.
+La plus célèbre légende du quartier tient au Tramway Fantôme de
+Juma-Kei. Ceux qui l'ont vu passer jurent qu'il ne roule sur aucun
+rail visible, et qu'il ne tue pas : il efface.
 
 Une autre fable évoque le Pont Inversé, un aiguillage qui ne suit
 aucune logique rationnelle et ne se laisse influencer que par les
@@ -118,6 +117,14 @@ qui nie selon eux la valeur même de la décision. Ils s'articulent en
 revanche assez bien avec la Balance d'Orion, avec laquelle ils
 partagent un goût pour l'action mesurée, tout en s'en distinguant par
 l'urgence et l'irréversibilité de leurs choix.
+
+Avec le Labyrinthe des Identités, les Rails se demandent si une
+décision reste imputable à quelqu'un dont l'identité a changé
+depuis. Avec les Jardins de l'Équité, l'urgence d'une décision et la
+lenteur d'un jugement équitable entrent régulièrement en collision.
+Avec la Citadelle de l'Arété, enfin, la question est de savoir si
+bien décider suppose d'être déjà vertueux, alors que la vertu se
+construit lentement, par l'habitude.
 
 Une inscription gravée sur le panneau d'entrée du quartier résume son
 état d'esprit : *ne rien faire est aussi un aiguillage.*

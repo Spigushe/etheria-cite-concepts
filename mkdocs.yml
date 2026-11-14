@@ -1,7 +1,5 @@
-site_name: "Ethéria, Cité des Concepts"
+site_name: "Éthéria, Cité des Concepts"
 site_description: "Wiki de jeu de rôle personnel"
-# IMPORTANT : remplace <utilisateur> et <repo> ci-dessous avant de publier,
-# sinon les liens internes et assets seront mal résolus sur GitHub Pages.
 site_url: "https://spigushe.github.io/etheria-cite-concepts/"
 
 # Thème Material pour MkDocs : https://squidfunk.github.io/mkdocs-material/
@@ -30,7 +28,7 @@ theme:
       toggle:
         icon: material/brightness-4
         name: "Passer au style épuré"
-  # Polices auto-hébergées (voir docs/stylesheets/extra.css et
+  # Polices auto-hébergées (voir docs/assets/stylesheets/extra.css et
   # docs/assets/fonts/) : plus d'appel à Google Fonts au build ni au
   # chargement de la page.
   font: false
@@ -107,6 +105,7 @@ nav:
           - Foot: resources-philo/sources/foot.md
           - Hobbes: resources-philo/sources/hobbes.md
           - Kant: resources-philo/sources/kant.md
+          - Kierkegaard: resources-philo/sources/kierkegaard.md
           - Locke: resources-philo/sources/locke.md
           - MacIntyre: resources-philo/sources/macintyre.md
           - Mill: resources-philo/sources/mill.md
@@ -126,6 +125,7 @@ nav:
       - Accueil MJ: mj/index.md
       - Système: mj/systeme.md
       - Fiche de personnage: mj/annexes/fiche-personnage.md
+      - Prétirés: mj/annexes/pretires.md
       - Campagne:
           - Vue d'ensemble: mj/campagne/index.md
           - Le Labyrinthe des Identités: mj/campagne/labyrinthe-des-identites.md
