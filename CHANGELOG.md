@@ -46,6 +46,8 @@ numéro incrémental (`v0.10.1-eudemos-1`, `v0.10.2-eudemos-2`, ...).
 - Page `mj/annexes/pretires.md` : quatre Aventuriers prêts à jouer.
 - Fiche d'Aventurier imprimable (PDF A4 recto verso, aperçus PNG)
   dans `docs/assets/fiches/`, liée depuis la fiche de personnage.
+- Planche A4 de six Cartes X à découper (`docs/assets/fiches/carte-x.pdf`),
+  liée depuis la section Sécurité de table de l'Accueil MJ.
 - Effet de chaque famille de cartes dans `mj/annexes/ressources-mj.md`.
 - Section « La Société des Explorateurs » dans `monde/presentation.md`.
 - Type de dilemme et thèmes sensibles sur les 39 trames d'aventure.

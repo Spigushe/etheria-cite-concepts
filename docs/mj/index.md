@@ -86,6 +86,8 @@ certains sujets doivent être évités ou traités avec prudence.
 L'outil principal reste la Carte-X : un mot ou un geste convenu à
 l'avance, qui coupe immédiatement une scène sans qu'on ait à se
 justifier. Le MJ y répond sans poser de question et enchaîne ailleurs.
+Une [planche de six Cartes X à imprimer](../assets/fiches/carte-x.pdf)
+(A4, cartes de 63 × 88 mm) est prête à découper.
 Mais couper entièrement une scène est parfois plus radical que
 nécessaire, alors trois signaux plus légers permettent d'ajuster sans
 en arriver là. Un joueur peut demander de passer sur les détails,
