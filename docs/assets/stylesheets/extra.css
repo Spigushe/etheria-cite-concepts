@@ -376,8 +376,15 @@ body.carte-lightbox-ouverte {
   padding: env(safe-area-inset-top) env(safe-area-inset-right)
     env(safe-area-inset-bottom) env(safe-area-inset-left);
 }
-.carte-lightbox[hidden] {
+.carte-lightbox[hidden],
+.carte-lightbox [hidden] {
   display: none;
+}
+
+/* Images agrandissables au clic (classe posée via attr_list,
+   comportement dans carrousel.js). */
+img.zoomable {
+  cursor: zoom-in;
 }
 
 .carte-lightbox__image {

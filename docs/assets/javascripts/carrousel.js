@@ -14,6 +14,12 @@
   carte ouvre une vue plein écran qui charge la version @2x
   (300 DPI, générée par scripts/cards.py) seulement à ce moment-là,
   pour ne pas alourdir le défilement sur mobile.
+
+  La même vue plein écran sert à toute image du contenu portant la
+  classe `zoomable` (attr_list : `![alt](img.png){ .zoomable }`).
+  L'image agrandie est celle de `data-zoom-src` si présent, sinon la
+  source elle-même. Les images `.zoomable` d'un même paragraphe
+  forment un groupe parcourable avec les flèches (ex. recto/verso).
 */
 (function () {
   function setupCarrousel(el) {
@@ -36,17 +42,38 @@
     });
 
     track.querySelectorAll("img").forEach(function (img, i) {
-      img.tabIndex = 0;
-      img.setAttribute("role", "button");
-      img.addEventListener("click", function () {
-        openLightbox(track, i);
+      makeActivable(img, function () {
+        openLightbox(Array.from(track.querySelectorAll("img")), i, zoomSrc);
       });
-      img.addEventListener("keydown", function (e) {
-        if (e.key === "Enter" || e.key === " ") {
-          e.preventDefault();
-          openLightbox(track, i);
-        }
-      });
+    });
+  }
+
+  function makeActivable(img, open) {
+    img.tabIndex = 0;
+    img.setAttribute("role", "button");
+    img.addEventListener("click", open);
+    img.addEventListener("keydown", function (e) {
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        open();
+      }
+    });
+  }
+
+  // --- Images isolées : classe .zoomable ---
+
+  function zoomableSrc(img) {
+    return img.dataset.zoomSrc || img.currentSrc || img.src;
+  }
+
+  function setupZoomable(img) {
+    if (img.dataset.zoomReady) return;
+    img.dataset.zoomReady = "1";
+    makeActivable(img, function () {
+      var group = Array.from(
+        (img.parentElement || document).querySelectorAll("img.zoomable")
+      );
+      openLightbox(group, group.indexOf(img), zoomableSrc);
     });
   }
 
@@ -56,10 +83,11 @@
   var lbImage = null;
   var lbImages = [];
   var lbIndex = 0;
+  var lbSrcFor = null;
   var lastFocused = null;
 
-  function zoomSrc(src) {
-    return src.replace(/\.png(\?.*)?$/, "@2x.png$1");
+  function zoomSrc(img) {
+    return (img.currentSrc || img.src).replace(/\.png(\?.*)?$/, "@2x.png$1");
   }
 
   function buildLightbox() {
@@ -68,12 +96,12 @@
     el.hidden = true;
     el.setAttribute("role", "dialog");
     el.setAttribute("aria-modal", "true");
-    el.setAttribute("aria-label", "Carte en plein écran");
+    el.setAttribute("aria-label", "Image en plein écran");
     el.innerHTML =
       '<button type="button" class="carte-lightbox__fermer" aria-label="Fermer">&times;</button>' +
-      '<button type="button" class="carte-lightbox__prec" aria-label="Carte précédente">&lsaquo;</button>' +
+      '<button type="button" class="carte-lightbox__prec" aria-label="Image précédente">&lsaquo;</button>' +
       '<img class="carte-lightbox__image" alt="">' +
-      '<button type="button" class="carte-lightbox__suivant" aria-label="Carte suivante">&rsaquo;</button>';
+      '<button type="button" class="carte-lightbox__suivant" aria-label="Image suivante">&rsaquo;</button>';
     document.body.appendChild(el);
 
     el.querySelector(".carte-lightbox__fermer").addEventListener(
@@ -105,13 +133,18 @@
     if (!lbImages.length) return;
     lbIndex = (i + lbImages.length) % lbImages.length;
     var img = lbImages[lbIndex];
-    lbImage.src = zoomSrc(img.currentSrc || img.src);
+    lbImage.src = lbSrcFor(img);
     lbImage.alt = img.alt;
   }
 
-  function openLightbox(track, index) {
+  function openLightbox(images, index, srcFor) {
     if (!lightbox) buildLightbox();
-    lbImages = Array.from(track.querySelectorAll("img"));
+    lbImages = images;
+    lbSrcFor = srcFor;
+    // Une seule image : pas de navigation à proposer.
+    var seule = images.length < 2;
+    lightbox.querySelector(".carte-lightbox__prec").hidden = seule;
+    lightbox.querySelector(".carte-lightbox__suivant").hidden = seule;
     lastFocused = document.activeElement;
     showLightboxImage(index);
     lightbox.hidden = false;
@@ -136,5 +169,6 @@
 
   document$.subscribe(function () {
     document.querySelectorAll(".carte-carrousel").forEach(setupCarrousel);
+    document.querySelectorAll("img.zoomable").forEach(setupZoomable);
   });
 })();
