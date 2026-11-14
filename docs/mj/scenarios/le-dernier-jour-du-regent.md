@@ -43,7 +43,10 @@ Failles, celui-ci fait jouer les Serments et montre un conflit.
   Clause Parfaite de Halden » et « La Voix Sans Pacte », pacte « Le
   Serment de l'Arche », lieux « Le Parvis des Solitaires » et « La
   Grande Halle de la Convention », idée « La Règle Renégociable ».
-- Un objet ou un geste convenu pour la Carte-X.
+- Un objet ou un geste convenu pour la Carte-X : elle s'imprime en
+  [planche de six cartes à découper](https://spigushe.github.io/etheria-cite-concepts/assets/fiches/carte-x.pdf)
+  ou en [grand format](https://spigushe.github.io/etheria-cite-concepts/assets/fiches/carte-x-grand-format.pdf),
+  à poser au centre de la table.
 - De quoi marquer l'heure à la vue de tous : une bougie, un dé qu'on
   tourne, cinq jetons qu'on retire un par un. Le mandat du Régent
   s'achève au crépuscule, et la table doit le sentir.

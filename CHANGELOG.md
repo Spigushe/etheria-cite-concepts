@@ -33,6 +33,13 @@ pour un correctif de `v0.11.0-silys`).
   Mahaut Verdier, Anselme Corbin, Lazare Quint, Clémence Rouvray et
   Ombeline Tessier, chacun lié à une figure d'un de ces cinq
   quartiers, avec leurs fiches PDF.
+- Carte X en grand format (une seule carte sur une page A4), à poser
+  au centre de la table
+  (`docs/assets/fiches/carte-x-grand-format.pdf`).
+- Liens de téléchargement des deux formats de Carte X (planche de six
+  cartes à découper et grand format) dans la sécurité de table de
+  l'Accueil MJ (`mj/index.md`) et dans la liste « À préparer » des
+  sept scénarios, en URL absolue pour ne pas casser l'export PDF.
 
 ### Modifié
 
