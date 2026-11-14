@@ -11,8 +11,8 @@ et les numéros de version suivent la logique du
 Chaque tag Git associé à une version porte aussi un nom, à la manière
 d'une sortie de jeu : un PNJ pour une évolution mineure (`v0.10.0-eudemos`),
 un événement historique d'Éthéria pour une évolution majeure. Un
-correctif reprend le nom de la version qu'il corrige, suivi d'un
-numéro incrémental (`v0.10.1-eudemos-1`, `v0.10.2-eudemos-2`, ...).
+correctif reprend le nom de la version qu'il corrige (`v0.11.1-silys`
+pour un correctif de `v0.11.0-silys`).
 
 ## [Non publié]
 

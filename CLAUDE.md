@@ -19,7 +19,7 @@ Wiki de campagne JdR perso : **Ethéria, Cité des Concepts** — un univers où
 | Dépendances | **uv** : `pyproject.toml` (+ groupe `dev` : ruff, ty, stubs), `uv.lock`. Python 3.13 imposé par `requires-python = "==3.13.*"`. `uv sync` pour installer, `uv add` pour ajouter |
 | CI/CD | `.github/workflows/checks.yml` (push `main`, PR, et appelé par deploy) : ruff, ty, cspell, build strict avec export PDF (même build qu'au déploiement). `.github/workflows/deploy.yml` — déclenché sur push de **tag `v*`**, après `checks`, `setup-uv` + `uv sync --locked --no-dev`, `ENABLE_PDF_EXPORT=1`, déploie sur Pages |
 | Qualité | `mkdocs build --strict`, cspell (`cspell.json`), markdownlint (`.markdownlint.json`) |
-| Versioning | Keep a Changelog + SemVer. Tags nommés : PNJ pour mineure (`v0.10.0-eudemos`), événement historique d'Ethéria pour majeure, hotfix = `-N` incrémental |
+| Versioning | Keep a Changelog + SemVer. Tags nommés : PNJ pour mineure (`v0.10.0-eudemos`), événement historique d'Ethéria pour majeure, un correctif reprend le nom de la version qu'il corrige, sans suffixe (`v0.11.1-silys`) ; les tags antérieurs à la 0.11.1 portent encore un `-N` (`v0.10.3-eudemos-3`) |
 
 ## Arborescence commentée
 
