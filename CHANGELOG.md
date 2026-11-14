@@ -16,8 +16,28 @@ pour un correctif de `v0.11.0-silys`).
 
 ## [Non publié]
 
+### Ajouté
+
+- Second scénario d'initiation, « Le Dernier Jour du Régent », à la
+  Concorde du Pacte (`mj/scenarios/le-dernier-jour-du-regent.md`) :
+  il développe la trame « Le Pacte d'Unité » en scènes jouables et
+  introduit les Serments, un premier conflit et la concession.
+- Un scénario en une séance pour chacun des cinq autres quartiers,
+  développant à chaque fois la première trame de la campagne avec
+  les lieux, personnages, menaces et cartes existants : « Le Prix du
+  Bonheur » (Balance d'Orion), « Le Festin du Néant » (Gouffre
+  d'Absyr), « La Manette » (Rails de la Décision), « Le Voile
+  d'Ignorance » (Jardins de l'Équité) et « Le Jardin des Épreuves »
+  (Citadelle de l'Arété).
+- Second jeu de cinq prétirés (clé `second-jeu` de `pretires.json`) :
+  Mahaut Verdier, Anselme Corbin, Lazare Quint, Clémence Rouvray et
+  Ombeline Tessier, chacun lié à une figure d'un de ces cinq
+  quartiers, avec leurs fiches PDF.
+
 ### Modifié
 
+- Page des prétirés organisée en deux jeux ; les scénarios indiquent
+  le jeu conseillé et les accroches valables pour l'autre.
 - Workflow `checks.yml` : le build strict tourne avec la config de
   production et l'export PDF, comme au déploiement, pour que les
   erreurs de `mkdocs-to-pdf` sortent avant le tag.

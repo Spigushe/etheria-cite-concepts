@@ -55,11 +55,13 @@ docs/
 │   │                            + transitions-entre-quartiers.md (473 lignes, le plus
 │   │                            gros fichier : 3 scènes par paire de quartiers)
 │   ├── scenarios/            ← scénarios prêts à jouer, découpés en scènes
-│   │                            (le-huitieme-fragment.md, initiation, Labyrinthe)
+│   │                            (le-huitieme-fragment.md, initiation, Labyrinthe ;
+│   │                            le-dernier-jour-du-regent.md, initiation, Concorde ;
+│   │                            + un scénario par autre quartier, première trame)
 │   └── annexes/
 │       ├── fiche-personnage.md   ← fiche FATE (création, Aspects, Approches, Stunts, Réputation)
-│       ├── pretires.md           ← intro + {{ pretires: <jeu> }} (rendu par scripts/fiches.py)
-│       ├── pretires.json         ← données des prétirés, 1 clé par jeu (scénario
+│       ├── pretires.md           ← intro + {{ pretires: <jeu> }} par jeu (rendu par scripts/fiches.py)
+│       ├── pretires.json         ← données des prétirés, 1 clé par jeu : le-huitieme-fragment, second-jeu (scénario
 │       │                            ou campagne), consommé par scripts/fiches.py
 │       ├── ressources-mj.md      ← carrousels de cartes par quartier + typologie dilemmes
 │       └── decks-cartes.json     ← données des cartes, 1 clé par slug de quartier

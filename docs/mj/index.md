@@ -103,8 +103,15 @@ du temps.
 ## Pour préparer une séance
 
 - [Campagne](campagne/index.md) : les trames d'aventure, une section par quartier.
-- [Scénarios prêts à jouer](scenarios/le-huitieme-fragment.md) : Le Huitième Fragment, scénario d'initiation en une séance, au Labyrinthe des Identités.
+- Scénarios prêts à jouer, un par quartier, chacun en une séance :
+  - [Le Huitième Fragment](scenarios/le-huitieme-fragment.md), initiation, au Labyrinthe des Identités ;
+  - [Le Dernier Jour du Régent](scenarios/le-dernier-jour-du-regent.md), initiation, à la Concorde du Pacte ;
+  - [Le Prix du Bonheur](scenarios/le-prix-du-bonheur.md), à la Balance d'Orion ;
+  - [Le Festin du Néant](scenarios/le-festin-du-neant.md), au Gouffre d'Absyr ;
+  - [La Manette](scenarios/la-manette.md), aux Rails de la Décision ;
+  - [Le Voile d'Ignorance](scenarios/le-voile-d-ignorance.md), aux Jardins de l'Équité ;
+  - [Le Jardin des Épreuves](scenarios/le-jardin-des-epreuves.md), à la Citadelle de l'Arété.
 - [Système de jeu](systeme.md) : règles de base, réputation philosophique, dilemmes, conséquences.
 - [Fiche de personnage](annexes/fiche-personnage.md) : le gabarit FATE complet et la création de personnage.
-- [Prétirés](annexes/pretires.md) : cinq Aventuriers prêts à jouer, avec leurs fiches imprimables.
+- [Prétirés](annexes/pretires.md) : dix Aventuriers prêts à jouer, en deux jeux de cinq, avec leurs fiches imprimables.
 - [Aides de jeu](annexes/ressources-mj.md) : cartes imprimables et typologie des dilemmes.

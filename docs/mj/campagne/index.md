@@ -19,9 +19,16 @@ entièrement du groupe.
 - [Transitions entre quartiers](transitions-entre-quartiers.md), de courtes scènes à jouer au passage d'un quartier à l'autre.
 
 > [!MJ] Scénarios prêts à jouer
-> Pour une trame déjà découpée en scènes, voir
-> [Le Huitième Fragment](../scenarios/le-huitieme-fragment.md),
-> scénario d'initiation en une séance.
+> La première trame de chaque quartier existe déjà découpée en
+> scènes, jouable en une séance :
+>
+> - [Le Huitième Fragment](../scenarios/le-huitieme-fragment.md) ;
+> - [Le Dernier Jour du Régent](../scenarios/le-dernier-jour-du-regent.md) ;
+> - [Le Prix du Bonheur](../scenarios/le-prix-du-bonheur.md) ;
+> - [Le Festin du Néant](../scenarios/le-festin-du-neant.md) ;
+> - [La Manette](../scenarios/la-manette.md) ;
+> - [Le Voile d'Ignorance](../scenarios/le-voile-d-ignorance.md) ; et
+> - [Le Jardin des Épreuves](../scenarios/le-jardin-des-epreuves.md).
 
 <!-- -->
 

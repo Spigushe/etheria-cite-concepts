@@ -94,5 +94,101 @@
         "reputation": { "Individualiste": 1, "Inconstant": 1 }
       }
     ]
+  },
+  "second-jeu": {
+    "titre": "Second jeu de prétirés",
+    "pied": "Éthéria, second jeu de prétirés",
+    "pretires": [
+      {
+        "slug": "mahaut-verdier",
+        "nom": "Mahaut Verdier",
+        "role": "apothicaire",
+        "origine": "une officine où il n'y avait jamais assez pour tout le monde",
+        "discipline": "éthique",
+        "aspects": {
+          "concept": "Apothicaire qui a trop souvent choisi qui servir d'abord",
+          "faille": "Je compte tout, même ce qui ne se compte pas",
+          "serment": "Ne plus jamais laisser un chiffre décider seul",
+          "lien": "Éléon Rive m'a montré son barème, et j'ai hoché la tête"
+        },
+        "approches": { "Rigoureux": 3, "Habile": 2, "Éclatant": 0, "Ferme": 2, "Vif": 1, "Retors": 1 },
+        "stunts": [
+          { "nom": "Carnet de conséquences", "effet": "+2 en Rigoureux pour chiffrer ce qu'une décision coûte à ceux qu'elle touche." }
+        ],
+        "reputation": { "Rationaliste": 1, "Pragmatique": 1 }
+      },
+      {
+        "slug": "anselme-corbin",
+        "nom": "Anselme Corbin",
+        "role": "prêcheur sans chaire",
+        "origine": "une chaire qu'il a descendue un matin, sans prévenir",
+        "discipline": "métaphysique",
+        "aspects": {
+          "concept": "Prêcheur sans chaire, qui cherche encore à qui parler",
+          "faille": "Il me faut un sens, quitte à l'inventer",
+          "serment": "Ne jamais mentir à qui me demande pourquoi",
+          "lien": "J'ai confié une note à Camüs, et je voudrais la reprendre"
+        },
+        "approches": { "Rigoureux": 1, "Habile": 2, "Éclatant": 3, "Ferme": 2, "Vif": 1, "Retors": 0 },
+        "stunts": [
+          { "nom": "Parole qui porte", "effet": "+2 en Éclatant pour rendre courage à quelqu'un qui renonce." }
+        ],
+        "reputation": { "Idéaliste": 1, "Intuitif": 1 }
+      },
+      {
+        "slug": "lazare-quint",
+        "nom": "Lazare Quint",
+        "role": "éclusier",
+        "origine": "une écluse, et la vanne qu'il a ouverte trop tard",
+        "discipline": "logique",
+        "aspects": {
+          "concept": "Éclusier qui a ouvert la mauvaise vanne, une fois",
+          "faille": "J'attends d'être sûr, et il est trop tard",
+          "serment": "Ne plus jamais laisser le hasard décider à ma place",
+          "lien": "Le Collecteur a une fiche à mon nom, que je n'ai pas osé lire"
+        },
+        "approches": { "Rigoureux": 2, "Habile": 2, "Éclatant": 1, "Ferme": 3, "Vif": 0, "Retors": 1 },
+        "stunts": [
+          { "nom": "Sang-froid", "effet": "+2 en Ferme pour garder la tête claire quand le temps manque." }
+        ],
+        "reputation": { "Cohérent": 1, "Conservateur": 1 }
+      },
+      {
+        "slug": "clemence-rouvray",
+        "nom": "Clémence Rouvray",
+        "role": "greffière",
+        "origine": "un tribunal dont elle a tenu les registres pendant quinze ans",
+        "discipline": "éthique",
+        "aspects": {
+          "concept": "Greffière qui a consigné des verdicts qu'elle n'aurait pas rendus",
+          "faille": "La règle d'abord, les gens ensuite",
+          "serment": "Plaider pour qui n'a personne pour le faire",
+          "lien": "Démis Tal a entendu quelque chose dans ma voix, sans me dire quoi"
+        },
+        "approches": { "Rigoureux": 2, "Habile": 3, "Éclatant": 0, "Ferme": 1, "Vif": 1, "Retors": 2 },
+        "stunts": [
+          { "nom": "Précédent", "effet": "+2 en Habile pour opposer à un argument un cas déjà jugé." }
+        ],
+        "reputation": { "Solidaire": 1, "Révisionniste": 1 }
+      },
+      {
+        "slug": "ombeline-tessier",
+        "nom": "Ombeline Tessier",
+        "role": "escrimeuse",
+        "origine": "les salles d'armes, les tournois, les podiums",
+        "discipline": "éthique",
+        "aspects": {
+          "concept": "Championne d'escrime dont la plus belle victoire est une tricherie",
+          "faille": "Je préfère gagner mal que perdre bien",
+          "serment": "Avouer un jour ce duel à celle que j'ai battue",
+          "lien": "Alea d'Ilion sait, et ne m'a rien demandé"
+        },
+        "approches": { "Rigoureux": 0, "Habile": 1, "Éclatant": 2, "Ferme": 1, "Vif": 3, "Retors": 2 },
+        "stunts": [
+          { "nom": "Feinte", "effet": "+2 en Vif pour prendre de vitesse un adversaire qui se croit en position de force." }
+        ],
+        "reputation": { "Individualiste": 1, "Inconstant": 1 }
+      }
+    ]
   }
 }
