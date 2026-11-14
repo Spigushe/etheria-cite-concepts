@@ -1,7 +1,7 @@
 <!-- cSpell:ignore-file -->
 # MAP — `Spigushe/etheria-cite-concepts`
 
-> Document de navigation rapide. État constaté au commit `3c7dab0` (tag v0.10.3 « Eudémos, hotfix 3 », 2026-07-14). Wiki MkDocs Material en français, publié sur GitHub Pages : <https://spigushe.github.io/etheria-cite-concepts/>
+> Document de navigation rapide. État constaté au tag v0.11.0 « Silys » (2026-11-14). Wiki MkDocs Material en français, publié sur GitHub Pages : <https://spigushe.github.io/etheria-cite-concepts/>
 
 ## En une phrase
 

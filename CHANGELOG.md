@@ -16,22 +16,15 @@ numéro incrémental (`v0.10.1-eudemos-1`, `v0.10.2-eudemos-2`, ...).
 
 ## [Non publié]
 
-### Modifié
-
-- Gestion des dépendances Python confiée à uv : `pyproject.toml`
-  (outils de typage et lint dans un groupe `dev`, Python fixé à
-  3.13 via `requires-python`) et `uv.lock` remplacent `requirements.txt`. Le CI installe via
-  `uv sync --locked`.
-- `cspell.json` : liste des fichiers vérifiés (`**/*.md`) déclarée dans
-  la config (la commande du README n'affichait que l'aide), code en
-  ligne et blocs de code ignorés, dictionnaire complété et trié.
-
-### Corrigé
-
-- Coquille `l'Arêtê` dans le CHANGELOG.
+## [0.11.0] - 2026-11-14 — Silys
 
 ### Ajouté
 
+- Zoom au clic sur les images marquées `.zoomable` (visionneuse des
+  carrousels de cartes réutilisée), appliqué aux aperçus de la fiche
+  d'Aventurier.
+- Fiche d'Aventurier imprimable (PDF A4 recto verso, aperçus PNG)
+  dans `docs/assets/fiches/`, liée depuis la fiche de personnage.
 - Cinquième prétiré, Sidoine Farge, et fiches PDF imprimables des
   prétirés (une page A4 chacune), liées depuis `mj/annexes/pretires.md`
   et le scénario « Le Huitième Fragment ». Le hook `scripts/fiches.py`
@@ -66,6 +59,13 @@ numéro incrémental (`v0.10.1-eudemos-1`, `v0.10.2-eudemos-2`, ...).
 
 ### Modifié
 
+- Gestion des dépendances Python confiée à uv : `pyproject.toml`
+  (outils de typage et lint dans un groupe `dev`, Python fixé à
+  3.13 via `requires-python`) et `uv.lock` remplacent `requirements.txt`. Le CI installe via
+  `uv sync --locked`.
+- `cspell.json` : liste des fichiers vérifiés (`**/*.md`) déclarée dans
+  la config (la commande du README n'affichait que l'aide), code en
+  ligne et blocs de code ignorés, dictionnaire complété et trié.
 - « Aventures prêtes à jouer » remplacé par « trames d'aventure ».
 - Thésée devient Théséis dans les aventures du Labyrinthe (« Le
   Jugement de Théséis »), avec une note MJ.
@@ -81,6 +81,7 @@ numéro incrémental (`v0.10.1-eudemos-1`, `v0.10.2-eudemos-2`, ...).
 
 ### Corrigé
 
+- Coquille `l'Arêtê` dans le CHANGELOG.
 - Quartier de l'Abîme et son maître retirés de `monde/histoire.md`.
 - Foot : le cas de 1967 est celui du conducteur, comparé au juge ; le
   témoin à l'aiguillage et le pont viennent de Thomson (1976 et 1985).
