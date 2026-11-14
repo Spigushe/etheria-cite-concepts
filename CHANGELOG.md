@@ -22,9 +22,18 @@ numéro incrémental (`v0.10.1-eudemos-1`, `v0.10.2-eudemos-2`, ...).
   (outils de typage et lint dans un groupe `dev`, Python fixé à
   3.13 via `requires-python`) et `uv.lock` remplacent `requirements.txt`. Le CI installe via
   `uv sync --locked`.
+- `cspell.json` : liste des fichiers vérifiés (`**/*.md`) déclarée dans
+  la config (la commande du README n'affichait que l'aide), code en
+  ligne et blocs de code ignorés, dictionnaire complété et trié.
+
+### Corrigé
+
+- Coquille `l'Arêtê` dans le CHANGELOG.
 
 ### Ajouté
 
+- Workflow `checks.yml` : ruff, ty, cspell et build strict à chaque
+  push sur `main`, sur les pull requests, et en préalable au déploiement.
 - Document de navigation du dépôt `CLAUDE.md` ajouté, incluant la structure du projet, la stack technique et les points d’entrée pour les contributions.
 - Règles de base de Fate Accelerated dans `mj/systeme.md` (dés,
   difficultés, issues, actions, points de Destin, stress), avec la
@@ -61,7 +70,7 @@ numéro incrémental (`v0.10.1-eudemos-1`, `v0.10.2-eudemos-2`, ...).
 
 ### Corrigé
 
-- Quartier de l'Abîme et Maître Kharôn retirés de `monde/histoire.md`.
+- Quartier de l'Abîme et son maître retirés de `monde/histoire.md`.
 - Foot : le cas de 1967 est celui du conducteur, comparé au juge ; le
   témoin à l'aiguillage et le pont viennent de Thomson (1976 et 1985).
 - Doublons et lieux flous : le Collecteur de Restes devient le
@@ -168,7 +177,7 @@ numéro incrémental (`v0.10.1-eudemos-1`, `v0.10.2-eudemos-2`, ...).
   paragraphe ajouté après la présentation du dilemme, reliant explicitement
   chaque PNJ du quartier au philosophe ou à la source qu'il incarne sans le
   nommer (Singer et Mill dans la Balance d'Orion, Aristote, Confucius et
-  MacIntyre dans la Citadelle de l'Arêtê, Hobbes/Locke/Rousseau dans la
+  MacIntyre dans la Citadelle de l'Arété, Hobbes/Locke/Rousseau dans la
   Concorde du Pacte, Camus, Nietzsche et Sartre dans le Gouffre d'Absyr, Sen
   et Rawls dans les Jardins de l'Équité, Ricœur et Parfit dans le Labyrinthe
   des Identités, Kant, Foot et Thomson dans les Rails de la Décision).

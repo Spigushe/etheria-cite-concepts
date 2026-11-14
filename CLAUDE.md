@@ -17,7 +17,7 @@ Wiki de campagne JdR perso : **Ethéria, Cité des Concepts** — un univers où
 | Hooks MkDocs | `scripts/changelog.py` (injecte `{{ changelog }}` depuis `CHANGELOG.md` dans `docs/changelog.md`) · `scripts/cards.py` (génère PNG recto + PDF recto-verso des cartes au build, rien de committé) |
 | Extension MD locale | `scripts/obsidian_callouts.py` : syntaxe `> [!TYPE] Titre`. Types : VILLE, PNJ, FACTION, REGLE, NOUVELLES, DANGER, SECRET, INTRIGUE, TRESOR, **MJ** (hors-fiction meneur). CSS : `docs/assets/stylesheets/callouts.css` |
 | Dépendances | **uv** : `pyproject.toml` (+ groupe `dev` : ruff, ty, stubs), `uv.lock`. Python 3.13 imposé par `requires-python = "==3.13.*"`. `uv sync` pour installer, `uv add` pour ajouter |
-| CI/CD | `.github/workflows/deploy.yml` — déclenché sur push de **tag `v*`**, `setup-uv` + `uv sync --locked --no-dev`, `ENABLE_PDF_EXPORT=1`, déploie sur Pages |
+| CI/CD | `.github/workflows/checks.yml` (push `main`, PR, et appelé par deploy) : ruff, ty, cspell, build strict. `.github/workflows/deploy.yml` — déclenché sur push de **tag `v*`**, après `checks`, `setup-uv` + `uv sync --locked --no-dev`, `ENABLE_PDF_EXPORT=1`, déploie sur Pages |
 | Qualité | `mkdocs build --strict`, cspell (`cspell.json`), markdownlint (`.markdownlint.json`) |
 | Versioning | Keep a Changelog + SemVer. Tags nommés : PNJ pour mineure (`v0.10.0-eudemos`), événement historique d'Ethéria pour majeure, hotfix = `-N` incrémental |
 

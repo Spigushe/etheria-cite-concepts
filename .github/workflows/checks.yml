@@ -1,0 +1,45 @@
+name: Vérifications
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_call:
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout du dépôt
+        uses: actions/checkout@v6
+
+      - name: Installer uv
+        uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+
+      - name: Installer Python et les dépendances
+        run: |
+          uv sync --locked
+
+      - name: Lint Python (ruff)
+        run: |
+          uv run --no-sync ruff check scripts/
+          uv run --no-sync ruff format --check scripts/
+
+      - name: Typage Python (ty)
+        run: |
+          uv run --no-sync ty check
+
+      - name: Orthographe (cspell)
+        run: |
+          npx --yes --package cspell --package @cspell/dict-fr-fr -- cspell --config cspell.json --no-progress
+
+      - name: Build strict (sans export PDF)
+        run: |
+          uv run --no-sync python -m mkdocs build --strict -f mkdocs.dev.yml

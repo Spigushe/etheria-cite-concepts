@@ -63,8 +63,9 @@ automatique à chaque modification d'un fichier `.md`.
 
 ## Vérifications
 
-Pas d'automatisation à l'heure actuelle, je lance ces commandes à la main
-avant de commiter :
+Le workflow `.github/workflows/checks.yml` lance ces vérifications à chaque
+push sur `main`, sur chaque pull request et avant chaque déploiement. Je
+peux aussi les lancer à la main avant de commiter :
 
 ```bash
 uv run ruff check scripts/ --fix

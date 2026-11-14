@@ -18,7 +18,11 @@ env:
   ENABLE_PDF_EXPORT: "1"
 
 jobs:
+  checks:
+    uses: ./.github/workflows/checks.yml
+
   build:
+    needs: checks
     runs-on: ubuntu-latest
 
     steps:

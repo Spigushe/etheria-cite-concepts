@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 Hook MkDocs : génère les cartes de chaque quartier au moment du build
 (mkdocs build ou mkdocs serve), sans rien committer dans le dépôt.
