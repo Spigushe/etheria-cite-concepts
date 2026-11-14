@@ -23,6 +23,11 @@ jobs:
         with:
           enable-cache: true
 
+      - name: Installer les dépendances système (export PDF)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libpango-1.0-0 libpangoft2-1.0-0 libharfbuzz-subset0
+
       - name: Installer Python et les dépendances
         run: |
           uv sync --locked
@@ -40,6 +45,11 @@ jobs:
         run: |
           npx --yes --package cspell --package @cspell/dict-fr-fr -- cspell --config cspell.json --no-progress
 
-      - name: Build strict (sans export PDF)
+      # Même build qu'au déploiement (config prod, export PDF compris) :
+      # mkdocs-to-pdf revérifie les liens du document fusionné et refuse
+      # ce que le build sans PDF laisse passer.
+      - name: Build strict (avec export PDF)
+        env:
+          ENABLE_PDF_EXPORT: "1"
         run: |
-          uv run --no-sync python -m mkdocs build --strict -f mkdocs.dev.yml
+          uv run --no-sync python -m mkdocs build --strict

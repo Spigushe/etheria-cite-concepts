@@ -16,6 +16,12 @@ numéro incrémental (`v0.10.1-eudemos-1`, `v0.10.2-eudemos-2`, ...).
 
 ## [Non publié]
 
+### Modifié
+
+- Workflow `checks.yml` : le build strict tourne avec la config de
+  production et l'export PDF, comme au déploiement, pour que les
+  erreurs de `mkdocs-to-pdf` sortent avant le tag.
+
 ## [0.11.1] - 2026-11-14 — Silys, correctif 1
 
 ### Corrigé

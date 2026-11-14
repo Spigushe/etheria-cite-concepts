@@ -17,7 +17,7 @@ Wiki de campagne JdR perso : **Ethéria, Cité des Concepts** — un univers où
 | Hooks MkDocs | `scripts/changelog.py` (injecte `{{ changelog }}` depuis `CHANGELOG.md` dans `docs/changelog.md`) · `scripts/cards.py` (génère PNG recto + PDF recto-verso des cartes au build, rien de committé) · `scripts/fiches.py` (remplit les fiches PDF A4 des prétirés au build depuis `pretires.json`, rien de committé ; balises `{{ pretires: <jeu> }}` et `{{ fiches_pdf: <jeu> }}`) |
 | Extension MD locale | `scripts/obsidian_callouts.py` : syntaxe `> [!TYPE] Titre`. Types : VILLE, PNJ, FACTION, REGLE, NOUVELLES, DANGER, SECRET, INTRIGUE, TRESOR, **MJ** (hors-fiction meneur). CSS : `docs/assets/stylesheets/callouts.css` |
 | Dépendances | **uv** : `pyproject.toml` (+ groupe `dev` : ruff, ty, stubs), `uv.lock`. Python 3.13 imposé par `requires-python = "==3.13.*"`. `uv sync` pour installer, `uv add` pour ajouter |
-| CI/CD | `.github/workflows/checks.yml` (push `main`, PR, et appelé par deploy) : ruff, ty, cspell, build strict. `.github/workflows/deploy.yml` — déclenché sur push de **tag `v*`**, après `checks`, `setup-uv` + `uv sync --locked --no-dev`, `ENABLE_PDF_EXPORT=1`, déploie sur Pages |
+| CI/CD | `.github/workflows/checks.yml` (push `main`, PR, et appelé par deploy) : ruff, ty, cspell, build strict avec export PDF (même build qu'au déploiement). `.github/workflows/deploy.yml` — déclenché sur push de **tag `v*`**, après `checks`, `setup-uv` + `uv sync --locked --no-dev`, `ENABLE_PDF_EXPORT=1`, déploie sur Pages |
 | Qualité | `mkdocs build --strict`, cspell (`cspell.json`), markdownlint (`.markdownlint.json`) |
 | Versioning | Keep a Changelog + SemVer. Tags nommés : PNJ pour mineure (`v0.10.0-eudemos`), événement historique d'Ethéria pour majeure, hotfix = `-N` incrémental |
 
@@ -109,4 +109,4 @@ Auteurs restants dans `sources/` sans quartier attitré dans les fiches concepts
 2. Le build CI est en `--strict` : tout lien interne cassé fait échouer le déploiement (cause du hotfix 0.10.3 : lien mort vers `monde/pitch.md` après renommage Pitch → Présentation en 0.10.2).
 3. `docs/changelog.md` ne se modifie jamais à la main : c'est `CHANGELOG.md` racine qui fait foi.
 4. Les cartes ne sont pas committées : elles sont régénérées à chaque build par le hook.
-5. Un lien relatif vers un fichier à télécharger (PDF, etc.) passe le build strict local et `checks.yml`, mais fait échouer l'export PDF au déploiement : `mkdocs-to-pdf` le prend pour une ancre interne. Utiliser une URL absolue (`site_url`), comme le font `cards.py` et `fiches.py` (cause du correctif 0.11.1).
+5. Un lien relatif vers un fichier à télécharger (PDF, etc.) passe le build strict local (sans PDF), mais fait échouer l'export PDF en CI (`checks.yml` et déploiement) : `mkdocs-to-pdf` le prend pour une ancre interne. Utiliser une URL absolue (`site_url`), comme le font `cards.py` et `fiches.py` (cause du correctif 0.11.1).
