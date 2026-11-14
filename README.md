@@ -34,12 +34,17 @@ machine.
 git clone https://github.com/Spigushe/etheria-cite-concepts.git
 cd etheria-cite-concepts
 
-python3 -m venv .venv
-source .venv/bin/activate      # sous Windows : .venv\Scripts\activate
-pip install -r requirements.txt
+uv sync                        # installe Python 3.13 + dépendances dans .venv
 
-python -m mkdocs serve -f mkdocs.dev.yml
+uv run python -m mkdocs serve -f mkdocs.dev.yml
 ```
+
+> Les dépendances sont gérées par [uv](https://docs.astral.sh/uv/) :
+> `pyproject.toml` les déclare (outils de typage et lint dans le groupe
+> `dev`), `uv.lock` fige les versions exactes. Ajouter un paquet :
+> `uv add <paquet>` (ou `uv add --dev <paquet>`).
+
+<!-- -->
 
 > J'utilise bien `python -m mkdocs` (et non `mkdocs` seul) : ça ajoute la
 > racine du repo au PYTHONPATH, ce qui est nécessaire pour que mon extension
@@ -145,7 +150,8 @@ scripts/
 mkdocs.yml                      # configuration du site (utilisée par le CI)
 mkdocs.dev.yml                  # config de dev local (hérite de mkdocs.yml,
                                  # sans le plugin to-pdf)
-requirements.txt
+pyproject.toml                  # dépendances Python (gérées par uv)
+uv.lock                         # versions figées des dépendances
 cspell.json                     # config orthographe (dictionnaire fr-fr)
 .github/workflows/deploy.yml    # build + déploiement automatique
 CHANGELOG.md                    # historique des versions du wiki

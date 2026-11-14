@@ -13,10 +13,11 @@ Wiki de campagne JdR perso : **Ethéria, Cité des Concepts** — un univers où
 | --- | --- |
 | Générateur | MkDocs + Material (fr), 3 palettes (épuré / parchemin / nocturne), polices auto-hébergées (`font: false`) |
 | Config prod | `mkdocs.yml` (référence CI, inclut plugin `to-pdf` → `pdf/etheria-jdr.pdf`) |
-| Config dev | `mkdocs.dev.yml` (hérite de prod **sans** `to-pdf` — WeasyPrint/GTK absent sous Windows). Lancer avec `python -m mkdocs serve -f mkdocs.dev.yml` (le `python -m` est requis pour importer `scripts/obsidian_callouts.py`) |
+| Config dev | `mkdocs.dev.yml` (hérite de prod **sans** `to-pdf` — WeasyPrint/GTK absent sous Windows). Lancer avec `uv run python -m mkdocs serve -f mkdocs.dev.yml` (le `python -m` est requis pour importer `scripts/obsidian_callouts.py`) |
 | Hooks MkDocs | `scripts/changelog.py` (injecte `{{ changelog }}` depuis `CHANGELOG.md` dans `docs/changelog.md`) · `scripts/cards.py` (génère PNG recto + PDF recto-verso des cartes au build, rien de committé) |
 | Extension MD locale | `scripts/obsidian_callouts.py` : syntaxe `> [!TYPE] Titre`. Types : VILLE, PNJ, FACTION, REGLE, NOUVELLES, DANGER, SECRET, INTRIGUE, TRESOR, **MJ** (hors-fiction meneur). CSS : `docs/assets/stylesheets/callouts.css` |
-| CI/CD | `.github/workflows/deploy.yml` — déclenché sur push de **tag `v*`**, Python 3.13, `ENABLE_PDF_EXPORT=1`, déploie sur Pages |
+| Dépendances | **uv** : `pyproject.toml` (+ groupe `dev` : ruff, ty, stubs), `uv.lock`. Python 3.13 imposé par `requires-python = "==3.13.*"`. `uv sync` pour installer, `uv add` pour ajouter |
+| CI/CD | `.github/workflows/deploy.yml` — déclenché sur push de **tag `v*`**, `setup-uv` + `uv sync --locked --no-dev`, `ENABLE_PDF_EXPORT=1`, déploie sur Pages |
 | Qualité | `mkdocs build --strict`, cspell (`cspell.json`), markdownlint (`.markdownlint.json`) |
 | Versioning | Keep a Changelog + SemVer. Tags nommés : PNJ pour mineure (`v0.10.0-eudemos`), événement historique d'Ethéria pour majeure, hotfix = `-N` incrémental |
 
@@ -25,7 +26,7 @@ Wiki de campagne JdR perso : **Ethéria, Cité des Concepts** — un univers où
 ```text
 CHANGELOG.md                  ← source de vérité version (injecté dans le site)
 mkdocs.yml / mkdocs.dev.yml   ← nav complète dans mkdocs.yml (clé `nav:`)
-requirements.txt
+pyproject.toml / uv.lock      ← dépendances (uv)
 scripts/                      ← hooks + extension markdown (voir tableau ci-dessus)
 templates/                    ← back_cover.html.j2 + styles.scss (export PDF)
 docs/
@@ -98,7 +99,7 @@ Auteurs restants dans `sources/` sans quartier attitré dans les fiches concepts
 
 ## Pièges connus (documentés dans le repo)
 
-1. `mkdocs serve` seul échoue : utiliser `python -m mkdocs serve -f mkdocs.dev.yml` (PYTHONPATH + pas de WeasyPrint en local).
+1. `mkdocs serve` seul échoue : utiliser `uv run python -m mkdocs serve -f mkdocs.dev.yml` (PYTHONPATH + pas de WeasyPrint en local).
 2. Le build CI est en `--strict` : tout lien interne cassé fait échouer le déploiement (cause du hotfix 0.10.3 : lien mort vers `monde/pitch.md` après renommage Pitch → Présentation en 0.10.2).
 3. `docs/changelog.md` ne se modifie jamais à la main : c'est `CHANGELOG.md` racine qui fait foi.
 4. Les cartes ne sont pas committées : elles sont régénérées à chaque build par le hook.

@@ -1,0 +1,27 @@
+[project]
+name = "etheria-cite-concepts"
+version = "0.10.3"
+description = "Wiki de campagne JdR : Ethéria, Cité des Concepts (MkDocs Material)"
+readme = "README.md"
+requires-python = "==3.13.*"
+dependencies = [
+    "mkdocs>=1.6,<2",
+    "mkdocs-material>=9.5,<10",
+    "mkdocs-to-pdf[all]>=0.11,<1",
+    "pypdfium2>=4,<6",
+    "reportlab>=5,<6",
+]
+
+[dependency-groups]
+dev = [
+    "types-Markdown>=3.10,<4",
+    "types-PyYAML>=6,<7",
+    "types-pytz",
+    "types-reportlab>=4.5,<5",
+    "ty<1",
+    "ruff<1",
+]
+
+[tool.uv]
+# Le dépôt n'est pas un paquet Python installable : uv gère seulement l'environnement.
+package = false

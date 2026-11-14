@@ -16,6 +16,13 @@ numéro incrémental (`v0.10.1-eudemos-1`, `v0.10.2-eudemos-2`, ...).
 
 ## [Non publié]
 
+### Modifié
+
+- Gestion des dépendances Python confiée à uv : `pyproject.toml`
+  (outils de typage et lint dans un groupe `dev`, Python fixé à
+  3.13 via `requires-python`) et `uv.lock` remplacent `requirements.txt`. Le CI installe via
+  `uv sync --locked`.
+
 ### Ajouté
 
 - Document de navigation du dépôt `CLAUDE.md` ajouté, incluant la structure du projet, la stack technique et les points d’entrée pour les contributions.
