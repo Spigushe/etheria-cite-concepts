@@ -44,6 +44,8 @@ numéro incrémental (`v0.10.1-eudemos-1`, `v0.10.2-eudemos-2`, ...).
 - Création de personnage, valeurs des cases de stress et des
   conséquences dans la fiche de personnage.
 - Page `mj/annexes/pretires.md` : quatre Aventuriers prêts à jouer.
+- Fiche d'Aventurier imprimable (PDF A4 recto verso, aperçus PNG)
+  dans `docs/assets/fiches/`, liée depuis la fiche de personnage.
 - Effet de chaque famille de cartes dans `mj/annexes/ressources-mj.md`.
 - Section « La Société des Explorateurs » dans `monde/presentation.md`.
 - Type de dilemme et thèmes sensibles sur les 39 trames d'aventure.

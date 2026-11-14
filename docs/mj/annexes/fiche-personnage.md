@@ -9,6 +9,14 @@
 
 # Fiche de personnage : Aventurier Philosophe (FATE)
 
+## Fiche imprimable
+
+La fiche ci-dessous existe en version à imprimer, une page A4 recto
+verso : [télécharger le PDF](../../assets/fiches/fiche-aventurier.pdf).
+
+![Fiche d'Aventurier, recto](../../assets/fiches/fiche-aventurier-recto.png){ width="49%" loading=lazy }
+![Fiche d'Aventurier, verso](../../assets/fiches/fiche-aventurier-verso.png){ width="49%" loading=lazy }
+
 > [!REGLE] Pourquoi FATE ici
 > FATE ne teste presque jamais une action par défaut : on lance les dés
 > seulement quand l'issue est incertaine et que l'enjeu compte
