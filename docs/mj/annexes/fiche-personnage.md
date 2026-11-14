@@ -41,7 +41,7 @@ verso : [télécharger le PDF](../../assets/fiches/fiche-aventurier.pdf).
 6. Choisis un stunt. Tu pourras en ajouter deux en cours de jeu.
 7. Place ta réputation : deux axes à un cran du centre.
 
-Pour jouer tout de suite, quatre [prétirés](pretires.md) sont prêts.
+Pour jouer tout de suite, cinq [prétirés](pretires.md) sont prêts.
 
 ## Recto : identité et Aspects
 

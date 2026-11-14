@@ -86,8 +86,6 @@ certains sujets doivent être évités ou traités avec prudence.
 L'outil principal reste la Carte-X : un mot ou un geste convenu à
 l'avance, qui coupe immédiatement une scène sans qu'on ait à se
 justifier. Le MJ y répond sans poser de question et enchaîne ailleurs.
-Une [planche de six Cartes X à imprimer](../assets/fiches/carte-x.pdf)
-(A4, cartes de 63 × 88 mm) est prête à découper.
 Mais couper entièrement une scène est parfois plus radical que
 nécessaire, alors trois signaux plus légers permettent d'ajuster sans
 en arriver là. Un joueur peut demander de passer sur les détails,
@@ -105,7 +103,8 @@ du temps.
 ## Pour préparer une séance
 
 - [Campagne](campagne/index.md) : les trames d'aventure, une section par quartier.
+- [Scénarios prêts à jouer](scenarios/le-huitieme-fragment.md) : Le Huitième Fragment, scénario d'initiation en une séance, au Labyrinthe des Identités.
 - [Système de jeu](systeme.md) : règles de base, réputation philosophique, dilemmes, conséquences.
 - [Fiche de personnage](annexes/fiche-personnage.md) : le gabarit FATE complet et la création de personnage.
-- [Prétirés](annexes/pretires.md) : quatre Aventuriers prêts à jouer.
+- [Prétirés](annexes/pretires.md) : cinq Aventuriers prêts à jouer, avec leurs fiches imprimables.
 - [Aides de jeu](annexes/ressources-mj.md) : cartes imprimables et typologie des dilemmes.

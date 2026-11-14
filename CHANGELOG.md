@@ -32,6 +32,17 @@ numéro incrémental (`v0.10.1-eudemos-1`, `v0.10.2-eudemos-2`, ...).
 
 ### Ajouté
 
+- Cinquième prétiré, Sidoine Farge, et fiches PDF imprimables des
+  prétirés (une page A4 chacune), liées depuis `mj/annexes/pretires.md`
+  et le scénario « Le Huitième Fragment ». Le hook `scripts/fiches.py`
+  les remplit au build depuis `docs/mj/annexes/pretires.json`, par jeu
+  de prétirés (un scénario ou une campagne) ; la page des prétirés est
+  générée depuis le même fichier.
+- Scénario d'initiation « Le Huitième Fragment »
+  (`mj/scenarios/le-huitieme-fragment.md`), dans une nouvelle section
+  « Scénarios prêts à jouer » : la trame « Les Éclats du
+  Navire Originel » découpée en scènes, avec oppositions chiffrées,
+  pour une séance au Labyrinthe des Identités. Non testé en partie.
 - Workflow `checks.yml` : ruff, ty, cspell et build strict à chaque
   push sur `main`, sur les pull requests, et en préalable au déploiement.
 - Document de navigation du dépôt `CLAUDE.md` ajouté, incluant la structure du projet, la stack technique et les points d’entrée pour les contributions.
@@ -44,10 +55,6 @@ numéro incrémental (`v0.10.1-eudemos-1`, `v0.10.2-eudemos-2`, ...).
 - Création de personnage, valeurs des cases de stress et des
   conséquences dans la fiche de personnage.
 - Page `mj/annexes/pretires.md` : quatre Aventuriers prêts à jouer.
-- Fiche d'Aventurier imprimable (PDF A4 recto verso, aperçus PNG)
-  dans `docs/assets/fiches/`, liée depuis la fiche de personnage.
-- Planche A4 de six Cartes X à découper (`docs/assets/fiches/carte-x.pdf`),
-  liée depuis la section Sécurité de table de l'Accueil MJ.
 - Effet de chaque famille de cartes dans `mj/annexes/ressources-mj.md`.
 - Section « La Société des Explorateurs » dans `monde/presentation.md`.
 - Type de dilemme et thèmes sensibles sur les 39 trames d'aventure.

@@ -18,6 +18,13 @@ entièrement du groupe.
 - [Quêtes transversales](quetes-transversales.md), qui traversent plusieurs quartiers à la fois.
 - [Transitions entre quartiers](transitions-entre-quartiers.md), de courtes scènes à jouer au passage d'un quartier à l'autre.
 
+> [!MJ] Scénarios prêts à jouer
+> Pour une trame déjà découpée en scènes, voir
+> [Le Huitième Fragment](../scenarios/le-huitieme-fragment.md),
+> scénario d'initiation en une séance.
+
+<!-- -->
+
 > [!MJ] Sur la mise en scène
 > Ces aventures ne se résolvent ni par la force brute, ni par
 > l'accumulation de ressources. Elles interrogent, déstabilisent,

@@ -121,6 +121,46 @@ pas stockés dans le dépôt : ils sont régénérés à chaque build par
 `scripts/cards.py`. Pour changer une carte, il suffit de modifier le JSON ;
 `ressources-mj.md` n'a jamais besoin d'être touché pour ça.
 
+## Fiches des prétirés
+
+Les prétirés sont décrits dans `docs/mj/annexes/pretires.json`, rangés par
+« jeu » (un scénario ou une campagne). Au build, `scripts/fiches.py` remplit
+une fiche de personnage A4 par prétiré (`assets/fiches/<jeu>/<slug>.pdf`,
+plus `assets/fiches/<jeu>.pdf` qui les réunit), sans rien stocker dans le
+dépôt. Deux balises s'utilisent dans n'importe quelle page :
+
+- `{{ pretires: <jeu> }}` : la description de chaque prétiré du jeu.
+- `{{ fiches_pdf: <jeu> }}` : la liste des liens vers les fiches.
+
+Pour un nouveau prétiré, j'ajoute une entrée dans la liste `pretires` du jeu.
+Pour un nouveau scénario, j'ajoute une clé au JSON, sur le modèle de
+`le-huitieme-fragment` :
+
+```json
+"mon-scenario": {
+  "titre": "Mon scénario",
+  "pied": "Mon scénario, texte du pied de fiche",
+  "pretires": [
+    {
+      "slug": "prenom-nom",
+      "nom": "Prénom Nom",
+      "role": "son rôle en deux mots",
+      "origine": "d'où il vient",
+      "discipline": "logique",
+      "aspects": { "concept": "…", "faille": "…", "serment": "…", "lien": "…" },
+      "approches": { "Rigoureux": 3, "Habile": 2, "Éclatant": 2, "Ferme": 1, "Vif": 1, "Retors": 0 },
+      "stunts": [{ "nom": "Nom du stunt", "effet": "+2 en … pour …" }],
+      "reputation": { "Rationaliste": 1, "Solidaire": 1 }
+    }
+  ]
+}
+```
+
+`reputation` donne, par pôle, le nombre de crans depuis le centre (1 à 3).
+`aspects` accepte aussi `libre`, laissé en blanc sur la fiche s'il est absent.
+Le build s'arrête avec un message clair si un champ manque, si une Approche
+est inconnue ou si un texte trop long fait déborder la fiche.
+
 ## Structure du repo
 
 ```text
@@ -155,7 +195,8 @@ docs/
 scripts/
 ├── obsidian_callouts.py        # extension Markdown : syntaxe > [!TYPE]
 ├── changelog.py                # hook MkDocs : injecte {{ changelog }}
-└── cards.py                    # hook MkDocs : génère les cartes (PNG + PDF)
+├── cards.py                    # hook MkDocs : génère les cartes (PNG + PDF)
+└── fiches.py                   # hook MkDocs : remplit les fiches PDF des prétirés
 templates/                      # gabarits de l'export PDF
 mkdocs.yml                      # configuration du site (utilisée par le CI)
 mkdocs.dev.yml                  # config de dev local (hérite de mkdocs.yml,

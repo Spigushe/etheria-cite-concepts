@@ -17,6 +17,11 @@ question, reformulée : *qui es-tu, maintenant ?*
 | Type de dilemme | Contradiction interne |
 | Thèmes sensibles | Perte de mémoire |
 
+> [!MJ] Version prête à jouer
+> Cette trame est développée scène par scène dans
+> [Le Huitième Fragment](../scenarios/le-huitieme-fragment.md), scénario
+> d'initiation en une séance.
+
 ## Les Miroirs du Labyrinthe
 
 | | |

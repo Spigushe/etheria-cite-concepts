@@ -1,0 +1,98 @@
+{
+  "le-huitieme-fragment": {
+    "titre": "Le Huitième Fragment",
+    "pied": "Le Huitième Fragment, scénario d'initiation",
+    "pretires": [
+      {
+        "slug": "hesperie-vane",
+        "nom": "Hespérie Vane",
+        "role": "logicienne",
+        "origine": "une université qu'elle a quittée en claquant la porte",
+        "discipline": "logique",
+        "aspects": {
+          "concept": "Logicienne qui ne supporte pas l'à-peu-près",
+          "faille": "Préfère avoir raison qu'avoir des amis",
+          "serment": "Ne jamais signer ce que je n'ai pas vérifié",
+          "lien": "Les Réviseurs me comptent déjà parmi eux"
+        },
+        "approches": { "Rigoureux": 3, "Habile": 2, "Éclatant": 0, "Ferme": 2, "Vif": 1, "Retors": 1 },
+        "stunts": [
+          { "nom": "Lecture des Gardiens", "effet": "+2 en Rigoureux pour interpréter l'allégorie d'un Gardien." }
+        ],
+        "reputation": { "Rationaliste": 1, "Cohérent": 1 }
+      },
+      {
+        "slug": "odon-malegue",
+        "nom": "Odon Malègue",
+        "role": "médiateur",
+        "origine": "un bourg où il a arbitré vingt ans de querelles",
+        "discipline": "éthique",
+        "aspects": {
+          "concept": "Ancien médiateur, las des vainqueurs",
+          "faille": "Je cède pour que ça s'arrête",
+          "serment": "Ne jamais laisser une communauté se déchirer devant moi",
+          "lien": "J'ai une dette envers les Harmonistes"
+        },
+        "approches": { "Rigoureux": 1, "Habile": 3, "Éclatant": 2, "Ferme": 0, "Vif": 1, "Retors": 2 },
+        "stunts": [
+          { "nom": "Dialecticien", "effet": "+2 en Habile pour dénouer la contradiction logique d'un PNJ." }
+        ],
+        "reputation": { "Solidaire": 1, "Pragmatique": 1 }
+      },
+      {
+        "slug": "brune-castellan",
+        "nom": "Brune Castellan",
+        "role": "stoïcienne errante",
+        "origine": "une maison qu'elle a laissée à d'autres",
+        "discipline": "éthique",
+        "aspects": {
+          "concept": "Stoïcienne errante qui n'a gardé que sa parole",
+          "faille": "Ma constance ressemble à de l'entêtement",
+          "serment": "Rapporter aux Sentinelles du Pacte Originel toute trace d'un accord oublié",
+          "lien": "Eudémos m'a regardée une fois, sans rien dire"
+        },
+        "approches": { "Rigoureux": 2, "Habile": 1, "Éclatant": 1, "Ferme": 3, "Vif": 2, "Retors": 0 },
+        "stunts": [
+          { "nom": "Voix du silence", "effet": "+2 en Ferme pour tenir une position sans un mot, face à une pression collective." }
+        ],
+        "reputation": { "Idéaliste": 1, "Conservateur": 1 }
+      },
+      {
+        "slug": "tibere-lunel",
+        "nom": "Tibère Lunel",
+        "role": "conteur",
+        "origine": "les routes, les foires, les veillées",
+        "discipline": "métaphysique",
+        "aspects": {
+          "concept": "Conteur empiriste : je ne crois que ce que j'ai vu, et j'enjolive le reste",
+          "faille": "Un bon récit vaut bien une petite entorse",
+          "serment": "J'ai promis à un Rémanent de lui rapporter son ancien nom",
+          "lien": "Les Marcheurs Silencieux me tolèrent, je ne sais pas pourquoi"
+        },
+        "approches": { "Rigoureux": 0, "Habile": 1, "Éclatant": 3, "Ferme": 1, "Vif": 2, "Retors": 2 },
+        "stunts": [
+          { "nom": "Le récit fait foi", "effet": "+2 en Éclatant pour faire accepter à une assemblée une version des faits." }
+        ],
+        "reputation": { "Intuitif": 1, "Révisionniste": 1 }
+      },
+      {
+        "slug": "sidoine-farge",
+        "nom": "Sidoine Farge",
+        "role": "transfuge",
+        "origine": "trois écoles rivales, quittées l'une après l'autre",
+        "discipline": "métaphysique",
+        "aspects": {
+          "concept": "Transfuge de trois écoles, fidèle à aucune",
+          "faille": "Je change d'avis dès qu'on me donne raison",
+          "serment": "Ne jamais décider à la place de quelqu'un d'autre",
+          "lien": "Les Éthérialistes attendent de moi un rituel que je repousse"
+        },
+        "approches": { "Rigoureux": 1, "Habile": 2, "Éclatant": 1, "Ferme": 0, "Vif": 3, "Retors": 2 },
+        "stunts": [
+          { "nom": "Contre-pied", "effet": "+2 en Vif pour retourner sur-le-champ l'argument qu'un interlocuteur vient d'énoncer." }
+        ],
+        "reputation": { "Individualiste": 1, "Inconstant": 1 }
+      }
+    ]
+  }
+}

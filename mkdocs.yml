@@ -57,6 +57,7 @@ extra_javascript:
 hooks:
   - scripts/changelog.py # injecte {{ changelog }} depuis CHANGELOG.md
   - scripts/cards.py # génère les cartes (PNG recto + PDF recto-verso)
+  - scripts/fiches.py # remplit les fiches PDF des prétirés depuis pretires.json
 
 markdown_extensions:
   - scripts.obsidian_callouts # syntaxe > [!TYPE] Titre (fichier local du repo)
@@ -137,5 +138,7 @@ nav:
           - La Citadelle de l'Arété: mj/campagne/citadelle-de-l-arete.md
           - Quêtes transversales: mj/campagne/quetes-transversales.md
           - Transitions entre quartiers: mj/campagne/transitions-entre-quartiers.md
+      - Scénarios prêts à jouer:
+          - Le Huitième Fragment: mj/scenarios/le-huitieme-fragment.md
       - Ressources MJ: mj/annexes/ressources-mj.md
   - Changelog: changelog.md

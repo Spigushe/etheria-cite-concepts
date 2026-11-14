@@ -14,7 +14,7 @@ Wiki de campagne JdR perso : **Ethéria, Cité des Concepts** — un univers où
 | Générateur | MkDocs + Material (fr), 3 palettes (épuré / parchemin / nocturne), polices auto-hébergées (`font: false`) |
 | Config prod | `mkdocs.yml` (référence CI, inclut plugin `to-pdf` → `pdf/etheria-jdr.pdf`) |
 | Config dev | `mkdocs.dev.yml` (hérite de prod **sans** `to-pdf` — WeasyPrint/GTK absent sous Windows). Lancer avec `uv run python -m mkdocs serve -f mkdocs.dev.yml` (le `python -m` est requis pour importer `scripts/obsidian_callouts.py`) |
-| Hooks MkDocs | `scripts/changelog.py` (injecte `{{ changelog }}` depuis `CHANGELOG.md` dans `docs/changelog.md`) · `scripts/cards.py` (génère PNG recto + PDF recto-verso des cartes au build, rien de committé) |
+| Hooks MkDocs | `scripts/changelog.py` (injecte `{{ changelog }}` depuis `CHANGELOG.md` dans `docs/changelog.md`) · `scripts/cards.py` (génère PNG recto + PDF recto-verso des cartes au build, rien de committé) · `scripts/fiches.py` (remplit les fiches PDF A4 des prétirés au build depuis `pretires.json`, rien de committé ; balises `{{ pretires: <jeu> }}` et `{{ fiches_pdf: <jeu> }}`) |
 | Extension MD locale | `scripts/obsidian_callouts.py` : syntaxe `> [!TYPE] Titre`. Types : VILLE, PNJ, FACTION, REGLE, NOUVELLES, DANGER, SECRET, INTRIGUE, TRESOR, **MJ** (hors-fiction meneur). CSS : `docs/assets/stylesheets/callouts.css` |
 | Dépendances | **uv** : `pyproject.toml` (+ groupe `dev` : ruff, ty, stubs), `uv.lock`. Python 3.13 imposé par `requires-python = "==3.13.*"`. `uv sync` pour installer, `uv add` pour ajouter |
 | CI/CD | `.github/workflows/checks.yml` (push `main`, PR, et appelé par deploy) : ruff, ty, cspell, build strict. `.github/workflows/deploy.yml` — déclenché sur push de **tag `v*`**, après `checks`, `setup-uv` + `uv sync --locked --no-dev`, `ENABLE_PDF_EXPORT=1`, déploie sur Pages |
@@ -54,9 +54,13 @@ docs/
 │   │                            chacun) + quetes-transversales.md
 │   │                            + transitions-entre-quartiers.md (473 lignes, le plus
 │   │                            gros fichier : 3 scènes par paire de quartiers)
+│   ├── scenarios/            ← scénarios prêts à jouer, découpés en scènes
+│   │                            (le-huitieme-fragment.md, initiation, Labyrinthe)
 │   └── annexes/
 │       ├── fiche-personnage.md   ← fiche FATE (création, Aspects, Approches, Stunts, Réputation)
-│       ├── pretires.md           ← 4 personnages prêts à jouer
+│       ├── pretires.md           ← intro + {{ pretires: <jeu> }} (rendu par scripts/fiches.py)
+│       ├── pretires.json         ← données des prétirés, 1 clé par jeu (scénario
+│       │                            ou campagne), consommé par scripts/fiches.py
 │       ├── ressources-mj.md      ← carrousels de cartes par quartier + typologie dilemmes
 │       └── decks-cartes.json     ← données des cartes, 1 clé par slug de quartier
 │                                    (consommé par scripts/cards.py)
@@ -91,6 +95,7 @@ Auteurs restants dans `sources/` sans quartier attitré dans les fiches concepts
 | Écrire du lore d'un quartier | `docs/monde/quartiers/<slug>.md` (copier la structure d'une fiche existante) |
 | Ajouter/modifier une aventure | `docs/mj/campagne/<slug>.md` ; liaisons inter-quartiers → `transitions-entre-quartiers.md` |
 | Cartes à jouer | `docs/mj/annexes/decks-cartes.json` (données) + `scripts/cards.py` (génération) + `ressources-mj.md` (affichage carrousel) |
+| Prétirés (nouveau personnage ou nouveau jeu) | `docs/mj/annexes/pretires.json` (données) ; `scripts/fiches.py` (mise en page) ; balises dans `pretires.md` et les scénarios |
 | Fiches philo | `docs/resources-philo/concepts/<slug>.md` ou `sources/<auteur>.md` |
 | Règles du jeu | `docs/mj/systeme.md` + `docs/mj/annexes/fiche-personnage.md` (FATE) |
 | Nouveau callout | `scripts/obsidian_callouts.py` + `docs/assets/stylesheets/callouts.css` + liste dans `docs/index.md` |

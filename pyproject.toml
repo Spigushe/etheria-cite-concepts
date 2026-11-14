@@ -5,6 +5,7 @@ description = "Wiki de campagne JdR : Ethéria, Cité des Concepts (MkDocs Mater
 readme = "README.md"
 requires-python = "==3.13.*"
 dependencies = [
+    "fonttools[woff]>=4",
     "mkdocs>=1.6,<2",
     "mkdocs-material>=9.5,<10",
     "mkdocs-to-pdf[all]>=0.11,<1",
