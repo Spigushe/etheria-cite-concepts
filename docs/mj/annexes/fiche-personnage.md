@@ -12,7 +12,7 @@
 ## Fiche imprimable
 
 La fiche ci-dessous existe en version à imprimer, une page A4 recto
-verso : [télécharger le PDF](../../assets/fiches/fiche-aventurier.pdf).
+verso : [télécharger le PDF](https://spigushe.github.io/etheria-cite-concepts/assets/fiches/fiche-aventurier.pdf).
 
 ![Fiche d'Aventurier, recto](../../assets/fiches/fiche-aventurier-recto.png){ .zoomable width="49%" loading=lazy }
 ![Fiche d'Aventurier, verso](../../assets/fiches/fiche-aventurier-verso.png){ .zoomable width="49%" loading=lazy }

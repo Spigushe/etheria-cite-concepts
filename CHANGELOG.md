@@ -16,7 +16,19 @@ numéro incrémental (`v0.10.1-eudemos-1`, `v0.10.2-eudemos-2`, ...).
 
 ## [Non publié]
 
-## [0.11.0] - 2026-11-14 — Silys
+## [0.11.1] - 2026-11-14 — Silys, correctif 1
+
+### Corrigé
+
+- Déploiement en échec à l'export PDF : le lien relatif vers
+  `assets/fiches/fiche-aventurier.pdf` dans la fiche de personnage
+  était pris par `mkdocs-to-pdf` pour une ancre interne introuvable.
+  Lien passé en URL absolue, comme ceux des cartes et des prétirés.
+
+## [0.11.0] - 2026-11-14 — Silys [CASSÉE]
+
+> Déploiement cassé (export PDF en échec, lien relatif vers
+> `fiche-aventurier.pdf`) : voir le correctif 0.11.1 ci-dessus.
 
 ### Ajouté
 
