@@ -16,6 +16,8 @@ pour un correctif de `v0.11.0-silys`).
 
 ## [Non publié]
 
+## [0.12.0] - 2026-11-15 — Éléon Rive
+
 ### Ajouté
 
 - Kits prêts à jouer, un PDF A4 par scénario

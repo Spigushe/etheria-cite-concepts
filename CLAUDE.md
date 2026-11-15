@@ -1,7 +1,7 @@
 <!-- cSpell:ignore-file -->
 # MAP — `Spigushe/etheria-cite-concepts`
 
-> Document de navigation rapide. État constaté au tag v0.11.1 « Silys, correctif 1 » (2026-11-14). Wiki MkDocs Material en français, publié sur GitHub Pages : <https://spigushe.github.io/etheria-cite-concepts/>
+> Document de navigation rapide. État constaté au tag v0.12.0 « Éléon Rive » (2026-11-15). Wiki MkDocs Material en français, publié sur GitHub Pages : <https://spigushe.github.io/etheria-cite-concepts/>
 
 ## En une phrase
 

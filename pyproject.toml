@@ -1,6 +1,6 @@
 [project]
 name = "etheria-cite-concepts"
-version = "0.11.1"
+version = "0.12.0"
 description = "Wiki de campagne JdR : Ethéria, Cité des Concepts (MkDocs Material)"
 readme = "README.md"
 requires-python = "==3.13.*"
