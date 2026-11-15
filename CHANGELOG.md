@@ -18,6 +18,12 @@ pour un correctif de `v0.11.0-silys`).
 
 ### Ajouté
 
+- Kits prêts à jouer, un PDF A4 par scénario
+  (`docs/assets/scenarios/etheria-kit-<scénario>.pdf`) : livret du
+  meneur, page pour les joueurs, fiches des prétirés, cartes citées
+  et cartes de sécurité. Lien de téléchargement dans chaque scénario,
+  cités en exemple dans la vue d'ensemble des quartiers et dans les
+  Ressources pour jouer.
 - Cartes de sécurité de table (Carte X, Passer, Ralentir, Hors
   personnage, Silence, carte libre, dos commun) : planches A4 recto
   verso, trois exemplaires de chaque carte

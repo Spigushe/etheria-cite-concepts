@@ -69,6 +69,9 @@ docs/
 └── assets/
     ├── blasons/ et icons/    ← 7 PNG numérotés 1..7 (ordre canonique, cf. tableau)
     ├── fonts/                ← Cormorant Garamond, EB Garamond, Roboto Mono (woff2)
+    ├── scenarios/            ← kits prêts à jouer, 1 PDF committé par scénario
+    │                            (etheria-kit-<slug du scénario>.pdf), liés en URL absolue
+    │                            depuis les scénarios, quartiers/index.md et ressources-mj.md
     ├── javascripts/carrousel.js
     └── stylesheets/          ← callouts.css + extra.css
 ```

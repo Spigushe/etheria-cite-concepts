@@ -21,6 +21,12 @@ personnages, menaces et cartes sont ceux qui existent déjà.
 > sont indicatifs : ils n'ont pas été testés en partie. Ajuste-les à
 > ta table.
 
+Tout ce qui s'imprime est réuni dans le
+[kit prêt à jouer](https://spigushe.github.io/etheria-cite-concepts/assets/scenarios/etheria-kit-le-festin-du-neant.pdf),
+un PDF A4 à télécharger et imprimer : livret du meneur, page pour
+les joueurs, fiches des prétirés, cartes citées et cartes de
+sécurité.
+
 À préparer :
 
 - 4 dés Fate par joueur, 3 jetons de points de Destin par joueur, un

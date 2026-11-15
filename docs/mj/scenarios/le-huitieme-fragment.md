@@ -21,6 +21,12 @@ chiffrées et prétirés.
 > sont indicatifs : ils n'ont pas été testés en partie. Ajuste-les à
 > ta table.
 
+Tout ce qui s'imprime est réuni dans le
+[kit prêt à jouer](https://spigushe.github.io/etheria-cite-concepts/assets/scenarios/etheria-kit-le-huitieme-fragment.pdf),
+un PDF A4 à télécharger et imprimer : livret du meneur, page pour
+les joueurs, fiches des prétirés, cartes citées et cartes de
+sécurité.
+
 À préparer :
 
 - 4 dés Fate (dés Fudge) par joueur, ou un seul jeu qui tourne.

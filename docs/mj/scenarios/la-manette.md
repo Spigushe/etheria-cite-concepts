@@ -28,6 +28,12 @@ personnages, menaces et cartes sont ceux qui existent déjà.
 > jouer, si elle l'accepte. Sinon, remplace-le par un voyageur seul :
 > les règles et le dilemme ne changent pas.
 
+Tout ce qui s'imprime est réuni dans le
+[kit prêt à jouer](https://spigushe.github.io/etheria-cite-concepts/assets/scenarios/etheria-kit-la-manette.pdf),
+un PDF A4 à télécharger et imprimer : livret du meneur, page pour
+les joueurs, fiches des prétirés, cartes citées et cartes de
+sécurité.
+
 À préparer :
 
 - 4 dés Fate par joueur, 3 jetons de points de Destin par joueur, un

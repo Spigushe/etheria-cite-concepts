@@ -204,6 +204,22 @@ cinq idées, quatre pactes, quatre lieux), dans l'ordre de la page
 
 {{ cartes: citadelle-de-l-arete / lieu }}
 
+## Exemples : les kits des scénarios
+
+Pour voir ce que donne ce matériel une fois assemblé pour une
+séance, chaque [scénario](../index.md#pour-preparer-une-seance) a son kit
+prêt à jouer : un seul PDF A4 qui réunit le livret du meneur, une
+page pour les joueurs, les fiches des prétirés, les cartes citées
+dans les scènes et les cartes de sécurité.
+
+- [Le Huitième Fragment](https://spigushe.github.io/etheria-cite-concepts/assets/scenarios/etheria-kit-le-huitieme-fragment.pdf), au Labyrinthe des Identités ;
+- [Le Dernier Jour du Régent](https://spigushe.github.io/etheria-cite-concepts/assets/scenarios/etheria-kit-le-dernier-jour-du-regent.pdf), à la Concorde du Pacte ;
+- [Le Prix du Bonheur](https://spigushe.github.io/etheria-cite-concepts/assets/scenarios/etheria-kit-le-prix-du-bonheur.pdf), à la Balance d'Orion ;
+- [Le Festin du Néant](https://spigushe.github.io/etheria-cite-concepts/assets/scenarios/etheria-kit-le-festin-du-neant.pdf), au Gouffre d'Absyr ;
+- [La Manette](https://spigushe.github.io/etheria-cite-concepts/assets/scenarios/etheria-kit-la-manette.pdf), aux Rails de la Décision ;
+- [Le Voile d'Ignorance](https://spigushe.github.io/etheria-cite-concepts/assets/scenarios/etheria-kit-le-voile-d-ignorance.pdf), aux Jardins de l'Équité ;
+- [Le Jardin des Épreuves](https://spigushe.github.io/etheria-cite-concepts/assets/scenarios/etheria-kit-le-jardin-des-epreuves.pdf), à la Citadelle de l'Arété.
+
 ## Typologie des dilemmes
 
 Les cinq formes de dilemmes (tramway moral, contradiction interne,
