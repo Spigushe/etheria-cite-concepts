@@ -73,6 +73,7 @@ uv run ruff format scripts/
 uv run ty check
 uv run python -m mkdocs build --strict -f mkdocs.dev.yml
 npx --yes --package cspell --package @cspell/dict-fr-fr -- cspell --config cspell.json --no-progress
+npx --yes markdownlint-cli2@0.24.1
 ```
 
 - `ruff` : lint et style Python sur `scripts/`.
@@ -83,6 +84,14 @@ npx --yes --package cspell --package @cspell/dict-fr-fr -- cspell --config cspel
 - `cspell` : orthographe française sur tous les fichiers Markdown, avec
   le dictionnaire `cspell.json`, complété au fil du temps avec les noms
   propres et le vocabulaire spécifiques au projet.
+- `markdownlint` : structure des fichiers Markdown (titres, listes,
+  tableaux, espaces en fin de ligne). Les règles sont dans
+  `.markdownlint.json`, les fichiers contrôlés dans
+  `.markdownlint-cli2.jsonc` ; l'extension VS Code recommandée lit les
+  deux et signale les mêmes erreurs dans l'éditeur. Ajouter `--fix` à
+  la commande corrige ce qui peut l'être automatiquement. Une liste
+  imbriquée s'indente de quatre espaces, sans quoi MkDocs l'affiche à
+  plat.
 
 ## Publication sur GitHub Pages
 
@@ -102,6 +111,8 @@ republie le site.
    apparaisse dans le menu.
 3. Je vérifie l'orthographe avec `cspell` : les nouveaux noms propres du
    monde d'Éthéria vont dans le tableau `words` de `cspell.json`.
+4. Je vérifie la structure avec `markdownlint` (voir
+   [Vérifications](#vérifications)).
 
 ## Ajouter un nouveau type de callout
 
@@ -204,6 +215,8 @@ mkdocs.dev.yml                  # config de dev local (hérite de mkdocs.yml,
 pyproject.toml                  # dépendances Python (gérées par uv)
 uv.lock                         # versions figées des dépendances
 cspell.json                     # config orthographe (dictionnaire fr-fr)
+.markdownlint.json              # règles markdownlint
+.markdownlint-cli2.jsonc        # fichiers contrôlés par markdownlint
 .github/workflows/deploy.yml    # build + déploiement automatique
 CHANGELOG.md                    # historique des versions du wiki
 ```

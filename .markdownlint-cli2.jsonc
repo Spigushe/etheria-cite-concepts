@@ -1,0 +1,13 @@
+{
+  // Fichiers contrôlés par `markdownlint-cli2` (CI et ligne de commande).
+  // Les règles, elles, restent dans `.markdownlint.json`.
+  "globs": ["**/*.md"],
+  "ignores": [
+    ".venv/**",
+    "node_modules/**",
+    "site/**",
+    // Une seule ligne, `{{ changelog }}`, remplacée au build par
+    // scripts/changelog.py : pas de titre à contrôler (MD041).
+    "docs/changelog.md"
+  ]
+}

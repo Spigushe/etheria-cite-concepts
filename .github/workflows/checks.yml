@@ -45,6 +45,12 @@ jobs:
         run: |
           npx --yes --package cspell --package @cspell/dict-fr-fr -- cspell --config cspell.json --no-progress
 
+      # Version figée : une nouvelle règle de markdownlint ne doit pas
+      # faire échouer un déploiement par surprise.
+      - name: Lint Markdown (markdownlint)
+        run: |
+          npx --yes markdownlint-cli2@0.24.1
+
       # Même build qu'au déploiement (config prod, export PDF compris) :
       # mkdocs-to-pdf revérifie les liens du document fusionné et refuse
       # ce que le build sans PDF laisse passer.

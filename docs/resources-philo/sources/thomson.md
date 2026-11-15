@@ -10,7 +10,7 @@ son nom, le *trolley problem*.
 Thomson multiplie les variantes du dilemme pour tester nos réactions.
 C'est d'elle que vient la version la plus connue : ce n'est plus le
 conducteur qui décide, mais un témoin placé à l'aiguillage, qui peut
-actionner un levier pour dévier le tramway. Autre variante : et si, 
+actionner un levier pour dévier le tramway. Autre variante : et si,
 au lieu d'actionner un levier, tu devais pousser
 un inconnu très corpulent du haut d'un pont pour arrêter le tramway
 et sauver cinq personnes ? Le résultat chiffré est identique (une

@@ -53,6 +53,20 @@ pour un correctif de `v0.11.0-silys`).
 - Workflow `checks.yml` : le build strict tourne avec la config de
   production et l'export PDF, comme au déploiement, pour que les
   erreurs de `mkdocs-to-pdf` sortent avant le tag.
+- Règle `MD007` de `.markdownlint.json` passée à quatre espaces,
+  l'indentation qu'attend MkDocs pour une liste imbriquée.
+- Workflow `checks.yml` : contrôle `markdownlint` de tous les fichiers
+  Markdown (`markdownlint-cli2`, version figée), donc aussi avant
+  chaque déploiement. Les fichiers contrôlés sont listés dans
+  `.markdownlint-cli2.jsonc`, la commande est documentée dans le
+  README.
+
+### Corrigé
+
+- Accueil MJ (`mj/index.md`) : la liste des scénarios prêts à jouer
+  s'affichait à plat, au même niveau que les autres entrées de « Pour
+  préparer une séance ». Sous-liste indentée de quatre espaces pour
+  qu'elle soit bien imbriquée.
 
 ## [0.11.1] - 2026-11-14 — Silys, correctif 1
 
