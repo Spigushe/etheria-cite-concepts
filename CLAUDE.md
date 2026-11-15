@@ -59,7 +59,7 @@ docs/
 │   │                            le-dernier-jour-du-regent.md, initiation, Concorde ;
 │   │                            + un scénario par autre quartier, première trame)
 │   └── annexes/
-│       ├── fiche-personnage.md   ← fiche FATE (création, Aspects, Approches, Stunts, Réputation)
+│       ├── fiche-personnage.md   ← guide de remplissage de la fiche imprimable (création, recto, verso, évolution)
 │       ├── pretires.md           ← intro + {{ pretires: <jeu> }} par jeu (rendu par scripts/fiches.py)
 │       ├── pretires.json         ← données des prétirés, 1 clé par jeu : le-huitieme-fragment, second-jeu (scénario
 │       │                            ou campagne), consommé par scripts/fiches.py

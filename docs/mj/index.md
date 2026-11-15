@@ -132,6 +132,6 @@ du temps.
     - [Le Voile d'Ignorance](scenarios/le-voile-d-ignorance.md), aux Jardins de l'Équité ;
     - [Le Jardin des Épreuves](scenarios/le-jardin-des-epreuves.md), à la Citadelle de l'Arété.
 - [Système de jeu](systeme.md) : règles de base, réputation philosophique, dilemmes, conséquences.
-- [Fiche de personnage](annexes/fiche-personnage.md) : le gabarit FATE complet et la création de personnage.
+- [Fiche de personnage](annexes/fiche-personnage.md) : la fiche à imprimer, la création de personnage et le guide de remplissage, zone par zone.
 - [Prétirés](annexes/pretires.md) : dix Aventuriers prêts à jouer, en deux jeux de cinq, avec leurs fiches imprimables.
 - [Aides de jeu](annexes/ressources-mj.md) : cartes imprimables et typologie des dilemmes.

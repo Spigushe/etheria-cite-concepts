@@ -44,6 +44,13 @@ pour un correctif de `v0.11.0-silys`).
 
 ### Modifié
 
+- Fiche de personnage (`mj/annexes/fiche-personnage.md`) réécrite en
+  guide de remplissage de la Fiche d'Aventurier imprimable : elle
+  suit le recto puis le verso zone par zone (quoi écrire, où, avec
+  des exemples tirés des prétirés) et se termine par un tableau de ce
+  qui change sur la fiche et à quel moment. Le gabarit en texte, qui
+  doublait le PDF, disparaît. Une section « Serment et Lien »
+  explique comment écrire ces deux aspects et comment ils se jouent.
 - Page des prétirés organisée en deux jeux ; les scénarios indiquent
   le jeu conseillé et les accroches valables pour l'autre.
 - Workflow `checks.yml` : le build strict tourne avec la config de
