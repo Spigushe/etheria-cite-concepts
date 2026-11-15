@@ -25,10 +25,10 @@ personnages, menaces et cartes sont ceux qui existent déjà.
 À préparer :
 
 - 4 dés Fate par joueur, 3 jetons de points de Destin par joueur, un
-  objet ou un geste convenu pour la Carte-X : elle s'imprime en
-  [planche de six cartes à découper](https://spigushe.github.io/etheria-cite-concepts/assets/fiches/carte-x.pdf)
-  ou en [grand format](https://spigushe.github.io/etheria-cite-concepts/assets/fiches/carte-x-grand-format.pdf),
-  à poser au centre de la table.
+  objet ou un geste convenu pour la Carte-X : elle s'imprime avec
+  les autres
+  [cartes de sécurité](https://spigushe.github.io/etheria-cite-concepts/assets/fiches/cartes-securite.pdf)
+  (planches A4 recto verso à découper).
 - Les [prétirés](../annexes/pretires.md), un par joueur. Le second
   jeu est conseillé ici : à quatre joueurs, retire Lazare ; à trois,
   retire aussi Anselme. Garde Clémence, liée à Démis Tal. Si le

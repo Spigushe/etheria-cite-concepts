@@ -32,10 +32,10 @@ chiffrées et prétirés.
   dans les scènes : événements « Le Nom Contesté » et « La Question
   d'Ariadnos », lieux « Le Lac des Réfractions » et « Le Passage du
   Masque Fendu », idée « Le Récit qui Tient Lieu de Bateau ».
-- Un objet ou un geste convenu pour la Carte-X : elle s'imprime en
-  [planche de six cartes à découper](https://spigushe.github.io/etheria-cite-concepts/assets/fiches/carte-x.pdf)
-  ou en [grand format](https://spigushe.github.io/etheria-cite-concepts/assets/fiches/carte-x-grand-format.pdf),
-  à poser au centre de la table.
+- Un objet ou un geste convenu pour la Carte-X : elle s'imprime avec
+  les autres
+  [cartes de sécurité](https://spigushe.github.io/etheria-cite-concepts/assets/fiches/cartes-securite.pdf)
+  (planches A4 recto verso à découper).
 
 {{ fiches_pdf: le-huitieme-fragment }}
 

@@ -38,13 +38,9 @@ pour un correctif de `v0.11.0-silys`).
   Mahaut Verdier, Anselme Corbin, Lazare Quint, Clémence Rouvray et
   Ombeline Tessier, chacun lié à une figure d'un de ces cinq
   quartiers, avec leurs fiches PDF.
-- Carte X en grand format (une seule carte sur une page A4), à poser
-  au centre de la table
-  (`docs/assets/fiches/carte-x-grand-format.pdf`).
-- Liens de téléchargement des deux formats de Carte X (planche de six
-  cartes à découper et grand format) dans la sécurité de table de
-  l'Accueil MJ (`mj/index.md`) et dans la liste « À préparer » des
-  sept scénarios, en URL absolue pour ne pas casser l'export PDF.
+- Lien de téléchargement des cartes de sécurité dans la liste « À
+  préparer » des sept scénarios, en URL absolue pour ne pas casser
+  l'export PDF.
 
 ### Modifié
 
@@ -67,6 +63,13 @@ pour un correctif de `v0.11.0-silys`).
   s'affichait à plat, au même niveau que les autres entrées de « Pour
   préparer une séance ». Sous-liste indentée de quatre espaces pour
   qu'elle soit bien imbriquée.
+
+### Retiré
+
+- Planche de six Cartes X (`docs/assets/fiches/carte-x.pdf`),
+  remplacée par les planches de cartes de sécurité, qui contiennent
+  la Carte X. Les liens de l'Accueil MJ et des scénarios pointent
+  désormais vers `cartes-securite.pdf`.
 
 ## [0.11.1] - 2026-11-14 — Silys, correctif 1
 

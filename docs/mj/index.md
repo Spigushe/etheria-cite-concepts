@@ -86,10 +86,6 @@ certains sujets doivent être évités ou traités avec prudence.
 L'outil principal reste la Carte-X : un mot ou un geste convenu à
 l'avance, qui coupe immédiatement une scène sans qu'on ait à se
 justifier. Le MJ y répond sans poser de question et enchaîne ailleurs.
-Une [planche de six Cartes X à imprimer](https://spigushe.github.io/etheria-cite-concepts/assets/fiches/carte-x.pdf)
-(A4, cartes de 63 × 88 mm) est prête à découper, ainsi qu'une
-[Carte X en grand format](https://spigushe.github.io/etheria-cite-concepts/assets/fiches/carte-x-grand-format.pdf)
-(une seule carte sur une page A4), à poser au centre de la table.
 Mais couper entièrement une scène est parfois plus radical que
 nécessaire, alors trois signaux plus légers permettent d'ajuster sans
 en arriver là. Un joueur peut demander de passer sur les détails,
