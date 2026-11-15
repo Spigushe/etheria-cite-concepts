@@ -99,6 +99,26 @@ mérite d'être pris au sérieux plutôt qu'expédié. Ou simplement
 demander la parole hors personnage, ou à l'inverse un instant de
 silence avant de reprendre.
 
+Ces signaux existent aussi en cartes, avec la Carte X et une carte
+libre à remplir selon la table :
+[toutes les cartes de sécurité à imprimer](https://spigushe.github.io/etheria-cite-concepts/assets/fiches/cartes-securite.pdf)
+(quatre pages A4 en recto verso, trois exemplaires de chaque carte au
+format 63 × 88 mm, dos commun).
+
+<div class="carte-carrousel" markdown="1">
+<button class="carte-carrousel__prec" aria-label="Précédent">‹</button>
+<div class="carte-carrousel__piste" markdown="1">
+![Carte de sécurité : Carte X](../assets/fiches/securite/carte-x.png)
+![Carte de sécurité : Passer sur les détails](../assets/fiches/securite/passer.png)
+![Carte de sécurité : Ralentir](../assets/fiches/securite/ralentir.png)
+![Carte de sécurité : Hors personnage](../assets/fiches/securite/hors-personnage.png)
+![Carte de sécurité : Silence](../assets/fiches/securite/silence.png)
+![Carte de sécurité : Carte libre, à remplir](../assets/fiches/securite/carte-libre.png)
+![Carte de sécurité : Dos commun des cartes de sécurité](../assets/fiches/securite/dos.png)
+</div>
+<button class="carte-carrousel__suivant" aria-label="Suivant">›</button>
+</div>
+
 Vérifie brièvement en fin de séance que tout le monde va bien,
 surtout après une scène impliquant une perte d'identité ou un
 sacrifice au sens propre. Un simple tour de table suffit la plupart

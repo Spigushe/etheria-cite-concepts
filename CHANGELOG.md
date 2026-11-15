@@ -18,6 +18,11 @@ pour un correctif de `v0.11.0-silys`).
 
 ### Ajouté
 
+- Cartes de sécurité de table (Carte X, Passer, Ralentir, Hors
+  personnage, Silence, carte libre, dos commun) : planches A4 recto
+  verso, trois exemplaires de chaque carte
+  (`docs/assets/fiches/cartes-securite.pdf`), et carrousel dans la
+  section Sécurité de table de l'Accueil MJ.
 - Second scénario d'initiation, « Le Dernier Jour du Régent », à la
   Concorde du Pacte (`mj/scenarios/le-dernier-jour-du-regent.md`) :
   il développe la trame « Le Pacte d'Unité » en scènes jouables et
