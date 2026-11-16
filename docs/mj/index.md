@@ -131,7 +131,10 @@ du temps.
     - [La Manette](scenarios/la-manette.md), aux Rails de la Décision ;
     - [Le Voile d'Ignorance](scenarios/le-voile-d-ignorance.md), aux Jardins de l'Équité ;
     - [Le Jardin des Épreuves](scenarios/le-jardin-des-epreuves.md), à la Citadelle de l'Arété.
+- [Lancer une campagne](campagne/lancer-une-campagne.md) : les premières séances, le rythme, le journal des altérations.
 - [Système de jeu](systeme.md) : règles de base, réputation philosophique, dilemmes, conséquences.
+- [Exemple de partie](annexes/exemple-de-partie.md) : une scène jouée avec les dés, commentée.
+- [Bâtir une opposition](oppositions.md) : chiffrer un PNJ ou une menace à partir d'une trame.
 - [Fiche de personnage](annexes/fiche-personnage.md) : la fiche à imprimer, la création de personnage et le guide de remplissage, zone par zone.
 - [Prétirés](annexes/pretires.md) : dix Aventuriers prêts à jouer, en deux jeux de cinq, avec leurs fiches imprimables.
 - [Aides de jeu](annexes/ressources-mj.md) : cartes imprimables et typologie des dilemmes.

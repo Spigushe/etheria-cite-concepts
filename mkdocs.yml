@@ -77,6 +77,7 @@ nav:
       - Histoire: monde/histoire.md
       - Cartographie: monde/cartographie.md
       - Personnages: monde/personnages.md
+      - Glossaire: monde/glossaire.md
       - Quartiers:
           - Vue d'ensemble: monde/quartiers/index.md
           - Le Labyrinthe des Identités: monde/quartiers/labyrinthe-des-identites.md
@@ -125,10 +126,13 @@ nav:
   - Espace MJ:
       - Accueil MJ: mj/index.md
       - Système: mj/systeme.md
+      - Exemple de partie: mj/annexes/exemple-de-partie.md
+      - Bâtir une opposition: mj/oppositions.md
       - Fiche de personnage: mj/annexes/fiche-personnage.md
       - Prétirés: mj/annexes/pretires.md
       - Campagne:
           - Vue d'ensemble: mj/campagne/index.md
+          - Lancer une campagne: mj/campagne/lancer-une-campagne.md
           - Le Labyrinthe des Identités: mj/campagne/labyrinthe-des-identites.md
           - La Concorde du Pacte: mj/campagne/concorde-du-pacte.md
           - La Balance d'Orion: mj/campagne/balance-d-orion.md

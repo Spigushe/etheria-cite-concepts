@@ -38,6 +38,7 @@ docs/
 │   ├── histoire.md           ← 5 ères (Premier Souffle → Avènement de l'Exploration)
 │   ├── cartographie.md       ← Agora Latente + portails
 │   ├── personnages.md        ← figures légendaires, courants, Gardiens des Concepts
+│   ├── glossaire.md          ← noms propres par quartier + termes de jeu
 │   └── quartiers/            ← index + 7 fiches (~125 lignes chacune, structure
 │                                identique : Architecture / Habitants / Dilemmes /
 │                                Sortir / Menaces / Ce qu'on raconte / Regard sur les autres)
@@ -50,7 +51,9 @@ docs/
 ├── mj/                       ← ESPACE MENEUR
 │   ├── index.md              ← mise en scène, impro, sécurité de table, prépa séance
 │   ├── systeme.md            ← FATE : règles de base, réputation, Gardiens, évolution, dilemmes, conséquences
-│   ├── campagne/             ← index + 7 fichiers quartier (~55 lignes, 5 aventures
+│   ├── oppositions.md        ← chiffrer un PNJ ou une menace (4 profils tirés des scénarios)
+│   ├── campagne/             ← index + lancer-une-campagne.md (premières séances,
+│   │                            feuilles de suivi) + 7 fichiers quartier (~55 lignes, 5 aventures
 │   │                            chacun) + quetes-transversales.md
 │   │                            + transitions-entre-quartiers.md (473 lignes, le plus
 │   │                            gros fichier : 3 scènes par paire de quartiers)
@@ -60,6 +63,7 @@ docs/
 │   │                            + un scénario par autre quartier, première trame)
 │   └── annexes/
 │       ├── fiche-personnage.md   ← guide de remplissage de la fiche imprimable (création, recto, verso, évolution)
+│       ├── exemple-de-partie.md  ← une scène commentée, dés compris
 │       ├── pretires.md           ← intro + {{ pretires: <jeu> }} par jeu (rendu par scripts/fiches.py)
 │       ├── pretires.json         ← données des prétirés, 1 clé par jeu : le-huitieme-fragment, second-jeu (scénario
 │       │                            ou campagne), consommé par scripts/fiches.py

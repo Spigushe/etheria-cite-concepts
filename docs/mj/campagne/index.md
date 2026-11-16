@@ -3,11 +3,13 @@
 Chaque quartier propose cinq trames d'aventure, en résonance avec
 son thème philosophique. Chaque trame donne l'accroche, les scènes
 clés, la bascule et les dénouements possibles : au MJ de découper les
-scènes et de fixer les oppositions. Les joueurs peuvent résoudre l'ensemble
+scènes et de fixer les oppositions (voir
+[Bâtir une opposition](../oppositions.md)). Les joueurs peuvent résoudre l'ensemble
 des aventures d'un quartier avant de passer au suivant, ou progresser
 librement, en entrecroisant les fils. L'ordre et le rythme dépendent
 entièrement du groupe.
 
+- [Lancer une campagne](lancer-une-campagne.md) : par où commencer, à quel rythme avancer, quoi noter.
 - [Le Labyrinthe des Identités](labyrinthe-des-identites.md)
 - [La Concorde du Pacte](concorde-du-pacte.md)
 - [La Balance d'Orion](balance-d-orion.md)
