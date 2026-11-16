@@ -72,9 +72,8 @@ pour un correctif de `v0.11.0-silys`).
   commun aux sept scénarios, pour développer une trame en scènes.
 - « Aide-mémoire » (`annexes/aide-memoire.md`) : les règles en
   tableaux, avec renvoi vers chaque page de règles.
-- « Crédits » (`annexes/credits.md`) : auteur, mention de droits,
-  licence Fate, statut provisoire des images ; les remerciements aux
-  premiers joueurs restent à compléter.
+- « Crédits » (`annexes/credits.md`) : auteur, mention de droits et
+  licence Fate.
 - Dans « Le jugement des Gardiens », une section « Jouer un Gardien »
   réunit les aspects des sept Gardiens, relevés dans les scénarios.
 - « La Société des Explorateurs » (`cite/societe-des-explorateurs.md`),
