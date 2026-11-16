@@ -34,7 +34,13 @@ compte. Seuls les joueurs lancent : la valeur d'un PNJ est fixe.
 | Surmonter | Franchir un obstacle |
 | Créer un avantage | Poser un aspect sur la scène, avec une invocation gratuite |
 | Attaquer | Infliger autant de crans que l'écart avec la défense |
-| Défendre | Résister à une attaque |
+| Défendre | Résister à une attaque : ton jet contre la valeur fixe de l'attaquant |
+
+| Ton jet de défense | Effet |
+| --- | --- |
+| En dessous de la valeur du PNJ | Tu encaisses autant de crans que l'écart |
+| Égal ou au-dessus | Tu n'encaisses rien |
+| Au-dessus de 3 ou plus | Rien, et un petit bonus pour la suite |
 
 ## [Les six Approches](../jouer/creer-un-aventurier.md#approches)
 
