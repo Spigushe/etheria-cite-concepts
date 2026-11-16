@@ -65,6 +65,14 @@ pour un correctif de `v0.11.0-silys`).
   feuilles de suivi provisoires), « Exemple de partie »
   (`jouer/exemple-de-partie.md`) et « Glossaire »
   (`annexes/glossaire.md`).
+- « Écrire un scénario » (`mener/ecrire-un-scenario.md`) : le gabarit
+  commun aux sept scénarios, pour développer une trame en scènes.
+- « Aide-mémoire » (`annexes/aide-memoire.md`) : les règles en
+  tableaux, avec renvoi vers chaque page de règles.
+- « Crédits » (`annexes/credits.md`) : licence Fate et mention de
+  droits ; les noms des auteurs restent à compléter.
+- Dans « Le jugement des Gardiens », une section « Jouer un Gardien »
+  réunit les aspects des sept Gardiens, relevés dans les scénarios.
 - « La Société des Explorateurs » (`cite/societe-des-explorateurs.md`),
   « Secrets de la cité » (`mener/secrets.md`), une vue d'ensemble des
   scénarios avec leurs kits (`scenarios/index.md`) et le lexique

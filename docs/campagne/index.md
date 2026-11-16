@@ -4,6 +4,7 @@ Chaque quartier propose cinq trames d'aventure, en résonance avec
 son thème philosophique. Chaque trame donne l'accroche, les scènes
 clés, la bascule et les dénouements possibles : au MJ de découper les
 scènes et de fixer les oppositions (voir
+[Écrire un scénario](../mener/ecrire-un-scenario.md) et
 [Bâtir une opposition](../mener/oppositions.md)). Les joueurs peuvent
 résoudre l'ensemble des aventures d'un quartier avant de passer au
 suivant, ou progresser librement, en entrecroisant les fils. L'ordre

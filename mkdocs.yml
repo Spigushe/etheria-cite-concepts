@@ -105,6 +105,7 @@ nav:
       - Conséquences et journal: mener/consequences.md
       - Le jugement des Gardiens: mener/gardiens.md
       - Bâtir une opposition: mener/oppositions.md
+      - Écrire un scénario: mener/ecrire-un-scenario.md
       - Les cartes à table: mener/cartes.md
       - Secrets de la cité: mener/secrets.md
   - "IV. Campagne":
@@ -143,6 +144,7 @@ nav:
       - Le Voile d'Ignorance: scenarios/le-voile-d-ignorance.md
       - Le Jardin des Épreuves: scenarios/le-jardin-des-epreuves.md
   - Annexes:
+      - Aide-mémoire: annexes/aide-memoire.md
       - Glossaire: annexes/glossaire.md
       - Lexique philosophique: annexes/lexique.md
       - Sources et auteurs:
@@ -171,4 +173,5 @@ nav:
           - Thomas d'Aquin: annexes/auteurs/thomas-d-aquin.md
           - Thomson: annexes/auteurs/thomson.md
       - Cartes à imprimer: annexes/cartes.md
+      - Crédits: annexes/credits.md
   - Changelog: changelog.md

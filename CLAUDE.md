@@ -56,6 +56,7 @@ docs/
 │   ├── consequences.md       ← traces dans la cité, journal des altérations
 │   ├── gardiens.md           ← quel Gardien se méfie de quelle tendance
 │   ├── oppositions.md        ← chiffrer un PNJ ou une menace (valeurs fixes, 4 profils)
+│   ├── ecrire-un-scenario.md ← gabarit commun aux sept scénarios
 │   ├── cartes.md             ← ce que fait chaque famille de cartes
 │   └── secrets.md            ← le huitième quartier
 ├── campagne/                 ← IV. CAMPAGNE (MJ)
@@ -69,7 +70,9 @@ docs/
 │                                (le-huitieme-fragment.md et le-dernier-jour-du-regent.md
 │                                sont les deux initiations)
 ├── annexes/
+│   ├── aide-memoire.md       ← les règles en tableaux (renvoie aux pages de règles)
 │   ├── glossaire.md          ← noms propres par quartier + termes de jeu
+│   ├── credits.md            ← licence Fate, droits ; noms des auteurs à compléter
 │   ├── lexique.md            ← lexique philosophique
 │   ├── auteurs/              ← index + 23 fiches auteurs (~30 lignes :
 │   │                            "Ce qu'il apporte à Ethéria" / "À retenir pour la table")
@@ -128,3 +131,4 @@ Auteurs restants dans `annexes/auteurs/` sans quartier attitré dans les fiches 
 6. Une liste imbriquée s'indente de **quatre** espaces (règle `MD007`) : avec deux, Python-Markdown l'affiche à plat, au niveau de la liste parente.
 7. `scripts/cards.py` écrit en dur le chemin relatif des images de cartes (`../assets/cartes/…`), valable pour une page à un seul niveau sous `docs/` (aujourd'hui `docs/annexes/cartes.md`). Si les balises `{{ cartes: … }}` changent de page ou de profondeur, adapter ce chemin, sinon le build strict échoue.
 8. L'export PDF (`to-pdf`) suit l'ordre de la `nav` et exclut le changelog (`exclude_pages`). Toute page ajoutée à la `nav` entre dans le livre PDF.
+9. Les sept kits PDF (`docs/assets/scenarios/`) sont committés, sans script de génération dans le dépôt. Leur aide-mémoire date d'avant la règle des valeurs fixes (« au jet d'un adversaire », « l'écart entre les deux jets ») : à corriger lors de la refonte des kits.

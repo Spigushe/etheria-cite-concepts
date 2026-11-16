@@ -39,7 +39,7 @@ scénario d'initiation, s'explique en même temps qu'il se joue.
 | [III. Mener](mener/index.md) | Le MJ | Mise en scène, dilemmes, conséquences, oppositions |
 | [IV. Campagne](campagne/index.md) | Le MJ | Trente-cinq trames, quartier par quartier, et de quoi les relier |
 | [V. Scénarios](scenarios/index.md) | Le MJ | Sept scénarios en une séance, avec leurs kits |
-| [Annexes](annexes/glossaire.md) | Tout le monde | Glossaire, lexique philosophique, auteurs, cartes à imprimer |
+| [Annexes](annexes/aide-memoire.md) | Tout le monde | Aide-mémoire, glossaire, lexique philosophique, auteurs, cartes à imprimer, crédits |
 
 > [!MJ] Tu comptes jouer, pas mener ?
 > Arrête-toi à la fin de la partie II. Les parties III à V donnent les
