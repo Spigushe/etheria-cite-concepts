@@ -6,8 +6,8 @@ Produit, par quartier :
 - assets/cartes/<slug>.pdf : jeu complet recto-verso, prêt à imprimer
   (63x88 mm, traits de coupe, pages recto puis verso correspondantes).
 - assets/cartes/<slug>/<famille>-<NN>.png : recto de chaque carte,
-  utilisé par les carrousels des pages du wiki (voir docs/mj/annexes/
-  ressources-mj.md).
+  utilisé par les carrousels des pages du wiki (voir docs/annexes/
+  cartes.md).
 
 Le recto ne porte que le blason et le type de carte (pas de titre ni
 de texte), par choix : la carte reste "aveugle" tant qu'elle n'est
@@ -64,16 +64,12 @@ class Deck(TypedDict):
 
 
 # Les cartes de chaque quartier sont maintenues à part, dans un JSON
-# lisible et modifiable sans toucher au code (voir docs/mj/annexes/
+# lisible et modifiable sans toucher au code (voir docs/annexes/
 # decks-cartes.json). Ce module se contente de le charger et de le
 # valider : ajouter, retirer ou reformuler une carte ne nécessite
 # jamais de modifier ce fichier.
 DECKS_JSON_PATH = (
-    Path(__file__).resolve().parent.parent
-    / "docs"
-    / "mj"
-    / "annexes"
-    / "decks-cartes.json"
+    Path(__file__).resolve().parent.parent / "docs" / "annexes" / "decks-cartes.json"
 )
 
 
@@ -254,8 +250,8 @@ def _cell_origin(index, mirrored):
     return x, y
 
 
-# Ordre canonique des quartiers (celui de monde/quartiers/index.md,
-# repris dans ressources-mj.md) : utilisé pour le PDF combiné, pour
+# Ordre canonique des quartiers (celui de cite/quartiers/index.md,
+# repris dans annexes/cartes.md) : utilisé pour le PDF combiné, pour
 # que son sommaire ne dépende pas de l'ordre d'insertion dans le JSON.
 QUARTIER_ORDER = [
     "labyrinthe-des-identites",
@@ -427,10 +423,12 @@ def _render_family_section(slug, family):
         '<button class="carte-carrousel__prec" aria-label="Précédent">‹</button>',
         '<div class="carte-carrousel__piste" markdown="1">',
     ]
+    # Chemin relatif valable pour une page à un niveau sous docs/
+    # (docs/annexes/cartes.md) : à ajuster si la page change de profondeur.
     for i in range(1, len(cards) + 1):
         lines.append(
             f"![Recto : carte {mot_famille} du {quartier}]"
-            f"(../../assets/cartes/{slug}/{family}-{i:02d}.png)"
+            f"(../assets/cartes/{slug}/{family}-{i:02d}.png)"
         )
     lines += [
         "</div>",

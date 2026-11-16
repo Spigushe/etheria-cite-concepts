@@ -16,23 +16,57 @@ pour un correctif de `v0.11.0-silys`).
 
 ## [Non publié]
 
+### Modifié
+
+- Le wiki prend la structure d'un livre de jeu en sept parties,
+  dans la nav comme dans les dossiers : Ouverture, I. La cité
+  (`cite/`), II. Jouer (`jouer/`), III. Mener (`mener/`),
+  IV. Campagne (`campagne/`), V. Scénarios (`scenarios/`) et Annexes
+  (`annexes/`). Toutes les adresses de pages changent.
+- Les règles communes à la table sortent de l'ancien Espace MJ :
+  règles de base, fiche d'Aventurier, réputation, évolution, prétirés
+  et sécurité de table forment la partie II.
+- « Système de jeu » est scindé en six pages : règles de base,
+  réputation et évolution (partie II), dilemmes, conséquences et
+  jugement des Gardiens (partie III). Chaque règle n'est plus écrite
+  qu'à un endroit : le guide de la fiche renvoie aux règles au lieu
+  de les répéter, et son tableau « Ce qui change, et quand » rejoint
+  la page Évolution.
+- Les valeurs d'un PNJ sont fixes : seuls les joueurs lancent les
+  dés. La règle est écrite dans les règles de base et dans « Bâtir une
+  opposition ».
+- Les thèmes philosophiques des quartiers sont publics. Les encadrés
+  qui les réservaient au MJ disparaissent de la vue d'ensemble des
+  quartiers et de la cartographie.
+- Les « éléments de jeu » de chaque quartier quittent la vue
+  d'ensemble des quartiers pour ouvrir la page de trames du quartier,
+  et la fiche concept de chaque quartier rejoint la partie Campagne.
+- « Ressources pour jouer » est scindé : ce que fait chaque famille de
+  cartes en partie III, les planches à imprimer en annexe.
+- L'accueil présente le jeu, le matériel nécessaire et l'ordre de
+  lecture.
+- Les données `decks-cartes.json` et `pretires.json` passent dans
+  `docs/annexes/`.
+
 ### Ajouté
 
-- Quatre pages qui manquaient pour lire le wiki comme un livre de jeu,
-  premier pas de sa réorganisation :
-    - « Bâtir une opposition » (`mj/oppositions.md`) : quatre profils de
-      PNJ et leurs chiffres, tirés des tableaux « PNJ et oppositions »
-      des sept scénarios, avec un Huissier Spectral en exemple.
-    - « Lancer une campagne » (`mj/campagne/lancer-une-campagne.md`) :
-      premières séances, rythme par quartier, passages, quêtes
-      transversales, et deux feuilles de suivi (journal des
-      altérations, réputations).
-    - « Exemple de partie » (`mj/annexes/exemple-de-partie.md`) : une
-      scène commentée, dés compris, avec deux prétirés.
-    - « Glossaire » (`monde/glossaire.md`) : les noms propres de la
-      cité, quartier par quartier, et les termes de jeu.
-- Liens vers ces pages depuis l'Accueil MJ et la vue d'ensemble de la
-  campagne.
+- Quatre pages : « Bâtir une opposition » (`mener/oppositions.md`),
+  « Lancer une campagne » (`campagne/lancer-une-campagne.md`, avec deux
+  feuilles de suivi provisoires), « Exemple de partie »
+  (`jouer/exemple-de-partie.md`) et « Glossaire »
+  (`annexes/glossaire.md`).
+- « La Société des Explorateurs » (`cite/societe-des-explorateurs.md`),
+  « Secrets de la cité » (`mener/secrets.md`), une vue d'ensemble des
+  scénarios avec leurs kits (`scenarios/index.md`) et le lexique
+  philosophique en page propre (`annexes/lexique.md`).
+
+### Supprimé
+
+- Les pages d'accueil « Ressources Philo » et « Concepts par
+  quartier », remplacées par la vue d'ensemble de la campagne et les
+  annexes.
+- Dans l'histoire de la cité, le secret du huitième quartier (déplacé
+  en partie III) et le renvoi au système de jeu.
 
 ## [0.12.0] - 2026-11-15 — Éléon Rive
 

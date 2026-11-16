@@ -14,10 +14,11 @@ machine.
 
 ## Fonctionnalités
 
-- Structure prête à l'emploi : univers d'Éthéria (introduction, histoire,
-  cartographie, personnages, quartiers), espace pédagogique (concepts
-  philosophiques et sources), espace MJ (système de jeu, fiche de
-  personnage, campagne).
+- Structure de livre de jeu en sept parties : Ouverture, I. La cité
+  (introduction, histoire, cartographie, personnages, quartiers),
+  II. Jouer (règles, création de personnage, sécurité de table),
+  III. Mener, IV. Campagne (trames et concepts par quartier),
+  V. Scénarios, Annexes (glossaire, lexique, auteurs, cartes).
 - Callouts personnalisés façon Obsidian : `> [!VILLE]`, `> [!PNJ]`,
   `> [!FACTION]`, `> [!REGLE]`, `> [!NOUVELLES]`, `> [!DANGER]`,
   `> [!SECRET]`, `> [!INTRIGUE]`, `> [!TRESOR]`, `> [!MJ]` (informations
@@ -104,9 +105,9 @@ republie le site.
 
 ## Ajouter une page
 
-1. Je crée un fichier `.md` dans le sous-dossier concerné (`docs/monde/`,
-   `docs/monde/quartiers/`, `docs/resources-philo/concepts/`,
-   `docs/resources-philo/sources/`, `docs/mj/campagne/`, etc.).
+1. Je crée un fichier `.md` dans le sous-dossier concerné (`docs/cite/`,
+   `docs/cite/quartiers/`, `docs/jouer/`, `docs/mener/`,
+   `docs/campagne/`, `docs/annexes/auteurs/`, etc.).
 2. J'ajoute une entrée dans la section `nav:` de `mkdocs.yml` pour qu'elle
    apparaisse dans le menu.
 3. Je vérifie l'orthographe avec `cspell` : les nouveaux noms propres du
@@ -125,16 +126,16 @@ republie le site.
 ## Cartes imprimables
 
 Chaque `{{ cartes: <quartier> / <famille> }}` dans
-`docs/mj/annexes/ressources-mj.md` est remplacé au build par le carrousel
+`docs/annexes/cartes.md` est remplacé au build par le carrousel
 (recto) et le tableau (titre/détails) correspondants, lus depuis
-`docs/mj/annexes/decks-cartes.json`. Les images et le PDF à imprimer ne sont
+`docs/annexes/decks-cartes.json`. Les images et le PDF à imprimer ne sont
 pas stockés dans le dépôt : ils sont régénérés à chaque build par
 `scripts/cards.py`. Pour changer une carte, il suffit de modifier le JSON ;
-`ressources-mj.md` n'a jamais besoin d'être touché pour ça.
+`cartes.md` n'a jamais besoin d'être touché pour ça.
 
 ## Fiches des prétirés
 
-Les prétirés sont décrits dans `docs/mj/annexes/pretires.json`, rangés par
+Les prétirés sont décrits dans `docs/annexes/pretires.json`, rangés par
 « jeu » (un scénario ou une campagne). Au build, `scripts/fiches.py` remplit
 une fiche de personnage A4 par prétiré (`assets/fiches/<jeu>/<slug>.pdf`,
 plus `assets/fiches/<jeu>.pdf` qui les réunit), sans rien stocker dans le
@@ -176,30 +177,35 @@ est inconnue ou si un texte trop long fait déborder la fiche.
 
 ```text
 docs/
-├── index.md                    # accueil, liste des callouts
+├── index.md                    # ouverture : le jeu en bref, comment lire le livre
+├── presentation.md             # ton, thèmes, ce que les joueurs incarnent
 ├── changelog.md                # 1 ligne : {{ changelog }}, ne pas éditer
-├── monde/                      # univers d'Éthéria
-│   ├── presentation.md           # ton, thèmes, ce que les joueurs incarnent
-│   ├── introduction.md
-│   ├── histoire.md
-│   ├── cartographie.md
-│   ├── personnages.md
+├── cite/                       # I. La cité : introduction, Société des
+│   │                           # Explorateurs, histoire, cartographie,
+│   │                           # personnages
 │   └── quartiers/                # les sept quartiers (ambiance, PNJ,
 │                                 # dilemmes, menaces, mythes, connexions)
-├── resources-philo/            # espace pédagogique
-│   ├── concepts/                 # une fiche concept par quartier
-│   └── sources/                  # une fiche par philosophe/auteur
-├── mj/                         # espace MJ
-│   ├── index.md                  # conseils de mise en scène, sécurité de table
-│   ├── systeme.md                # FATE (Fate Accelerated) : règles de base,
-│   │                             # réputation, évolution, dilemmes
-│   ├── annexes/                  # fiche de personnage, prétirés, cartes
-│   │                             # (decks-cartes.json)
-│   └── campagne/                 # trames d'aventure, une page par
-│                                 # quartier, quêtes transversales,
-│                                 # transitions entre quartiers
+├── jouer/                      # II. Jouer : règles de base (Fate
+│                               # Accelerated), fiche d'Aventurier,
+│                               # réputation, évolution, prétirés, exemple
+│                               # de partie, sécurité de table
+├── mener/                      # III. Mener : mise en scène, dilemmes,
+│                               # conséquences, Gardiens, oppositions,
+│                               # cartes à table, secrets
+├── campagne/                   # IV. Campagne : lancer une campagne, une
+│   │                           # page de trames par quartier, quêtes
+│   │                           # transversales, transitions
+│   └── concepts/                 # une fiche concept par quartier
+├── scenarios/                  # V. Scénarios : vue d'ensemble + sept
+│                               # scénarios en une séance
+├── annexes/                    # glossaire, lexique philosophique, cartes à
+│   │                           # imprimer, données (decks-cartes.json,
+│   │                           # pretires.json)
+│   └── auteurs/                  # une fiche par philosophe/auteur
 └── assets/
     ├── blasons/ et icons/        # 7 PNG numérotés 1..7
+    ├── fiches/                   # fiche d'Aventurier, cartes de sécurité
+    ├── scenarios/                # kits PDF des scénarios
     ├── fonts/                    # polices auto-hébergées (woff2)
     ├── javascripts/carrousel.js
     └── stylesheets/              # callouts.css + extra.css
