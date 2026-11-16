@@ -1,14 +1,22 @@
 # Crédits
 
-> [!MJ] Noms à compléter
-> Cette page attend les noms des auteurs et la forme sous laquelle
-> ils souhaitent être cités.
-
 ## Éthéria, la Cité des Concepts
 
-Auteurs : à compléter.
+Conception et écriture : Martin « Spigushe » Cuchet.
 
-© les auteurs. Tous droits réservés.
+© Martin « Spigushe » Cuchet. Tous droits réservés.
+
+## Premières parties
+
+> [!MJ] Remerciements à compléter
+> Les joueurs des premières parties seront cités ici, une fois leur
+> accord écrit obtenu.
+
+## Images
+
+Le logo, les blasons et les icônes des quartiers sont des images
+provisoires, générées avec ChatGPT. Elles seront refaites par un
+artiste avant toute publication.
 
 ## Fate
 
@@ -29,4 +37,5 @@ suivante.
 ## Les philosophes
 
 Les concepts des quartiers viennent d'auteurs réels, présentés dans
-[Sources et auteurs](auteurs/index.md).
+[Sources et auteurs](auteurs/index.md). Ces fiches n'ont pas encore
+été relues par un spécialiste de philosophie.
