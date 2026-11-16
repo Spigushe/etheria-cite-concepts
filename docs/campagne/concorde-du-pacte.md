@@ -7,7 +7,7 @@ pôles du débat.
 
 ## Éléments de jeu
 
-- Concept sous-jacent : la légitimité du pacte politique (contrat social), voir [Rousseau](../annexes/auteurs/rousseau.md).
+- Concept sous-jacent : la légitimité du pacte politique (contrat social).
 - PNJ clés : Civira (milite pour l'adaptation constante des lois), Magister Halden (légiste obsédé par une « clause parfaite » jamais validée), le Porte-Parole Silencieux (ne fait que relayer les votes de sa communauté).
 - Entrer exige un engagement volontaire à une règle qu'on n'a pas choisie ; les arches de serment ne s'ouvrent qu'après une formule d'adhésion, parfois devant témoin.
 - Dilemmes types : maintenir un contrat injuste pour un tiers non représenté, la validité d'un serment ancien dont le contexte a changé, trancher un débat sans consensus possible.
@@ -15,8 +15,8 @@ pôles du débat.
 - Mythe exploitable : l'Accord Inattendu, pacte scellé spontanément entre deux factions ennemies ; rumeur d'une Loi Cachée oubliée dans la Constitution Collective.
 
 Le concept, ses philosophes et les questions à poser à la table sont
-dans la [fiche concept](concepts/concorde-du-pacte.md) ; le décor, les habitants et
-les menaces dans la [fiche du quartier](../cite/quartiers/concorde-du-pacte.md).
+dans la [fiche concept](concepts/concorde-du-pacte.md). Le décor, les habitants et
+les menaces sont dans la [fiche du quartier](../cite/quartiers/concorde-du-pacte.md).
 
 ## Le Pacte d'Unité
 

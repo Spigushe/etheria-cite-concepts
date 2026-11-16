@@ -6,7 +6,7 @@ façon différente d'écouter avant de trancher.
 
 ## Éléments de jeu
 
-- Concept sous-jacent : la justice distributive et corrective, dans une synthèse entre Aristote, Rawls, Nozick et Sen, voir [Sources & auteurs](../annexes/auteurs/index.md).
+- Concept sous-jacent : la justice distributive et corrective, dans une synthèse entre Aristote, Rawls, Nozick et Sen.
 - PNJ clés : Démis Tal (médiateur aveugle, perçoit les déséquilibres à la voix), Lara d'Alve (cartographe des inégalités persistantes), la Juge Silencieuse (ne rend jamais de verdict, mais fait jaillir les aveux par sa seule présence).
 - Entrer exige d'avoir été témoin d'une injustice sans y participer, ou d'avoir plaidé sincèrement pour autrui ; la Grille de la Balance exige de se soumettre au jugement collectif.
 - Dilemmes types : deux voyageurs réclament la même ressource, l'un par besoin, l'autre par mérite ; punir un crime commis pour réparer une injustice, ou en reconnaître la cause ; une réforme qui améliore le bien général mais lèse un petit groupe marginalisé.
@@ -14,8 +14,8 @@ façon différente d'écouter avant de trancher.
 - Mythe exploitable : le Bambou Fendu (réconciliation ancienne entre deux familles), le Jardin Inversé (lieu secret, délibérément injuste, réservé aux plus avancés).
 
 Le concept, ses philosophes et les questions à poser à la table sont
-dans la [fiche concept](concepts/jardins-de-l-equite.md) ; le décor, les habitants et
-les menaces dans la [fiche du quartier](../cite/quartiers/jardins-de-l-equite.md).
+dans la [fiche concept](concepts/jardins-de-l-equite.md). Le décor, les habitants et
+les menaces sont dans la [fiche du quartier](../cite/quartiers/jardins-de-l-equite.md).
 
 ## Le Voile d'Ignorance
 

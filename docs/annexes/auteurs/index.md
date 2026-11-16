@@ -35,8 +35,6 @@ Par ordre alphabétique :
 - [Thomas d'Aquin](thomas-d-aquin.md) : *Somme théologique*
 - [Thomson](thomson.md) : *The Trolley Problem*
 
-D'autres viendront s'ajouter au fil de l'écriture de la campagne.
-
 ## Qui éclaire quel quartier
 
 Le détail complet vit sur la page de chaque auteur plutôt qu'ici, pour

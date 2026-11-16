@@ -1,5 +1,5 @@
 site_name: "Éthéria, Cité des Concepts"
-site_description: "Wiki de jeu de rôle personnel"
+site_description: "Jeu de rôle philosophique sous Fate Accelerated : la cité, les règles, la campagne et les scénarios"
 site_url: "https://spigushe.github.io/etheria-cite-concepts/"
 
 # Thème Material pour MkDocs : https://squidfunk.github.io/mkdocs-material/
@@ -44,6 +44,9 @@ plugins:
   - search
   - to-pdf:
       enabled_if_env: ENABLE_PDF_EXPORT
+      # Le changelog reste sur le site, hors du livre.
+      exclude_pages:
+        - "changelog/"
       output_path: pdf/etheria-jdr.pdf
       back_cover: true
 

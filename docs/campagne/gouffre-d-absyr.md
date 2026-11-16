@@ -7,7 +7,7 @@ récit, jamais au centre.
 
 ## Éléments de jeu
 
-- Concept sous-jacent : l'absurdité de l'existence (Camus, Nietzsche, Sartre, avec Kierkegaard en contrepoint), voir [Sources & auteurs](../annexes/auteurs/index.md).
+- Concept sous-jacent : l'absurdité de l'existence (Camus, Nietzsche, Sartre, avec Kierkegaard en contrepoint).
 - PNJ clés : Camüs (veilleur taciturne, collectionne des notes non envoyées), Sœn (poète muet, écrit à l'encre invisible), la Femme au Sable (propose d'oublier non ce qu'on a vécu, mais pourquoi).
 - On n'y entre pas par un chemin : on y tombe, souvent après une rupture intérieure. La Brèche du Rire ne s'ouvre que si l'on rit face à l'absurdité de l'existence.
 - Dilemmes types : continuer une mission qu'on sait sans le moindre sens, mentir à un enfant sur la raison de vivre, tout comprendre sans jamais pouvoir le partager.
@@ -15,8 +15,8 @@ récit, jamais au centre.
 - Mythe exploitable : le Silence Originel (un instant où tout le quartier se serait figé), le Clignement de la Cité (des rues qui disparaissent et reviennent changées).
 
 Le concept, ses philosophes et les questions à poser à la table sont
-dans la [fiche concept](concepts/gouffre-d-absyr.md) ; le décor, les habitants et
-les menaces dans la [fiche du quartier](../cite/quartiers/gouffre-d-absyr.md).
+dans la [fiche concept](concepts/gouffre-d-absyr.md). Le décor, les habitants et
+les menaces sont dans la [fiche du quartier](../cite/quartiers/gouffre-d-absyr.md).
 
 ## Le Festin du Néant
 

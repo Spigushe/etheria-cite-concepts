@@ -1,7 +1,7 @@
 <!-- cSpell:ignore-file -->
 # MAP — `Spigushe/etheria-cite-concepts`
 
-> Document de navigation rapide. État constaté au tag v0.12.0 « Éléon Rive » (2026-11-15). Wiki MkDocs Material en français, publié sur GitHub Pages : <https://spigushe.github.io/etheria-cite-concepts/>
+> Document de navigation rapide. État constaté sur la branche `structure-livre` (refonte en livre de jeu, 2026-11-16), partie du tag v0.12.0 « Éléon Rive ». Wiki MkDocs Material en français, publié sur GitHub Pages : <https://spigushe.github.io/etheria-cite-concepts/>
 
 ## En une phrase
 
@@ -126,3 +126,5 @@ Auteurs restants dans `annexes/auteurs/` sans quartier attitré dans les fiches 
 4. Les cartes ne sont pas committées : elles sont régénérées à chaque build par le hook.
 5. Un lien relatif vers un fichier à télécharger (PDF, etc.) passe le build strict local (sans PDF), mais fait échouer l'export PDF en CI (`checks.yml` et déploiement) : `mkdocs-to-pdf` le prend pour une ancre interne. Utiliser une URL absolue (`site_url`), comme le font `cards.py` et `fiches.py` (cause du correctif 0.11.1).
 6. Une liste imbriquée s'indente de **quatre** espaces (règle `MD007`) : avec deux, Python-Markdown l'affiche à plat, au niveau de la liste parente.
+7. `scripts/cards.py` écrit en dur le chemin relatif des images de cartes (`../assets/cartes/…`), valable pour une page à un seul niveau sous `docs/` (aujourd'hui `docs/annexes/cartes.md`). Si les balises `{{ cartes: … }}` changent de page ou de profondeur, adapter ce chemin, sinon le build strict échoue.
+8. L'export PDF (`to-pdf`) suit l'ordre de la `nav` et exclut le changelog (`exclude_pages`). Toute page ajoutée à la `nav` entre dans le livre PDF.

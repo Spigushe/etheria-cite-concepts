@@ -47,6 +47,16 @@ pour un correctif de `v0.11.0-silys`).
   lecture.
 - Les données `decks-cartes.json` et `pretires.json` passent dans
   `docs/annexes/`.
+- Le livre PDF (`etheria-jdr.pdf`) suit l'ordre des sept parties et
+  laisse le changelog sur le site (`exclude_pages`). Le lien de
+  l'accueil vers le changelog passe en URL absolue pour ne pas casser
+  l'export.
+- Relecture après le redécoupage : une attaque inflige l'écart entre
+  le jet et la défense (valeur fixe) ; la présentation renvoie à la
+  règle de réputation au lieu de la recopier ; Silys renvoie à
+  l'histoire, comme Élégéia ; la puce « Concept sous-jacent » des
+  quartiers ne renvoie plus qu'à la fiche concept ; nouvelle
+  description du site.
 
 ### Ajouté
 
