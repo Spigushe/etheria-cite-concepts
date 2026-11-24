@@ -5,7 +5,7 @@
 
 ## En une phrase
 
-Wiki de campagne JdR perso : **Ethéria, Cité des Concepts** — un univers où chaque quartier incarne un concept philosophique, avec un espace pédagogique (fiches concepts + auteurs) et un espace MJ (système FATE, campagne, cartes imprimables).
+Wiki de campagne JdR perso : **Ethéria, Cité des Concepts** — un univers où chaque quartier incarne un concept philosophique. Depuis la refonte en livre de jeu, le wiki suit sept parties : Ouverture, I. La cité, II. Jouer, III. Mener, IV. Campagne, V. Scénarios, Annexes.
 
 ## Stack technique
 
@@ -25,64 +25,70 @@ Wiki de campagne JdR perso : **Ethéria, Cité des Concepts** — un univers où
 
 ```text
 CHANGELOG.md                  ← source de vérité version (injecté dans le site)
-mkdocs.yml / mkdocs.dev.yml   ← nav complète dans mkdocs.yml (clé `nav:`)
+mkdocs.yml / mkdocs.dev.yml   ← nav complète dans mkdocs.yml (clé `nav:`), en sept parties
 pyproject.toml / uv.lock      ← dépendances (uv)
 scripts/                      ← hooks + extension markdown (voir tableau ci-dessus)
 templates/                    ← back_cover.html.j2 + styles.scss (export PDF)
 docs/
-├── index.md                  ← accueil (liste des callouts, version dynamique)
+├── index.md                  ← OUVERTURE : le jeu en bref, matériel, comment lire le livre
+├── presentation.md           ← ton, thèmes (publics), ce que les joueurs incarnent
 ├── changelog.md              ← 1 ligne : {{ changelog }}
-├── monde/                    ← LORE joueur
-│   ├── presentation.md       ← ton, thèmes, ce que les joueurs incarnent
+├── cite/                     ← I. LA CITÉ (lore, joueurs et MJ)
 │   ├── introduction.md       ← la cité, ce qu'on y vient chercher
+│   ├── societe-des-explorateurs.md
 │   ├── histoire.md           ← 5 ères (Premier Souffle → Avènement de l'Exploration)
 │   ├── cartographie.md       ← Agora Latente + portails
 │   ├── personnages.md        ← figures légendaires, courants, Gardiens des Concepts
+│   └── quartiers/            ← index (aperçu joueur) + 7 fiches (~125 lignes chacune :
+│                                Architecture / Habitants / Dilemmes / Entrer ou Sortir /
+│                                Menaces / Ce qu'on raconte / Regard sur les autres)
+├── jouer/                    ← II. JOUER (toute la table)
+│   ├── regles-de-base.md     ← Fate Accelerated : dés, actions, Destin, stress, licence
+│   ├── creer-un-aventurier.md ← guide de remplissage de la fiche imprimable (création, recto, verso)
+│   ├── reputation.md         ← cinq axes, échelle à 3 crans par côté
+│   ├── evolution.md          ← jalons + tableau « ce qui change sur la fiche, et quand »
+│   ├── pretires.md           ← intro + {{ pretires: <jeu> }} par jeu (rendu par scripts/fiches.py)
+│   ├── exemple-de-partie.md  ← une scène commentée, dés compris
+│   └── securite-de-table.md  ← Carte-X, signaux, cartes de sécurité
+├── mener/                    ← III. MENER (MJ)
+│   ├── index.md              ← mise en scène, improvisation
+│   ├── dilemmes.md           ← les cinq formes de dilemmes
+│   ├── consequences.md       ← traces dans la cité, journal des altérations
+│   ├── gardiens.md           ← quel Gardien se méfie de quelle tendance
+│   ├── oppositions.md        ← chiffrer un PNJ ou une menace (valeurs fixes, 4 profils)
+│   ├── cartes.md             ← ce que fait chaque famille de cartes
+│   └── secrets.md            ← le huitième quartier
+├── campagne/                 ← IV. CAMPAGNE (MJ)
+│   ├── index.md + lancer-une-campagne.md (premières séances, feuilles de suivi provisoires)
+│   ├── <slug>.md             ← 7 fichiers quartier : éléments de jeu + 5 trames
+│   ├── concepts/<slug>.md    ← 7 fiches concept (callout REGLE "Concept abordé", Philosophes
+│   │                            associés, Ce que ça donne en jeu, Questions à poser à la table)
+│   ├── quetes-transversales.md
+│   └── transitions-entre-quartiers.md (473 lignes : 3 scènes par paire de quartiers)
+├── scenarios/                ← V. SCÉNARIOS : index (tableau + kits) + 7 scénarios en scènes
+│                                (le-huitieme-fragment.md et le-dernier-jour-du-regent.md
+│                                sont les deux initiations)
+├── annexes/
 │   ├── glossaire.md          ← noms propres par quartier + termes de jeu
-│   └── quartiers/            ← index + 7 fiches (~125 lignes chacune, structure
-│                                identique : Architecture / Habitants / Dilemmes /
-│                                Sortir / Menaces / Ce qu'on raconte / Regard sur les autres)
-├── resources-philo/          ← PÉDAGOGIE
-│   ├── concepts/             ← index (+ lexique philosophique) + 7 fiches quartier
-│   │                            (callout REGLE "Concept abordé", Philosophes associés,
-│   │                            Ce que ça donne en jeu, Questions à poser à la table)
-│   └── sources/              ← index + 23 fiches auteurs (~30 lignes :
-│                                "Ce qu'il apporte à Ethéria" / "À retenir pour la table")
-├── mj/                       ← ESPACE MENEUR
-│   ├── index.md              ← mise en scène, impro, sécurité de table, prépa séance
-│   ├── systeme.md            ← FATE : règles de base, réputation, Gardiens, évolution, dilemmes, conséquences
-│   ├── oppositions.md        ← chiffrer un PNJ ou une menace (4 profils tirés des scénarios)
-│   ├── campagne/             ← index + lancer-une-campagne.md (premières séances,
-│   │                            feuilles de suivi) + 7 fichiers quartier (~55 lignes, 5 aventures
-│   │                            chacun) + quetes-transversales.md
-│   │                            + transitions-entre-quartiers.md (473 lignes, le plus
-│   │                            gros fichier : 3 scènes par paire de quartiers)
-│   ├── scenarios/            ← scénarios prêts à jouer, découpés en scènes
-│   │                            (le-huitieme-fragment.md, initiation, Labyrinthe ;
-│   │                            le-dernier-jour-du-regent.md, initiation, Concorde ;
-│   │                            + un scénario par autre quartier, première trame)
-│   └── annexes/
-│       ├── fiche-personnage.md   ← guide de remplissage de la fiche imprimable (création, recto, verso, évolution)
-│       ├── exemple-de-partie.md  ← une scène commentée, dés compris
-│       ├── pretires.md           ← intro + {{ pretires: <jeu> }} par jeu (rendu par scripts/fiches.py)
-│       ├── pretires.json         ← données des prétirés, 1 clé par jeu : le-huitieme-fragment, second-jeu (scénario
-│       │                            ou campagne), consommé par scripts/fiches.py
-│       ├── ressources-mj.md      ← carrousels de cartes par quartier + typologie dilemmes
-│       └── decks-cartes.json     ← données des cartes, 1 clé par slug de quartier
-│                                    (consommé par scripts/cards.py)
+│   ├── lexique.md            ← lexique philosophique
+│   ├── auteurs/              ← index + 23 fiches auteurs (~30 lignes :
+│   │                            "Ce qu'il apporte à Ethéria" / "À retenir pour la table")
+│   ├── cartes.md             ← carrousels de cartes par quartier
+│   ├── decks-cartes.json     ← données des cartes, 1 clé par slug de quartier (scripts/cards.py)
+│   └── pretires.json         ← données des prétirés, 1 clé par jeu (scripts/fiches.py)
 └── assets/
     ├── blasons/ et icons/    ← 7 PNG numérotés 1..7 (ordre canonique, cf. tableau)
     ├── fonts/                ← Cormorant Garamond, EB Garamond, Roboto Mono (woff2)
     ├── scenarios/            ← kits prêts à jouer, 1 PDF committé par scénario
     │                            (etheria-kit-<slug du scénario>.pdf), liés en URL absolue
-    │                            depuis les scénarios, quartiers/index.md et ressources-mj.md
+    │                            depuis les scénarios et scenarios/index.md
     ├── javascripts/carrousel.js
     └── stylesheets/          ← callouts.css + extra.css
 ```
 
 ## Les 7 quartiers — table de correspondance
 
-Chaque quartier existe en **4 exemplaires** : lore (`monde/quartiers/`), fiche concept (`resources-philo/concepts/`), aventures (`mj/campagne/`), deck (`decks-cartes.json`). Même slug partout.
+Chaque quartier existe en **4 exemplaires** : lore (`cite/quartiers/`), fiche concept (`campagne/concepts/`), éléments de jeu et aventures (`campagne/`), deck (`annexes/decks-cartes.json`). Même slug partout.
 
 | N° asset | Quartier (slug) | Concept | Philosophes associés (vérifiés dans les fiches) |
 | --- | --- | --- | --- |
@@ -94,19 +100,19 @@ Chaque quartier existe en **4 exemplaires** : lore (`monde/quartiers/`), fiche c
 | 6 | Jardins de l'Équité `jardins-de-l-equite` | Théorie de la justice | Rawls, Nozick, Sen, Aristote |
 | 7 | Citadelle de l'Arété `citadelle-de-l-arete` | Éthique de la vertu | Aristote, Confucius, MacIntyre, Thomas d'Aquin |
 
-Auteurs restants dans `sources/` sans quartier attitré dans les fiches concepts : Kierkegaard (contrepoint au Gouffre, cité dans la nuance de la fiche concept). Rawls, Aristote, Hobbes et Locke apparaissent dans 2 quartiers.
+Auteurs restants dans `annexes/auteurs/` sans quartier attitré dans les fiches concepts : Kierkegaard (contrepoint au Gouffre, cité dans la nuance de la fiche concept). Rawls, Aristote, Hobbes et Locke apparaissent dans 2 quartiers.
 
 ## Où aller selon la demande
 
 | Demande | Fichier(s) à ouvrir en premier |
 | --- | --- |
 | Modifier la nav / ajouter une page | `mkdocs.yml` (clé `nav:`) |
-| Écrire du lore d'un quartier | `docs/monde/quartiers/<slug>.md` (copier la structure d'une fiche existante) |
-| Ajouter/modifier une aventure | `docs/mj/campagne/<slug>.md` ; liaisons inter-quartiers → `transitions-entre-quartiers.md` |
-| Cartes à jouer | `docs/mj/annexes/decks-cartes.json` (données) + `scripts/cards.py` (génération) + `ressources-mj.md` (affichage carrousel) |
-| Prétirés (nouveau personnage ou nouveau jeu) | `docs/mj/annexes/pretires.json` (données) ; `scripts/fiches.py` (mise en page) ; balises dans `pretires.md` et les scénarios |
-| Fiches philo | `docs/resources-philo/concepts/<slug>.md` ou `sources/<auteur>.md` |
-| Règles du jeu | `docs/mj/systeme.md` + `docs/mj/annexes/fiche-personnage.md` (FATE) |
+| Écrire du lore d'un quartier | `docs/cite/quartiers/<slug>.md` (copier la structure d'une fiche existante) |
+| Ajouter/modifier une aventure | `docs/campagne/<slug>.md` ; liaisons inter-quartiers → `transitions-entre-quartiers.md` |
+| Cartes à jouer | `docs/annexes/decks-cartes.json` (données) + `scripts/cards.py` (génération) + `docs/annexes/cartes.md` (affichage carrousel) + `docs/mener/cartes.md` (règles) |
+| Prétirés (nouveau personnage ou nouveau jeu) | `docs/annexes/pretires.json` (données) ; `scripts/fiches.py` (mise en page) ; balises dans `docs/jouer/pretires.md` et les scénarios |
+| Fiches philo | `docs/campagne/concepts/<slug>.md` ou `docs/annexes/auteurs/<auteur>.md` |
+| Règles du jeu | `docs/jouer/` (règles de base, fiche, réputation, évolution) + `docs/mener/` (dilemmes, conséquences, Gardiens, oppositions) |
 | Nouveau callout | `scripts/obsidian_callouts.py` + `docs/assets/stylesheets/callouts.css` + liste dans `docs/index.md` |
 | Publier une version | mettre à jour `CHANGELOG.md` (section `[Non publié]` → version datée + nom), puis tag `v*` → CI fait le reste |
 | Style/typo du site | `docs/assets/stylesheets/extra.css`, palettes dans `mkdocs.yml` |

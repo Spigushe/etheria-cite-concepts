@@ -3,7 +3,7 @@ Hook MkDocs : remplit la fiche de personnage de chaque prétiré au
 moment du build (mkdocs build ou mkdocs serve), sans rien committer
 dans le dépôt.
 
-Les prétirés sont décrits dans docs/mj/annexes/pretires.json, rangés
+Les prétirés sont décrits dans docs/annexes/pretires.json, rangés
 par « jeu » (un scénario ou une campagne). Ajouter un prétiré, ou un
 nouveau jeu de prétirés, ne demande que de compléter ce JSON : ce
 module se contente de le charger, de le valider et de dessiner.
@@ -17,7 +17,7 @@ Deux balises Markdown :
   (une section par personnage, avec le lien vers sa fiche).
 - {{ fiches_pdf: <jeu> }} : la liste des liens vers les fiches.
 
-La mise en page reprend docs/mj/annexes/fiche-personnage.md. Les
+La mise en page reprend docs/jouer/creer-un-aventurier.md. Les
 cotes sont en pixels CSS (96 par pouce), comme sur une maquette web :
 une page A4 fait 794 x 1123.
 """
@@ -37,7 +37,7 @@ from reportlab.pdfgen import canvas
 
 RACINE = Path(__file__).resolve().parent.parent
 DOSSIER_POLICES = RACINE / "docs" / "assets" / "fonts"
-PRETIRES_JSON_PATH = RACINE / "docs" / "mj" / "annexes" / "pretires.json"
+PRETIRES_JSON_PATH = RACINE / "docs" / "annexes" / "pretires.json"
 
 PAGE_L, PAGE_H = 794, 1123
 ECHELLE = A4[0] / PAGE_L
@@ -60,7 +60,7 @@ POLICES = {
     GRAS: "eb-garamond-700-normal.woff2",
 }
 
-# Ordre et libellés de docs/mj/annexes/fiche-personnage.md.
+# Ordre et libellés de docs/jouer/creer-un-aventurier.md.
 APPROCHES = [
     ("Rigoureux", "Analyse froide, logique serrée, patience"),
     ("Habile", "Ruse argumentative, sens de la repartie"),
