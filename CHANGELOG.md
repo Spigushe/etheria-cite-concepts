@@ -16,6 +16,24 @@ pour un correctif de `v0.11.0-silys`).
 
 ## [Non publié]
 
+### Ajouté
+
+- Quatre pages qui manquaient pour lire le wiki comme un livre de jeu,
+  premier pas de sa réorganisation :
+    - « Bâtir une opposition » (`mj/oppositions.md`) : quatre profils de
+      PNJ et leurs chiffres, tirés des tableaux « PNJ et oppositions »
+      des sept scénarios, avec un Huissier Spectral en exemple.
+    - « Lancer une campagne » (`mj/campagne/lancer-une-campagne.md`) :
+      premières séances, rythme par quartier, passages, quêtes
+      transversales, et deux feuilles de suivi (journal des
+      altérations, réputations).
+    - « Exemple de partie » (`mj/annexes/exemple-de-partie.md`) : une
+      scène commentée, dés compris, avec deux prétirés.
+    - « Glossaire » (`monde/glossaire.md`) : les noms propres de la
+      cité, quartier par quartier, et les termes de jeu.
+- Liens vers ces pages depuis l'Accueil MJ et la vue d'ensemble de la
+  campagne.
+
 ## [0.12.0] - 2026-11-15 — Éléon Rive
 
 ### Ajouté
