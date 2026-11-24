@@ -33,11 +33,11 @@ Dépenser un point pour invoquer un aspect pertinent donne +2 ou une
 relance. Quand le MJ propose une complication liée à un aspect,
 l'accepter rapporte un point ; la refuser en coûte un.
 
-Une attaque réussie inflige autant de crans que l'écart entre les
-deux jets. On les absorbe en cochant une case de stress ou en prenant
+Une attaque réussie inflige autant de crans que l'écart entre le jet
+d'attaque et la défense. On les absorbe en cochant une case de stress ou en prenant
 une conséquence. Les trois cases de stress de chaque piste valent 1,
 2 et 3 crans ; les conséquences absorbent 2, 4 et 6 crans (voir la
-[fiche de personnage](creer-un-aventurier.md)). Un personnage
+[Fiche d'Aventurier](creer-un-aventurier.md#stress)). Un personnage
 qui ne peut plus absorber est mis hors jeu : c'est l'attaquant qui
 décide de ce qui lui arrive. On peut aussi concéder avant le jet, et
 garder la main sur sa sortie de scène.

@@ -49,17 +49,14 @@ qui cite ses sources : chaque quartier est adossé à de vrais textes,
 pas à une morale inventée pour l'occasion.
 
 Le système de jeu prolonge cette logique jusque dans la fiche de
-personnage. Pas de points d'expérience ni de niveaux (le personnage
-évolue par jalons, voir [Évolution des personnages](jouer/evolution.md)) :
-un Aventurier développe une réputation philosophique, cartographiée sur cinq axes
-de tension (idéaliste contre pragmatique, cohérent contre inconstant,
-solidaire contre individualiste, révisionniste contre conservateur,
-rationaliste contre intuitif). Cette position influence concrètement
-le jeu : certaines factions ou certains portails n'acceptent que des
-profils précis, un Gardien peut refuser l'accès à quelqu'un dont il
-juge la cohérence intérieure douteuse. Les choix des joueurs ne
-modifient pas seulement leur personnage, ils laissent une trace
-durable dans la cité elle-même.
+personnage. Pas de points d'expérience ni de niveaux : le personnage
+évolue par [jalons](jouer/evolution.md), et ses actes lui donnent une
+[réputation philosophique](jouer/reputation.md) sur cinq axes de
+tension, de l'idéaliste au pragmatique, du solidaire à
+l'individualiste. Cette position compte en jeu : un Gardien peut
+refuser le passage à un personnage dont il se méfie. Les choix des
+joueurs ne modifient pas seulement leur personnage, ils laissent une
+trace durable dans la cité elle-même.
 
 ## Ce que les joueurs incarnent
 

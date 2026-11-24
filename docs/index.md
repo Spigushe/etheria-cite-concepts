@@ -46,5 +46,5 @@ scénario d'initiation, s'explique en même temps qu'il se joue.
 > ressorts des aventures et leurs dénouements.
 
 Le jeu est encore en écriture. Les scénarios n'ont pas été testés en
-partie, et le [changelog](changelog.md) suit ce qui change d'une
+partie, et le [changelog](https://spigushe.github.io/etheria-cite-concepts/changelog/) suit ce qui change d'une
 version à l'autre.

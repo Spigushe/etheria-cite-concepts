@@ -6,7 +6,7 @@ qu'on le veuille ou non.
 
 ## Éléments de jeu
 
-- Concept sous-jacent : le dilemme du tramway, décision et responsabilité (Foot, Thomson, Kant), voir [Sources & auteurs](../annexes/auteurs/index.md).
+- Concept sous-jacent : le dilemme du tramway, décision et responsabilité (Foot, Thomson, Kant).
 - PNJ clés : Argos l'Indécis (immobile au même carrefour depuis quarante ans), Juma-Kei (conduit un tramway qui n'emprunte que les rails nés de décisions non assumées), le Collecteur (archive tous les choix des visiteurs).
 - Entrer exige une décision explicite ; la Rampe du Premier Choix est une descente irréversible, sans retour en arrière possible.
 - Dilemmes types : un rail mène à la mort d'un proche, l'autre à la souffrance de dizaines d'inconnus, sans détour ; agir contre un mal certain ou s'abstenir face à un mal peut-être pire ; la responsabilité d'un enfant qui actionne un aiguillage par jeu.
@@ -14,8 +14,8 @@ qu'on le veuille ou non.
 - Mythe exploitable : le Tramway Fantôme de Juma-Kei, qui, dit-on, ne roule sur aucun rail visible et ne tue pas mais efface ceux qui diffèrent trop longtemps un choix fondamental.
 
 Le concept, ses philosophes et les questions à poser à la table sont
-dans la [fiche concept](concepts/rails-de-la-decision.md) ; le décor, les habitants et
-les menaces dans la [fiche du quartier](../cite/quartiers/rails-de-la-decision.md).
+dans la [fiche concept](concepts/rails-de-la-decision.md). Le décor, les habitants et
+les menaces sont dans la [fiche du quartier](../cite/quartiers/rails-de-la-decision.md).
 
 ## La Manette
 

@@ -69,7 +69,7 @@ qu'elle a refusé d'interrompre (voir [Histoire et mythologie](histoire.md)).
 Silys, l'Enfant Muet, n'a jamais parlé, mais sa seule présence
 faisait naître des dilemmes chez ceux qui le croisaient. Sa
 disparition, pendant la Grande Suspension ou juste après, a été vécue
-comme un deuil par toute la cité.
+comme un deuil par toute la cité (voir [Histoire et mythologie](histoire.md)).
 
 L'Oracle Paradoxal, enfin, est consulté pour prédire les conséquences
 de décisions majeures, à la Balance d'Orion comme ailleurs. Il peut

@@ -6,7 +6,7 @@ prix moral s'alourdit à chaque fois qu'on la consulte.
 
 ## Éléments de jeu
 
-- Concept sous-jacent : le calcul utilitariste des conséquences (Bentham, Mill, Singer), voir [Sources & auteurs](../annexes/auteurs/index.md).
+- Concept sous-jacent : le calcul utilitariste des conséquences (Bentham, Mill, Singer).
 - PNJ clés : Éléon Rive (a proposé un barème émotionnel standardisé), Zok (régulateur public, pratique une euthanasie rituelle sur demande), l'Oracle Paradoxal (prédit l'impact à long terme, contre un prix moral).
 - Entrer par choix raisonné (Porte des Conséquences) ; un portail caché, la Passerelle Injuste, exige d'accepter d'infliger une injustice « nécessaire mais temporaire ».
 - Dilemmes types : sacrifier une personne pour en sauver cinq sans détour possible, une minorité invisible lésée par un progrès majoritaire, éliminer par avance un enfant qui deviendrait un tyran.
@@ -14,8 +14,8 @@ prix moral s'alourdit à chaque fois qu'on la consulte.
 - Mythe exploitable : la Décision de Luhen (sacrifice fondateur dont on ignore s'il fut juste ou simplement utile), le Calcul Ultime (manuscrit interdit, rendrait paralysé moralement).
 
 Le concept, ses philosophes et les questions à poser à la table sont
-dans la [fiche concept](concepts/balance-d-orion.md) ; le décor, les habitants et
-les menaces dans la [fiche du quartier](../cite/quartiers/balance-d-orion.md).
+dans la [fiche concept](concepts/balance-d-orion.md). Le décor, les habitants et
+les menaces sont dans la [fiche du quartier](../cite/quartiers/balance-d-orion.md).
 
 ## Le Prix du Bonheur
 

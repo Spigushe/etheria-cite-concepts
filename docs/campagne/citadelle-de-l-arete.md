@@ -7,16 +7,16 @@ caractère.
 
 ## Éléments de jeu
 
-- Concept sous-jacent : l'éthique de la vertu comme disposition acquise par l'habitude, chez Aristote, prolongée par Thomas d'Aquin et MacIntyre, voir [Aristote](../annexes/auteurs/aristote.md), avec en écho la tradition confucéenne (voir [Confucius](../annexes/auteurs/confucius.md)).
+- Concept sous-jacent : l'éthique de la vertu comme disposition acquise par l'habitude, chez Aristote, prolongée par Thomas d'Aquin et MacIntyre, avec en écho la tradition confucéenne.
 - PNJ clés : Eudémos (n'enseigne que par l'exemple), Alea d'Ilion (ancienne voyageuse des sept quartiers, revenue enseigner la constance), la Sentinelle Blanche (ne parle que lorsqu'une vertu est niée trois fois).
 - Entrer exige de reconnaître une faiblesse morale en soi ; le Col de l'Incomplétude est un sentier raide où chaque pas demande une lucidité nouvelle.
 - Dilemmes types : agir courageusement quand on sait l'action inutile, cacher une vérité pour préserver l'estime d'un proche, rester fidèle à ses principes dans un monde qui les bafoue.
 - Connexions : affinité avec les Jardins de l'Équité et la Concorde du Pacte ; méfiance envers la Balance d'Orion (sacrifice de la vertu à l'efficacité) et le Labyrinthe des Identités (jugé trop instable pour un soi stable) ; tension avec le Gouffre d'Absyr (la vertu a-t-elle un sens dans un monde sans signification donnée) et avec les Rails de la Décision (bien décider suppose d'être déjà vertueux, alors que la vertu se construit lentement).
-- Mythe exploitable : la Pierre Non Jetée (colère enterrée, fendue en deux cent ans plus tard, symbole du pardon silencieux), le Chemin des Semblants (où l'on peut imiter toutes les vertus sans les vivre).
+- Mythe exploitable : la Pierre Non Jetée (colère enterrée, retrouvée fendue en deux, cent ans plus tard, symbole du pardon silencieux), le Chemin des Semblants (où l'on peut imiter toutes les vertus sans les vivre).
 
 Le concept, ses philosophes et les questions à poser à la table sont
-dans la [fiche concept](concepts/citadelle-de-l-arete.md) ; le décor, les habitants et
-les menaces dans la [fiche du quartier](../cite/quartiers/citadelle-de-l-arete.md).
+dans la [fiche concept](concepts/citadelle-de-l-arete.md). Le décor, les habitants et
+les menaces sont dans la [fiche du quartier](../cite/quartiers/citadelle-de-l-arete.md).
 
 ## Le Jardin des Épreuves
 

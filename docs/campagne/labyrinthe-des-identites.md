@@ -7,7 +7,7 @@ question, reformulée : *qui es-tu, maintenant ?*
 
 ## Éléments de jeu
 
-- Concept sous-jacent : le paradoxe identitaire (le bateau de Thésée), voir [Plutarque](../annexes/auteurs/plutarque.md).
+- Concept sous-jacent : le paradoxe identitaire (le bateau de Thésée).
 - PNJ clés : Théséis (archiviste qui cartographie les transformations du quartier), Naüm (affirme être plusieurs personnes à la fois), la Matrice Ciselée (propose de « refondre » un visiteur contre ses souvenirs).
 - Sortir exige d'abandonner une certitude sur soi. Le Passage du Masque Fendu ne s'ouvre que si le visiteur avoue à voix haute une contradiction intime.
 - Dilemmes types : être jugé pour un acte d'un ancien soi, contester la légitimité de quelqu'un à juger votre identité, la fiabilité douteuse d'un souvenir qu'on voudrait restaurer.
@@ -15,8 +15,8 @@ question, reformulée : *qui es-tu, maintenant ?*
 - Mythe exploitable : le Premier Fragment, une quête pour reconstituer un « moi entier » à partir de fragments dispersés, ce qui est risqué : plusieurs s'y sont perdus.
 
 Le concept, ses philosophes et les questions à poser à la table sont
-dans la [fiche concept](concepts/labyrinthe-des-identites.md) ; le décor, les habitants et
-les menaces dans la [fiche du quartier](../cite/quartiers/labyrinthe-des-identites.md).
+dans la [fiche concept](concepts/labyrinthe-des-identites.md). Le décor, les habitants et
+les menaces sont dans la [fiche du quartier](../cite/quartiers/labyrinthe-des-identites.md).
 
 ## Les Éclats du Navire Originel
 
