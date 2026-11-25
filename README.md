@@ -14,10 +14,11 @@ machine.
 
 ## Fonctionnalités
 
-- Structure prête à l'emploi : univers d'Éthéria (introduction, histoire,
-  cartographie, personnages, quartiers), espace pédagogique (concepts
-  philosophiques et sources), espace MJ (système de jeu, fiche de
-  personnage, campagne).
+- Structure de livre de jeu en sept parties : Ouverture, I. La cité
+  (introduction, histoire, cartographie, personnages, quartiers),
+  II. Jouer (règles, création de personnage, sécurité de table),
+  III. Mener, IV. Campagne (trames et concepts par quartier),
+  V. Scénarios, Annexes (glossaire, lexique, auteurs, cartes).
 - Callouts personnalisés façon Obsidian : `> [!VILLE]`, `> [!PNJ]`,
   `> [!FACTION]`, `> [!REGLE]`, `> [!NOUVELLES]`, `> [!DANGER]`,
   `> [!SECRET]`, `> [!INTRIGUE]`, `> [!TRESOR]`, `> [!MJ]` (informations
@@ -36,8 +37,13 @@ cd etheria-cite-concepts
 
 uv sync                        # installe Python 3.13 + dépendances dans .venv
 
-uv run python -m mkdocs serve -f mkdocs.dev.yml
+uv run python make.py dev      # serveur de dev (équivaut à mkdocs serve -f mkdocs.dev.yml)
 ```
+
+`make.py` est mon « Makefile » : il n'y a pas de `make` sous Windows, donc
+un petit script Python lance les mêmes commandes en local et en CI.
+`uv run python make.py` sans argument liste les tâches (voir
+[Tâches](#tâches)).
 
 > Les dépendances sont gérées par [uv](https://docs.astral.sh/uv/) :
 > `pyproject.toml` les déclare (outils de typage et lint dans le groupe
@@ -46,38 +52,54 @@ uv run python -m mkdocs serve -f mkdocs.dev.yml
 
 <!-- -->
 
-> J'utilise bien `python -m mkdocs` (et non `mkdocs` seul) : ça ajoute la
+> `make.py` passe par `python -m mkdocs` (et non `mkdocs` seul) : ça ajoute la
 > racine du repo au PYTHONPATH, ce qui est nécessaire pour que mon extension
 > locale `scripts/obsidian_callouts.py` soit importable.
 
 <!-- -->
 
-> `-f mkdocs.dev.yml` charge la config de dev (hérite de `mkdocs.yml` sans le
+> `make.py dev` et `make.py build` chargent `mkdocs.dev.yml`, la config de dev (hérite de `mkdocs.yml` sans le
 > plugin `to-pdf`) : l'export PDF dépend de WeasyPrint, qui a besoin de
 > bibliothèques natives GTK absentes par défaut sous Windows. Cet export
 > n'est utile qu'au build de Release (CI Linux, tag `v*`), donc `mkdocs.yml`
-> reste la config de référence utilisée par le CI, sans `-f`.
+> reste la config de référence utilisée par le CI (`make.py build-pdf`).
 
 Le site est alors visible sur `http://127.0.0.1:8000`, avec rechargement
 automatique à chaque modification d'un fichier `.md`.
 
+## Tâches
+
+Toutes se lancent avec `uv run python make.py <tâche>` (plusieurs à la
+suite possibles : `make.py lint types`).
+
+| Tâche | Rôle |
+| --- | --- |
+| `dev` | serveur de dev avec rechargement (config dev) |
+| `build` | build strict local, sans export PDF (config dev) |
+| `build-pdf` | build strict de prod avec export PDF (CI Linux) |
+| `lint` | `ruff check` + `ruff format --check` |
+| `fmt` | `ruff check --fix` + `ruff format` |
+| `types` | `ty check` |
+| `spell` | `cspell` |
+| `mdlint` | `markdownlint-cli2` (version figée) |
+| `check` | `lint`, `types`, `spell`, `mdlint` |
+| `ci` | `check` puis `build-pdf` |
+| `clean` | supprime `site/` |
+| `sync` | `uv sync --locked` |
+
 ## Vérifications
 
-Le workflow `.github/workflows/checks.yml` lance ces vérifications à chaque
-push sur `main`, sur chaque pull request et avant chaque déploiement. Je
-peux aussi les lancer à la main avant de commiter :
+Le workflow `.github/workflows/checks.yml` appelle ces mêmes tâches à chaque
+push sur `main`, sur chaque pull request et avant chaque déploiement. Avant
+de commiter, je lance :
 
 ```bash
-uv run ruff check scripts/ --fix
-uv run ruff format scripts/
-uv run ty check
-uv run python -m mkdocs build --strict -f mkdocs.dev.yml
-npx --yes --package cspell --package @cspell/dict-fr-fr -- cspell --config cspell.json --no-progress
-npx --yes markdownlint-cli2@0.24.1
+uv run python make.py check    # lint, types, orthographe, markdown
+uv run python make.py build    # le site compile en strict
 ```
 
-- `ruff` : lint et style Python sur `scripts/`.
-- `ty` : typage Python sur `scripts/`.
+- `ruff` : lint et style Python sur `scripts/` et `make.py`.
+- `ty` : typage Python sur le projet.
 - `mkdocs build --strict` : le site compile sans avertissement (liens
   internes et nav inclus). En local je passe par `mkdocs.dev.yml` (voir
   plus haut) ; le CI, lui, build avec `mkdocs.yml` (export PDF inclus).
@@ -88,8 +110,9 @@ npx --yes markdownlint-cli2@0.24.1
   tableaux, espaces en fin de ligne). Les règles sont dans
   `.markdownlint.json`, les fichiers contrôlés dans
   `.markdownlint-cli2.jsonc` ; l'extension VS Code recommandée lit les
-  deux et signale les mêmes erreurs dans l'éditeur. Ajouter `--fix` à
-  la commande corrige ce qui peut l'être automatiquement. Une liste
+  deux et signale les mêmes erreurs dans l'éditeur. Lancer
+  `npx --yes markdownlint-cli2@0.24.1 --fix` corrige ce qui peut l'être
+  automatiquement. Une liste
   imbriquée s'indente de quatre espaces, sans quoi MkDocs l'affiche à
   plat.
 
@@ -104,9 +127,9 @@ republie le site.
 
 ## Ajouter une page
 
-1. Je crée un fichier `.md` dans le sous-dossier concerné (`docs/monde/`,
-   `docs/monde/quartiers/`, `docs/resources-philo/concepts/`,
-   `docs/resources-philo/sources/`, `docs/mj/campagne/`, etc.).
+1. Je crée un fichier `.md` dans le sous-dossier concerné (`docs/cite/`,
+   `docs/cite/quartiers/`, `docs/jouer/`, `docs/mener/`,
+   `docs/campagne/`, `docs/annexes/auteurs/`, etc.).
 2. J'ajoute une entrée dans la section `nav:` de `mkdocs.yml` pour qu'elle
    apparaisse dans le menu.
 3. Je vérifie l'orthographe avec `cspell` : les nouveaux noms propres du
@@ -125,16 +148,16 @@ republie le site.
 ## Cartes imprimables
 
 Chaque `{{ cartes: <quartier> / <famille> }}` dans
-`docs/mj/annexes/ressources-mj.md` est remplacé au build par le carrousel
+`docs/annexes/cartes.md` est remplacé au build par le carrousel
 (recto) et le tableau (titre/détails) correspondants, lus depuis
-`docs/mj/annexes/decks-cartes.json`. Les images et le PDF à imprimer ne sont
+`docs/annexes/decks-cartes.json`. Les images et le PDF à imprimer ne sont
 pas stockés dans le dépôt : ils sont régénérés à chaque build par
 `scripts/cards.py`. Pour changer une carte, il suffit de modifier le JSON ;
-`ressources-mj.md` n'a jamais besoin d'être touché pour ça.
+`cartes.md` n'a jamais besoin d'être touché pour ça.
 
 ## Fiches des prétirés
 
-Les prétirés sont décrits dans `docs/mj/annexes/pretires.json`, rangés par
+Les prétirés sont décrits dans `docs/annexes/pretires.json`, rangés par
 « jeu » (un scénario ou une campagne). Au build, `scripts/fiches.py` remplit
 une fiche de personnage A4 par prétiré (`assets/fiches/<jeu>/<slug>.pdf`,
 plus `assets/fiches/<jeu>.pdf` qui les réunit), sans rien stocker dans le
@@ -176,33 +199,39 @@ est inconnue ou si un texte trop long fait déborder la fiche.
 
 ```text
 docs/
-├── index.md                    # accueil, liste des callouts
+├── index.md                    # ouverture : le jeu en bref, comment lire le livre
+├── presentation.md             # ton, thèmes, ce que les joueurs incarnent
 ├── changelog.md                # 1 ligne : {{ changelog }}, ne pas éditer
-├── monde/                      # univers d'Éthéria
-│   ├── presentation.md           # ton, thèmes, ce que les joueurs incarnent
-│   ├── introduction.md
-│   ├── histoire.md
-│   ├── cartographie.md
-│   ├── personnages.md
+├── cite/                       # I. La cité : introduction, Société des
+│   │                           # Explorateurs, histoire, cartographie,
+│   │                           # personnages
 │   └── quartiers/                # les sept quartiers (ambiance, PNJ,
 │                                 # dilemmes, menaces, mythes, connexions)
-├── resources-philo/            # espace pédagogique
-│   ├── concepts/                 # une fiche concept par quartier
-│   └── sources/                  # une fiche par philosophe/auteur
-├── mj/                         # espace MJ
-│   ├── index.md                  # conseils de mise en scène, sécurité de table
-│   ├── systeme.md                # FATE (Fate Accelerated) : règles de base,
-│   │                             # réputation, évolution, dilemmes
-│   ├── annexes/                  # fiche de personnage, prétirés, cartes
-│   │                             # (decks-cartes.json)
-│   └── campagne/                 # trames d'aventure, une page par
-│                                 # quartier, quêtes transversales,
-│                                 # transitions entre quartiers
+├── jouer/                      # II. Jouer : règles de base (Fate
+│                               # Accelerated), fiche d'Aventurier,
+│                               # réputation, évolution, prétirés, exemple
+│                               # de partie, sécurité de table
+├── mener/                      # III. Mener : mise en scène, dilemmes,
+│                               # conséquences, Gardiens, oppositions,
+│                               # cartes à table, secrets
+├── campagne/                   # IV. Campagne : lancer une campagne, une
+│   │                           # page de trames par quartier, quêtes
+│   │                           # transversales, transitions
+│   └── concepts/                 # une fiche concept par quartier
+├── scenarios/                  # V. Scénarios : vue d'ensemble + sept
+│                               # scénarios en une séance
+├── annexes/                    # glossaire, lexique philosophique, cartes à
+│   │                           # imprimer, données (decks-cartes.json,
+│   │                           # pretires.json)
+│   └── auteurs/                  # une fiche par philosophe/auteur
 └── assets/
     ├── blasons/ et icons/        # 7 PNG numérotés 1..7
+    ├── fiches/                   # fiche d'Aventurier, cartes de sécurité
+    ├── scenarios/                # kits PDF des scénarios
     ├── fonts/                    # polices auto-hébergées (woff2)
     ├── javascripts/carrousel.js
     └── stylesheets/              # callouts.css + extra.css
+make.py                         # tâches (dev, build, lint, check, ci...)
 scripts/
 ├── obsidian_callouts.py        # extension Markdown : syntaxe > [!TYPE]
 ├── changelog.py                # hook MkDocs : injecte {{ changelog }}
@@ -217,6 +246,8 @@ uv.lock                         # versions figées des dépendances
 cspell.json                     # config orthographe (dictionnaire fr-fr)
 .markdownlint.json              # règles markdownlint
 .markdownlint-cli2.jsonc        # fichiers contrôlés par markdownlint
-.github/workflows/deploy.yml    # build + déploiement automatique
+.github/workflows/
+├── checks.yml    # vérifications (ruff, ty, cspell, markdownlint, build)
+└── deploy.yml    # build + déploiement automatique
 CHANGELOG.md                    # historique des versions du wiki
 ```

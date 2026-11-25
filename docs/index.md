@@ -4,27 +4,47 @@
   <img src="assets/logo.png" alt="Blason d'Éthéria" width="220">
 </p>
 
-Bienvenue. Ce wiki suit la création et l'évolution d'un univers-campagne
-en cours, alors ne soyez pas surpris si une page change de forme d'une
-semaine à l'autre : tout part d'un document de travail qui se réécrit
-ici au fur et à mesure que la cité prend corps.
+Éthéria est un jeu de rôle. On y incarne des Aventuriers de la
+Société des Explorateurs, dans une cité où chaque quartier pose une
+question de philosophie et ne laisse repartir personne sans un choix.
+On y enquête, on y débat, on y tranche, et la cité garde la trace de
+ce qu'on a décidé.
 
-Deux portes d'entrée selon ce qui vous attire :
+Le moteur est Fate Accelerated. Les scénarios publiés se jouent à
+un meneur de jeu (MJ) et trois à cinq joueurs, en deux à trois
+heures.
 
-- [Présentation](monde/presentation.md), pour le ton et les thèmes qui distinguent
-  Éthéria d'un décor de fantasy classique.
-- [Le monde](monde/introduction.md), pour comprendre pourquoi la
-  cité n'apparaît sur aucune carte, et ce qu'on y vient vraiment
-  chercher.
+## Ce qu'il faut pour jouer
 
-Une fois posé, direction les [Quartiers](monde/quartiers/index.md) :
-sept zones, sept ambiances, un aperçu de chacune avant d'aller plus
-loin. Le menu garde aussi une section Ressources Philo pour creuser
-un concept ou un philosophe précis, et un Espace MJ qui contient le
-système de jeu.
+- Quatre dés Fate (dés Fudge) par joueur, ou un seul jeu qui tourne.
+- Trois jetons de points de Destin par joueur, plus une réserve pour
+  le MJ.
+- Une [Fiche d'Aventurier](jouer/creer-un-aventurier.md) par joueur,
+  à remplir, ou un [prétiré](jouer/pretires.md).
+- Les cartes de [sécurité de table](jouer/securite-de-table.md).
+- Pour le MJ, un [scénario](scenarios/index.md). Chacun a son kit à
+  imprimer, qui réunit tout ce qui précède sauf les dés et les
+  jetons.
 
-> [!MJ] Vous menez la partie ?
-> L'Espace MJ regroupe les règles, les trames d'aventure, les conseils de
-> mise en scène et les outils de sécurité de table. Il suppose d'avoir
-> déjà lu les pages ouvertes aux joueurs, donc mieux vaut garder cette
-> porte pour plus tard si vous comptez aussi jouer.
+Pour jouer ce soir : [Le Huitième Fragment](scenarios/le-huitieme-fragment.md),
+scénario d'initiation, s'explique en même temps qu'il se joue.
+
+## Comment lire ce livre
+
+| Partie | Pour qui | Ce qu'on y trouve |
+| --- | --- | --- |
+| [Présentation](presentation.md) | Tout le monde | Le ton, les thèmes, ce que les joueurs incarnent |
+| [I. La cité](cite/introduction.md) | Tout le monde | Éthéria, son histoire, ses figures, ses sept quartiers |
+| [II. Jouer](jouer/regles-de-base.md) | Tout le monde | Les règles, la création d'un Aventurier, la sécurité de table |
+| [III. Mener](mener/index.md) | Le MJ | Mise en scène, dilemmes, conséquences, oppositions |
+| [IV. Campagne](campagne/index.md) | Le MJ | Trente-cinq trames, quartier par quartier, et de quoi les relier |
+| [V. Scénarios](scenarios/index.md) | Le MJ | Sept scénarios en une séance, avec leurs kits |
+| [Annexes](annexes/aide-memoire.md) | Tout le monde | Aide-mémoire, glossaire, lexique philosophique, auteurs, cartes à imprimer, crédits |
+
+> [!MJ] Tu comptes jouer, pas mener ?
+> Arrête-toi à la fin de la partie II. Les parties III à V donnent les
+> ressorts des aventures et leurs dénouements.
+
+Le jeu est encore en écriture. Les scénarios n'ont pas été testés en
+partie, et le [changelog](https://spigushe.github.io/etheria-cite-concepts/changelog/) suit ce qui change d'une
+version à l'autre.

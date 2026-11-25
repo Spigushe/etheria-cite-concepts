@@ -48,7 +48,7 @@ jobs:
 
       - name: Construire le site MkDocs
         run: |
-          uv run --no-sync python -m mkdocs build --strict
+          uv run --no-sync python make.py build-pdf
 
       - name: Préparer les artefacts
         run: |

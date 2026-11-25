@@ -1,5 +1,5 @@
 site_name: "Éthéria, Cité des Concepts"
-site_description: "Wiki de jeu de rôle personnel"
+site_description: "Jeu de rôle philosophique sous Fate Accelerated : la cité, les règles, la campagne et les scénarios"
 site_url: "https://spigushe.github.io/etheria-cite-concepts/"
 
 # Thème Material pour MkDocs : https://squidfunk.github.io/mkdocs-material/
@@ -44,6 +44,9 @@ plugins:
   - search
   - to-pdf:
       enabled_if_env: ENABLE_PDF_EXPORT
+      # Le changelog reste sur le site, hors du livre.
+      exclude_pages:
+        - "changelog/"
       output_path: pdf/etheria-jdr.pdf
       back_cover: true
 
@@ -70,81 +73,105 @@ markdown_extensions:
       permalink: true
 
 nav:
-  - Accueil: index.md
-  - Présentation: monde/presentation.md
-  - Univers d'Éthéria:
-      - Introduction: monde/introduction.md
-      - Histoire: monde/histoire.md
-      - Cartographie: monde/cartographie.md
-      - Personnages: monde/personnages.md
-      - Quartiers:
-          - Vue d'ensemble: monde/quartiers/index.md
-          - Le Labyrinthe des Identités: monde/quartiers/labyrinthe-des-identites.md
-          - La Concorde du Pacte: monde/quartiers/concorde-du-pacte.md
-          - La Balance d'Orion: monde/quartiers/balance-d-orion.md
-          - Le Gouffre d'Absyr: monde/quartiers/gouffre-d-absyr.md
-          - Les Rails de la Décision: monde/quartiers/rails-de-la-decision.md
-          - Les Jardins de l'Équité: monde/quartiers/jardins-de-l-equite.md
-          - La Citadelle de l'Arété: monde/quartiers/citadelle-de-l-arete.md
-  - Ressources Philo:
-      - Accueil: resources-philo/index.md
-      - Concepts par quartier:
-          - Vue d'ensemble: resources-philo/concepts/index.md
-          - Le Labyrinthe des Identités: resources-philo/concepts/labyrinthe-des-identites.md
-          - La Concorde du Pacte: resources-philo/concepts/concorde-du-pacte.md
-          - La Balance d'Orion: resources-philo/concepts/balance-d-orion.md
-          - Le Gouffre d'Absyr: resources-philo/concepts/gouffre-d-absyr.md
-          - Les Rails de la Décision: resources-philo/concepts/rails-de-la-decision.md
-          - Les Jardins de l'Équité: resources-philo/concepts/jardins-de-l-equite.md
-          - La Citadelle de l'Arété: resources-philo/concepts/citadelle-de-l-arete.md
+  - Ouverture:
+      - Accueil: index.md
+      - Présentation: presentation.md
+  - "I. La cité":
+      - Entrer à Éthéria: cite/introduction.md
+      - La Société des Explorateurs: cite/societe-des-explorateurs.md
+      - Histoire: cite/histoire.md
+      - Cartographie: cite/cartographie.md
+      - Figures, courants et Gardiens: cite/personnages.md
+      - Les sept quartiers:
+          - Vue d'ensemble: cite/quartiers/index.md
+          - Le Labyrinthe des Identités: cite/quartiers/labyrinthe-des-identites.md
+          - La Concorde du Pacte: cite/quartiers/concorde-du-pacte.md
+          - La Balance d'Orion: cite/quartiers/balance-d-orion.md
+          - Le Gouffre d'Absyr: cite/quartiers/gouffre-d-absyr.md
+          - Les Rails de la Décision: cite/quartiers/rails-de-la-decision.md
+          - Les Jardins de l'Équité: cite/quartiers/jardins-de-l-equite.md
+          - La Citadelle de l'Arété: cite/quartiers/citadelle-de-l-arete.md
+  - "II. Jouer":
+      - Règles de base: jouer/regles-de-base.md
+      - Créer un Aventurier: jouer/creer-un-aventurier.md
+      - Réputation philosophique: jouer/reputation.md
+      - Évolution des personnages: jouer/evolution.md
+      - Prétirés: jouer/pretires.md
+      - Exemple de partie: jouer/exemple-de-partie.md
+      - Sécurité de table: jouer/securite-de-table.md
+  - "III. Mener":
+      - Mener la partie: mener/index.md
+      - Les dilemmes: mener/dilemmes.md
+      - Conséquences et journal: mener/consequences.md
+      - Le jugement des Gardiens: mener/gardiens.md
+      - Bâtir une opposition: mener/oppositions.md
+      - Écrire un scénario: mener/ecrire-un-scenario.md
+      - Les cartes à table: mener/cartes.md
+      - Secrets de la cité: mener/secrets.md
+  - "IV. Campagne":
+      - Vue d'ensemble: campagne/index.md
+      - Lancer une campagne: campagne/lancer-une-campagne.md
+      - Le Labyrinthe des Identités:
+          - Trames: campagne/labyrinthe-des-identites.md
+          - Concept: campagne/concepts/labyrinthe-des-identites.md
+      - La Concorde du Pacte:
+          - Trames: campagne/concorde-du-pacte.md
+          - Concept: campagne/concepts/concorde-du-pacte.md
+      - La Balance d'Orion:
+          - Trames: campagne/balance-d-orion.md
+          - Concept: campagne/concepts/balance-d-orion.md
+      - Le Gouffre d'Absyr:
+          - Trames: campagne/gouffre-d-absyr.md
+          - Concept: campagne/concepts/gouffre-d-absyr.md
+      - Les Rails de la Décision:
+          - Trames: campagne/rails-de-la-decision.md
+          - Concept: campagne/concepts/rails-de-la-decision.md
+      - Les Jardins de l'Équité:
+          - Trames: campagne/jardins-de-l-equite.md
+          - Concept: campagne/concepts/jardins-de-l-equite.md
+      - La Citadelle de l'Arété:
+          - Trames: campagne/citadelle-de-l-arete.md
+          - Concept: campagne/concepts/citadelle-de-l-arete.md
+      - Quêtes transversales: campagne/quetes-transversales.md
+      - Transitions entre quartiers: campagne/transitions-entre-quartiers.md
+  - "V. Scénarios":
+      - Vue d'ensemble: scenarios/index.md
+      - Le Huitième Fragment: scenarios/le-huitieme-fragment.md
+      - Le Dernier Jour du Régent: scenarios/le-dernier-jour-du-regent.md
+      - Le Prix du Bonheur: scenarios/le-prix-du-bonheur.md
+      - Le Festin du Néant: scenarios/le-festin-du-neant.md
+      - La Manette: scenarios/la-manette.md
+      - Le Voile d'Ignorance: scenarios/le-voile-d-ignorance.md
+      - Le Jardin des Épreuves: scenarios/le-jardin-des-epreuves.md
+  - Annexes:
+      - Aide-mémoire: annexes/aide-memoire.md
+      - Glossaire: annexes/glossaire.md
+      - Lexique philosophique: annexes/lexique.md
       - Sources et auteurs:
-          - Vue d'ensemble: resources-philo/sources/index.md
-          - Aristote: resources-philo/sources/aristote.md
-          - Bentham: resources-philo/sources/bentham.md
-          - Camus: resources-philo/sources/camus.md
-          - Confucius: resources-philo/sources/confucius.md
-          - Foot: resources-philo/sources/foot.md
-          - Hobbes: resources-philo/sources/hobbes.md
-          - Kant: resources-philo/sources/kant.md
-          - Kierkegaard: resources-philo/sources/kierkegaard.md
-          - Locke: resources-philo/sources/locke.md
-          - MacIntyre: resources-philo/sources/macintyre.md
-          - Mill: resources-philo/sources/mill.md
-          - Nietzsche: resources-philo/sources/nietzsche.md
-          - Nozick: resources-philo/sources/nozick.md
-          - Parfit: resources-philo/sources/parfit.md
-          - Plutarque: resources-philo/sources/plutarque.md
-          - Rawls: resources-philo/sources/rawls.md
-          - Ricœur: resources-philo/sources/ricoeur.md
-          - Rousseau: resources-philo/sources/rousseau.md
-          - Sartre: resources-philo/sources/sartre.md
-          - Sen: resources-philo/sources/sen.md
-          - Singer: resources-philo/sources/singer.md
-          - Thomas d'Aquin: resources-philo/sources/thomas-d-aquin.md
-          - Thomson: resources-philo/sources/thomson.md
-  - Espace MJ:
-      - Accueil MJ: mj/index.md
-      - Système: mj/systeme.md
-      - Fiche de personnage: mj/annexes/fiche-personnage.md
-      - Prétirés: mj/annexes/pretires.md
-      - Campagne:
-          - Vue d'ensemble: mj/campagne/index.md
-          - Le Labyrinthe des Identités: mj/campagne/labyrinthe-des-identites.md
-          - La Concorde du Pacte: mj/campagne/concorde-du-pacte.md
-          - La Balance d'Orion: mj/campagne/balance-d-orion.md
-          - Le Gouffre d'Absyr: mj/campagne/gouffre-d-absyr.md
-          - Les Rails de la Décision: mj/campagne/rails-de-la-decision.md
-          - Les Jardins de l'Équité: mj/campagne/jardins-de-l-equite.md
-          - La Citadelle de l'Arété: mj/campagne/citadelle-de-l-arete.md
-          - Quêtes transversales: mj/campagne/quetes-transversales.md
-          - Transitions entre quartiers: mj/campagne/transitions-entre-quartiers.md
-      - Scénarios prêts à jouer:
-          - Le Huitième Fragment: mj/scenarios/le-huitieme-fragment.md
-          - Le Dernier Jour du Régent: mj/scenarios/le-dernier-jour-du-regent.md
-          - Le Prix du Bonheur: mj/scenarios/le-prix-du-bonheur.md
-          - Le Festin du Néant: mj/scenarios/le-festin-du-neant.md
-          - La Manette: mj/scenarios/la-manette.md
-          - Le Voile d'Ignorance: mj/scenarios/le-voile-d-ignorance.md
-          - Le Jardin des Épreuves: mj/scenarios/le-jardin-des-epreuves.md
-      - Ressources MJ: mj/annexes/ressources-mj.md
+          - Vue d'ensemble: annexes/auteurs/index.md
+          - Aristote: annexes/auteurs/aristote.md
+          - Bentham: annexes/auteurs/bentham.md
+          - Camus: annexes/auteurs/camus.md
+          - Confucius: annexes/auteurs/confucius.md
+          - Foot: annexes/auteurs/foot.md
+          - Hobbes: annexes/auteurs/hobbes.md
+          - Kant: annexes/auteurs/kant.md
+          - Kierkegaard: annexes/auteurs/kierkegaard.md
+          - Locke: annexes/auteurs/locke.md
+          - MacIntyre: annexes/auteurs/macintyre.md
+          - Mill: annexes/auteurs/mill.md
+          - Nietzsche: annexes/auteurs/nietzsche.md
+          - Nozick: annexes/auteurs/nozick.md
+          - Parfit: annexes/auteurs/parfit.md
+          - Plutarque: annexes/auteurs/plutarque.md
+          - Rawls: annexes/auteurs/rawls.md
+          - Ricœur: annexes/auteurs/ricoeur.md
+          - Rousseau: annexes/auteurs/rousseau.md
+          - Sartre: annexes/auteurs/sartre.md
+          - Sen: annexes/auteurs/sen.md
+          - Singer: annexes/auteurs/singer.md
+          - Thomas d'Aquin: annexes/auteurs/thomas-d-aquin.md
+          - Thomson: annexes/auteurs/thomson.md
+      - Cartes à imprimer: annexes/cartes.md
+      - Crédits: annexes/credits.md
   - Changelog: changelog.md

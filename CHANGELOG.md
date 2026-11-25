@@ -16,6 +16,81 @@ pour un correctif de `v0.11.0-silys`).
 
 ## [Non publié]
 
+### Modifié
+
+- Le wiki prend la structure d'un livre de jeu en sept parties,
+  dans la nav comme dans les dossiers : Ouverture, I. La cité
+  (`cite/`), II. Jouer (`jouer/`), III. Mener (`mener/`),
+  IV. Campagne (`campagne/`), V. Scénarios (`scenarios/`) et Annexes
+  (`annexes/`). Toutes les adresses de pages changent.
+- Les règles communes à la table sortent de l'ancien Espace MJ :
+  règles de base, fiche d'Aventurier, réputation, évolution, prétirés
+  et sécurité de table forment la partie II.
+- « Système de jeu » est scindé en six pages : règles de base,
+  réputation et évolution (partie II), dilemmes, conséquences et
+  jugement des Gardiens (partie III). Chaque règle n'est plus écrite
+  qu'à un endroit : le guide de la fiche renvoie aux règles au lieu
+  de les répéter, et son tableau « Ce qui change, et quand » rejoint
+  la page Évolution.
+- Les valeurs d'un PNJ sont fixes : seuls les joueurs lancent les
+  dés. La règle est écrite dans les règles de base et dans « Bâtir une
+  opposition ». Les règles de base gagnent une section « Se défendre »
+  qui détaille l'action : jet du joueur contre la valeur fixe de
+  l'attaquant, choix de l'Approche, résultats, cas de deux
+  Aventuriers.
+- Les thèmes philosophiques des quartiers sont publics. Les encadrés
+  qui les réservaient au MJ disparaissent de la vue d'ensemble des
+  quartiers et de la cartographie.
+- Les « éléments de jeu » de chaque quartier quittent la vue
+  d'ensemble des quartiers pour ouvrir la page de trames du quartier,
+  et la fiche concept de chaque quartier rejoint la partie Campagne.
+- « Ressources pour jouer » est scindé : ce que fait chaque famille de
+  cartes en partie III, les planches à imprimer en annexe.
+- L'accueil présente le jeu, le matériel nécessaire et l'ordre de
+  lecture.
+- Les données `decks-cartes.json` et `pretires.json` passent dans
+  `docs/annexes/`.
+- Le livre PDF (`etheria-jdr.pdf`) suit l'ordre des sept parties et
+  laisse le changelog sur le site (`exclude_pages`). Le lien de
+  l'accueil vers le changelog passe en URL absolue pour ne pas casser
+  l'export.
+- Relecture après le redécoupage : une attaque inflige l'écart entre
+  le jet et la défense (valeur fixe) ; la présentation renvoie à la
+  règle de réputation au lieu de la recopier ; Silys renvoie à
+  l'histoire, comme Élégéia ; la puce « Concept sous-jacent » des
+  quartiers ne renvoie plus qu'à la fiche concept ; nouvelle
+  description du site.
+
+### Ajouté
+
+- Quatre pages : « Bâtir une opposition » (`mener/oppositions.md`),
+  « Lancer une campagne » (`campagne/lancer-une-campagne.md`, avec deux
+  feuilles de suivi provisoires), « Exemple de partie »
+  (`jouer/exemple-de-partie.md`) et « Glossaire »
+  (`annexes/glossaire.md`).
+- « Écrire un scénario » (`mener/ecrire-un-scenario.md`) : le gabarit
+  commun aux sept scénarios, pour développer une trame en scènes.
+- « Aide-mémoire » (`annexes/aide-memoire.md`) : les règles en
+  tableaux, avec renvoi vers chaque page de règles.
+- « Crédits » (`annexes/credits.md`) : auteur, mention de droits,
+  licence Fate, statut provisoire des images ; les remerciements aux
+  premiers joueurs restent à compléter après les premières parties et
+  avec leur accord.
+- Dans « Le jugement des Gardiens », une section « Jouer un Gardien »
+  réunit les aspects des sept Gardiens, relevés dans les scénarios.
+- « La Société des Explorateurs » (`cite/societe-des-explorateurs.md`),
+  « Secrets de la cité » (`mener/secrets.md`), une vue d'ensemble des
+  scénarios avec leurs kits (`scenarios/index.md`) et le lexique
+  philosophique en page propre (`annexes/lexique.md`).
+
+### Supprimé
+
+- Les pages d'accueil « Ressources Philo » et « Concepts par
+  quartier », remplacées par la vue d'ensemble de la campagne et les
+  annexes.
+- Dans l'histoire de la cité, le secret du huitième quartier (déplacé
+  en partie III) et le renvoi au système de jeu.
+
 ## [0.12.0] - 2026-11-15 — Éléon Rive
 
 ### Ajouté
