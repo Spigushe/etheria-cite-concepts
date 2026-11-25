@@ -34,7 +34,7 @@ durent de deux à trois heures.
 | Avant de jouer | | Un tableau : joueurs, durée, quartier, type de dilemme, thèmes sensibles. Puis le matériel et les prétirés conseillés |
 | Synopsis pour le MJ | | La situation, le dilemme et ses issues, en quatre paragraphes |
 | Ouverture | 15 minutes | Sécurité de table, présentation des personnages, entrée dans le quartier |
-| Scènes | 15 à 40 minutes chacune | Quatre ou cinq scènes, la dernière étant celle du choix |
+| Scènes | 15 à 40 minutes chacune | Quatre ou cinq scènes, dont celle du choix |
 | Sortie | 15 minutes | Le portail ou le Gardien, sans jet |
 | Clôture | 10 minutes | Réputation, journal des altérations, tour de table |
 | PNJ et oppositions | | Un tableau, une ligne par PNJ |
@@ -73,7 +73,9 @@ supprimer pour tenir en deux heures.
 
 ### La scène du choix
 
-La dernière scène pose le dilemme et laisse le groupe trancher. Six
+Une scène pose le dilemme et laisse le groupe trancher. C'est le
+plus souvent la dernière ; dans La Manette, c'est l'avant-dernière,
+et la scène suivante fait vivre le groupe avec son choix. Six
 scénarios sur sept la résument en un tableau à trois colonnes, qui
 reprend les dénouements de la trame.
 
@@ -83,7 +85,9 @@ reprend les dénouements de la trame.
 
 La troisième colonne est celle qui compte pour la suite : c'est elle
 que tu recopies dans le
-[journal des altérations](consequences.md).
+[journal des altérations](consequences.md). La Manette range
+autrement les mêmes informations : son tableau donne la règle de
+chaque choix, et les traces sont listées dans la clôture.
 
 ### La sortie et la clôture
 

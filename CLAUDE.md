@@ -13,8 +13,7 @@ Wiki de campagne JdR perso : **Ethéria, Cité des Concepts** — un univers où
 | --- | --- |
 | Générateur | MkDocs + Material (fr), 3 palettes (épuré / parchemin / nocturne), polices auto-hébergées (`font: false`) |
 | Config prod | `mkdocs.yml` (référence CI, inclut plugin `to-pdf` → `pdf/etheria-jdr.pdf`) |
-| Config dev | `mkdocs.dev.yml` (hérite de prod **sans** `to-pdf` — WeasyPrint/GTK absent sous Windows). Lancer avec `uv run python make.py dev` (équivaut à `python -m mkdocs serve -f mkdocs.dev.yml` ; le `python -m` est requis pour importer `scripts/obsidian_callouts.py`) |
-| Tâches | `make.py` (« style Makefile », pas de `make` sous Windows) : `uv run python make.py <tâche>` — `dev`, `build`, `build-pdf`, `lint`, `fmt`, `types`, `spell`, `mdlint`, `check` (tout sauf build), `ci`, `clean`, `sync`. Sans argument : liste des tâches. La CI appelle ces mêmes tâches |
+| Config dev | `mkdocs.dev.yml` (hérite de prod **sans** `to-pdf` — WeasyPrint/GTK absent sous Windows). Lancer avec `uv run python -m mkdocs serve -f mkdocs.dev.yml` (le `python -m` est requis pour importer `scripts/obsidian_callouts.py`) |
 | Hooks MkDocs | `scripts/changelog.py` (injecte `{{ changelog }}` depuis `CHANGELOG.md` dans `docs/changelog.md`) · `scripts/cards.py` (génère PNG recto + PDF recto-verso des cartes au build, rien de committé) · `scripts/fiches.py` (remplit les fiches PDF A4 des prétirés au build depuis `pretires.json`, rien de committé ; balises `{{ pretires: <jeu> }}` et `{{ fiches_pdf: <jeu> }}`) |
 | Extension MD locale | `scripts/obsidian_callouts.py` : syntaxe `> [!TYPE] Titre`. Types : VILLE, PNJ, FACTION, REGLE, NOUVELLES, DANGER, SECRET, INTRIGUE, TRESOR, **MJ** (hors-fiction meneur). CSS : `docs/assets/stylesheets/callouts.css` |
 | Dépendances | **uv** : `pyproject.toml` (+ groupe `dev` : ruff, ty, stubs), `uv.lock`. Python 3.13 imposé par `requires-python = "==3.13.*"`. `uv sync` pour installer, `uv add` pour ajouter |
@@ -73,7 +72,7 @@ docs/
 ├── annexes/
 │   ├── aide-memoire.md       ← les règles en tableaux (renvoie aux pages de règles)
 │   ├── glossaire.md          ← noms propres par quartier + termes de jeu
-│   ├── credits.md            ← licence Fate, droits
+│   ├── credits.md            ← licence Fate, droits ; noms des auteurs à compléter
 │   ├── lexique.md            ← lexique philosophique
 │   ├── auteurs/              ← index + 23 fiches auteurs (~30 lignes :
 │   │                            "Ce qu'il apporte à Ethéria" / "À retenir pour la table")
@@ -132,4 +131,4 @@ Auteurs restants dans `annexes/auteurs/` sans quartier attitré dans les fiches 
 6. Une liste imbriquée s'indente de **quatre** espaces (règle `MD007`) : avec deux, Python-Markdown l'affiche à plat, au niveau de la liste parente.
 7. `scripts/cards.py` écrit en dur le chemin relatif des images de cartes (`../assets/cartes/…`), valable pour une page à un seul niveau sous `docs/` (aujourd'hui `docs/annexes/cartes.md`). Si les balises `{{ cartes: … }}` changent de page ou de profondeur, adapter ce chemin, sinon le build strict échoue.
 8. L'export PDF (`to-pdf`) suit l'ordre de la `nav` et exclut le changelog (`exclude_pages`). Toute page ajoutée à la `nav` entre dans le livre PDF.
-9. Les sept kits PDF (`docs/assets/scenarios/`) sont committés, sans script de génération dans le dépôt. Leur aide-mémoire date d'avant la règle des valeurs fixes (« au jet d'un adversaire », « l'écart entre les deux jets ») : à corriger lors de la refonte des kits.
+9. Les sept kits PDF (`docs/assets/scenarios/`) sont committés, sans script de génération dans le dépôt. Leur aide-mémoire date d'avant la règle des valeurs fixes (« au jet d'un adversaire », « l'écart entre les deux jets ») : à corriger avant le prochain tag (décision de Martin).
