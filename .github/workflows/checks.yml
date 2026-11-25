@@ -34,28 +34,25 @@ jobs:
 
       - name: Lint Python (ruff)
         run: |
-          uv run --no-sync ruff check scripts/
-          uv run --no-sync ruff format --check scripts/
+          uv run --no-sync python make.py lint
 
       - name: Typage Python (ty)
         run: |
-          uv run --no-sync ty check
+          uv run --no-sync python make.py types
 
       - name: Orthographe (cspell)
         run: |
-          npx --yes --package cspell --package @cspell/dict-fr-fr -- cspell --config cspell.json --no-progress
+          uv run --no-sync python make.py spell
 
-      # Version figée : une nouvelle règle de markdownlint ne doit pas
-      # faire échouer un déploiement par surprise.
+      # Version figée (dans make.py) : une nouvelle règle de markdownlint
+      # ne doit pas faire échouer un déploiement par surprise.
       - name: Lint Markdown (markdownlint)
         run: |
-          npx --yes markdownlint-cli2@0.24.1
+          uv run --no-sync python make.py mdlint
 
       # Même build qu'au déploiement (config prod, export PDF compris) :
       # mkdocs-to-pdf revérifie les liens du document fusionné et refuse
       # ce que le build sans PDF laisse passer.
       - name: Build strict (avec export PDF)
-        env:
-          ENABLE_PDF_EXPORT: "1"
         run: |
-          uv run --no-sync python -m mkdocs build --strict
+          uv run --no-sync python make.py build-pdf

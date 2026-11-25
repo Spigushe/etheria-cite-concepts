@@ -13,7 +13,8 @@ Wiki de campagne JdR perso : **Ethéria, Cité des Concepts** — un univers où
 | --- | --- |
 | Générateur | MkDocs + Material (fr), 3 palettes (épuré / parchemin / nocturne), polices auto-hébergées (`font: false`) |
 | Config prod | `mkdocs.yml` (référence CI, inclut plugin `to-pdf` → `pdf/etheria-jdr.pdf`) |
-| Config dev | `mkdocs.dev.yml` (hérite de prod **sans** `to-pdf` — WeasyPrint/GTK absent sous Windows). Lancer avec `uv run python -m mkdocs serve -f mkdocs.dev.yml` (le `python -m` est requis pour importer `scripts/obsidian_callouts.py`) |
+| Config dev | `mkdocs.dev.yml` (hérite de prod **sans** `to-pdf` — WeasyPrint/GTK absent sous Windows). Lancer avec `uv run python make.py dev` (équivaut à `python -m mkdocs serve -f mkdocs.dev.yml` ; le `python -m` est requis pour importer `scripts/obsidian_callouts.py`) |
+| Tâches | `make.py` (« style Makefile », pas de `make` sous Windows) : `uv run python make.py <tâche>` — `dev`, `build`, `build-pdf`, `lint`, `fmt`, `types`, `spell`, `mdlint`, `check` (tout sauf build), `ci`, `clean`, `sync`. Sans argument : liste des tâches. La CI appelle ces mêmes tâches |
 | Hooks MkDocs | `scripts/changelog.py` (injecte `{{ changelog }}` depuis `CHANGELOG.md` dans `docs/changelog.md`) · `scripts/cards.py` (génère PNG recto + PDF recto-verso des cartes au build, rien de committé) · `scripts/fiches.py` (remplit les fiches PDF A4 des prétirés au build depuis `pretires.json`, rien de committé ; balises `{{ pretires: <jeu> }}` et `{{ fiches_pdf: <jeu> }}`) |
 | Extension MD locale | `scripts/obsidian_callouts.py` : syntaxe `> [!TYPE] Titre`. Types : VILLE, PNJ, FACTION, REGLE, NOUVELLES, DANGER, SECRET, INTRIGUE, TRESOR, **MJ** (hors-fiction meneur). CSS : `docs/assets/stylesheets/callouts.css` |
 | Dépendances | **uv** : `pyproject.toml` (+ groupe `dev` : ruff, ty, stubs), `uv.lock`. Python 3.13 imposé par `requires-python = "==3.13.*"`. `uv sync` pour installer, `uv add` pour ajouter |
@@ -123,7 +124,7 @@ Auteurs restants dans `annexes/auteurs/` sans quartier attitré dans les fiches 
 
 ## Pièges connus (documentés dans le repo)
 
-1. `mkdocs serve` seul échoue : utiliser `uv run python -m mkdocs serve -f mkdocs.dev.yml` (PYTHONPATH + pas de WeasyPrint en local).
+1. `mkdocs serve` seul échoue : utiliser `uv run python make.py dev` (PYTHONPATH + pas de WeasyPrint en local).
 2. Le build CI est en `--strict` : tout lien interne cassé fait échouer le déploiement (cause du hotfix 0.10.3 : lien mort vers `monde/pitch.md` après renommage Pitch → Présentation en 0.10.2).
 3. `docs/changelog.md` ne se modifie jamais à la main : c'est `CHANGELOG.md` racine qui fait foi.
 4. Les cartes ne sont pas committées : elles sont régénérées à chaque build par le hook.
