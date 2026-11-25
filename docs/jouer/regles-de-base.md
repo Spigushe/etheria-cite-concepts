@@ -26,7 +26,7 @@ s'opposent lancent chacun, et le plus haut total l'emporte.
 
 Quatre actions existent. Surmonter un obstacle. Créer un avantage :
 on pose un aspect sur la scène, avec une invocation gratuite.
-Attaquer. Défendre, détaillé [plus bas](#se-defendre).
+Attaquer. Défendre, détaillé dans la section « Se défendre ».
 
 Chaque joueur commence la séance avec trois points de Destin.
 Dépenser un point pour invoquer un aspect pertinent donne +2 ou une
