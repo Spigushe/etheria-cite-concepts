@@ -6,6 +6,7 @@ site_url: "https://spigushe.github.io/etheria-cite-concepts/"
 # Personnalisation en trois palettes de couleurs, avec un toggle pour passer de l'une à l'autre.
 theme:
   name: material
+  custom_dir: overrides
   language: fr
   logo: assets/logo.png
   favicon: assets/logo.png
