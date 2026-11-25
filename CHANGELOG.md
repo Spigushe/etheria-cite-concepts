@@ -34,7 +34,10 @@ pour un correctif de `v0.11.0-silys`).
   la page Évolution.
 - Les valeurs d'un PNJ sont fixes : seuls les joueurs lancent les
   dés. La règle est écrite dans les règles de base et dans « Bâtir une
-  opposition ».
+  opposition ». Les règles de base gagnent une section « Se défendre »
+  qui détaille l'action : jet du joueur contre la valeur fixe de
+  l'attaquant, choix de l'Approche, résultats, cas de deux
+  Aventuriers.
 - Les thèmes philosophiques des quartiers sont publics. Les encadrés
   qui les réservaient au MJ disparaissent de la vue d'ensemble des
   quartiers et de la cartographie.
