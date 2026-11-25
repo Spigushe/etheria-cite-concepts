@@ -51,18 +51,18 @@
           {% for item in nav.items %}
             {% if item.title == "Accueil" %}
               <li>
-                <a href="{{ base_url }}/{{ nav.homepage.url }}">Accueil</a>
+                <a href="{{ base_url }}/{{ nav.homepage.url }}"{% if item.active %} class="etheria-footer-sitemap__active" aria-current="page"{% endif %}>Accueil</a>
               </li>
             {% elif item.children %}
               {% set section_url = item.children[0].url %}
               <li>
-                <a href="{{ section_url | url }}">{{ item.title }}</a>
+                <a href="{{ section_url | url }}"{% if item.active %} class="etheria-footer-sitemap__active" aria-current="page"{% endif %}>{{ item.title }}</a>
               </li>
             {% else %}
               {% set section_url = item.url %}
               <li>
                 {% if section_url %}
-                  <a href="{{ section_url | url }}">{{ item.title }}</a>
+                  <a href="{{ section_url | url }}"{% if item.active %} class="etheria-footer-sitemap__active" aria-current="page"{% endif %}>{{ item.title }}</a>
                 {% else %}
                   <span>{{ item.title }}</span>
                 {% endif %}

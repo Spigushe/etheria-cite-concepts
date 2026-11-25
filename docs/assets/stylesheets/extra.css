@@ -476,9 +476,9 @@ img.zoomable {
 
 .etheria-footer-map .md-footer-meta__inner {
   flex-wrap: wrap;
-  gap: 1.25rem 2rem;
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
+  gap: 0.25rem 1rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
 }
 
 .etheria-footer-sitemap {
@@ -487,29 +487,42 @@ img.zoomable {
 }
 
 .etheria-footer-sitemap h2 {
-  margin: 0 0 0.75rem;
+  display: inline;
+  margin: 0 0.75rem 0 0;
   padding: 0;
   border: 0;
   font-size: 1.1rem;
 }
 
 .etheria-footer-sitemap ul {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 0.35rem 1.25rem;
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.35rem 0;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
 .etheria-footer-sitemap li {
+  display: inline;
   margin: 0;
+}
+
+.etheria-footer-sitemap li:not(:last-child)::after {
+  content: "·";
+  margin: 0 0.55rem;
+  color: var(--md-default-fg-color--lighter);
 }
 
 .etheria-footer-sitemap a {
   display: inline-block;
   color: var(--md-footer-fg-color--light);
-  font-weight: 600;
+  font-weight: 400;
+}
+
+.etheria-footer-sitemap .etheria-footer-sitemap__active {
+  font-weight: 700;
 }
 
 .etheria-footer-sitemap a:hover,
@@ -518,7 +531,12 @@ img.zoomable {
 }
 
 @media (max-width: 44.9375em) {
-  .etheria-footer-sitemap ul {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+  .etheria-footer-sitemap h2 {
+    display: block;
+    margin: 0 0 0.5rem;
+  }
+
+  .etheria-footer-sitemap li:not(:last-child)::after {
+    margin: 0 0.4rem;
   }
 }
