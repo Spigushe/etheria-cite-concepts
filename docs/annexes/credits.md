@@ -2,9 +2,21 @@
 
 ## Éthéria, la Cité des Concepts
 
-Auteur : Martin Cuchet
+Conception et écriture : Martin « Spigushe » Cuchet.
 
-© l'auteur. Tous droits réservés.
+© Martin « Spigushe » Cuchet. Tous droits réservés.
+
+## Premières parties
+
+> [!MJ] Remerciements à compléter
+> Les joueurs des premières parties seront cités ici, une fois leur
+> accord écrit obtenu.
+
+## Images
+
+Le logo, les blasons et les icônes des quartiers sont des images
+provisoires, générées avec ChatGPT. Elles seront refaites par un
+artiste avant toute publication.
 
 ## Fate
 

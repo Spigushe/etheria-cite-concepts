@@ -72,7 +72,7 @@ docs/
 ├── annexes/
 │   ├── aide-memoire.md       ← les règles en tableaux (renvoie aux pages de règles)
 │   ├── glossaire.md          ← noms propres par quartier + termes de jeu
-│   ├── credits.md            ← licence Fate, droits ; noms des auteurs à compléter
+│   ├── credits.md            ← auteur, droits, licence Fate, images provisoires ; remerciements à venir
 │   ├── lexique.md            ← lexique philosophique
 │   ├── auteurs/              ← index + 23 fiches auteurs (~30 lignes :
 │   │                            "Ce qu'il apporte à Ethéria" / "À retenir pour la table")
