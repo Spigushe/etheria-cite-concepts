@@ -5,170 +5,171 @@ site_url: "https://spigushe.github.io/etheria-cite-concepts/"
 # Thème Material pour MkDocs : https://squidfunk.github.io/mkdocs-material/
 # Personnalisation en trois palettes de couleurs, avec un toggle pour passer de l'une à l'autre.
 theme:
-  name: material
-  language: fr
-  logo: assets/logo.png
-  favicon: assets/logo.png
-  palette:
-    - scheme: epure
-      primary: white
-      accent: amber
-      toggle:
-        icon: material/brightness-7
-        name: "Passer au style parchemin"
-    - scheme: default
-      primary: black
-      accent: amber
-      toggle:
-        icon: material/brightness-5
-        name: "Passer au style nocturne"
-    - scheme: mystere
-      primary: black
-      accent: amber
-      toggle:
-        icon: material/brightness-4
-        name: "Passer au style épuré"
-  # Polices auto-hébergées (voir docs/assets/stylesheets/extra.css et
-  # docs/assets/fonts/) : plus d'appel à Google Fonts au build ni au
-  # chargement de la page.
-  font: false
-  features:
-    - navigation.instant
-    - navigation.tabs
-    - navigation.top
-    - search.suggest
-    - content.code.copy
-    - toc.follow
+    name: material
+    language: fr
+    logo: assets/logo.png
+    favicon: assets/logo.png
+    palette:
+        - scheme: epure
+          primary: white
+          accent: amber
+          toggle:
+              icon: material/brightness-7
+              name: "Passer au style parchemin"
+        - scheme: default
+          primary: black
+          accent: amber
+          toggle:
+              icon: material/brightness-5
+              name: "Passer au style nocturne"
+        - scheme: mystere
+          primary: black
+          accent: amber
+          toggle:
+              icon: material/brightness-4
+              name: "Passer au style épuré"
+    # Polices auto-hébergées (voir docs/assets/stylesheets/extra.css et
+    # docs/assets/fonts/) : plus d'appel à Google Fonts au build ni au
+    # chargement de la page.
+    font: false
+    features:
+        - navigation.instant
+        - navigation.tabs
+        - navigation.top
+        - search.suggest
+        - content.code.copy
+        - toc.follow
 
 plugins:
-  - search
-  - to-pdf:
-      enabled_if_env: ENABLE_PDF_EXPORT
-      # Le changelog reste sur le site, hors du livre.
-      exclude_pages:
-        - "changelog/"
-      output_path: pdf/etheria-jdr.pdf
-      back_cover: true
+    - search
+    - to-pdf:
+          enabled_if_env: ENABLE_PDF_EXPORT
+          # Le changelog reste sur le site, hors du livre.
+          exclude_pages:
+              - "changelog/"
+          output_path: pdf/etheria-jdr.pdf
+          back_cover: true
 
 extra_css:
-  - assets/stylesheets/callouts.css
-  - assets/stylesheets/extra.css
+    - assets/stylesheets/callouts.css
+    - assets/stylesheets/extra.css
 
 extra_javascript:
-  - assets/javascripts/carrousel.js
+    - assets/javascripts/carrousel.js
 
 hooks:
-  - scripts/changelog.py # injecte {{ changelog }} depuis CHANGELOG.md
-  - scripts/cards.py # génère les cartes (PNG recto + PDF recto-verso)
-  - scripts/fiches.py # remplit les fiches PDF des prétirés depuis pretires.json
+    - scripts/changelog.py # injecte {{ changelog }} depuis CHANGELOG.md
+    - scripts/cards.py # génère les cartes (PNG recto + PDF recto-verso)
+    - scripts/fiches.py # remplit les fiches PDF des prétirés depuis pretires.json
 
 markdown_extensions:
-  - scripts.obsidian_callouts # syntaxe > [!TYPE] Titre (fichier local du repo)
-  - admonition # garde !!! note / ??? tip disponibles en secours
-  - pymdownx.details
-  - pymdownx.superfences
-  - attr_list
-  - md_in_html
-  - toc:
-      permalink: true
+    - scripts.obsidian_callouts # syntaxe > [!TYPE] Titre (fichier local du repo)
+    - admonition # garde !!! note / ??? tip disponibles en secours
+    - pymdownx.details
+    - pymdownx.superfences
+    - attr_list
+    - md_in_html
+    - toc:
+          permalink: true
 
 nav:
-  - Ouverture:
-      - Accueil: index.md
-      - Présentation: presentation.md
-  - "I. La cité":
-      - Entrer à Éthéria: cite/introduction.md
-      - La Société des Explorateurs: cite/societe-des-explorateurs.md
-      - Histoire: cite/histoire.md
-      - Cartographie: cite/cartographie.md
-      - Figures, courants et Gardiens: cite/personnages.md
-      - Les sept quartiers:
-          - Vue d'ensemble: cite/quartiers/index.md
-          - Le Labyrinthe des Identités: cite/quartiers/labyrinthe-des-identites.md
-          - La Concorde du Pacte: cite/quartiers/concorde-du-pacte.md
-          - La Balance d'Orion: cite/quartiers/balance-d-orion.md
-          - Le Gouffre d'Absyr: cite/quartiers/gouffre-d-absyr.md
-          - Les Rails de la Décision: cite/quartiers/rails-de-la-decision.md
-          - Les Jardins de l'Équité: cite/quartiers/jardins-de-l-equite.md
-          - La Citadelle de l'Arété: cite/quartiers/citadelle-de-l-arete.md
-  - "II. Jouer":
-      - Règles de base: jouer/regles-de-base.md
-      - Créer un Aventurier: jouer/creer-un-aventurier.md
-      - Réputation philosophique: jouer/reputation.md
-      - Évolution des personnages: jouer/evolution.md
-      - Prétirés: jouer/pretires.md
-      - Exemple de partie: jouer/exemple-de-partie.md
-      - Sécurité de table: jouer/securite-de-table.md
-  - "III. Mener":
-      - Mener la partie: mener/index.md
-      - Les dilemmes: mener/dilemmes.md
-      - Conséquences et journal: mener/consequences.md
-      - Le jugement des Gardiens: mener/gardiens.md
-      - Bâtir une opposition: mener/oppositions.md
-      - Les cartes à table: mener/cartes.md
-      - Secrets de la cité: mener/secrets.md
-  - "IV. Campagne":
-      - Vue d'ensemble: campagne/index.md
-      - Lancer une campagne: campagne/lancer-une-campagne.md
-      - Le Labyrinthe des Identités:
-          - Trames: campagne/labyrinthe-des-identites.md
-          - Concept: campagne/concepts/labyrinthe-des-identites.md
-      - La Concorde du Pacte:
-          - Trames: campagne/concorde-du-pacte.md
-          - Concept: campagne/concepts/concorde-du-pacte.md
-      - La Balance d'Orion:
-          - Trames: campagne/balance-d-orion.md
-          - Concept: campagne/concepts/balance-d-orion.md
-      - Le Gouffre d'Absyr:
-          - Trames: campagne/gouffre-d-absyr.md
-          - Concept: campagne/concepts/gouffre-d-absyr.md
-      - Les Rails de la Décision:
-          - Trames: campagne/rails-de-la-decision.md
-          - Concept: campagne/concepts/rails-de-la-decision.md
-      - Les Jardins de l'Équité:
-          - Trames: campagne/jardins-de-l-equite.md
-          - Concept: campagne/concepts/jardins-de-l-equite.md
-      - La Citadelle de l'Arété:
-          - Trames: campagne/citadelle-de-l-arete.md
-          - Concept: campagne/concepts/citadelle-de-l-arete.md
-      - Quêtes transversales: campagne/quetes-transversales.md
-      - Transitions entre quartiers: campagne/transitions-entre-quartiers.md
-  - "V. Scénarios":
-      - Vue d'ensemble: scenarios/index.md
-      - Le Huitième Fragment: scenarios/le-huitieme-fragment.md
-      - Le Dernier Jour du Régent: scenarios/le-dernier-jour-du-regent.md
-      - Le Prix du Bonheur: scenarios/le-prix-du-bonheur.md
-      - Le Festin du Néant: scenarios/le-festin-du-neant.md
-      - La Manette: scenarios/la-manette.md
-      - Le Voile d'Ignorance: scenarios/le-voile-d-ignorance.md
-      - Le Jardin des Épreuves: scenarios/le-jardin-des-epreuves.md
-  - Annexes:
-      - Glossaire: annexes/glossaire.md
-      - Lexique philosophique: annexes/lexique.md
-      - Sources et auteurs:
-          - Vue d'ensemble: annexes/auteurs/index.md
-          - Aristote: annexes/auteurs/aristote.md
-          - Bentham: annexes/auteurs/bentham.md
-          - Camus: annexes/auteurs/camus.md
-          - Confucius: annexes/auteurs/confucius.md
-          - Foot: annexes/auteurs/foot.md
-          - Hobbes: annexes/auteurs/hobbes.md
-          - Kant: annexes/auteurs/kant.md
-          - Kierkegaard: annexes/auteurs/kierkegaard.md
-          - Locke: annexes/auteurs/locke.md
-          - MacIntyre: annexes/auteurs/macintyre.md
-          - Mill: annexes/auteurs/mill.md
-          - Nietzsche: annexes/auteurs/nietzsche.md
-          - Nozick: annexes/auteurs/nozick.md
-          - Parfit: annexes/auteurs/parfit.md
-          - Plutarque: annexes/auteurs/plutarque.md
-          - Rawls: annexes/auteurs/rawls.md
-          - Ricœur: annexes/auteurs/ricoeur.md
-          - Rousseau: annexes/auteurs/rousseau.md
-          - Sartre: annexes/auteurs/sartre.md
-          - Sen: annexes/auteurs/sen.md
-          - Singer: annexes/auteurs/singer.md
-          - Thomas d'Aquin: annexes/auteurs/thomas-d-aquin.md
-          - Thomson: annexes/auteurs/thomson.md
-      - Cartes à imprimer: annexes/cartes.md
-  - Changelog: changelog.md
+    - Ouverture:
+          - Accueil: index.md
+          - Présentation: presentation.md
+    - "I. La cité":
+          - Entrer à Éthéria: cite/introduction.md
+          - La Société des Explorateurs: cite/societe-des-explorateurs.md
+          - Histoire: cite/histoire.md
+          - Cartographie: cite/cartographie.md
+          - Figures, courants et Gardiens: cite/personnages.md
+          - Les sept quartiers:
+                - Vue d'ensemble: cite/quartiers/index.md
+                - Le Labyrinthe des Identités: cite/quartiers/labyrinthe-des-identites.md
+                - La Concorde du Pacte: cite/quartiers/concorde-du-pacte.md
+                - La Balance d'Orion: cite/quartiers/balance-d-orion.md
+                - Le Gouffre d'Absyr: cite/quartiers/gouffre-d-absyr.md
+                - Les Rails de la Décision: cite/quartiers/rails-de-la-decision.md
+                - Les Jardins de l'Équité: cite/quartiers/jardins-de-l-equite.md
+                - La Citadelle de l'Arété: cite/quartiers/citadelle-de-l-arete.md
+    - "II. Jouer":
+          - Règles de base: jouer/regles-de-base.md
+          - Créer un Aventurier: jouer/creer-un-aventurier.md
+          - Réputation philosophique: jouer/reputation.md
+          - Évolution des personnages: jouer/evolution.md
+          - Prétirés: jouer/pretires.md
+          - Exemple de partie: jouer/exemple-de-partie.md
+          - Sécurité de table: jouer/securite-de-table.md
+    - "III. Mener":
+          - Mener la partie: mener/index.md
+          - Les dilemmes: mener/dilemmes.md
+          - Conséquences et journal: mener/consequences.md
+          - Le jugement des Gardiens: mener/gardiens.md
+          - Bâtir une opposition: mener/oppositions.md
+          - Écrire un scénario: mener/ecrire-un-scenario.md
+          - Les cartes à table: mener/cartes.md
+          - Secrets de la cité: mener/secrets.md
+    - "IV. Campagne":
+          - Vue d'ensemble: campagne/index.md
+          - Lancer une campagne: campagne/lancer-une-campagne.md
+          - Le Labyrinthe des Identités:
+                - Trames: campagne/labyrinthe-des-identites.md
+                - Concept: campagne/concepts/labyrinthe-des-identites.md
+          - La Concorde du Pacte:
+                - Trames: campagne/concorde-du-pacte.md
+                - Concept: campagne/concepts/concorde-du-pacte.md
+          - La Balance d'Orion:
+                - Trames: campagne/balance-d-orion.md
+                - Concept: campagne/concepts/balance-d-orion.md
+          - Le Gouffre d'Absyr:
+                - Trames: campagne/gouffre-d-absyr.md
+                - Concept: campagne/concepts/gouffre-d-absyr.md
+          - Les Rails de la Décision:
+                - Trames: campagne/rails-de-la-decision.md
+                - Concept: campagne/concepts/rails-de-la-decision.md
+          - Les Jardins de l'Équité:
+                - Trames: campagne/jardins-de-l-equite.md
+                - Concept: campagne/concepts/jardins-de-l-equite.md
+          - La Citadelle de l'Arété:
+                - Trames: campagne/citadelle-de-l-arete.md
+                - Concept: campagne/concepts/citadelle-de-l-arete.md
+          - Quêtes transversales: campagne/quetes-transversales.md
+          - Transitions entre quartiers: campagne/transitions-entre-quartiers.md
+    - "V. Scénarios":
+          - Vue d'ensemble: scenarios/index.md
+          - Le Huitième Fragment: scenarios/le-huitieme-fragment.md
+          - Le Dernier Jour du Régent: scenarios/le-dernier-jour-du-regent.md
+          - Le Prix du Bonheur: scenarios/le-prix-du-bonheur.md
+          - Le Festin du Néant: scenarios/le-festin-du-neant.md
+          - La Manette: scenarios/la-manette.md
+          - Le Voile d'Ignorance: scenarios/le-voile-d-ignorance.md
+          - Le Jardin des Épreuves: scenarios/le-jardin-des-epreuves.md
+    - Annexes:
+          - Glossaire: annexes/glossaire.md
+          - Lexique philosophique: annexes/lexique.md
+          - Sources et auteurs:
+                - Vue d'ensemble: annexes/auteurs/index.md
+                - Aristote: annexes/auteurs/aristote.md
+                - Bentham: annexes/auteurs/bentham.md
+                - Camus: annexes/auteurs/camus.md
+                - Confucius: annexes/auteurs/confucius.md
+                - Foot: annexes/auteurs/foot.md
+                - Hobbes: annexes/auteurs/hobbes.md
+                - Kant: annexes/auteurs/kant.md
+                - Kierkegaard: annexes/auteurs/kierkegaard.md
+                - Locke: annexes/auteurs/locke.md
+                - MacIntyre: annexes/auteurs/macintyre.md
+                - Mill: annexes/auteurs/mill.md
+                - Nietzsche: annexes/auteurs/nietzsche.md
+                - Nozick: annexes/auteurs/nozick.md
+                - Parfit: annexes/auteurs/parfit.md
+                - Plutarque: annexes/auteurs/plutarque.md
+                - Rawls: annexes/auteurs/rawls.md
+                - Ricœur: annexes/auteurs/ricoeur.md
+                - Rousseau: annexes/auteurs/rousseau.md
+                - Sartre: annexes/auteurs/sartre.md
+                - Sen: annexes/auteurs/sen.md
+                - Singer: annexes/auteurs/singer.md
+                - Thomas d'Aquin: annexes/auteurs/thomas-d-aquin.md
+                - Thomson: annexes/auteurs/thomson.md
+          - Cartes à imprimer: annexes/cartes.md
+    - Changelog: changelog.md

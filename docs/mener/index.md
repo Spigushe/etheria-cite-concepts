@@ -77,6 +77,7 @@ campagne.
 - [Conséquences et transformation du monde](consequences.md) : ce que la cité garde des choix, et le journal des altérations.
 - [Le jugement des Gardiens](gardiens.md) : quel Gardien se méfie de quelle tendance.
 - [Bâtir une opposition](oppositions.md) : chiffrer un PNJ ou une menace à partir d'une trame.
+- [Écrire un scénario](ecrire-un-scenario.md) : développer une trame en scènes, sur le gabarit des scénarios publiés.
 - [Les cartes à table](cartes.md) : ce que fait chaque famille de cartes.
 - [Secrets de la cité](secrets.md) : ce que les joueurs ne doivent pas lire avant de l'avoir joué.
 
